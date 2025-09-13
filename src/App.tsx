@@ -1,10 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import { useEffect, Suspense, lazy } from 'react';
 
-import Header from './components/Header';
-import Footer from './components/Footer';
-import ErrorBoundary from './components/ErrorBoundary';
-import Loading from './components/Loading';
+import { Header, Footer, ErrorBoundary, Loading } from './components';
+import { getSessionStorageItem, removeSessionStorageItem } from './utils';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -19,9 +17,9 @@ function AppContent() {
 
   useEffect(() => {
     // Check if we were redirected from a 404
-    const redirectPath = sessionStorage.getItem('redirectPath');
+    const redirectPath = getSessionStorageItem('redirectPath');
     if (redirectPath && redirectPath !== '/') {
-      sessionStorage.removeItem('redirectPath');
+      removeSessionStorageItem('redirectPath');
       navigate(redirectPath, { replace: true });
     }
   }, [navigate]);

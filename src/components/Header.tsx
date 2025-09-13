@@ -1,14 +1,12 @@
 import { Link, useLocation } from 'react-router-dom';
 import { APP_CONFIG, ROUTES } from '../constants';
+import { isActivePath } from '../utils';
+import type { NavigationItem } from '../types';
 
 const Header = () => {
   const location = useLocation();
 
-  const isActive = (path: string) => {
-    return location.pathname === path;
-  };
-
-  const navigationItems = [
+  const navigationItems: NavigationItem[] = [
     { path: ROUTES.home, label: APP_CONFIG.name },
     { path: ROUTES.learn, label: 'Learn' },
     { path: ROUTES.create, label: 'Create' },
@@ -24,13 +22,13 @@ const Header = () => {
             {navigationItems.map(({ path, label }) => (
               <li 
                 key={path}
-                className={isActive(path) ? 'active' : ''}
+                className={isActivePath(location.pathname, path) ? 'active' : ''}
                 role="none"
               >
                 <Link 
                   to={path}
                   role="menuitem"
-                  aria-current={isActive(path) ? 'page' : undefined}
+                  aria-current={isActivePath(location.pathname, path) ? 'page' : undefined}
                 >
                   {label}
                 </Link>

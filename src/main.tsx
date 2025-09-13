@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import './css/bootstrap.min.css'
-import './css/tic-theme.css'
+import './styles/bootstrap.min.css'
+import './styles/tic-theme.css'
 
 import App from './App.tsx'
 
