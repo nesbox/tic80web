@@ -19,7 +19,7 @@ const Home = () => {
       <hr/>
 
       <section className="row">
-        <div className="col-md-8 col-md-offset-2">
+        <div className="col-md-8 offset-md-2">
           <img 
             width="100%" 
             src={IMAGES.demo}

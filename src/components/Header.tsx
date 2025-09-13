@@ -16,17 +16,18 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-default navbar-static-top" role="navigation">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
         <div className="container">
-          <ul className="nav navbar-nav" role="menubar">
+          <ul className="navbar-nav" role="menubar">
             {navigationItems.map(({ path, label }) => (
               <li 
                 key={path}
-                className={isActivePath(location.pathname, path) ? 'active' : ''}
+                className={`nav-item ${isActivePath(location.pathname, path) ? 'active' : ''}`}
                 role="none"
               >
                 <Link 
                   to={path}
+                  className={`nav-link ${isActivePath(location.pathname, path) ? 'active' : ''}`}
                   role="menuitem"
                   aria-current={isActivePath(location.pathname, path) ? 'page' : undefined}
                 >
