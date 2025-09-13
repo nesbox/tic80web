@@ -1,24 +1,37 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './pages/Home';
-import Games from './pages/Games';
-import Community from './pages/Community';
-import Docs from './pages/Docs';
-import './App.css';
+import Learn from './pages/Learn';
+import Create from './pages/Create';
+import Play from './pages/Play';
+import Dev from './pages/Dev';
+import Terms from './pages/Terms';
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/games" element={<Games />} />
-            <Route path="/community" element={<Community />} />
-            <Route path="/docs" element={<Docs />} />
-          </Routes>
-        </main>
+
+        <div className="container">
+
+          <main>
+
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/learn" element={<Learn />} />
+              <Route path="/create" element={<Create />} />
+              <Route path="/play" element={<Play />} />
+              <Route path="/dev" element={<Dev />} />
+              <Route path="/terms" element={<Terms />} />
+            </Routes>
+
+          </main>
+        </div>
+
+        <Footer />
       </div>
     </Router>
   );

@@ -1,0 +1,269 @@
+/*BLACK      = 0, -- #1a1c2c
+DARK_RED     = 1, -- #5d275d
+DARK_BLUE    = 2, -- #b13e53
+DARK_GRAY    = 3, -- #ef7d57
+BROWN        = 4, -- #ffcd75
+GREEN        = 5, -- #a7f070
+RED          = 6, -- #38b764
+GRAY         = 7, -- #257179
+BLUE         = 8, -- #29366f
+ORANGE       = 9, -- #3b5dc9
+LIGHT_BLUE   = 10, -- #41a6f6
+LIGHT_GREEN  = 11, -- #73eff7
+PEACH        = 12, -- #f4f4f4
+CYAN         = 13, -- #94b0c2
+YELLOW       = 14, -- #566c86
+WHITE        = 15, -- #333c57
+*/	
+
+@font-face {
+	font-family: "04b03Regular";
+	src: url("../fonts/434.ttf");
+}
+
+html 
+{
+	position: relative;
+	min-height: 100%;
+}
+
+body
+{
+	background-color: #333c57;
+	margin-bottom: 84px;
+}
+
+.text-muted
+{
+	color: #94b0c2;
+	word-wrap: break-word;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 84px;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6,div
+{
+	font-family: "04b03Regular";
+	color: #f4f4f4;
+}
+
+hr
+{
+	border-top: 4px solid #566c86;
+}
+
+p, div
+{
+	font-size: 20px;
+}
+
+p
+{
+	margin: 20px 0px;
+}
+
+a, a:hover, a:active
+{
+	color: #41a6f6;
+}
+
+img.pixelated { 
+	image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+	image-rendering: -moz-crisp-edges;          /* Firefox                        */
+	image-rendering: -o-crisp-edges;            /* Opera                          */
+	image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+	image-rendering: pixelated; /* Chrome */
+	image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+	-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
+
+.btn 
+{
+	border-radius: 0px;
+}
+
+.btn-default
+{
+	border-width: 0px;
+	font-size: 24px;
+}
+
+.cart
+{
+	margin-bottom: 60px;
+}
+
+.thumbnail 
+{
+	border-radius: 0px;
+	border-width: 4px;
+	border-color: #94b0c2;
+	padding: 0px;
+	background-color: #94b0c2;
+}
+
+.nav
+{
+	font-size: 30px;
+}
+
+.nav-small
+{
+	font-size: 20px;
+}
+
+.nav-pills > li
+{
+	margin: 0 20px 0 0 ;
+}
+
+.nav-pills > li > a
+{
+	color: #f4f4f4;
+	border-radius: 0px;	
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus
+{
+	color: #333c57;
+	background-color: #f4f4f4;
+}
+
+.navbar-default 
+{
+	border-width: 0px;
+	background-color: #94b0c2;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	font-size: 24px;
+	color: #333c57;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+	color: #f4f4f4;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+	background-color: #333c57;
+	color: #94b0c2;
+}
+
+.form-control
+{
+	border-radius: 0px;
+	border-width: 4px;
+	border-color: #94b0c2;
+	background-color: #566c86;
+	font-size: 20px;
+	padding: 6px;
+	height: 40px;
+	color: #f4f4f4;
+}
+
+.form-control:focus
+{
+	border-color: #41a6f6;
+	box-shadow: none;
+}
+
+
+.btn
+{
+	font-size: 20px;
+	border-width: 0px;
+	background-color: #94b0c2;
+	color: #333c57;
+}
+
+.btn:hover, .btn:focus
+{
+	color: #333c57;
+	background-color: #f4f4f4;
+}
+
+.btn-link
+{
+	color: #f4f4f4;
+	background-color: #333c57;
+}
+
+.btn-link:hover
+{
+	color: #f4f4f4;
+	background-color: #566c86;
+	text-decoration: none;
+}
+
+tr
+{
+	vertical-align: top;
+}
+
+.alert
+{
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 0px;
+	border-width: 0px;
+	color: #f4f4f4;
+}
+
+.alert-danger
+{
+	background-color: #b13e53;
+}
+
+.alert-success
+{
+	background-color: #38b764;
+}
+
+.well
+{
+	border-radius: 0px;
+	border-width: 0px;
+	background-color: #566c86;
+}
+
+.date
+{
+	color: #566c86;
+}
+
+td
+{
+	padding-right: 24px;
+}
+
+.form-group
+{
+	margin-bottom: 40px;
+}
+
+.tiny-label
+{
+	font-size: 16px;
+}
+
+.modal{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.4)}
+.modal-content{color: #333c57;position:relative;background-color:#fefefe;margin:auto;padding:2px 16px;border:1px solid #888;width:500px;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);-webkit-animation-name:animatetop;-webkit-animation-duration:.4s;animation-name:animatetop;animation-duration:.4s}@keyframes animatetop{from{top:-300px;opacity:0}to{top:0;opacity:1}}
+.close{color:#000;float:right;font-size:28px;font-weight:700}
+.close:focus,
+.close:hover{color:#000;text-decoration:none;cursor:pointer}

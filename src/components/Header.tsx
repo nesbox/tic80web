@@ -1,21 +1,54 @@
-import { Link } from 'react-router-dom';
-import './Header.css';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
+  const location = useLocation();
+
+  const isActive = (path: string) => {
+    return location.pathname === path;
+  };
+
   return (
-    <header className="header">
-      <div className="container">
-        <Link to="/" className="logo">
-          <img src="/img/logo64.png" alt="TIC-80" className="logo-img" />
-          <span className="logo-text">TIC-80</span>
-        </Link>
-        <nav className="nav">
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="/games" className="nav-link">Games</Link>
-          <Link to="/community" className="nav-link">Community</Link>
-          <Link to="/docs" className="nav-link">Docs</Link>
-        </nav>
-      </div>
+    <header>
+      <nav className="navbar navbar-default navbar-static-top">
+        <div className="container">
+          <ul className="nav navbar-nav">
+            <li className={isActive('/') ? 'active' : ''}>
+              <Link to="/">TIC-80</Link>
+            </li>
+            <li className={isActive('/learn') ? 'active' : ''}>
+              <Link to="/learn">Learn</Link>
+            </li>
+            <li className={isActive('/create') ? 'active' : ''}>
+              <Link to="/create">Create</Link>
+            </li>
+            <li className={isActive('/play') ? 'active' : ''}>
+              <Link to="/play">Play</Link>
+            </li>
+            <li className={isActive('/dev') ? 'active' : ''}>
+              <Link to="/dev">Devs</Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h3 className="text-muted text-center">
+        You can support the development on the Github Sponsors page.
+      </h3>
+
+      <iframe 
+        src="https://github.com/sponsors/nesbox/button" 
+        height="32" 
+        width="114" 
+        style={{
+          border: 0,
+          borderRadius: '6px',
+          display: 'block',
+          margin: '0 auto'
+        }}
+      ></iframe>
+
+      <hr/>
+
     </header>
   );
 };
