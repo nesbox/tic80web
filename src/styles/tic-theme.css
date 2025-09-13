@@ -56,6 +56,7 @@ body
 hr
 {
 	border-top: 4px solid #566c86;
+	opacity: 1;
 }
 
 p, div
@@ -143,6 +144,12 @@ img.pixelated {
 {
 	padding: 0;
 	margin-bottom: 20px;
+}
+
+/* Make main container more narrow */
+.container
+{
+	max-width: 1140px !important;
 }
 
 .navbar-light.bg-light 
