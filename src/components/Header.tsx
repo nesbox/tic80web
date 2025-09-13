@@ -18,24 +18,37 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
         <div className="container">
-          <ul className="navbar-nav" role="menubar">
-            {navigationItems.map(({ path, label }) => (
-              <li 
-                key={path}
-                className={`nav-item ${isActivePath(location.pathname, path) ? 'active' : ''}`}
-                role="none"
-              >
-                <Link 
-                  to={path}
-                  className={`nav-link ${isActivePath(location.pathname, path) ? 'active' : ''}`}
-                  role="menuitem"
-                  aria-current={isActivePath(location.pathname, path) ? 'page' : undefined}
+          <button 
+            className="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav" role="menubar">
+              {navigationItems.map(({ path, label }) => (
+                <li 
+                  key={path}
+                  className={`nav-item ${isActivePath(location.pathname, path) ? 'active' : ''}`}
+                  role="none"
                 >
-                  {label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+                  <Link 
+                    to={path}
+                    className={`nav-link ${isActivePath(location.pathname, path) ? 'active' : ''}`}
+                    role="menuitem"
+                    aria-current={isActivePath(location.pathname, path) ? 'page' : undefined}
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </nav>
 

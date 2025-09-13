@@ -35,7 +35,7 @@ body
 
 .text-muted
 {
-	color: #94b0c2;
+	color: #94b0c2 !important;
 	word-wrap: break-word;
 }
 
@@ -139,6 +139,12 @@ img.pixelated {
 	background-color: #f4f4f4;
 }
 
+.navbar
+{
+	padding: 0;
+	margin-bottom: 20px;
+}
+
 .navbar-light.bg-light 
 {
 	border-width: 0px;
@@ -149,6 +155,7 @@ img.pixelated {
 {
 	font-size: 24px;
 	color: #333c57;
+	padding: 8px 16px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -163,6 +170,52 @@ img.pixelated {
 {
 	background-color: #333c57;
 	color: #94b0c2;
+}
+
+/* Navbar toggler styling */
+.navbar-toggler
+{
+	border: none;
+	padding: 12px 8px;
+}
+
+.navbar-toggler:focus
+{
+	box-shadow: none;
+}
+
+.navbar-toggler-icon
+{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2851, 60, 87, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Full width navbar items when collapsed */
+@media (max-width: 991.98px) {
+	.navbar-collapse .navbar-nav {
+		width: 100%;
+	}
+	
+	.navbar-collapse .nav-item {
+		width: 100%;
+	}
+	
+	.navbar-collapse .nav-link {
+		width: 100%;
+		text-align: center;
+		padding: 12px 0;
+		display: block;
+	}
+	
+	.navbar-collapse .nav-link:hover,
+	.navbar-collapse .nav-link:focus {
+		width: 100%;
+	}
+	
+	.navbar-collapse .nav-link.active,
+	.navbar-collapse .nav-link.active:hover,
+	.navbar-collapse .nav-link.active:focus {
+		width: 100%;
+	}
 }
 
 .form-control
