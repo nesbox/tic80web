@@ -16,7 +16,7 @@ const Footer = () => {
         }}>
           <div>
             <span className="text-muted">
-              (C) 2025 Nesbox&nbsp;
+              (C) {__BUILD_YEAR__} Nesbox&nbsp;
               <Link to={ROUTES.terms} aria-label="View Terms of Service">
                 Terms
               </Link>
