@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
         <a title="@nesboxcom" rel="tooltip" href="https://twitter.com/tic_computer">Twitter</a> <span className="text-muted"></span>
       </div>
       
-      <div className="pull-left">(C) 2025 Nesbox&nbsp;<a href="/terms">Terms</a></div>
+      <div className="pull-left">(C) 2025 Nesbox&nbsp;<Link to="/terms">Terms</Link></div>
     </div>
     
   </footer>
