@@ -7,18 +7,24 @@ const Footer = () => {
       <div className="container">
         <hr />
         
-        <div className="row">
-          <div className="col-md-6">
-            <p className="text-muted">
-              &copy; 2025 Nesbox&nbsp;
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          alignItems: 'center',
+          flexWrap: 'wrap',
+          gap: '1rem'
+        }}>
+          <div>
+            <span className="text-muted">
+              (C) 2025 Nesbox&nbsp;
               <Link to={ROUTES.terms} aria-label="View Terms of Service">
                 Terms
               </Link>
-            </p>
+            </span>
           </div>
           
-          <div className="col-md-6">
-            <nav aria-label="Social media links" className="text-right">
+          <div>
+            <nav aria-label="Social media links">
               <a 
                 href={EXTERNAL_LINKS.github}
                 aria-label={`Visit ${APP_CONFIG.name} GitHub repository`}

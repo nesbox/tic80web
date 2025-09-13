@@ -19,6 +19,7 @@ export const EXTERNAL_LINKS = {
 export const IMAGES = {
   logo: 'img/logo64.png',
   demo: 'img/demo.gif',
+  loader: 'img/load.gif',
 } as const;
 
 // Route paths
