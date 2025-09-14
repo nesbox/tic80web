@@ -15,7 +15,7 @@ const Footer = () => {
           gap: '1rem'
         }}>
           <div>
-            <span className="text-muted">
+            <span>
               (C) {__BUILD_YEAR__} Nesbox&nbsp;
               <Link to={ROUTES.terms} aria-label="View Terms of Service">
                 Terms
