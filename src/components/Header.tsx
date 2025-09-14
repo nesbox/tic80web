@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+      <nav className="navbar navbar-expand-sm navbar-light bg-light" role="navigation">
         <div className="container">
           <button 
             className="navbar-toggler" 

@@ -3,6 +3,7 @@ import { useEffect, Suspense, lazy } from 'react';
 
 import { Header, Footer, ErrorBoundary, Loading } from './components';
 import { getSessionStorageItem, removeSessionStorageItem } from './utils';
+import { ROUTES } from './constants';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -11,18 +12,28 @@ const Create = lazy(() => import('./pages/Create'));
 const Play = lazy(() => import('./pages/Play'));
 const Dev = lazy(() => import('./pages/Dev'));
 const Terms = lazy(() => import('./pages/Terms'));
+const NotFound = lazy(() => import('./pages/NotFound'));
 
 function AppContent() {
   const navigate = useNavigate();
+
+  // Define valid routes from constants
+  const validRoutes = Object.values(ROUTES);
 
   useEffect(() => {
     // Check if we were redirected from a 404
     const redirectPath = getSessionStorageItem('redirectPath');
     if (redirectPath && redirectPath !== '/') {
       removeSessionStorageItem('redirectPath');
-      navigate(redirectPath, { replace: true });
+      
+      // Only navigate if it's a valid route, otherwise show 404
+      if (validRoutes.includes(redirectPath as any)) {
+        navigate(redirectPath, { replace: true });
+      } else {
+        navigate('/404', { replace: true });
+      }
     }
-  }, [navigate]);
+  }, [navigate, validRoutes]);
 
   return (
     <div className="App">
@@ -39,6 +50,8 @@ function AppContent() {
                 <Route path="/play" element={<Play />} />
                 <Route path="/dev" element={<Dev />} />
                 <Route path="/terms" element={<Terms />} />
+                <Route path="/404" element={<NotFound />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </Suspense>
           </ErrorBoundary>

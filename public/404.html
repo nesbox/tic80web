@@ -6,10 +6,17 @@
     <script type="text/javascript">
       // Simple SPA redirect for custom domains
       // Redirect any 404 to the root with the path preserved in sessionStorage
+      // Route validation will be handled in App.tsx
       sessionStorage.setItem('redirectPath', window.location.pathname);
       window.location.replace('/');
     </script>
   </head>
   <body>
+    <!-- Fallback content for users with JavaScript disabled -->
+    <div style="text-align: center; padding: 2rem; font-family: Arial, sans-serif;">
+      <h1>404 - Page Not Found</h1>
+      <p>The page you're looking for doesn't exist.</p>
+      <a href="/" style="color: #007bff; text-decoration: none;">Go Home</a>
+    </div>
   </body>
 </html>
