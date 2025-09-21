@@ -20,23 +20,26 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 function AppContent() {
   const navigate = useNavigate();
 
-  // Define valid routes from constants
-  const validRoutes = Object.values(ROUTES);
+  // Function to check if a path is a valid route
+  const isValidRoute = (path: string): boolean => {
+    // Check if path starts with any valid route
+    return Object.values(ROUTES).some(route => path.startsWith(route));
+  };
 
   useEffect(() => {
     // Check if we were redirected from a 404
     const redirectPath = getSessionStorageItem('redirectPath');
     if (redirectPath && redirectPath !== '/') {
       removeSessionStorageItem('redirectPath');
-      
+
       // Only navigate if it's a valid route, otherwise show 404
-      if (validRoutes.includes(redirectPath as any)) {
+      if (isValidRoute(redirectPath)) {
         navigate(redirectPath, { replace: true });
       } else {
         navigate('/404', { replace: true });
       }
     }
-  }, [navigate, validRoutes]);
+  }, [navigate]);
 
   return (
     <div className="App">
