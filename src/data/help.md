@@ -2,6 +2,19 @@
 1.1.2837 (be42d6f)
 https://tic80.com (C) 2017-2023
 
+## Table of Contents
+
+- [Welcome](#welcome)
+- [Specification](#specification)
+- [Console commands](#console-commands)
+- [API functions](#api-functions)
+- [Button IDs](#button-ids)
+- [Key IDs](#key-ids)
+- [Startup options](#startup-options)
+- [Terms of Use](#terms-of-use)
+- [Privacy Policy](#privacy-policy)
+- [MIT License](#mit-license)
+
 ## Welcome
 TIC-80 is a fantasy computer for making, playing and sharing tiny games.
 

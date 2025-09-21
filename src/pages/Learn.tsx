@@ -17,7 +17,7 @@ const Learn = () => {
   }, []);
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 learn-content">
       <ReactMarkdown
         remarkPlugins={[remarkSlug as any]}
         rehypePlugins={[[rehypeAutolinkHeadings as any, {

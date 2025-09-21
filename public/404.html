@@ -7,7 +7,7 @@
       // Simple SPA redirect for custom domains
       // Redirect any 404 to the root with the path preserved in sessionStorage
       // Route validation will be handled in App.tsx
-      sessionStorage.setItem('redirectPath', window.location.pathname);
+      sessionStorage.setItem('redirectPath', window.location.pathname + window.location.hash);
       window.location.replace('/');
     </script>
   </head>
