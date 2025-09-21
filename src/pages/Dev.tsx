@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react';
+import { GameCard } from '../components';
 import type { Game } from '../components';
 
 interface User {
@@ -121,27 +122,7 @@ const Dev = () => {
               </p>
             </div>
 
-            {getUserGames(user.id).map((game) => (
-              <div key={game.id} className="col-md-3">
-                <div className="cart">
-                  <div className="thumbnail">
-                    <a href={`/play?cart=${game.id}`}>
-                      <img
-                        className="pixelated"
-                        width="100%"
-                        src={`https://tic80.com/cart/${game.hash}/cover.gif`}
-                        alt={game.title}
-                      />
-                    </a>
-                  </div>
-                  <div>
-                    <h2>{game.title}</h2>
-                    <div className="text-muted">{game.desc}</div>
-                    <div className="text-muted">by {user.name}</div>
-                  </div>
-                </div>
-              </div>
-            ))}
+            {getUserGames(user.id).map((game) => <GameCard key={game.id} game={game} className="col-md-3" />)}
           </div>
           {index < visibleUsers.length - 1 && <hr/>}
         </div>

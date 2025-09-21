@@ -17,11 +17,12 @@ interface Game {
 
 interface GameCardProps {
   game: Game;
+  className?: string;
 }
 
-const GameCard = ({ game }: GameCardProps) => {
+const GameCard = ({ game, className = "col-md-4" }: GameCardProps) => {
   return (
-    <div className="col-md-4" key={game.id}>
+    <div className={className}>
       <div className="cart">
         <div className="thumbnail">
           <Link to={`/play?cart=${game.id}`}>
