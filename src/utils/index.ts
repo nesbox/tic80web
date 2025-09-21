@@ -6,11 +6,16 @@ export const classNames = (...classes: (string | undefined | null | false)[]): s
 };
 
 /**
- * Utility function to check if a path is active
+ * Utility function to check if a navigation path should be active
  */
-export const isActivePath = (currentPath: string, targetPath: string): boolean => {
-  return currentPath === targetPath;
+export const getIsActive = (currentPath: string, navPath: string): boolean => {
+  if (navPath === '/') {
+    return currentPath === '/';
+  }
+  return currentPath.startsWith(navPath);
 };
+
+
 
 /**
  * Utility function to safely get item from sessionStorage

@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { APP_CONFIG, ROUTES } from '../constants';
-import { isActivePath } from '../utils';
+import { getIsActive } from '../utils';
 import type { NavigationItem } from '../types';
 
 const Header = () => {
@@ -13,6 +13,8 @@ const Header = () => {
     { path: ROUTES.play, label: 'Play' },
     { path: ROUTES.dev, label: 'Devs' },
   ];
+
+
 
   return (
     <header>
@@ -31,22 +33,26 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav" role="menubar">
-              {navigationItems.map(({ path, label }) => (
-                <li 
-                  key={path}
-                  className={`nav-item ${isActivePath(location.pathname, path) ? 'active' : ''}`}
-                  role="none"
-                >
-                  <Link 
-                    to={path}
-                    className={`nav-link ${isActivePath(location.pathname, path) ? 'active' : ''}`}
-                    role="menuitem"
-                    aria-current={isActivePath(location.pathname, path) ? 'page' : undefined}
+              {navigationItems.map(({ path, label }) => {
+                const isActive = getIsActive(location.pathname, path);
+
+                return (
+                  <li
+                    key={path}
+                    className={`nav-item ${isActive ? 'active' : ''}`}
+                    role="none"
                   >
-                    {label}
-                  </Link>
-                </li>
-              ))}
+                    <Link
+                      to={path}
+                      className={`nav-link ${isActive ? 'active' : ''}`}
+                      role="menuitem"
+                      aria-current={isActive ? 'page' : undefined}
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

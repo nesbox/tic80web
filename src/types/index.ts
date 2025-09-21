@@ -24,6 +24,29 @@ export interface ExternalLinks {
   readonly twitter: string;
 }
 
+// Game and User data types
+export interface Game {
+  id: number;
+  hash: string;
+  title: string;
+  name: string;
+  author: string;
+  desc: string | null;
+  user: number;
+  text: string;
+  added: number;
+  updated: number;
+  category: number;
+  rating: number;
+}
+
+export interface User {
+  id: number;
+  name: string;
+  date: number;
+  avatar?: string;
+}
+
 // Common component props
 export interface BaseComponentProps {
   className?: string;

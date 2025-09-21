@@ -1,24 +1,23 @@
 
 import { useState, useEffect } from 'react';
-import { GameCard } from '../components';
-import type { Game } from '../components';
-
-const GAMES_PER_LOAD = 9;
+import { GameCard, Loading } from '../components';
+import type { Game } from '../types';
+import { useData } from '../contexts/DataContext';
+import { PAGINATION } from '../constants';
 
 const Play = () => {
+  const { games: contextGames, usersMap, loading } = useData();
   const [games, setGames] = useState<Game[]>([]);
   const [visibleGames, setVisibleGames] = useState<Game[]>([]);
   const [hasMore, setHasMore] = useState(false);
 
   useEffect(() => {
-    // Dynamically import games data to enable code splitting
-    import('../data/games.json').then((module) => {
-      const gamesData = module.default;
-      setGames(gamesData);
-      setVisibleGames(gamesData.slice(0, GAMES_PER_LOAD));
-      setHasMore(gamesData.length > GAMES_PER_LOAD);
-    });
-  }, []);
+    if (!loading && contextGames.length > 0) {
+      setGames(contextGames);
+      setVisibleGames(contextGames.slice(0, PAGINATION.gamesPerLoad));
+      setHasMore(contextGames.length > PAGINATION.gamesPerLoad);
+    }
+  }, [contextGames, loading]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,7 +39,7 @@ const Play = () => {
 
   const loadMoreGames = () => {
     const currentLength = visibleGames.length;
-    const nextGames = games.slice(currentLength, currentLength + GAMES_PER_LOAD);
+    const nextGames = games.slice(currentLength, currentLength + PAGINATION.gamesPerLoad);
 
     if (nextGames.length > 0) {
       setVisibleGames(prev => [...prev, ...nextGames]);
@@ -50,10 +49,14 @@ const Play = () => {
     }
   };
 
+  if (loading) {
+    return <Loading />;
+  }
+
   return (
     <div className="row">
       {visibleGames.map((game) => (
-        <GameCard key={game.id} game={game} />
+        <GameCard key={game.id} game={game} userName={usersMap[game.user] || ''} />
       ))}
     </div>
   );

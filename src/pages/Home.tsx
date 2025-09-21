@@ -1,19 +1,23 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { APP_CONFIG, IMAGES } from '../constants';
-import { GameCard } from '../components';
-import type { Game } from '../components';
+import { GameCard, Loading } from '../components';
+import type { Game } from '../types';
+import { useData } from '../contexts/DataContext';
 
 const Home = () => {
+  const { games, usersMap, loading } = useData();
   const [topGames, setTopGames] = useState<Game[]>([]);
 
   useEffect(() => {
-    // Load top 12 games from games data
-    import('../data/games.json').then((module) => {
-      const gamesData = module.default;
-      setTopGames(gamesData.slice(0, 12));
-    });
-  }, []);
+    if (!loading && games.length > 0) {
+      setTopGames(games.slice(0, 12));
+    }
+  }, [games, loading]);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <main>
@@ -63,7 +67,7 @@ const Home = () => {
 
         <div className="row">
           {topGames.map((game) => (
-            <GameCard key={game.id} game={game} />
+            <GameCard key={game.id} game={game} userName={usersMap[game.user] || ''} />
           ))}
         </div>
 

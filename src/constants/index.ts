@@ -31,3 +31,9 @@ export const ROUTES = {
   dev: '/dev',
   terms: '/terms',
 } as const;
+
+// Pagination constants
+export const PAGINATION = {
+  gamesPerLoad: 9,
+  usersPerLoad: 5,
+} as const;
