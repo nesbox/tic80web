@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { GameCard, Loading } from '../components';
+import { GameCard, Loading, AvatarCanvas } from '../components';
 import type { Game, User } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION } from '../constants';
@@ -69,13 +69,7 @@ const UserDev = () => {
       <h2>Developer: {currentUser.name}</h2>
       <div className="row mb-4">
         <div className="col-md-3">
-          <img
-            id="avatar-image"
-            src={currentUser.avatar ? `https://tic80.com/img/users/${currentUser.avatar}.png` : 'https://tic80.com/img/users/unknown.png'}
-            width="128"
-            height="128"
-            alt={`${currentUser.name} avatar`}
-          />
+          <AvatarCanvas user={currentUser} />
         </div>
         <div className="col-md-9">
           <h3>{currentUser.name}</h3>

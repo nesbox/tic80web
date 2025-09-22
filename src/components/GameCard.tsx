@@ -22,9 +22,11 @@ const GameCard = ({ game, userName, className = "col-md-4" }: GameCardProps) => 
           <div className="text-muted">{game.desc}</div>
           <div className="text-muted">by {game.author}</div>
 
-          <div>
-            <img width="16" height="16" src="/img/love.png" /> <span className="tiny-label">{game.rating} </span>
-          </div>
+          {game.rating > 0 && (
+            <div>
+              <img width="16" height="16" src="/img/love.png" /> <span className="tiny-label">{game.rating} </span>
+            </div>
+          )}
         </div>
       </div>
     </div>

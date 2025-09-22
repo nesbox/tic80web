@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { GameCard, Loading } from '../components';
+import { GameCard, Loading, AvatarCanvas } from '../components';
 import type { Game, User } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION } from '../constants';
@@ -95,13 +95,7 @@ const Dev = () => {
                 <h2>{index + 1}. {user.name}</h2>
               <p>
                 <a href={`/dev/${user.name.toLowerCase()}`}>
-                  <img
-                    id="avatar-image"
-                    src={user.avatar ? `https://tic80.com/img/users/${user.avatar}.png` : 'https://tic80.com/img/users/unknown.png'}
-                    width="128"
-                    height="128"
-                    alt={`${user.name} avatar`}
-                  />
+                  <AvatarCanvas user={user} />
                 </a>
               </p>
             </div>
