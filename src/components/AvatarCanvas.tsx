@@ -7,6 +7,9 @@ const SWEETIE_16_PALETTE = [
   '#29366f', '#3b5dc9', '#41a6f6', '#73eff7', '#f4f4f4', '#94b0c2', '#566c86', '#333c57'
 ];
 
+// Default avatar string
+const DEFAULT_AVATAR = 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffffffeeeeeeeeffffffffeeeeeeeeeeeeffffeeeeeeeeeeeeffffeeeeeeeeeeffffeeeeeeeeeeeeffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeffffeeeeeeeeeeeeffffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
+
 // Function to draw avatar on canvas
 const drawAvatar = (canvas: HTMLCanvasElement, avatar: string) => {
   const ctx = canvas.getContext('2d');
@@ -36,8 +39,8 @@ const AvatarCanvas = ({ user }: AvatarCanvasProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    if (canvasRef.current && user.avatar) {
-      drawAvatar(canvasRef.current, user.avatar);
+    if (canvasRef.current) {
+      drawAvatar(canvasRef.current, user.avatar || DEFAULT_AVATAR);
     }
   }, [user.avatar]);
 
