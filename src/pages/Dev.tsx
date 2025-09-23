@@ -1,9 +1,10 @@
 
 import { useState, useEffect } from 'react';
-import { GameCard, Loading, AvatarCanvas } from '../components';
+import { GameCard, Loading } from '../components';
 import type { Game, User } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION } from '../constants';
+
 
 const Dev = () => {
   const { users, games, loading } = useData();
@@ -95,7 +96,14 @@ const Dev = () => {
                 <h2>{index + 1}. {user.name}</h2>
               <p>
                 <a href={`/dev/${user.name.toLowerCase()}`}>
-                  <AvatarCanvas user={user} />
+                  <img
+                    src={`data:image/png;base64,${user.avatar || "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUaHCxdJ12xPlPvfVf/zXWn8HA4t2QlcXkpNm87XclBpvZz7/f09PSUsMJWbIYzPFcHRRrAAAAAJUlEQVR4nGJ4BwVYGf////+PygAx0RggGpWBaSAxasAAEAAA///oM3hVfkWIyAAAAABJRU5ErkJggg=="}`}
+                    alt={`${user.name} avatar`}
+                    title={`${user.name} avatar`}
+                    width="128"
+                    height="128"
+                    style={{ imageRendering: 'pixelated' }}
+                  />
                 </a>
               </p>
             </div>
