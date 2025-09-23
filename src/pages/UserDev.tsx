@@ -1,10 +1,9 @@
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useState, useEffect, useCallback } from 'react';
+import { Link, useParams } from 'react-router-dom';
 import { GameCard, Loading, UserAvatar } from '../components';
 import type { Game, User } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION } from '../constants';
-
 
 const UserDev = () => {
   const { user } = useParams<{ user: string }>();
@@ -14,12 +13,24 @@ const UserDev = () => {
   const [visibleGames, setVisibleGames] = useState<Game[]>([]);
   const [hasMore, setHasMore] = useState(false);
 
+  const loadMoreGames = useCallback(() => {
+    const currentLength = visibleGames.length;
+    const nextGames = userGames.slice(currentLength, currentLength + PAGINATION.gamesPerLoad);
+
+    if (nextGames.length > 0) {
+      setVisibleGames(prev => [...prev, ...nextGames]);
+      setHasMore(currentLength + nextGames.length < userGames.length);
+    } else {
+      setHasMore(false);
+    }
+  }, [visibleGames.length, userGames, PAGINATION.gamesPerLoad]);
+
   useEffect(() => {
     if (!loading && user) {
       const foundUser = users.find(u => u.name.toLowerCase() === user.toLowerCase());
       if (foundUser) {
         setCurrentUser(foundUser);
-        const gamesByUser = games.filter(game => game.user === foundUser.id);
+        const gamesByUser = games.filter(game => game.user === foundUser.id).sort((a, b) => b.updated - a.updated);
         setUserGames(gamesByUser);
         setVisibleGames(gamesByUser.slice(0, PAGINATION.gamesPerLoad));
         setHasMore(gamesByUser.length > PAGINATION.gamesPerLoad);
@@ -43,19 +54,7 @@ const UserDev = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [hasMore, visibleGames.length]);
-
-  const loadMoreGames = () => {
-    const currentLength = visibleGames.length;
-    const nextGames = userGames.slice(currentLength, currentLength + PAGINATION.gamesPerLoad);
-
-    if (nextGames.length > 0) {
-      setVisibleGames(prev => [...prev, ...nextGames]);
-      setHasMore(currentLength + nextGames.length < userGames.length);
-    } else {
-      setHasMore(false);
-    }
-  };
+  }, [hasMore, visibleGames.length, loadMoreGames]);
 
   if (loading) {
     return <Loading />;
@@ -67,17 +66,12 @@ const UserDev = () => {
 
   return (
     <div>
-      <h2>Developer: {currentUser.name}</h2>
-      <div className="row mb-4">
-        <div className="col-md-3">
-          <UserAvatar user={currentUser} />
-        </div>
-        <div className="col-md-9">
-          <h3>{currentUser.name}</h3>
-          <p>Joined: {new Date(currentUser.date).toLocaleDateString()}</p>
-        </div>
-      </div>
-      <h3>Games by {currentUser.name}</h3>
+      <h2><Link to="/dev">Devs</Link> <span className="text-muted">&gt;</span> {currentUser.name}</h2>
+      <p>
+        <UserAvatar user={currentUser} />
+      </p>
+      <h4 className="text-muted">Recent games</h4>
+      <hr/>
       <div className="row">
         {visibleGames.map((game) => (
           <GameCard key={game.id} game={game} userName={currentUser.name.toLowerCase()} />

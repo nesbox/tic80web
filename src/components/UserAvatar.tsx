@@ -8,7 +8,7 @@ interface UserAvatarProps {
 }
 
 const UserAvatar: React.FC<UserAvatarProps> = ({ user, size = 128, className = '' }) => {
-  const defaultAvatar = "AJUlEQVR4nGJ4BwVYGf////+PygAx0RggGpWBaSAxasAAEAAA///oM3hVfkWIyAAAAABJRU5ErkJggg==";
+  const defaultAvatar = "JUlEQVR4nGJ4BwVYGf////+PygAx0RggGpWBaSAxasAAEAAA///oM3hVfkWIyAAAAABJRU5ErkJggg==";
 
   return (
     <img
