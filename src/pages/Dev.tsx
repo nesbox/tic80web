@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { GameCard, Loading, UserAvatar } from '../components';
 import type { Game, User } from '../types';
 import { useData } from '../contexts/DataContext';
@@ -95,9 +96,9 @@ const Dev = () => {
               <div className="col-md-3">
                 <h2>{index + 1}. {user.name}</h2>
               <p>
-                <a href={`/dev/${user.name.toLowerCase()}`}>
+                <Link to={`/dev/${user.name.toLowerCase()}`}>
                   <UserAvatar user={user} />
-                </a>
+                </Link>
               </p>
             </div>
 

@@ -37,3 +37,10 @@ export const PAGINATION = {
   gamesPerLoad: 9,
   usersPerLoad: 5,
 } as const;
+
+// Sort options
+export const SORTS = [
+  { id: 0, name: 'new & popular', path: 'popular', label: 'New & Popular' },
+  { id: 1, name: 'most recent', path: 'recent', label: 'Most Recent' },
+  { id: 2, name: 'top rated', path: 'top', label: 'Top Rated' },
+] as const;

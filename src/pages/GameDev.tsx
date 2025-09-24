@@ -1,4 +1,5 @@
-import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom';
 import { useData } from '../contexts/DataContext';
 import { Loading } from '../components';
 
@@ -41,6 +42,10 @@ const GameDev = () => {
   const { user: userParam, game: gameParam } = useParams<{ user: string; game: string }>();
   const { games, users, loading } = useData();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   if (loading) {
     return <Loading />;
   }
@@ -71,14 +76,14 @@ const GameDev = () => {
     <div>
       <div>
         <h1>
-          <a href="/play">Games</a> <span className="text-muted">{'>'}</span> {game.title}
+          <Link to="/play">Games</Link> <span className="text-muted">{'>'}</span> {game.title}
         </h1>
         <hr />
         <div>{game.desc || 'No description available'}</div>
         <div>made by {game.author}</div>
         <div>
           <span className="text-muted">uploaded by </span>
-          <a href={`/dev/${user.name.toLowerCase()}`}>{user.name}</a>
+          <Link to={`/dev/${user.name.toLowerCase()}`}>{user.name}</Link>
         </div>
         <div className="text-muted">
           added: <span className="date">{addedDate}</span>

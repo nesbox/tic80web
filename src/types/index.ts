@@ -47,6 +47,12 @@ export interface User {
   avatar?: string;
 }
 
+export interface Category {
+  id: number;
+  name: string;
+  info: string;
+}
+
 // Common component props
 export interface BaseComponentProps {
   className?: string;

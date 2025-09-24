@@ -53,6 +53,8 @@ function AppContent() {
                 <Route path="/" element={<Home />} />
                 <Route path="/learn" element={<Learn />} />
                 <Route path="/create" element={<Create />} />
+                <Route path="/play/:categoryName/:sortName" element={<Play />} />
+                <Route path="/play/:categoryName" element={<Play />} />
                 <Route path="/play" element={<Play />} />
                 <Route path="/dev" element={<Dev />} />
                 <Route path="/dev/:user/:game" element={<GameDev />} />

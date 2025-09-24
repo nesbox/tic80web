@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "name": "Games",
+        "info": "Released games."
+    },
+    {
+        "id": 1,
+        "name": "Tech",
+        "info": "Tech demos to show the capabilities of the platform."
+    },
+    {
+        "id": 2,
+        "name": "Tools",
+        "info": "Tools for cart editing, testing system and etc."
+    },
+    {
+        "id": 3,
+        "name": "Music",
+        "info": "Music, chiptune, tracks, sfx."
+    },
+    {
+        "id": 4,
+        "name": "WIP",
+        "info": "Work in progress carts."
+    },
+    {
+        "id": 5,
+        "name": "Demoscene",
+        "info": "The demoscene is an international computer art subculture focused on producing demos: self-contained, sometimes extremely small, computer programs that produce audiovisual presentations. Demoscene intros/demos only, please upload game demos to WIP."
+    },
+    {
+        "id": 6,
+        "name": "Livecoding",
+        "info": "Productions made during 10-60 minutes live coding sessions called Bytebattles and Bytejams. Visit https://livecode.demozoo.org for more info."
+    }
+]
