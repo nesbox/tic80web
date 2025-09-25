@@ -53,6 +53,11 @@ export interface Category {
   info: string;
 }
 
+export interface Text {
+  id: number;
+  text: string;
+}
+
 // Common component props
 export interface BaseComponentProps {
   className?: string;

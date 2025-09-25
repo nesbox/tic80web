@@ -13,4 +13,7 @@ export default defineConfig({
       '~bootstrap': 'bootstrap',
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1000,
+  }
 })

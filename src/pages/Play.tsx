@@ -119,15 +119,13 @@ const Play = () => {
         <p className="text-muted category-description">{formatTextWithLinks(currentCategoryData.info)}</p>
       )}
       <hr/>
-      <p>
-        <ul className="nav nav-pills nav-small">
-          {SORTS.map((sort) => (
-            <li key={sort.id} role="presentation" className={sort.id === currentSort ? 'active' : ''}>
-              <Link to={`/play/${currentCategoryName}/${sort.path}`}>{sort.name}</Link>
-            </li>
-          ))}
-        </ul>
-      </p>
+      <ul className="nav nav-pills nav-small">
+        {SORTS.map((sort) => (
+          <li key={sort.id} role="presentation" className={sort.id === currentSort ? 'active' : ''}>
+            <Link to={`/play/${currentCategoryName}/${sort.path}`}>{sort.name}</Link>
+          </li>
+        ))}
+      </ul>
 
       <div className="row">
         {visibleGames.map((game) => (

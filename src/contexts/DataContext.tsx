@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 import type { ReactNode } from 'react';
-import type { Game, User, Category } from '../types';
+import type { Game, User, Category, Text } from '../types';
 
 interface DataContextType {
   games: Game[];
@@ -34,18 +34,31 @@ export const DataProvider = ({ children }: DataProviderProps) => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const [gamesModule, usersModule, catsModule] = await Promise.all([
+        const [gamesModule, usersModule, catsModule, textsModule] = await Promise.all([
           import('../data/games.json'),
           import('../data/users.json'),
-          import('../data/cats.json')
+          import('../data/cats.json'),
+          import('../data/texts.json')
         ]);
 
         const gamesData = gamesModule.default;
         const usersData = usersModule.default;
         const categoriesData = catsModule.default;
+        const textsData: Text[] = textsModule.default;
 
-        // Filter games to only include those with existing users
-        const filteredGames = gamesData.filter(game => usersData.some(user => user.id === game.user));
+        // Create texts map for quick lookup
+        const textsMap = textsData.reduce((acc: Record<number, string>, text: Text) => {
+          acc[text.id] = text.text;
+          return acc;
+        }, {});
+
+        // Filter games to only include those with existing users and add text field
+        const filteredGames = gamesData
+          .filter(game => usersData.some(user => user.id === game.user))
+          .map(game => ({
+            ...game,
+            text: textsMap[game.id] || ''
+          }));
 
         setGames(filteredGames);
         setUsers(usersData);

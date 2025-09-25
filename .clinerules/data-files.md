@@ -2,7 +2,7 @@
 Project-specific guidelines for handling large data files in the tic80web project, particularly JSON data files that contain game and user information.
 
 ## Data file access
-- Avoid reading users.json and games.json files directly as they are large and contain extensive data
+- Avoid reading users.json, games.json and texts.json files directly as they are large and contain extensive data
 - Use grep search tools or other analysis utilities to examine file structure or extract specific information when needed
 - Prefer querying data through the application's data context rather than direct file access during development
 
