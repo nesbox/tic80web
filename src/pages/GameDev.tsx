@@ -62,7 +62,7 @@ const GameDev = () => {
   };
 
   const addedDate = formatDate(game.added);
-  const uploadedDate = formatDate(game.updated);
+  const updatedDate = formatDate(game.updated);
 
   const formatGameText = (text: string) => {
     // Replace URLs with <a> tags first
@@ -89,7 +89,7 @@ const GameDev = () => {
           added: <span className="date">{addedDate}</span>
         </div>
         <div className="text-muted">
-          uploaded: <span className="date">{uploadedDate}</span>
+          updated: <span className="date">{updatedDate}</span>
         </div>
         <div>
           <a href={`https://tic80.com/cart/${game.hash}/${game.name}.tic`}>download cartridge</a>
@@ -127,7 +127,7 @@ const GameDev = () => {
           <span id="rating-label"> {game.rating}</span>
         </p>
       </div>
-      <hr />
+      {game.text && <hr />}
       <div dangerouslySetInnerHTML={{ __html: formatGameText(game.text) }} />
     </div>
   );

@@ -34,7 +34,7 @@ const Play = () => {
   const sortGames = (games: Game[], sortId: number) => {
     switch (sortId) {
       case 1: // most recent
-        return [...games].sort((a, b) => b.added - a.added);
+        return [...games].sort((a, b) => b.updated - a.updated);
       case 2: // top rated
         return [...games].sort((a, b) => b.rating - a.rating);
       default:
@@ -56,12 +56,12 @@ const Play = () => {
 
         do {
           const recentTimestamp = Date.now() - (days * 24 * 60 * 60 * 1000);
-          recentGames = filteredGames.filter(game => game.added > recentTimestamp);
+          recentGames = filteredGames.filter(game => game.updated > recentTimestamp);
           days += RECENT_DAYS;
           attempts++;
         } while (recentGames.length === 0 && attempts < maxAttempts);
 
-        sortedGames = [...recentGames].sort((a, b) => b.rating - a.rating);
+        sortedGames = [...recentGames].sort((a, b) => b.rating !== a.rating ? b.rating - a.rating : b.updated - a.updated);
       } else {
         sortedGames = sortGames(filteredGames, currentSort);
       }

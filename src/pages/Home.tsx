@@ -11,7 +11,10 @@ const Home = () => {
 
   useEffect(() => {
     if (!loading && games.length > 0) {
-      setTopGames(games.slice(0, 12));
+      const ninetyDaysAgo = Date.now() - (90 * 24 * 60 * 60 * 1000);
+      const recentGames = games.filter(game => game.updated > ninetyDaysAgo);
+      const sortedByRating = [...recentGames].sort((a, b) => b.rating !== a.rating ? b.rating - a.rating : b.updated - a.updated);
+      setTopGames(sortedByRating.slice(0, 15));
     }
   }, [games, loading]);
 

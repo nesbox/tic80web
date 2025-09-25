@@ -44,7 +44,10 @@ export const DataProvider = ({ children }: DataProviderProps) => {
         const usersData = usersModule.default;
         const categoriesData = catsModule.default;
 
-        setGames(gamesData);
+        // Filter games to only include those with existing users
+        const filteredGames = gamesData.filter(game => usersData.some(user => user.id === game.user));
+
+        setGames(filteredGames);
         setUsers(usersData);
         setCategories(categoriesData);
 
