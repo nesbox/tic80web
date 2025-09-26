@@ -7,5 +7,6 @@ export { default as Loading } from './Loading';
 export { default as ErrorBoundary } from './ErrorBoundary';
 export { default as GameCard } from './GameCard';
 export { default as UserAvatar } from './UserAvatar';
+export { default as Player } from './Player';
 
 export type { Game } from './GameCard';

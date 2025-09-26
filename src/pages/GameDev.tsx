@@ -1,42 +1,7 @@
 import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useData } from '../contexts/DataContext';
-import { Loading } from '../components';
-
-const gameBorderStyle: React.CSSProperties = {
-  width: '100%',
-  overflow: 'hidden'
-};
-
-const gameCoverStyle: React.CSSProperties = {
-  width: '100%',
-  height: '100%',
-  backgroundColor: '#1a1c2c',
-  cursor: 'pointer',
-  textAlign: 'center',
-  color: 'white',
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center'
-};
-
-const coverImageStyle: React.CSSProperties = {
-  width: '100%',
-  height: '100%',
-  opacity: 0.2
-};
-
-const clickToPlayStyle: React.CSSProperties = {
-  fontSize: '34px',
-  position: 'absolute'
-};
-
-const canvasStyle: React.CSSProperties = {
-  width: '100%',
-  height: '100%',
-  imageRendering: 'pixelated',
-  display: 'none'
-};
+import { Loading, Player } from '../components';
 
 const GameDev = () => {
   const { user: userParam, game: gameParam } = useParams<{ user: string; game: string }>();
@@ -94,25 +59,11 @@ const GameDev = () => {
         <div>
           <a href={`https://tic80.com/cart/${game.hash}/${game.name}.tic`}>download cartridge</a>
         </div>
-        <div style={gameBorderStyle} id="game-border">
-          <div style={gameCoverStyle} id="game-cover">
-            <div style={coverImageStyle}>
-              <img
-                width="100%"
-                height="100%"
-                className="pixelated"
-                src={`https://tic80.com/cart/${game.hash}/cover.gif`}
-              />
-            </div>
-            <div style={clickToPlayStyle}>- CLICK TO PLAY -</div>
-          </div>
-          <canvas
-            style={canvasStyle}
-            id="canvas"
-            onContextMenu={(e) => e.preventDefault()}
-            onMouseDown={() => window.focus()}
-          ></canvas>
-        </div>
+        <Player
+          coverImage={`https://tic80.com/cart/${game.hash}/cover.gif`}
+          showCoverImage={true}
+          cart={`https://tic80.com/cart/${game.hash}/cart.tic`}
+        />
         <div id="add-modal" className="modal">
           <div className="modal-content">
             <span className="close">&times;</span>

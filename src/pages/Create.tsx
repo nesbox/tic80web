@@ -1,23 +1,6 @@
-import { useEffect, useRef } from 'react';
+import { Player } from '../components';
 
 const Create = () => {
-  const gameBorderRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const updateHeight = () => {
-      if (gameBorderRef.current) {
-        const gameBorder = gameBorderRef.current;
-        gameBorder.style.height = gameBorder.clientWidth * 144 / 256 + 'px';
-      }
-    };
-
-    updateHeight();
-    window.addEventListener('resize', updateHeight);
-
-    return () => {
-      window.removeEventListener('resize', updateHeight);
-    };
-  }, []);
 
   return (
     <div>
@@ -25,36 +8,7 @@ const Create = () => {
       <hr />
 
       <h2>In the Browser</h2>
-      <div ref={gameBorderRef} style={{ width: '100%', overflow: 'hidden' }} id="game-border">
-        <div
-          style={{
-            width: '100%',
-            height: '100%',
-            backgroundColor: '#1a1c2c',
-            cursor: 'pointer',
-            textAlign: 'center',
-            color: 'white',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-          }}
-          id="game-cover"
-        >
-          <div style={{ fontSize: '34px', position: 'absolute' }}>- CLICK TO PLAY -</div>
-        </div>
-
-        <canvas
-          style={{
-            width: '100%',
-            height: '100%',
-            imageRendering: 'pixelated',
-            display: 'none'
-          }}
-          id="canvas"
-          onContextMenu={(event) => event.preventDefault()}
-          onMouseDown={() => window.focus()}
-        />
-      </div>
+      <Player />
 
       <div id="add-modal" className="modal">
         <div className="modal-content">
