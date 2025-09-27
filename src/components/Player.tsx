@@ -61,6 +61,30 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
             }
             return path;
           },
+          saveAs(blob, filename) {
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.click();
+          },
+          showAddPopup(callback) {
+            callback(null, null);
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.click();
+            input.addEventListener('change', (event) => {
+              const file = event.target.files[0];
+              if (file) {
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                  const rom = new Uint8Array(event.target.result);
+                  callback(file.name, rom);
+                };
+                reader.readAsArrayBuffer(file);
+              }
+            });
+          },
           arguments: cart ? [cart] : [],
           // Add any other configuration options as needed
         });
