@@ -61,25 +61,28 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
             }
             return path;
           },
-          saveAs(blob, filename) {
+          saveAs(blob: Blob, filename: string) {
             const url = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
             link.download = filename;
             link.click();
           },
-          showAddPopup(callback) {
-            callback(null, null);
+          showAddPopup(callback: (filename: string | null, rom: Uint8Array | null) => void) {
             const input = document.createElement('input');
             input.type = 'file';
             input.click();
             input.addEventListener('change', (event) => {
-              const file = event.target.files[0];
+              const target = event.target as HTMLInputElement;
+              const file = target.files?.[0];
               if (file) {
                 const reader = new FileReader();
                 reader.onload = function(event) {
-                  const rom = new Uint8Array(event.target.result);
-                  callback(file.name, rom);
+                  const target = event.target as FileReader;
+                  if (target.result instanceof ArrayBuffer) {
+                    const rom = new Uint8Array(target.result);
+                    callback(file.name, rom);
+                  }
                 };
                 reader.readAsArrayBuffer(file);
               }
