@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface PlayerProps {
   coverImage?: string;
@@ -6,9 +6,10 @@ interface PlayerProps {
   cart?: string;
 }
 
-const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
+const Player = ({ coverImage, showCoverImage = false, cart: _cart }: PlayerProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const gameBorderRef = useRef<HTMLDivElement>(null);
+  const [tic80Module, setTic80Module] = useState<any>(null);
 
   useEffect(() => {
     const updateHeight = () => {
@@ -23,56 +24,53 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
 
     return () => {
       window.removeEventListener('resize', updateHeight);
+      // Cleanup tic80 module when component unmounts
+      if (tic80Module) {
+        // Add cleanup logic here if tic80 module has a cleanup method
+
+        tic80Module._force_exit();
+      }
     };
-  }, []);
+  }, [tic80Module]);
 
-  const handleClickToPlay = () => {
-    const script = document.createElement('script');
-    script.type = 'module';
-    script.innerHTML = `
-      import tic80 from '/tic80.js';
+  const handleClickToPlay = async () => {
+    const canvasElement = document.getElementById('canvas');
+    const gameCoverElement = document.getElementById('game-cover');
 
-      const options = {
-        canvas: document.getElementById('canvas'),
-        saveAs(blob, filename) {
-          const url = URL.createObjectURL(blob);
-          const link = document.createElement('a');
-          link.href = url;
-          link.download = filename;
-          link.click();
-        },
-        showAddPopup(callback) {
-          callback(null, null);
-          const input = document.createElement('input');
-          input.type = 'file';
-          input.click();
-          input.addEventListener('change', (event) => {
-            const file = event.target.files[0];
-            if (file) {
-              const reader = new FileReader();
-              reader.onload = function(event) {
-                const rom = new Uint8Array(event.target.result);
-                callback(file.name, rom);
-              };
-              reader.readAsArrayBuffer(file);
+    if (canvasElement) canvasElement.style.display = 'block';
+    if (gameCoverElement) gameCoverElement.style.display = 'none';
+
+    // Initialize tic80 module if not already initialized
+    if (!tic80Module && canvasRef.current) {
+      try {
+        // Load tic80.js as a module from public folder
+        const response = await fetch('/tic80.js');
+        const scriptText = await response.text();
+
+        // Create a blob URL for the module
+        const blob = new Blob([scriptText], { type: 'application/javascript' });
+        const moduleUrl = URL.createObjectURL(blob);
+
+        // Import the module
+        const tic80 = await import(moduleUrl);
+        const module = await tic80.default({
+          canvas: canvasRef.current,
+          locateFile: (path: string) => {
+            if (path === 'tic80.wasm') {
+              return '/tic80.wasm';
             }
-          });
-        },
-      };
+            return path;
+          },
+          // Add any other configuration options as needed
+        });
+        setTic80Module(module);
 
-      document.getElementById('canvas').style.display = 'block';
-      document.getElementById('game-cover').style.display = 'none';
-
-      ${cart ? `options.arguments = ['cart.tic'];
-      fetch('${cart}')
-        .then(rs => rs.arrayBuffer())
-        .then(buffer => {
-          options.preRun = module =>
-            module.FS.writeFile('cart.tic', new Uint8Array(buffer));
-          tic80(options);
-        });` : 'tic80(options);'}`;
-
-    document.head.appendChild(script);
+        // Clean up the blob URL
+        URL.revokeObjectURL(moduleUrl);
+      } catch (error) {
+        console.error('Failed to initialize TIC-80 module:', error);
+      }
+    }
   };
 
   return (
