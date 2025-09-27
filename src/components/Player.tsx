@@ -6,7 +6,7 @@ interface PlayerProps {
   cart?: string;
 }
 
-const Player = ({ coverImage, showCoverImage = false, cart: _cart }: PlayerProps) => {
+const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const gameBorderRef = useRef<HTMLDivElement>(null);
   const [tic80Module, setTic80Module] = useState<any>(null);
@@ -61,6 +61,7 @@ const Player = ({ coverImage, showCoverImage = false, cart: _cart }: PlayerProps
             }
             return path;
           },
+          arguments: cart ? [cart] : [],
           // Add any other configuration options as needed
         });
         setTic80Module(module);
