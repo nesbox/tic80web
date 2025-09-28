@@ -1,8 +1,24 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	]
+   "build_systems":
+    [
+        {
+            "name": "build",
+            "shell_cmd": "npm run build",
+            "working_dir": "${project_path}",
+            "file_regex": "^([^\\(]+)\\(([0-9]+),([0-9]+)\\): (.*)$",
+            "variants":
+            [
+                {
+                    "name": "dev",
+                    "shell_cmd": "npm run dev"
+                },
+            ]
+        }
+    ],
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ]
 }
