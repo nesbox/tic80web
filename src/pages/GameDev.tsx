@@ -5,7 +5,7 @@ import { Loading, Player } from '../components';
 
 const GameDev = () => {
   const { user: userParam, game: gameParam } = useParams<{ user: string; game: string }>();
-  const { games, users, loading } = useData();
+  const { games, users, usersMap, loading } = useData();
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -48,7 +48,7 @@ const GameDev = () => {
         <div>made by {game.author}</div>
         <div>
           <span className="text-muted">uploaded by </span>
-          <Link to={`/dev/${user.name.toLowerCase()}`}>{user.name}</Link>
+          <Link to={`/dev/${usersMap[user.id]}`}>{user.name}</Link>
         </div>
         <div className="text-muted">
           added: <span className="date">{addedDate}</span>
@@ -57,12 +57,12 @@ const GameDev = () => {
           updated: <span className="date">{updatedDate}</span>
         </div>
         <div>
-          <a href={`https://tic80.com/cart/${game.hash}/${game.name}.tic`}>download cartridge</a>
+          <a href={`/dev/${usersMap[user.id]}/${game.name}/${game.name}.tic`}>download cartridge</a>
         </div>
         <Player
           coverImage={`https://tic80.com/cart/${game.hash}/cover.gif`}
           showCoverImage={true}
-          cart={`https://tic80.com/cart/${game.hash}/cart.tic`}
+          cart={`/dev/${usersMap[user.id]}/${game.name}/${game.name}.tic`}
         />
         <div id="add-modal" className="modal">
           <div className="modal-content">
