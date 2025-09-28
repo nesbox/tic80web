@@ -17,6 +17,7 @@ import (
 	"strings"
 	"sync"
 	"sync/atomic"
+	_ "image/gif"
 )
 
 // Game represents a game from the TIC-80 database.
@@ -227,6 +228,18 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 			} else {
 				fmt.Printf("Error checking file status for %s: %v\n", game.Title, err)
 			}
+
+			// Download cover
+			coverPath := fmt.Sprintf("public/dev/%s/%s/cover.png", username, cartname)
+			if _, err := os.Stat(coverPath); errors.Is(err, os.ErrNotExist) {
+				if err := downloadCover(client, game.Hash, coverPath); err != nil {
+					fmt.Printf("Failed to download cover for %s: %v\n", game.Title, err)
+				}
+			} else if err == nil {
+				// Cover already exists, skip
+			} else {
+				fmt.Printf("Error checking cover for %s: %v\n", game.Title, err)
+			}
 		}(i, game)
 	}
 	wg.Wait()
@@ -254,6 +267,35 @@ func downloadFile(client *http.Client, hash, path, title string, current, total 
 	}
 
 	fmt.Printf("[%d/%d] - %s downloaded: %d bytes\n", current+1, total, title, len(body))
+	return nil
+}
+
+// downloadCover downloads and processes the cover GIF to PNG with sweetie16 palette.
+func downloadCover(client *http.Client, hash, path string) error {
+	resp, err := client.Get(fmt.Sprintf("%s/cart/%s/cover.gif", baseURL, hash))
+	if err != nil {
+		return fmt.Errorf("error making GET request for cover: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil // Skip if cover not available
+	}
+
+	img, _, err := image.Decode(resp.Body)
+	if err != nil {
+		return fmt.Errorf("error decoding cover image: %w", err)
+	}
+
+	pngBytes, err := processCoverImage(img)
+	if err != nil {
+		return fmt.Errorf("error processing cover image: %w", err)
+	}
+
+	if err := os.WriteFile(path, pngBytes, 0644); err != nil {
+		return fmt.Errorf("error writing cover file: %w", err)
+	}
+
 	return nil
 }
 
@@ -445,6 +487,17 @@ func createPNGFromPacked(packed []byte) ([]byte, error) {
 	var buf bytes.Buffer
 	err := png.Encode(&buf, img)
 	return buf.Bytes(), err
+}
+
+// processCoverImage processes a paletted image to PNG with the same indexed palette
+func processCoverImage(img image.Image) ([]byte, error) {
+	if paletted, ok := img.(*image.Paletted); ok {
+		var buf bytes.Buffer
+		err := png.Encode(&buf, paletted)
+		return buf.Bytes(), err
+	} else {
+		return nil, errors.New("image is not paletted")
+	}
 }
 
 // saveUsers saves the users slice to JSON file.

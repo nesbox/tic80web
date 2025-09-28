@@ -60,7 +60,7 @@ const GameDev = () => {
           <a href={`/dev/${usersMap[user.id]}/${game.name}/${game.name}.tic`}>download cartridge</a>
         </div>
         <Player
-          coverImage={`https://tic80.com/cart/${game.hash}/cover.gif`}
+          coverImage={`/dev/${usersMap[user.id]}/${game.name}/cover.png`}
           showCoverImage={true}
           cart={`/dev/${usersMap[user.id]}/${game.name}/${game.name}.tic`}
         />

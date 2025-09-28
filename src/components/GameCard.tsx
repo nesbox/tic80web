@@ -13,7 +13,7 @@ const GameCard = ({ game, userName, className = "col-md-4" }: GameCardProps) => 
       <div className="cart">
         <div className="thumbnail">
           <Link to={`/dev/${userName}/${game.name}`}>
-            <img className="pixelated" width="100%" src={`https://tic80.com/cart/${game.hash}/cover.gif`} alt={game.title} />
+            <img className="pixelated" width="100%" src={`/dev/${userName}/${game.name}/cover.png`} alt={game.title} />
           </Link>
         </div>
 

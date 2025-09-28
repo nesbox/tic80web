@@ -3472,12 +3472,12 @@
     "text": "My first game in TIC-80.\r\nBomberman:)"
   },
   {
-    "id": 1227,
-    "text": "My new palette for pseudo 16-bit colors. \"Sexy v3\"\r\nYou can copy a palette from this source."
-  },
-  {
     "id": 1726,
     "text": "Speed is now uncapped. Also, I added large worlds of a size of 512 units! Twice the size for four times the time to generate.\r\n\r\nOh and uh... The throttle is a bit touchy..."
+  },
+  {
+    "id": 1227,
+    "text": "My new palette for pseudo 16-bit colors. \"Sexy v3\"\r\nYou can copy a palette from this source."
   },
   {
     "id": 2295,
@@ -3528,12 +3528,12 @@
     "text": "betty is not ready at the moment, but it is a simple 2d adventure game."
   },
   {
-    "id": 541,
-    "text": "Hey dudes!"
-  },
-  {
     "id": 4299,
     "text": "Welcome to Attack Of The PETSCII Robots (TIC-80)!\r\n\r\nThe game contains 15 maps with high res graphics and the same playfield dimensions as the original! It uses a lot of RLE compressed graphics throughout to bring you the AMIGA graphics we know and love, as well as all the original tracks by Noelle Amelie Aman faithfully covered by Retropone!\r\n\r\nEnjoy and feel free to leave suggestions and to report bugs!\r\nThank you all so SO much.\r\n\r\n---------------------\r\nMobigames description\r\n---------------------\r\nAttack of the PETSCII Robots is a top-down action/puzzle game. It is inspired by oblique top-down projection games like Ultima, but takes much of the gameplay concepts from first-person shooters. The object is to destroy all of the robots. To do this, you have to search objects in the game for weapons and other items to help you along the way. Many scenarios require complex thinking and problem solving, rather than just action shooting.\r\n\r\n---------\r\nControls!\r\n---------\r\n\r\n          Standard\r\n\r\nA Once        |      Search\r\nA Twice       |        Move\r\nB once        |    Use item\r\nX + Direction | Fire weapon\r\nY Held        | Radial Menu\r\n\r\n        Map controls\r\nB once        |  See robots\r\nA once        |        Exit\r\n\r\n    Keyboard shortcuts\r\n\"M\"          |         Move\r\n\"Tab\"        |   Toggle Map\r\n\"[\"          | Cycle weapon\r\n\"]\"          |   Cycle item\r\n\"Shift + M\"  | Toggle Music\r\n\"Space\"      |     Use item\r\n\r\nWhy is there no quick fire buttons? \r\nWell... WASD conflicts with default TIC-80 controls (A key = X button) and thus is omitted. Just hold the A key and press a direction to fire just as if using a controller (which is preferred)"
+  },
+  {
+    "id": 541,
+    "text": "Hey dudes!"
   },
   {
     "id": 1182,
@@ -4848,12 +4848,12 @@
     "text": "any insight welcome"
   },
   {
-    "id": 1905,
-    "text": "Enjoy Animation"
-  },
-  {
     "id": 1278,
     "text": "Chocobo Thema in #HomedeChocobo twitter\r\nOriginal composer : Nobuo Uematsu"
+  },
+  {
+    "id": 1905,
+    "text": "Enjoy Animation"
   },
   {
     "id": 1947,
@@ -5272,12 +5272,12 @@
     "text": "An entry for the 512 byte TIC-80 competition at Inercia Demoparty 2021. Second place in the compo.\r\n\r\nContent warning: flashing lights.\r\n\r\nProbably won't run very well in the browser. Should run fine in the TIC-80 executable itself, and it's also on YouTube - https://www.youtube.com/watch?v=x6q7D8CXYbw"
   },
   {
-    "id": 2623,
-    "text": "This got broken because of how OVR() functionality was changed\r\nTIC + OVR Palette Change\r\nEnjoy !"
-  },
-  {
     "id": 3110,
     "text": "Filling screen with pixel tapestry patterns \u0026 jewellry"
+  },
+  {
+    "id": 2623,
+    "text": "This got broken because of how OVR() functionality was changed\r\nTIC + OVR Palette Change\r\nEnjoy !"
   },
   {
     "id": 3511,
@@ -5580,12 +5580,12 @@
     "text": "If you don't move mouse eyes follow lights, else it will follow you. Influnced by great old Xeyes. Didn't made 3d stuff for maybe 30 years, and made this in few hours, thanks to TIC-80 and Lua :)"
   },
   {
-    "id": 3939,
-    "text": "A very heavily WIP sokoban game I'm working on for fun (doesn't really have any proper levels yet, just mechanics I'm working on). Mostly just uploading to show a few friends.\r\n\r\nArrow keys to move, z to interact or activate current powerup if relevant, x to restart the level."
-  },
-  {
     "id": 3926,
     "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites."
+  },
+  {
+    "id": 3939,
+    "text": "A very heavily WIP sokoban game I'm working on for fun (doesn't really have any proper levels yet, just mechanics I'm working on). Mostly just uploading to show a few friends.\r\n\r\nArrow keys to move, z to interact or activate current powerup if relevant, x to restart the level."
   },
   {
     "id": 4364,
@@ -6516,12 +6516,12 @@
     "text": "Enjoy Animation :)\r\nOnly Pixel Art"
   },
   {
-    "id": 1853,
-    "text": "Press 'Z' to Reset\r\n\r\nFire Text Generation"
-  },
-  {
     "id": 2277,
     "text": "Pico8 sspr function implemented in TIC80 with a bit different arguments. (You can flip the sprite with negative width\u0026height).\r\n\r\nThe minor glitching due to a textri bug is fixed now with ttri.\r\n\r\nUse arrows \u0026 ABXY to resize \u0026 move.\r\n"
+  },
+  {
+    "id": 1853,
+    "text": "Press 'Z' to Reset\r\n\r\nFire Text Generation"
   },
   {
     "id": 1830,
@@ -6668,12 +6668,12 @@
     "text": "Turn any string to code.\r\nIt's cool to create Your own pseudo script for dialogues or adventure games."
   },
   {
-    "id": 2021,
-    "text": "Lovebyte 2021 Bytebattle Semifinal Superogue vs OrbitalDecay\r\n256 characters"
-  },
-  {
     "id": 3068,
     "text": "Enjoy !"
+  },
+  {
+    "id": 2021,
+    "text": "Lovebyte 2021 Bytebattle Semifinal Superogue vs OrbitalDecay\r\n256 characters"
   },
   {
     "id": 2058,
@@ -6768,16 +6768,20 @@
     "text": "Astrosmash like"
   },
   {
-    "id": 2879,
-    "text": "It's a clone of the Tiger Electronics classic Lights Out. Try to toggle all of the lights off by pressing buttons that toggle the lights in a cross pattern centered on the button you pressed. Plays with mouse/touch controls (plus gamepad to reset)."
-  },
-  {
     "id": 1950,
     "text": "Transparent Skull that Follows the Mouse Position"
   },
   {
+    "id": 2879,
+    "text": "It's a clone of the Tiger Electronics classic Lights Out. Try to toggle all of the lights off by pressing buttons that toggle the lights in a cross pattern centered on the button you pressed. Plays with mouse/touch controls (plus gamepad to reset)."
+  },
+  {
     "id": 2068,
     "text": "Press Left / Right to change Value\r\nPress 'Z' to Reset"
+  },
+  {
+    "id": 2875,
+    "text": "Action puzzle game in black \u0026 white created for the Black and White Jam #0.(9) https://itch.io/jam/black-and-white-jam-9 includes a high score table and uses code from @BearThorne for the drunk walk level generation code his great tutorial can be found here https://github.com/nesbox/TIC-80/wiki/Level-Generation%EA%9E%89-Drunk-Walk\r\nUpdated to fix bug which stopped moving obstacles reaching the edges. \r\n05/07/2022 Update to balance difficulty and add shield powerup to overcome being soft locked. "
   },
   {
     "id": 3251,
@@ -6786,10 +6790,6 @@
   {
     "id": 2430,
     "text": "A game about exploration with a christmas surprise at the end.\r\nGet special powers that help you in your journey.\r\n\r\n\r\n"
-  },
-  {
-    "id": 2875,
-    "text": "Action puzzle game in black \u0026 white created for the Black and White Jam #0.(9) https://itch.io/jam/black-and-white-jam-9 includes a high score table and uses code from @BearThorne for the drunk walk level generation code his great tutorial can be found here https://github.com/nesbox/TIC-80/wiki/Level-Generation%EA%9E%89-Drunk-Walk\r\nUpdated to fix bug which stopped moving obstacles reaching the edges. \r\n05/07/2022 Update to balance difficulty and add shield powerup to overcome being soft locked. "
   },
   {
     "id": 1748,
@@ -6976,20 +6976,20 @@
     "text": "my another work in paint"
   },
   {
-    "id": 3201,
-    "text": "My very first game.\r\nuse arrow keys to dodge meteorites"
-  },
-  {
     "id": 2254,
     "text": "Modified code of Superogue\r\nOriginal code of Superogue at : https://youtu.be/V7W4m8fKqmI"
   },
   {
-    "id": 3220,
-    "text": "1kb intro for Lovebyte2023"
+    "id": 3201,
+    "text": "My very first game.\r\nuse arrow keys to dodge meteorites"
   },
   {
     "id": 2963,
     "text": "You should try it"
+  },
+  {
+    "id": 3220,
+    "text": "1kb intro for Lovebyte2023"
   },
   {
     "id": 2215,
@@ -7004,12 +7004,12 @@
     "text": "Just some interesting visual noise. Use the arrow keys to change the center point, and use the pairs of buttons to increase/decrease the two main parameters. Refresh/restart to get a new initial seed and random configuration."
   },
   {
-    "id": 1214,
-    "text": "I think, in future I will finish this project. I will add some weapons(today it have 3) and enemy(today it have 2 and yes, one of them use turtle as a shield). You can write me some idea, I need them"
-  },
-  {
     "id": 1156,
     "text": "Ninja kills monster!\r\n - Collision need to be fixed!\r\n - Enemy life need to be showed\r\n - Must add music and fx"
+  },
+  {
+    "id": 1214,
+    "text": "I think, in future I will finish this project. I will add some weapons(today it have 3) and enemy(today it have 2 and yes, one of them use turtle as a shield). You can write me some idea, I need them"
   },
   {
     "id": 2396,
@@ -7160,6 +7160,10 @@
     "text": "Sun this an sun"
   },
   {
+    "id": 1716,
+    "text": "give feedback on how it feels, this is still being worked on"
+  },
+  {
     "id": 2782,
     "text": "MCH2022 byte jam inventation,  22-26 july Netherlands\r\nhttps://wiki.mch2022.org/Projects:Demoparty"
   },
@@ -7168,16 +7172,12 @@
     "text": "The forces of evil have arisen, kidnapping dozens of innocents from a nearby village. As a noble Crusader, your mission is to bring salvation to the helpless captives -- and the Lord's wrath upon their captors.\r\n\r\nBattle your way through 15 levels, slaying the creatures of darkness and rescuing the captives. Push crates, climb ladders, and avoid deadly traps to ensure that divine justice is delivered.\r\n\r\nControls:\r\n\r\nLeft/Right: Move\r\nUp: Climb ladders / Use levers\r\nDown: Descend ladders\r\nZ: Jump / Select\r\nX: Swing sword / Cancel\r\nS: Reset level\r\n\r\nMade in 72 hours for Ludum Dare 53."
   },
   {
-    "id": 1716,
-    "text": "give feedback on how it feels, this is still being worked on"
+    "id": 2090,
+    "text": "Implementation of Conway's \"Game of Life\".\r\n\r\nPress \"Z\" to reset the simulation."
   },
   {
     "id": 2439,
     "text": "Enjoy !"
-  },
-  {
-    "id": 2090,
-    "text": "Implementation of Conway's \"Game of Life\".\r\n\r\nPress \"Z\" to reset the simulation."
   },
   {
     "id": 3007,
@@ -7236,16 +7236,16 @@
     "text": "256 bytes packed.\r\n5th in the Get Ready New Talent Intro competition"
   },
   {
+    "id": 4295,
+    "text": "build containing 3 levels."
+  },
+  {
     "id": 2593,
     "text": "Enjoy !"
   },
   {
     "id": 1876,
     "text": "A platform game made to help my students.\r\nThanks to trelamar for the template."
-  },
-  {
-    "id": 4295,
-    "text": "build containing 3 levels."
   },
   {
     "id": 2822,
@@ -7332,12 +7332,12 @@
     "text": "simple free-to-use drag N drop N throw with working basic physics\r\n\r\ncheck\r\nhttps://linearharu.itch.io/\r\nfor more"
   },
   {
-    "id": 4024,
-    "text": "If you are the creator of the original port, and do not authorize this translation, please let me know."
-  },
-  {
     "id": 4040,
     "text": "Enjoy Animation"
+  },
+  {
+    "id": 4024,
+    "text": "If you are the creator of the original port, and do not authorize this translation, please let me know."
   },
   {
     "id": 2553,
@@ -7428,12 +7428,12 @@
     "text": "Play the piano by pressing the corresponding keys like in music editor!\r\n\r\nOther controls:\r\n- A: Toggle chord mode. In chord mode, press the keys to select notes and press space to play\r\n- Left \u0026 Right / Minus \u0026 Equals: Change octave.\r\n\r\nCurrently does not support keyboard config, thus only compatible with QWERTY layout. :-/"
   },
   {
-    "id": 2665,
-    "text": "Pretty Spirals"
-  },
-  {
     "id": 3478,
     "text": "Enjoy Pendulum"
+  },
+  {
+    "id": 2665,
+    "text": "Pretty Spirals"
   },
   {
     "id": 3324,
@@ -7476,12 +7476,12 @@
     "text": "Compatible with version 1.1.2837 (be42d6f)\r\nSee https://github.com/nesbox/TIC-80/wiki/Themes for other themes and how to apply."
   },
   {
-    "id": 3931,
-    "text": "Caleb's got to save the babes on his surfboard!\r\nan art fight attack for fantomfoxy"
-  },
-  {
     "id": 4330,
     "text": "This nice game, play now!"
+  },
+  {
+    "id": 3931,
+    "text": "Caleb's got to save the babes on his surfboard!\r\nan art fight attack for fantomfoxy"
   },
   {
     "id": 3634,
@@ -7692,12 +7692,12 @@
     "text": "Submission to Battle of the Bits Game Jam 5. Entry link: https://battleofthebits.com/arena/Entry/Time+Enforcer+%28Unfinished+Prototype%29/66165/\r\n\r\nDISCLAIMER: This is an unfinished prototype build. A full version is currently unlikely, but may happen in the future. I ran out of motivation to work on this towards the end, but since mioh worked really hard on pixels for this and I didn't want to disappoint them, I added a gallery containing the stuff I never got around to inserting in-game as a compromise.\r\n\r\nThe year is 25XX. The advent of affordable time travel has led opportunistic criminals to travel back in time to commit misdemeanors. In response, the Time Enforcers were established in order to maintain the stability of the timeline. You are Myla, a new recruit for the Time Enforcers. Intelligence reports have uncovered a recent plot by the Time Killers to travel back in time to the middle ages for yet unknown reasons. Your mission, should you choose to accept it, is to travel back in time yourself and put a stop to whatever they're up to.\r\n\r\nCREDITS\r\n=======\r\nCode, music, additional graphics: DevEd\r\nGraphics: mioh\r\n\r\n(By the way, while \"in-game\", press S to access the medieval level) "
   },
   {
-    "id": 3572,
-    "text": "Visualization of the k-means clustering algorithm."
-  },
-  {
     "id": 4238,
     "text": "Press LEFT/DOWN to decrease no of arms\r\nPress RIGHT/UP to increase no of arms"
+  },
+  {
+    "id": 3572,
+    "text": "Visualization of the k-means clustering algorithm."
   },
   {
     "id": 4334,
@@ -8492,6 +8492,10 @@
     "text": "Rotating earth made with quaternions\r\nI plan to improve graphics and add tasks to locate real places."
   },
   {
+    "id": 2814,
+    "text": "Fennel Bird is a Flappybird clone coded in the Fennel language on the Tic-80 fantasy console.\r\n\r\nThis is my entry for Fennel Jam 1 - https://itch.io/jam/fennel-game-jam-1\r\n\r\nLink to game on itch.io - https://parlortricks.itch.io/fennelbird\r\n\r\n\r\nControls\r\nMenu\r\n\r\n    UP\r\n    DOWN\r\n    Z(A)\r\n    X(B)\r\n\r\nGame - all gamepad input will make the bird flap\r\n\r\n    UP\r\n    DOWN\r\n    LEFT\r\n    RIGHT\r\n    Z(A)\r\n    X(B) \r\n\r\n\r\nSee how high you can score!\r\n\r\n"
+  },
+  {
     "id": 382,
     "text": "Simon game javascript TIC-80"
   },
@@ -8502,10 +8506,6 @@
   {
     "id": 1161,
     "text": "Normal\r\n\r\n0 - smile\r\n1 - neturl\r\n2 - sad\r\n3 - happy\r\n4 - sad\r\n5 - showing tounge\r\n6 - laughing crying\r\n7 - crying sad\r\n8 - cute smile\r\n9 - cute sad\r\n: - cute open mouth\r\n\r\nShadow\r\n\r\n! - Face design type 1\r\n\" - Face design type 2\r\n# - Face design type 3\r\n-------------------------------\r\n\r\nDiscord Server: https://discord.gg/PCpXcR9\r\n\r\n(C) 2019-2020 Master Nama"
-  },
-  {
-    "id": 2814,
-    "text": "Fennel Bird is a Flappybird clone coded in the Fennel language on the Tic-80 fantasy console.\r\n\r\nThis is my entry for Fennel Jam 1 - https://itch.io/jam/fennel-game-jam-1\r\n\r\nLink to game on itch.io - https://parlortricks.itch.io/fennelbird\r\n\r\n\r\nControls\r\nMenu\r\n\r\n    UP\r\n    DOWN\r\n    Z(A)\r\n    X(B)\r\n\r\nGame - all gamepad input will make the bird flap\r\n\r\n    UP\r\n    DOWN\r\n    LEFT\r\n    RIGHT\r\n    Z(A)\r\n    X(B) \r\n\r\n\r\nSee how high you can score!\r\n\r\n"
   },
   {
     "id": 1324,
@@ -8648,16 +8648,16 @@
     "text": "(C) 2019-2021 Master Nama"
   },
   {
+    "id": 1261,
+    "text": "The Kings of Wizardry have sentenced your academy to destruction on charges of lax pest control! Use the arrow keys to escape the magical gravity vortex and get to the ladders left by your fellow scholars. And please stop panicking and using the number keys to turn into birds!"
+  },
+  {
     "id": 1896,
     "text": "Enjoy Animation"
   },
   {
     "id": 1243,
     "text": "Ball Bouncing on a String . How is it possible ? I don't know \u003e_\u003c"
-  },
-  {
-    "id": 1261,
-    "text": "The Kings of Wizardry have sentenced your academy to destruction on charges of lax pest control! Use the arrow keys to escape the magical gravity vortex and get to the ladders left by your fellow scholars. And please stop panicking and using the number keys to turn into birds!"
   },
   {
     "id": 2026,
@@ -9052,12 +9052,12 @@
     "text": "haha honk"
   },
   {
-    "id": 2179,
-    "text": "Eye follows the mouse\r\nMove the mouse around"
-  },
-  {
     "id": 1186,
     "text": "verlet integration testing.\r\n\r\nGenerate by dragging the mouse.\r\nPress button A to clear.\r\n"
+  },
+  {
+    "id": 2179,
+    "text": "Eye follows the mouse\r\nMove the mouse around"
   },
   {
     "id": 1474,
@@ -9104,16 +9104,16 @@
     "text": "Enjoy"
   },
   {
+    "id": 3242,
+    "text": "You are the Gravity Frog, a might gravity bending superfrog!\r\n\r\nEat the apples and catch the bugs while avoiding spikes to maximime your score.\r\nHefty bonus for getting all of the collectibles and reaching the end, but beware, death incurs a score penalty...\r\n\r\nZ (button 4) to flip gravity, X (button 5) to use tongue.\r\n\r\nUpdate 1: Made the game just a tiny bit easier, the third floor was VERY tough (but doable) if you wanted to get all the apples."
+  },
+  {
     "id": 2075,
     "text": "Enjoy Motion Animation"
   },
   {
     "id": 2115,
     "text": "Enjoy Waves !\r\nSimplified with the help of Popolon"
-  },
-  {
-    "id": 3242,
-    "text": "You are the Gravity Frog, a might gravity bending superfrog!\r\n\r\nEat the apples and catch the bugs while avoiding spikes to maximime your score.\r\nHefty bonus for getting all of the collectibles and reaching the end, but beware, death incurs a score penalty...\r\n\r\nZ (button 4) to flip gravity, X (button 5) to use tongue.\r\n\r\nUpdate 1: Made the game just a tiny bit easier, the third floor was VERY tough (but doable) if you wanted to get all the apples."
   },
   {
     "id": 1116,
@@ -9128,20 +9128,20 @@
     "text": "Enjoy Animation"
   },
   {
-    "id": 2028,
-    "text": "Enjoy Impossible Illusion Animation"
-  },
-  {
     "id": 1638,
     "text": "my work in paint"
   },
   {
-    "id": 2054,
-    "text": "Press Left / Right to Decrease / Increase Speed\r\nPatterns good at high speed like speed = 8 or speed = 16\r\nPress 'Z' to reset"
+    "id": 2028,
+    "text": "Enjoy Impossible Illusion Animation"
   },
   {
     "id": 2319,
     "text": "Live coded for the Inercia 2021 ByteJam"
+  },
+  {
+    "id": 2054,
+    "text": "Press Left / Right to Decrease / Increase Speed\r\nPatterns good at high speed like speed = 8 or speed = 16\r\nPress 'Z' to reset"
   },
   {
     "id": 2132,
@@ -9200,12 +9200,12 @@
     "text": "Enjoy Animation"
   },
   {
-    "id": 2180,
-    "text": "Enjoy !"
-  },
-  {
     "id": 1908,
     "text": "Enjoy Animation"
+  },
+  {
+    "id": 2180,
+    "text": "Enjoy !"
   },
   {
     "id": 2423,
@@ -9312,12 +9312,12 @@
     "text": "Well, I made a remake of my beepbox's music on TIC-80. Okay, we're making have fun! :)\r\nSource Link from Original (My New Beepbox's Music is here): https://tinyurl.com/58dhzxch\r\n\r\nCREDIT: This cartridge was taken from the \"Sound Registers visualizer\" code by Nesbox.\r\n\r\n\"Creating songs with a beepbox that makes it easier to create awesome music/melody notes!\"\r\n- 12th April 2023, Me.\r\n(C) 2023 MegaBits21"
   },
   {
-    "id": 1923,
-    "text": "Game with a deep story about a karateman. Use arrow keys and Z"
-  },
-  {
     "id": 2500,
     "text": "attempt at a 3D engine based on ray-tracing, barely fast enough to be any useful.\r\nno reflections, lighting, texture mapping, (or anything else) included.\r\n\r\n--------------- Controls --------------- \r\nUP/DOWN -\u003e move back and forth.\r\nLEFT/RIGHT -\u003e look right and left.\r\nA/B -\u003e look up and down.\r\nX -\u003e debug.\r\nY -\u003e high-res render mode.\r\n\r\n------------- Last Changes -------------\r\n- math optimizations.\r\n- general code revamping.\r\n\r\n++download cart for better performance\r\n+faster on build 1.0 nightly"
+  },
+  {
+    "id": 1923,
+    "text": "Game with a deep story about a karateman. Use arrow keys and Z"
   },
   {
     "id": 2012,
@@ -9560,12 +9560,12 @@
     "text": "Dice chess inspired by https://pierre-vandermaesen.itch.io/dicetance"
   },
   {
-    "id": 1837,
-    "text": "not mine"
-  },
-  {
     "id": 1282,
     "text": "Test et optimisation d'un moteur 3D (RayCasting).\r\n"
+  },
+  {
+    "id": 1837,
+    "text": "not mine"
   },
   {
     "id": 2809,
@@ -9584,12 +9584,12 @@
     "text": "Help Bowser conquer the board! A simple game that is meant to be used with Mario Kart 8. The rules are simple:\r\n1. Add players to the player list on the right (Press Y to change their name)\r\n2. Everyone selects a racer for the round\r\n3. Play Mario Kart with that racer\r\n4. Whoever wins the races gets to claim the tile in their color\r\n5. Repeat 2-4 until someone claims most of the board\r\n\r\nTile Rules:\r\nTiles cannot be lost or stolen\r\nWhen A tile is enclosed by others, the closing tile owner gets the tiles on the inside. Example, if someone claims Metal Mario (MMA) they will get all the tiles in the top right corner.\r\n\r\nChange the rules to make it more fun for your friends!"
   },
   {
-    "id": 1485,
-    "text": "use \"A S D\" to move (no jump yet)"
-  },
-  {
     "id": 2587,
     "text": "Press UP / DOWN / LEFT / RIGHT to move\r\nPress Z / X to change Colors\r\nPress A to Reset\r\nEnjoy !"
+  },
+  {
+    "id": 1485,
+    "text": "use \"A S D\" to move (no jump yet)"
   },
   {
     "id": 2199,
@@ -9940,12 +9940,12 @@
     "text": "Sound.. Test?"
   },
   {
-    "id": 3333,
-    "text": "[pt-br]\r\nUma tradução do cart \"Donsol for Tic-80\" para português, tornando mais fácil para os não-falantes de inglês.\r\n\r\n[english]\r\nA translation of the \"Donsol for Tic-80\" cart into Portuguese, making it easier for non-English speakers."
-  },
-  {
     "id": 2729,
     "text": "Another game based on a ZX Spectrum game I enjoyed in the 80's. This is \"Ground Attack\"\r\n\r\nYou fly a spaceship through a cave, the cave gets thinner (or will do when I actually used the level editor). There are missiles which launch at you and odd blinking things (that I could never figure out what they were supposed to be) which hinder your progress. Make sure you destroy the fuel dumps (the blue things) for extra points.\r\n\r\nUse your trusty laser with the (b) button and drop bombs with (a). Move around with the arrow keys. Don't hit anything or get hit by anything. Make your way to the end of the cave and enter the portal at the end (blue circle).\r\n\r\nI've no idea what was at the end of the original as I never got that far.\r\n\r\nI've been experimentally making a level for it.\r\n\r\nYou have 5 lives. There are now checkpoints so if you die, you start again at the last one."
+  },
+  {
+    "id": 3333,
+    "text": "[pt-br]\r\nUma tradução do cart \"Donsol for Tic-80\" para português, tornando mais fácil para os não-falantes de inglês.\r\n\r\n[english]\r\nA translation of the \"Donsol for Tic-80\" cart into Portuguese, making it easier for non-English speakers."
   },
   {
     "id": 1646,
@@ -10044,12 +10044,12 @@
     "text": "A Minesweeper clone for the TIC-80. You can left-click to dig up a spot, and right-click to place a flag. Try to reveal every spot without digging up any mines! Numbers shows tell you how many mines are around that spot."
   },
   {
-    "id": 1521,
-    "text": "The Mandelbrot set! You are currently unable to move around it."
-  },
-  {
     "id": 2351,
     "text": "Demo #7 shows adding sign waves together to generate nice flowing patterns.\r\nu,p,l,r,a,b,x,y will generate a new pattern or just wait 10 seconds and it will change on its own.\r\n\r\nscript:lua"
+  },
+  {
+    "id": 1521,
+    "text": "The Mandelbrot set! You are currently unable to move around it."
   },
   {
     "id": 2628,
@@ -10072,12 +10072,12 @@
     "text": "Bytes n Bits Space Invaders tutorial - Delicious in Dungeon style"
   },
   {
-    "id": 2876,
-    "text": "Press A Or B To Change Year Speed"
-  },
-  {
     "id": 2335,
     "text": "demo2 shows 2 filled vector rectangles draw on screen rotating around their point and around another origin.\r\n\r\nscript: fennel"
+  },
+  {
+    "id": 2876,
+    "text": "Press A Or B To Change Year Speed"
   },
   {
     "id": 3108,
@@ -10300,12 +10300,12 @@
     "text": "A minimal demo rotating Gielis-style surfaces to give a pseudo z axis effect, slowing incrementing vertex number from 3 up to 7 then back round from 1\r\n"
   },
   {
-    "id": 3544,
-    "text": "Enjoy Rainbow Sword for Swordtember 2023 !"
-  },
-  {
     "id": 2864,
     "text": "Left click to draw\r\nRight click to erase\r\nPress Del key to clear your drawing\r\nAnd middle click to visit the rainbow road!"
+  },
+  {
+    "id": 3544,
+    "text": "Enjoy Rainbow Sword for Swordtember 2023 !"
   },
   {
     "id": 3497,
@@ -10404,12 +10404,12 @@
     "text": "Your light has been fragmented! You can only interact with other things of the same color. Collect the prism fragments while dodging the enemies to escape.\r\n\r\nSteer with the mouse. You're in space, so you have inertia to deal with.  You can adjust sensitivity with the scroll wheel.\r\n\r\nShoot with the mouse button. There are some other weapons you can pick up, but use them wisely.\r\n\r\nNeed to pick up a gem in a different color? Find a portal. You can only visit neighboring colors: red \u003c\u003e yellow \u003c\u003e green \u003c\u003e cyan \u003c\u003e blue \u003c\u003e purple \u003c\u003e red\r\n\r\nExtra life every 3000 points."
   },
   {
-    "id": 3619,
-    "text": "Just an another Sokoban"
-  },
-  {
     "id": 4086,
     "text": "Idea by PotatoImaginator!\r\n\r\nOpen in two separate windows and press A to sync the movement in two windows together.\r\n\r\nIf you have a TIC-80 version with fft(), you just need to press A on one window. Otherwise, tstamp() is used, and you have to press A on every window quickly.\r\n\r\nUse the arrow keys to change the camera view so you can see the balls moving from two different views. :)\r\n\r\nBy default the playing field is two screens wide, one screen tall. You can change the screen_x and screen_y values in code for a different size.\r\n\r\nYou can also change the w_bezel and h_bezel values to account for the black borders between windows (default sizes 0 and 0)."
+  },
+  {
+    "id": 3619,
+    "text": "Just an another Sokoban"
   },
   {
     "id": 4268,
@@ -10588,12 +10588,12 @@
     "text": "Don't forget to check out Lovebyte this weekend (9-11 Feb 2024) :)\r\nhttps://lovebyte.party/"
   },
   {
-    "id": 4090,
-    "text": "an experimental art about being silenced\r\n\r\nthe first art piece i made into an art exibition, at\r\nhttps://www.instagram.com/nauapi\r\n\r\na mix of random walker, non-cleaning screen, and generative map\r\ncheck out my stuff at\r\nhttps://devvand.itch.io/"
-  },
-  {
     "id": 3750,
     "text": "256b executable graphics entry for Lovebyte 2024"
+  },
+  {
+    "id": 4090,
+    "text": "an experimental art about being silenced\r\n\r\nthe first art piece i made into an art exibition, at\r\nhttps://www.instagram.com/nauapi\r\n\r\na mix of random walker, non-cleaning screen, and generative map\r\ncheck out my stuff at\r\nhttps://devvand.itch.io/"
   },
   {
     "id": 3660,
@@ -10732,12 +10732,16 @@
     "text": "Press up \u0026 down to control wind speed."
   },
   {
+    "id": 4278,
+    "text": "Enjoy Volleyball Typography Animation"
+  },
+  {
     "id": 4327,
     "text": "Tool to edit/create/export font for TIC-80 and use it with PRINT function.\r\n\r\n3 fonts included.\r\n\r\nDocumentation in the code.\r\n\r\nInspiration from TicMcTile by PhilSwiss."
   },
   {
-    "id": 4278,
-    "text": "Enjoy Volleyball Typography Animation"
+    "id": 4362,
+    "text": "a theme for TIC-80 that tries to recreate versions before 0.80 that use the DB-16 along with some improvements on them.\r\n\r\nto use this theme, you can add a backup of your original config file (optional) and then type \"save .local/be42d6f/config.tic\" on the CLI while the cart is loaded."
   },
   {
     "id": 3826,
@@ -10746,10 +10750,6 @@
   {
     "id": 4096,
     "text": "WIP (GPLv3) Multiplayer action(-adventure/roleplaying?) game. The goal is to made a game with cooperative, collaborating and competitive tastes. The player are controlled by the same keys for this time, this is a very experimental phase.\r\n\r\nAt the moment, the winer is the first to go to the 'green' door.\r\n- button 1: strike\r\n- button 2: jump\r\n- button 3: get/drop object (shield can't be droped)\r\n\r\nUpdate 2025-01-19:\r\n* Character can hit other one, they can dead, hit points are naivly computed after power of user and it's weapon if it has one.\r\n* Added a simple sound when striking :)\r\n* add tomb sprite when user dead, blood when hit.\r\n* Add a real labyrinthe with basic traps"
-  },
-  {
-    "id": 4362,
-    "text": "a theme for TIC-80 that tries to recreate versions before 0.80 that use the DB-16 along with some improvements on them.\r\n\r\nto use this theme, you can add a backup of your original config file (optional) and then type \"save .local/be42d6f/config.tic\" on the CLI while the cart is loaded."
   },
   {
     "id": 4065,
@@ -11212,12 +11212,12 @@
     "text": "BUG:\r\nTIC-80 website. this is virtual tic-80 computer. TIC-80 command type \"save\" and enter. click restart icon to reload page. click to start. Now see what magic happens File is saved changed not saved.\r\n--------------------------------------------------------------------------------------------------------------\r\nUpdated cartridge after changed see it's works.\r\n\r\nLink:https://tic.computer/play?cart=883\r\n\r\n(C) 2019 Master Nama"
   },
   {
-    "id": 213,
-    "text": "My first TIC-80 demo."
-  },
-  {
     "id": 306,
     "text": "Another New Map"
+  },
+  {
+    "id": 213,
+    "text": "My first TIC-80 demo."
   },
   {
     "id": 977,
@@ -11504,12 +11504,12 @@
     "text": "Up to you to use it! :)"
   },
   {
-    "id": 1218,
-    "text": "Triple Yin-Yang with 3 colors"
-  },
-  {
     "id": 612,
     "text": "just a unfinished rom"
+  },
+  {
+    "id": 1218,
+    "text": "Triple Yin-Yang with 3 colors"
   },
   {
     "id": 1236,
@@ -11596,12 +11596,12 @@
     "text": "miniPacker 1.0 (beta)"
   },
   {
-    "id": 1306,
-    "text": "Just Sine Wave with Primes"
-  },
-  {
     "id": 1213,
     "text": "Original Cartridge:\r\nhttps://tic.computer/play?cart=401\r\n\r\nNew Discord Server:\r\nhttps://discord.gg/nbWcSuS\r\n\r\n\r\n© 2019-2020 Master Nama."
+  },
+  {
+    "id": 1306,
+    "text": "Just Sine Wave with Primes"
   },
   {
     "id": 1082,
@@ -11640,12 +11640,12 @@
     "text": "Beautiful Girl named Elena Animation"
   },
   {
-    "id": 290,
-    "text": "babby's first flame particle emitter"
-  },
-  {
     "id": 1405,
     "text": "Press 'Z' to reset"
+  },
+  {
+    "id": 290,
+    "text": "babby's first flame particle emitter"
   },
   {
     "id": 1347,
@@ -11724,12 +11724,12 @@
     "text": "just an image, music soon. i dont want to lose it so upload here :)"
   },
   {
-    "id": 1946,
-    "text": "Enjoy Animation"
-  },
-  {
     "id": 1408,
     "text": "I'm running version: 0.80.1312-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+  },
+  {
+    "id": 1946,
+    "text": "Enjoy Animation"
   },
   {
     "id": 1330,
@@ -12180,12 +12180,12 @@
     "text": "8-bit graffiti drawing tool inspired by the excellent PAINT 31 by Fachi177. \r\n\r\n- Click to draw using the left mouse button.\r\n- Cycle through the color palette with the right mouse button.\r\n- Use the middle mouse button for \"marker\" mode (no splashes).\r\n- Change background using: import sprites \u003cyour PNG file\u003e (128x128 tiling recommended)\r\n\r\nWorks well with a Wacom tablet.\r\nMade at Cosin 2025 as part of a demoscene/TIC-80 workshop: \r\nhttps://make.echtzeitkultur.org/project/187\r\nhttps://gist.github.com/loleg/4774449a0ec323d78f45658ff63bde61"
   },
   {
-    "id": 2183,
-    "text": "Enjoy !"
-  },
-  {
     "id": 2350,
     "text": "Draw a moving sine wave. Nothing fancy here, just learning more about maths.\r\n\r\ncart contains a nice function mapv() that i copied from processing.\r\nalso testing out demo footer\r\n\r\nscript:lua"
+  },
+  {
+    "id": 2183,
+    "text": "Enjoy !"
   },
   {
     "id": 1679,
@@ -12216,12 +12216,12 @@
     "text": "Enjoy !"
   },
   {
-    "id": 2388,
-    "text": "Enjoy !"
-  },
-  {
     "id": 3521,
     "text": "Game mod\r\nHack by Kylesubhan1"
+  },
+  {
+    "id": 2388,
+    "text": "Enjoy !"
   },
   {
     "id": 3298,
@@ -12404,12 +12404,12 @@
     "text": "WIP port of the ZX Spectrum game \"Jet Set Willy\". Currently you can only animate Willy walking left and right, change rooms with buttons and see the rooms with items and collect and the \"nasties\" moving about. No death implemented yet. "
   },
   {
-    "id": 2577,
-    "text": "Enjoy !"
-  },
-  {
     "id": 2414,
     "text": "Work in Progress..."
+  },
+  {
+    "id": 2577,
+    "text": "Enjoy !"
   },
   {
     "id": 2621,
@@ -12468,12 +12468,12 @@
     "text": "A hypnotoad comedy value demo, made for LoveByte 2024. Packs to 255 bytes"
   },
   {
-    "id": 2298,
-    "text": "128b thing"
-  },
-  {
     "id": 2638,
     "text": "Press 'Z' to Reset"
+  },
+  {
+    "id": 2298,
+    "text": "128b thing"
   },
   {
     "id": 2487,
@@ -12488,12 +12488,12 @@
     "text": "256b executable graphics for Lovebyte22"
   },
   {
-    "id": 2568,
-    "text": "WIP - bringing colour to the ray0n world\r\n\r\nsee https://tic80.com/play?cart=2512\r\nthis is a derivative (extremely unfinished) with RGB values\r\n\r\ndon't expect too much. performance is bad, it doesn't look nearly as good as the original ray0n and I have yet to figure out how to do the dithering.\r\n\r\nchangelog:\r\n0012.0001 - initial version derived from ray0n 0012. raytrace function now returns rgb vector, but colour rendering is not done properly yet ( let's see how far we can get with a 4-bit palette ;-) )\r\n0012.0002 - palette randomization\r\n0012.0002.0001 - removed blue.\r\n\r\n(oops, screenshot didn't catch the modified palette ... faking it)\r\n\r\nRoadmap:\r\nrevamp color rendering: devise algorithm to dynamically quantize HSV space and create \"the most optimal palette\" according to frame contents\r\n\r\n(I wonder - how to fix the screenshot? Is that a bug in tic80?)"
-  },
-  {
     "id": 2810,
     "text": "...and don't forget to come to Demoscene Report May 2022 Mega intro!!!"
+  },
+  {
+    "id": 2568,
+    "text": "WIP - bringing colour to the ray0n world\r\n\r\nsee https://tic80.com/play?cart=2512\r\nthis is a derivative (extremely unfinished) with RGB values\r\n\r\ndon't expect too much. performance is bad, it doesn't look nearly as good as the original ray0n and I have yet to figure out how to do the dithering.\r\n\r\nchangelog:\r\n0012.0001 - initial version derived from ray0n 0012. raytrace function now returns rgb vector, but colour rendering is not done properly yet ( let's see how far we can get with a 4-bit palette ;-) )\r\n0012.0002 - palette randomization\r\n0012.0002.0001 - removed blue.\r\n\r\n(oops, screenshot didn't catch the modified palette ... faking it)\r\n\r\nRoadmap:\r\nrevamp color rendering: devise algorithm to dynamically quantize HSV space and create \"the most optimal palette\" according to frame contents\r\n\r\n(I wonder - how to fix the screenshot? Is that a bug in tic80?)"
   },
   {
     "id": 2525,
@@ -12596,12 +12596,12 @@
     "text": "In all seriouness though: this is an example of a conformal map fractal."
   },
   {
-    "id": 2559,
-    "text": "A silly game I made. You control your character and the hoards of robots come for you. For some reason they only more towards you if you are in line with them. The idea is to lead them away from the top corner and then collect the computer there. Arrow keys to move."
-  },
-  {
     "id": 2821,
     "text": "This is daves84 nanostack converted from Lua to Fennel with his permission.\r\n\r\n- itch link -\u003e https://daves84.itch.io/nanostack\r\n- tic80 wiki -\u003e https://github.com/nesbox/TIC-80/wiki/Nanostack\r\n- gitlab -\u003e https://gitlab.com/ParlorTricks/nanostack"
+  },
+  {
+    "id": 2559,
+    "text": "A silly game I made. You control your character and the hoards of robots come for you. For some reason they only more towards you if you are in line with them. The idea is to lead them away from the top corner and then collect the computer there. Arrow keys to move."
   },
   {
     "id": 2176,
@@ -12628,12 +12628,12 @@
     "text": "Draws sierpinksi triangle using the chaos game algorithm"
   },
   {
-    "id": 2297,
-    "text": "Wave function for making water or effects"
-  },
-  {
     "id": 2328,
     "text": "Created a palette scroller in fennel that goes over a list of predefined palettes, 76 in total so far that I took off http://lospec.com\r\n\r\nz - pause\r\nx - unpause\r\n\r\nscript: fennel"
+  },
+  {
+    "id": 2297,
+    "text": "Wave function for making water or effects"
   },
   {
     "id": 3270,
@@ -13036,12 +13036,12 @@
     "text": "128 byte intro released at Lovebyte 2023"
   },
   {
-    "id": 3289,
-    "text": "NOTE: This cartridge was made in 2021 (outdated version)\r\nso we're going to make a 2023 updated version that could be better :)\r\n\r\nHELP (Tutorial):\r\nPress Up to Move Up Ball.\r\nPress Down to Move Down Ball.\r\nPress A (Mobile) / Z (Keyboard) to Grow up Ball.\r\nPress B (Mobile) / X (Keyboard) to Shrink Down the Ball.\r\nPress Q (Keyboard) to Change the Colour's Ball.\r\nPress 1 (Keyboard) to Reset Cartridge.\r\nPress Y (Mobile) / S (Keyboard) to Left Moving Fast Ball.\r\nPress X (Mobile) / A (Keyboard) to Right Moving Fast Ball.\r\n\r\nChangelog V1.0 (2023 Update):\r\n- Added Trace Debug (check for code editor to see \"tracedebug\" in settings variable\r\nto change like this \"false\" to \"after\"\r\n- Added All Proper Variables in this code\r\n- Removed some unused\r\n- Changed Circle is too big (obj_size=130), a circle is too small (obj_size=0) Limited\r\nwhen pressing A or B buttons with the proper function system\r\n- And More!\r\n\r\n(C) 2023 MegaBits21"
-  },
-  {
     "id": 3976,
     "text": "Messy work in progress on something with many autonomous walkers in a single large map. Not sure what other game mechanics this needs."
+  },
+  {
+    "id": 3289,
+    "text": "NOTE: This cartridge was made in 2021 (outdated version)\r\nso we're going to make a 2023 updated version that could be better :)\r\n\r\nHELP (Tutorial):\r\nPress Up to Move Up Ball.\r\nPress Down to Move Down Ball.\r\nPress A (Mobile) / Z (Keyboard) to Grow up Ball.\r\nPress B (Mobile) / X (Keyboard) to Shrink Down the Ball.\r\nPress Q (Keyboard) to Change the Colour's Ball.\r\nPress 1 (Keyboard) to Reset Cartridge.\r\nPress Y (Mobile) / S (Keyboard) to Left Moving Fast Ball.\r\nPress X (Mobile) / A (Keyboard) to Right Moving Fast Ball.\r\n\r\nChangelog V1.0 (2023 Update):\r\n- Added Trace Debug (check for code editor to see \"tracedebug\" in settings variable\r\nto change like this \"false\" to \"after\"\r\n- Added All Proper Variables in this code\r\n- Removed some unused\r\n- Changed Circle is too big (obj_size=130), a circle is too small (obj_size=0) Limited\r\nwhen pressing A or B buttons with the proper function system\r\n- And More!\r\n\r\n(C) 2023 MegaBits21"
   },
   {
     "id": 3224,
@@ -13292,16 +13292,16 @@
     "text": "The function get_text_height, which takes in the text to be displayed and splits it into individual lines while also calculating the height of the text in pixels. \r\n\r\nThe function does this by creating an empty table to store the individual lines and then iterating through each line of text using the gmatch method. The height is then calculated based on the number of lines and returned.\r\n\r\nThe function scroll_text, which sets the text to be displayed, gets the height of the text, calculates the time elapsed, sets the speed and color of the text, sets the starting position for the text, and then prints the text on the screen with a scrolling effect.\r\n\r\nA simple yet effective way to display scrolling text on the screen with customizable text, speed, and color."
   },
   {
+    "id": 4354,
+    "text": "Overview top 10 classic demo effects."
+  },
+  {
     "id": 2943,
     "text": "catch things, gain more score, enjoy ;)"
   },
   {
     "id": 3503,
     "text": "Presented in wild compo at On-Track demoparty at Chaos Communication Camp 2023"
-  },
-  {
-    "id": 4354,
-    "text": "Overview top 10 classic demo effects."
   },
   {
     "id": 3972,
@@ -13744,16 +13744,16 @@
     "text": "A simple pong clone"
   },
   {
+    "id": 4372,
+    "text": "Thanks for the source code REVENGE OF YAKYUKEN. It's simple: win the game of rock, paper, scissors, and undress the girl\r\nLeft: Rock\r\nUp: Scissors\r\nRight: Paper\r\nZ: To Next\r\nOr Click on the screen with the mouse."
+  },
+  {
     "id": 3652,
     "text": "Day 2 of Tiny Code Christmas. The tree is in a raging blizzard of snow"
   },
   {
     "id": 3755,
     "text": "Go for a super fast run"
-  },
-  {
-    "id": 4372,
-    "text": "Thanks for the source code REVENGE OF YAKYUKEN. It's simple: win the game of rock, paper, scissors, and undress the girl\r\nLeft: Rock\r\nUp: Scissors\r\nRight: Paper\r\nZ: To Next\r\nOr Click on the screen with the mouse."
   },
   {
     "id": 3941,
@@ -13944,12 +13944,12 @@
     "text": "横移動が速すぎる落ち物ゲーム\r\nhard tetris-like lil game.\r\nhttps://www.youtube.com/channel/UC7s5OAO5jmVUmGAH0gSyHzA/community?lb=UgkxS0Q1URIu5Gc0W8atK6jAKTuCpppj-3xx\r\nCHIKI BRIKI!"
   },
   {
-    "id": 4111,
-    "text": "A fighting game with 2 wizards"
-  },
-  {
     "id": 3908,
     "text": "EasyHex Palette - A palette that uses the \"true\" color hex codes."
+  },
+  {
+    "id": 4111,
+    "text": "A fighting game with 2 wizards"
   },
   {
     "id": 3916,
@@ -14404,12 +14404,12 @@
     "text": "Ping Pong sample! (0.0.21)\r\n\r\nmade in a external engine, thats export to another platforms like love2d, TVs and playstation.\r\nsee more:\r\n\r\nhttps://github.com/gly-engine/gly-engine\r\nhttps://playground.gamely.com.br\r\nhttps://docs.gamely.com.br/pong\r\nhttps://pong.gamely.com.br"
   },
   {
-    "id": 4212,
-    "text": "Zig Performance Test."
-  },
-  {
     "id": 4168,
     "text": "..."
+  },
+  {
+    "id": 4212,
+    "text": "Zig Performance Test."
   },
   {
     "id": 4259,
@@ -14588,12 +14588,12 @@
     "text": "so your eyes wont burn,\r\napply this to your config file"
   },
   {
-    "id": 4302,
-    "text": "A weird pong project."
-  },
-  {
     "id": 4267,
     "text": "Demo that will eventually turn in to a game"
+  },
+  {
+    "id": 4302,
+    "text": "A weird pong project."
   },
   {
     "id": 4286,
@@ -14708,12 +14708,12 @@
     "text": "CHILEAN LINE - fix for a major gamebreaking issue.\r\ngame multiplayer-local\r\nmade by @ATS_xp\r\noriginally uploaded by AranXP123\r\nhttps://tic80.com/play?cart=2230"
   },
   {
-    "id": 4337,
-    "text": "Se vira "
-  },
-  {
     "id": 4329,
     "text": "A third simple demo i've made since you know, before"
+  },
+  {
+    "id": 4337,
+    "text": "Se vira "
   },
   {
     "id": 4373,
@@ -14728,12 +14728,12 @@
     "text": "A demo for an afterimage visual effect."
   },
   {
-    "id": 4357,
-    "text": "Um teste"
-  },
-  {
     "id": 4344,
     "text": "Stereographic Projection of Watermelon Animation"
+  },
+  {
+    "id": 4357,
+    "text": "Um teste"
   },
   {
     "id": 4342,
