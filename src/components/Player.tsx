@@ -11,6 +11,9 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
   const gameBorderRef = useRef<HTMLDivElement>(null);
   const [tic80Module, setTic80Module] = useState<any>(null);
 
+  // Cache-busting parameter based on latest commit hash
+  const cacheBuster = __COMMIT_HASH__;
+
   useEffect(() => {
     const updateHeight = () => {
       if (gameBorderRef.current) {
@@ -44,7 +47,7 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
     if (!tic80Module && canvasRef.current) {
       try {
         // Load tic80.js as a module from public folder
-        const response = await fetch('/tic80.js');
+        const response = await fetch(`/tic80.js?v=${cacheBuster}`);
         const scriptText = await response.text();
 
         // Create a blob URL for the module
@@ -57,7 +60,7 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
           canvas: canvasRef.current,
           locateFile: (path: string) => {
             if (path === 'tic80.wasm') {
-              return '/tic80.wasm';
+              return `/tic80.wasm?v=${cacheBuster}`;
             }
             return path;
           },
