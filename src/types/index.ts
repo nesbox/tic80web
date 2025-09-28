@@ -27,7 +27,6 @@ export interface ExternalLinks {
 // Game and User data types
 export interface Game {
   id: number;
-  hash: string;
   title: string;
   name: string;
   author: string;

@@ -1200,12 +1200,12 @@
     "text": "You are a hero! Level up while fighting and annihilate monsters around the world!\r\n\r\nArrow keys --- Move up / down / left / right\r\n[X] (PAD B) --- Eat Food (Recovery HP)\r\n[A] (PAD X) --- Save Data\r\n[S] (PAD Y) --- Load Data\r\n\r\nSwamp : Poison reduces HP.\r\nTown : Restores a little HP.\r\nCastle : Get food.\r\n\r\nP.S.\r\nWith Love in 1984 PC-88 Edition Dragon Slayer\r\n\r\nUpdate:\r\nFeb-18 '21: Added slash animation.\r\n"
   },
   {
-    "id": 999,
-    "text": "UPDATE 2 dec 2019: +some interactive objects +new enemy\r\nUPDATE 6 dec 2019: +resurrection foes by hero dead +new Image Compressor +new logo realization\r\n\r\nWIP pre-alpha version 0.02\r\nCreated for 1-button contest but I'm late)\r\nStill very early tech demo.\r\n\r\nControl:\r\nZ - for walk\r\nZ - for jump\r\nZ by wall slide - wall jump\r\nZ in air - change direction\r\nZ in Crawl Mode - change direction\r\nZ - to use interactive objects"
-  },
-  {
     "id": 609,
     "text": "You have 60 seconds to save all pets, and yourself on spaceship!\r\n\r\nThis game is made for Fantasy Console Game Jam 3\r\n\r\nControls\r\n\r\nOne player mode:\r\n    ARROWS / Z\r\n\r\nTwo players mode\r\n    P1 : R,F,D,G / Z,N\r\n    P2 : ARROWS / CTLR,ENTER\r\n\r\nRestart 1 or Y (gamepad)\r\nMenu 0 or B (gamepad)\r\n\r\nYou can select level in menu by pressing left or right arrow\r\n\r\nHave Fun!"
+  },
+  {
+    "id": 999,
+    "text": "UPDATE 2 dec 2019: +some interactive objects +new enemy\r\nUPDATE 6 dec 2019: +resurrection foes by hero dead +new Image Compressor +new logo realization\r\n\r\nWIP pre-alpha version 0.02\r\nCreated for 1-button contest but I'm late)\r\nStill very early tech demo.\r\n\r\nControl:\r\nZ - for walk\r\nZ - for jump\r\nZ by wall slide - wall jump\r\nZ in air - change direction\r\nZ in Crawl Mode - change direction\r\nZ - to use interactive objects"
   },
   {
     "id": 798,
@@ -3416,12 +3416,12 @@
     "text": "8 Bit Panda one millennium into the future from its release. Made by my brother!"
   },
   {
-    "id": 584,
-    "text": "This is a game I started. Maybe one day I'll finish it\r\nI have a question for you:\r\nwhy when I use textri to draw a sprite to the right of this add a few pixels of the sprite next to it?\r\nIs it a common problem? what am I doing wrong?\r\nHelp\r\n\r\nPD: the problem was fixed in the current update"
-  },
-  {
     "id": 3000,
     "text": "new levels.\r\n---------------------------------------\r\nsome assets (modified) taken from 8bpReborn, by RomanKalinin (aka RS):\r\nhttps://tic80.com/play?cart=1143\r\n---------------------------------------\r\nTo play the original game, made by Bruno Oliveira (btco), go here:\r\nhttps://tic80.com/play?cart=188"
+  },
+  {
+    "id": 584,
+    "text": "This is a game I started. Maybe one day I'll finish it\r\nI have a question for you:\r\nwhy when I use textri to draw a sprite to the right of this add a few pixels of the sprite next to it?\r\nIs it a common problem? what am I doing wrong?\r\nHelp\r\n\r\nPD: the problem was fixed in the current update"
   },
   {
     "id": 2416,
@@ -3516,16 +3516,16 @@
     "text": "sound+"
   },
   {
+    "id": 4299,
+    "text": "Welcome to Attack Of The PETSCII Robots (TIC-80)!\r\n\r\nThe game contains 15 maps with high res graphics and the same playfield dimensions as the original! It uses a lot of RLE compressed graphics throughout to bring you the AMIGA graphics we know and love, as well as all the original tracks by Noelle Amelie Aman faithfully covered by Retropone!\r\n\r\nEnjoy and feel free to leave suggestions and to report bugs!\r\nThank you all so SO much.\r\n\r\n---------------------\r\nMobigames description\r\n---------------------\r\nAttack of the PETSCII Robots is a top-down action/puzzle game. It is inspired by oblique top-down projection games like Ultima, but takes much of the gameplay concepts from first-person shooters. The object is to destroy all of the robots. To do this, you have to search objects in the game for weapons and other items to help you along the way. Many scenarios require complex thinking and problem solving, rather than just action shooting.\r\n\r\n---------\r\nControls!\r\n---------\r\n\r\n          Standard\r\n\r\nA Once        |      Search\r\nA Twice       |        Move\r\nB once        |    Use item\r\nX + Direction | Fire weapon\r\nY Held        | Radial Menu\r\n\r\n        Map controls\r\nB once        |  See robots\r\nA once        |        Exit\r\n\r\n    Keyboard shortcuts\r\n\"M\"          |         Move\r\n\"Tab\"        |   Toggle Map\r\n\"[\"          | Cycle weapon\r\n\"]\"          |   Cycle item\r\n\"Shift + M\"  | Toggle Music\r\n\"Space\"      |     Use item\r\n\r\nWhy is there no quick fire buttons? \r\nWell... WASD conflicts with default TIC-80 controls (A key = X button) and thus is omitted. Just hold the A key and press a direction to fire just as if using a controller (which is preferred)"
+  },
+  {
     "id": 1812,
     "text": "A game about defeating 5 difficult bosses in a world based on cryptocurrencies.\r\n\r\nDemo cart for ethertic.io, an Ethereum dApp that enables the minting of TIC-80 cartridges into NFTs."
   },
   {
     "id": 741,
     "text": "V.0.1.4.4 Discontinued\r\n(c)2019-2020 Quesbe"
-  },
-  {
-    "id": 4299,
-    "text": "Welcome to Attack Of The PETSCII Robots (TIC-80)!\r\n\r\nThe game contains 15 maps with high res graphics and the same playfield dimensions as the original! It uses a lot of RLE compressed graphics throughout to bring you the AMIGA graphics we know and love, as well as all the original tracks by Noelle Amelie Aman faithfully covered by Retropone!\r\n\r\nEnjoy and feel free to leave suggestions and to report bugs!\r\nThank you all so SO much.\r\n\r\n---------------------\r\nMobigames description\r\n---------------------\r\nAttack of the PETSCII Robots is a top-down action/puzzle game. It is inspired by oblique top-down projection games like Ultima, but takes much of the gameplay concepts from first-person shooters. The object is to destroy all of the robots. To do this, you have to search objects in the game for weapons and other items to help you along the way. Many scenarios require complex thinking and problem solving, rather than just action shooting.\r\n\r\n---------\r\nControls!\r\n---------\r\n\r\n          Standard\r\n\r\nA Once        |      Search\r\nA Twice       |        Move\r\nB once        |    Use item\r\nX + Direction | Fire weapon\r\nY Held        | Radial Menu\r\n\r\n        Map controls\r\nB once        |  See robots\r\nA once        |        Exit\r\n\r\n    Keyboard shortcuts\r\n\"M\"          |         Move\r\n\"Tab\"        |   Toggle Map\r\n\"[\"          | Cycle weapon\r\n\"]\"          |   Cycle item\r\n\"Shift + M\"  | Toggle Music\r\n\"Space\"      |     Use item\r\n\r\nWhy is there no quick fire buttons? \r\nWell... WASD conflicts with default TIC-80 controls (A key = X button) and thus is omitted. Just hold the A key and press a direction to fire just as if using a controller (which is preferred)"
   },
   {
     "id": 2332,
@@ -3792,12 +3792,12 @@
     "text": "Basic Space Invader for explain to my kid.\r\nWithout OO, almost without functions."
   },
   {
-    "id": 1192,
-    "text": "Un jeux que je n'ai pas fini et que je voulais poster à noël"
-  },
-  {
     "id": 2055,
     "text": "game rules:\r\n\r\nif you die when timeout - you teleport to spawn point, all gold and keys which you find - respawned and spawn clock on position you die!\r\n\r\nevery keys match colour walls! if you find red key - red walls will be destroyed.\r\nif you find clock all gold which you collect - respawned.\r\nyou won if collect all gold on the game!\r\ncontrol: arrow keys!\r\n\r\npls rate this game and feedback!\r\ngood luck!\r\nitch href: https://wmgcat.itch.io/story-of-the-gold"
+  },
+  {
+    "id": 1192,
+    "text": "Un jeux que je n'ai pas fini et que je voulais poster à noël"
   },
   {
     "id": 1749,
@@ -3956,16 +3956,16 @@
     "text": "WIP...\r\nYep. a clone of Megaman... what more do you need to know?\r\nUpdate:14/7/22 =\u003e less buggy, med is a gumba, beter controls...\r\nUpdate:16/7/22 =\u003e more buggy, spring...\r\nupdate 10/8/22 =\u003e +/- buggy,  treadmill...\r\n"
   },
   {
+    "id": 4162,
+    "text": "(2025.7.27) Prioritized selecting unresolved puzzles upon startup.\r\nCorrection of irregularities in the design of the Clover 7 and adjustment of the coordinate values to fix discrepancies in the logic determining whether the mouse pointer is positioned on the restart button."
+  },
+  {
     "id": 2911,
     "text": "Celebrating 3 Years of Potato imaginator\r\nMy Channel: https://www.youtube.com/c/PotatoImaginator"
   },
   {
     "id": 2929,
     "text": "Small classic 2d project. The idea is to create a small metroidvania where the jumps get bigger and bigger as you progress, and thus reach new areas with new types of ammunition.\r\nmissing enemies, no intro, progression system, final boss etc...\r\n(13/08/22) New weapons, everyting works better."
-  },
-  {
-    "id": 4162,
-    "text": "(2025.7.27) Prioritized selecting unresolved puzzles upon startup.\r\nCorrection of irregularities in the design of the Clover 7 and adjustment of the coordinate values to fix discrepancies in the logic determining whether the mouse pointer is positioned on the restart button."
   },
   {
     "id": 2798,
@@ -4268,12 +4268,12 @@
     "text": "a mario platformer engine. use the editor to change the map.\r\nalso bricks and ? boxes are NOT smasheable\r\nlink to all blocks:https://tic.computer/play?cart=434\r\ntimeline:\r\ni' wanna have yor... koopas!goombas! BOWSERS!\r\nthey are usabe now!"
   },
   {
-    "id": 215,
-    "text": "No description provided"
-  },
-  {
     "id": 780,
     "text": "This is a primitive pong game."
+  },
+  {
+    "id": 215,
+    "text": "No description provided"
   },
   {
     "id": 821,
@@ -4624,20 +4624,20 @@
     "text": "Alchemy of the soul – raise ever upwards, towards the light!"
   },
   {
-    "id": 2138,
-    "text": "Yet Another Snake Clone™. Some of the code builds on the tutorial here: https://github.com/nesbox/TIC-80/wiki/Snake-Clone-tutorial"
-  },
-  {
     "id": 1502,
     "text": "Use base code in this cartridge to draw created vector shapes made in my vector editor: https://tic80.com/play?cart=1426\r\n\r\nShape loading and drawing code is in TIC function. Variable shapes contains array of all loaded shapes that are defined in variables shapeData1 and shapeData2 exported with vector editor. Each shape is drawn on screen only once and then the screen is stored in memory as an optimalization. So even complex shapes like the one on title screen will not fry the cpu."
   },
   {
-    "id": 1310,
-    "text": "Ultimate Flappy bird tic version and insert a new mode"
+    "id": 2138,
+    "text": "Yet Another Snake Clone™. Some of the code builds on the tutorial here: https://github.com/nesbox/TIC-80/wiki/Snake-Clone-tutorial"
   },
   {
     "id": 1212,
     "text": "A classic word guessing game.\r\nGuess one letter at a time - try to guess the whole word before the man is hanged.\r\nComputer has an extensive vocabulary.\r\n\r\nRevision 1\r\n- Added a few thousand more words from \"twl06.txt\"\r\n\r\nRevision 2\r\n- Track wins and losses"
+  },
+  {
+    "id": 1310,
+    "text": "Ultimate Flappy bird tic version and insert a new mode"
   },
   {
     "id": 528,
@@ -4976,6 +4976,10 @@
     "text": "Press 'Left' / 'Right' to move Left / Right\r\nEnjoy Monster Animation"
   },
   {
+    "id": 4338,
+    "text": "Your goal is to romance as many farmers as you can while avoiding your jealous exes.\r\n\r\nThis game is a love letter to the creators of \"The Power of Cauliflower\"—studying their code helped me grasp the engine’s mechanics and craft my own spin on it.\r\n\r\nA small disclaimer: This is my first game, so go easy on me! Hope you have fun with it.\r\n\r\nControls:\r\n←↑↓→ - Walk\r\nbtn Ⓐ / key 🆉 - Show guards line of view\r\nbtn Ⓑ / Key 🆇 - Restart level\r\n↓ / btnⒶ / key 🆉 - Scroll messages\r\nbtn Ⓧ / key 🅰 - Skip"
+  },
+  {
     "id": 2724,
     "text": "controls:\r\n- Up/Down = ascend, descend\r\n- Left/Right = slowdown, speedup\r\n\r\ncombat tips: \r\n- be patient (race is on pause), \r\n- dont speedup all the time, \r\n- use tail to strike\r\n\r\nOther entries for this jam: https://itch.io/jam/weekly-game-jam-246/entries\r\n"
   },
@@ -4994,10 +4998,6 @@
   {
     "id": 2017,
     "text": "Enjoy Jelly Animation"
-  },
-  {
-    "id": 4338,
-    "text": "Your goal is to romance as many farmers as you can while avoiding your jealous exes.\r\n\r\nThis game is a love letter to the creators of \"The Power of Cauliflower\"—studying their code helped me grasp the engine’s mechanics and craft my own spin on it.\r\n\r\nA small disclaimer: This is my first game, so go easy on me! Hope you have fun with it.\r\n\r\nControls:\r\n←↑↓→ - Walk\r\nbtn Ⓐ / key 🆉 - Show guards line of view\r\nbtn Ⓑ / Key 🆇 - Restart level\r\n↓ / btnⒶ / key 🆉 - Scroll messages\r\nbtn Ⓧ / key 🅰 - Skip"
   },
   {
     "id": 2230,
@@ -5144,12 +5144,12 @@
     "text": "Ever wanted to train a fully connected neural network to simulate Wireworld automata? seriously? then this game is for you! (where did i hear this before?)\r\n\r\nPress X to train the NN.\r\nA to test the NN on the WW board.\r\nB to reset to the WW board.\r\nAnd Y to create a new NN.\r\nPress up to edit the board, click cells to change them. \r\n\r\nThe top number shows the sum of the errors from the last 20 training. if it is less than 0.1, you are close!"
   },
   {
-    "id": 2150,
-    "text": "GlassMarble's Battlegrounds\r\nWinner Winner Chicken Dinner\r\n\r\ncontrol:\r\n z: shot\r\n direction buttons: change the direction and strength; or change the number of players"
-  },
-  {
     "id": 2386,
     "text": "Smoke? IDK"
+  },
+  {
+    "id": 2150,
+    "text": "GlassMarble's Battlegrounds\r\nWinner Winner Chicken Dinner\r\n\r\ncontrol:\r\n z: shot\r\n direction buttons: change the direction and strength; or change the number of players"
   },
   {
     "id": 1778,
@@ -5196,12 +5196,12 @@
     "text": "My first TIC80 game. It features non-blocking sound effects by switching channels. Two sound effects for shooting and explosions, parallax scrolling background stars, explosions, scores, a single enemy type, levels that increase the speed of the game, unforgiving one-hit-kill and no extra lives. Most of this game was written in a Sunday afternoon and then updated. Most amusing bug: The dead hero could be re-blown up."
   },
   {
-    "id": 2143,
-    "text": "unpacked version of 256b intro for Chaos Constructions 2021"
-  },
-  {
     "id": 1773,
     "text": "little fighting game is prototype .\r\ni going to add some pixel effect later and mechanic with ( fire,wind,rain)\r\nMake for this gamejam : https://itch.io/jam/gamecodeur-gamejam-31/rate/980820"
+  },
+  {
+    "id": 2143,
+    "text": "unpacked version of 256b intro for Chaos Constructions 2021"
   },
   {
     "id": 1848,
@@ -5444,16 +5444,16 @@
     "text": "Scroller demo for Mountain Bytes 2023"
   },
   {
-    "id": 3793,
-    "text": "The Pen is Mightier than the Sword!\r\nAdam Seeker defeats the Evil Ideology from within its own texts.\r\n\r\nGame derived from:  https://tic80.com/play?cart=971 "
-  },
-  {
     "id": 4360,
     "text": "Protect the orbit from invaders\r\n\r\n--Commands---\r\nleft/right: turn counterclockwise/clockwise\r\nz key/a button: fire "
   },
   {
     "id": 3946,
     "text": "Z order is cool, maybe should put it to use when/if I get all bits done :D\r\n\r\nArrows to move\r\nZ to jump (X for infini-jump)\r\nA to run (S to run faster)\r\n\r\nNew update allows for overhanging platforms!"
+  },
+  {
+    "id": 3793,
+    "text": "The Pen is Mightier than the Sword!\r\nAdam Seeker defeats the Evil Ideology from within its own texts.\r\n\r\nGame derived from:  https://tic80.com/play?cart=971 "
   },
   {
     "id": 2697,
@@ -5584,12 +5584,12 @@
     "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites."
   },
   {
-    "id": 3939,
-    "text": "A very heavily WIP sokoban game I'm working on for fun (doesn't really have any proper levels yet, just mechanics I'm working on). Mostly just uploading to show a few friends.\r\n\r\nArrow keys to move, z to interact or activate current powerup if relevant, x to restart the level."
-  },
-  {
     "id": 4364,
     "text": "Collect enough mushrooms to satisfy the storyteller, and your fellow villagers, and be rewarded with a story appropriate to the types of mushrooms you've collected."
+  },
+  {
+    "id": 3939,
+    "text": "A very heavily WIP sokoban game I'm working on for fun (doesn't really have any proper levels yet, just mechanics I'm working on). Mostly just uploading to show a few friends.\r\n\r\nArrow keys to move, z to interact or activate current powerup if relevant, x to restart the level."
   },
   {
     "id": 4170,
@@ -5612,12 +5612,12 @@
     "text": "Hi! Just another little visual thing I scraped together.\r\nOnce you're washing you can hit enter again to reset the app state.\r\n\r\nFalling in love with TIC-80's color palette!"
   },
   {
-    "id": 4279,
-    "text": "Pink-Ponk\r\nby VoidSoft\r\n\r\nJust another simple Pong clone.\r\n\r\nCONTROLS\r\n\r\nPlayer 1\r\nUp: S key\r\nDown: Z key\r\n\r\nPlayer 2\r\nUp: Arrow key ↑\r\nDown: Arrow key ↓\r\n\r\nMenu\r\nChange goals: Arrow keys ↑ / ↓\r\nStart game: A key"
-  },
-  {
     "id": 4202,
     "text": "the waveforms are now updated to a PSG sound chip"
+  },
+  {
+    "id": 4279,
+    "text": "Pink-Ponk\r\nby VoidSoft\r\n\r\nJust another simple Pong clone.\r\n\r\nCONTROLS\r\n\r\nPlayer 1\r\nUp: S key\r\nDown: Z key\r\n\r\nPlayer 2\r\nUp: Arrow key ↑\r\nDown: Arrow key ↓\r\n\r\nMenu\r\nChange goals: Arrow keys ↑ / ↓\r\nStart game: A key"
   },
   {
     "id": 4187,
@@ -5740,12 +5740,12 @@
     "text": "32 colours\r\nit only works in version 0.60.3 or similar\r\n"
   },
   {
-    "id": 841,
-    "text": "Old-fashioned classic space war game.\r\n\r\n--- Key operation ---\r\nLEFT and RIGHT : Select Command\r\nUP and DOWN : Seting Value\r\nB or X : Execute Command\r\nA or Z : Help\r\n\r\nHow to fire PHASER\r\nUse NRG to the right of PHASER to set the launch energy, move the cursor to PHASER and fire with the X key.\r\n\r\nHow to fire TORPEDO\r\nUse COURCE to the right of TORPEDO to set the launch angle, move the cursor to TORPEDO and fire with the X key.\r\n\r\nHow to do WARP\r\nUse SPEED and COURCE to the right of WARP ENGINE to set the distance and launch angle, move the cursor to WARP and warp with the X key."
-  },
-  {
     "id": 196,
     "text": "Missile catch game made in one hour for One Hour Game Jam."
+  },
+  {
+    "id": 841,
+    "text": "Old-fashioned classic space war game.\r\n\r\n--- Key operation ---\r\nLEFT and RIGHT : Select Command\r\nUP and DOWN : Seting Value\r\nB or X : Execute Command\r\nA or Z : Help\r\n\r\nHow to fire PHASER\r\nUse NRG to the right of PHASER to set the launch energy, move the cursor to PHASER and fire with the X key.\r\n\r\nHow to fire TORPEDO\r\nUse COURCE to the right of TORPEDO to set the launch angle, move the cursor to TORPEDO and fire with the X key.\r\n\r\nHow to do WARP\r\nUse SPEED and COURCE to the right of WARP ENGINE to set the distance and launch angle, move the cursor to WARP and warp with the X key."
   },
   {
     "id": 836,
@@ -6948,12 +6948,12 @@
     "text": "Treefall v2!"
   },
   {
-    "id": 2187,
-    "text": "This is my second game \r\n\r\nArrows to move \r\n\r\nUpdate 1:- \r\n\r\nAdded score system \r\n\r\nAdded death screen\r\nUpdate 2:-\r\n\r\nFixed death screen bug\r\nUpdate 3:-\r\n\r\nTarget speeds up after you scored some points\r\n\r\nUpdate 4:- \r\n\r\nAdded Highscore system\r\nAdded a restart button\r\nFixed multiple bullets shooting\r\n\r\nUpdate 5(Maybe last update):-\r\nAdded Lives\r\nBetter difficutly system\r\n\r\nZ to Fire"
-  },
-  {
     "id": 2226,
     "text": "[ Like a Flower ] 256b intro / special for Lovebyte Battlegrounds 2021\r\nhttps://www.pouet.net/prod.php?which=90018\r\nhttps://youtu.be/T6BBaNfPsEo\r\np.s. Works very slow in web, it's better to watch on YouTube ;-)"
+  },
+  {
+    "id": 2187,
+    "text": "This is my second game \r\n\r\nArrows to move \r\n\r\nUpdate 1:- \r\n\r\nAdded score system \r\n\r\nAdded death screen\r\nUpdate 2:-\r\n\r\nFixed death screen bug\r\nUpdate 3:-\r\n\r\nTarget speeds up after you scored some points\r\n\r\nUpdate 4:- \r\n\r\nAdded Highscore system\r\nAdded a restart button\r\nFixed multiple bullets shooting\r\n\r\nUpdate 5(Maybe last update):-\r\nAdded Lives\r\nBetter difficutly system\r\n\r\nZ to Fire"
   },
   {
     "id": 1841,
@@ -7072,12 +7072,12 @@
     "text": "Drawing clouds on sky instead of working..."
   },
   {
-    "id": 3557,
-    "text": "Another game in my gamedev marathon. Devlog available here: https://andreyor.st/tags/game3/"
-  },
-  {
     "id": 2336,
     "text": "Tri Editor Controls:\r\nArrow Keys\r\nButtons"
+  },
+  {
+    "id": 3557,
+    "text": "Another game in my gamedev marathon. Devlog available here: https://andreyor.st/tags/game3/"
   },
   {
     "id": 2402,
@@ -7220,6 +7220,14 @@
     "text": "testing typescript to tic80"
   },
   {
+    "id": 4295,
+    "text": "build containing 3 levels."
+  },
+  {
+    "id": 3921,
+    "text": "Press the \"a\" button to play.\r\n\r\nRotate your screen for best results! Meant to be played in \"portrait\" mode.\r\n\r\nan art fight attack on astik for art fight 2024"
+  },
+  {
     "id": 2095,
     "text": "Visualization of depth-first search.\r\n\r\nPress \"Z\" to restart."
   },
@@ -7228,16 +7236,8 @@
     "text": "256 bytes packed.\r\n5th in the Get Ready New Talent Intro competition"
   },
   {
-    "id": 3921,
-    "text": "Press the \"a\" button to play.\r\n\r\nRotate your screen for best results! Meant to be played in \"portrait\" mode.\r\n\r\nan art fight attack on astik for art fight 2024"
-  },
-  {
     "id": 2463,
     "text": "displays a knot (lua draft)\r\n\r\nsee also https://tic80.com/play?cart=2503 : I'm abandoning this lua version and continuing development in javascript"
-  },
-  {
-    "id": 4295,
-    "text": "build containing 3 levels."
   },
   {
     "id": 2593,
@@ -7288,16 +7288,16 @@
     "text": "2nd Part of https://tic80.com/play?cart=1917"
   },
   {
+    "id": 2598,
+    "text": "Enjoy !"
+  },
+  {
     "id": 2773,
     "text": "Press UP / DOWN / LEFT / RIGHT to Move"
   },
   {
     "id": 2410,
     "text": "Made using ellipses"
-  },
-  {
-    "id": 2598,
-    "text": "Enjoy !"
   },
   {
     "id": 3226,
@@ -7364,12 +7364,12 @@
     "text": "Enjoy Ocean Fractal !"
   },
   {
-    "id": 1456,
-    "text": "Use arrow keys to change color and function.\r\nWorks faster on PC."
-  },
-  {
     "id": 3495,
     "text": "Livecoded for Monday Night Bytejam 19/12/2022"
+  },
+  {
+    "id": 1456,
+    "text": "Use arrow keys to change color and function.\r\nWorks faster on PC."
   },
   {
     "id": 1802,
@@ -7472,16 +7472,16 @@
     "text": "Released by The Practitioners of Lua Megademos at Revision 2024.\r\nPlaced: 3rd in Fantasy Console\r\nGRMA Mantratronic!\r\nParts will run VERY slowly in the web browser, so:\r\nYouTube: https://youtu.be/g136jyMHSUU\r\nPouet: https://www.pouet.net/prod.php?which=96565\r\nCredits: Aldroid, Blossom, Dave84, decca, DevEd, evilpaul, Flux, gasman, gigabates, jtruk, MrsBeanbag, psenough, Reality404, superogue, Suule, ToBach, xxx"
   },
   {
-    "id": 3944,
-    "text": "Compatible with version 1.1.2837 (be42d6f)\r\nSee https://github.com/nesbox/TIC-80/wiki/Themes for other themes and how to apply."
+    "id": 4330,
+    "text": "This nice game, play now!"
   },
   {
     "id": 3931,
     "text": "Caleb's got to save the babes on his surfboard!\r\nan art fight attack for fantomfoxy"
   },
   {
-    "id": 4330,
-    "text": "This nice game, play now!"
+    "id": 3944,
+    "text": "Compatible with version 1.1.2837 (be42d6f)\r\nSee https://github.com/nesbox/TIC-80/wiki/Themes for other themes and how to apply."
   },
   {
     "id": 3634,
@@ -7652,12 +7652,12 @@
     "text": "Illegal instruction\r\nReleased on Inercia 2024"
   },
   {
-    "id": 3742,
-    "text": "Press Left / Right to change no of circles"
-  },
-  {
     "id": 4171,
     "text": "my first game :). update v0.3: added an upgrade mechanic so you can get more powerful while playing the game!"
+  },
+  {
+    "id": 3742,
+    "text": "Press Left / Right to change no of circles"
   },
   {
     "id": 3285,
@@ -8312,12 +8312,12 @@
     "text": "Just an example game"
   },
   {
-    "id": 1141,
-    "text": "While on your way to a family event, your car breaks down. You happened to be taking a shortcut through Darkwood Forest, where many people have been known to disappear. Unfortunately, it's going to take a while for the local towing company to reach your location, so you must hold out until then.\r\n\r\nDo you think you can survive the night?\r\n\r\nPlease Note: This game is not well optimized for being played on a browser. Please download the cartridge for a better game-play experience."
-  },
-  {
     "id": 1421,
     "text": "I'm running version: 0.80.1324-dev Pro on Windows 10 x64 (64-bit).\r\nI compiled source code build using CMake, Git and VS2019 (Visual Code 2019).\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+  },
+  {
+    "id": 1141,
+    "text": "While on your way to a family event, your car breaks down. You happened to be taking a shortcut through Darkwood Forest, where many people have been known to disappear. Unfortunately, it's going to take a while for the local towing company to reach your location, so you must hold out until then.\r\n\r\nDo you think you can survive the night?\r\n\r\nPlease Note: This game is not well optimized for being played on a browser. Please download the cartridge for a better game-play experience."
   },
   {
     "id": 2626,
@@ -8580,12 +8580,12 @@
     "text": "- press left if the left number is smaller\r\n- press right if you're feeling spicy... er, i mean if the right number is smaller\r\n\r\nclone of Nintendo game"
   },
   {
-    "id": 1238,
-    "text": "Factory Machine 2\r\nThis is how Factories work \u003e_\u003c !!!"
-  },
-  {
     "id": 2933,
     "text": "The goal is to implement this game in each supported language. Check the list below for the links.\r\n\r\n- Fennel v0: https://tic80.com/play?cart=2930\r\n- Janet v2: https://tic80.com/play?cart=3666\r\n- JavaScript v0: https://tic80.com/play?cart=2932\r\n- Lua v2: https://tic80.com/play?cart=2516\r\n- MoonScript v0: https://tic80.com/play?cart=2931\r\n- Ruby v0: https://tic80.com/play?cart=2933\r\n- Squirrel v0: https://tic80.com/play?cart=2937\r\n- Wren v2: https://tic80.com/play?cart=2935"
+  },
+  {
+    "id": 1238,
+    "text": "Factory Machine 2\r\nThis is how Factories work \u003e_\u003c !!!"
   },
   {
     "id": 1529,
@@ -8660,12 +8660,12 @@
     "text": "Ball Bouncing on a String . How is it possible ? I don't know \u003e_\u003c"
   },
   {
-    "id": 2026,
-    "text": "In 8 Bit Panda, the EBT (Entity Behavior Table) is where you'll find the behaviors of the enemies. The purpose of this cart is to explain what some of the different behaviors and variables in the table do, with examples. Read the comment at the top of the code for more information about this cart.\r\n\r\nPlay the first and second levels to see the examples. Read the comments in the EBT table for the explanations of what the different behaviors and variables do.\r\n\r\nWorking with these variables can be very useful in modulating the difficulty of levels (things like making enemies move faster or slower, shoot faster or slower, etc).\r\n\r\nTo make the best use of this, it is better to make copies of enemies so that you can, for example, make an enemy behave one way in one place and another way in another place.\r\n----------------------------------------------------------------------------------------------------------------\r\nI recommend using the 8BP Additional Colors Template cart, which has multiple copies of all the enemies:\r\nhttps://tic80.com/play?cart=2262\r\n----------------------------------------------------------------------------------------------------------------\r\nFor more information about how to make levels, see the Level Maker Tutorial cart:\r\nhttps://tic80.com/play?cart=1991\r\n----------------------------------------------------------------------------------------------------------------\r\nTo see the original game, made by Bruno Oliveira (btco), go here:\r\nhttps://tic80.com/play?cart=188"
-  },
-  {
     "id": 1507,
     "text": "Press Left / Right to move Left / Right\r\n\r\nTicmon\r\n\r\nType : Ice / Magic"
+  },
+  {
+    "id": 2026,
+    "text": "In 8 Bit Panda, the EBT (Entity Behavior Table) is where you'll find the behaviors of the enemies. The purpose of this cart is to explain what some of the different behaviors and variables in the table do, with examples. Read the comment at the top of the code for more information about this cart.\r\n\r\nPlay the first and second levels to see the examples. Read the comments in the EBT table for the explanations of what the different behaviors and variables do.\r\n\r\nWorking with these variables can be very useful in modulating the difficulty of levels (things like making enemies move faster or slower, shoot faster or slower, etc).\r\n\r\nTo make the best use of this, it is better to make copies of enemies so that you can, for example, make an enemy behave one way in one place and another way in another place.\r\n----------------------------------------------------------------------------------------------------------------\r\nI recommend using the 8BP Additional Colors Template cart, which has multiple copies of all the enemies:\r\nhttps://tic80.com/play?cart=2262\r\n----------------------------------------------------------------------------------------------------------------\r\nFor more information about how to make levels, see the Level Maker Tutorial cart:\r\nhttps://tic80.com/play?cart=1991\r\n----------------------------------------------------------------------------------------------------------------\r\nTo see the original game, made by Bruno Oliveira (btco), go here:\r\nhttps://tic80.com/play?cart=188"
   },
   {
     "id": 2521,
@@ -9404,12 +9404,12 @@
     "text": "Sharded, A 128 byte intro for the TIC-80 by Marquee Design.\r\nWinner of the 128 byte Fantasy Console Intro competition at Lovebyte Battlegrounds.\r\nThe code inside this cartridge, compiles to a 128byte TIC cartridge."
   },
   {
-    "id": 1979,
-    "text": "Enjoy Animation\r\n\r\nTHIS CART WORKS FINE IN VERSION 0.80"
-  },
-  {
     "id": 2937,
     "text": "The goal is to implement this game in each supported language. Check the list below for the links.\r\n\r\n- Fennel v0: https://tic80.com/play?cart=2930\r\n- Janet v2: https://tic80.com/play?cart=3666\r\n- JavaScript v0: https://tic80.com/play?cart=2932\r\n- Lua v2: https://tic80.com/play?cart=2516\r\n- MoonScript v0: https://tic80.com/play?cart=2931\r\n- Ruby v0: https://tic80.com/play?cart=2933\r\n- Squirrel v0: https://tic80.com/play?cart=2937\r\n- Wren v2: https://tic80.com/play?cart=2935"
+  },
+  {
+    "id": 1979,
+    "text": "Enjoy Animation\r\n\r\nTHIS CART WORKS FINE IN VERSION 0.80"
   },
   {
     "id": 2595,
@@ -9436,12 +9436,12 @@
     "text": "Press Left / Right to Change 'n' Value\r\nPress 'Z' to Toggle On/Off Shadows\r\n\r\nNote : Distortion value changes with 'n' value"
   },
   {
-    "id": 2082,
-    "text": "Press 'Z' to Reset"
-  },
-  {
     "id": 1942,
     "text": "Tweet Attack is a game I made for Tweet Tweet Jam 6. The challenge was to create a game in under 560 characters or two tweets.\r\n\r\nIt is based on a game my friend and I made years ago in high school. The original was called Toon Attack.  In the game, you play as a brave rabbit guarding your carrot patches against evil alien invaders. Click the mouse to fire your carrot cannon at the alien's probes before they destroy  all of your patches. If they're all gone, you won't have any more carrots to fire and the alien wins!"
+  },
+  {
+    "id": 2082,
+    "text": "Press 'Z' to Reset"
   },
   {
     "id": 2128,
@@ -9652,12 +9652,12 @@
     "text": "4 games in 1"
   },
   {
-    "id": 2304,
-    "text": "Enjoy !"
-  },
-  {
     "id": 2539,
     "text": "like wiretun1 https://tic80.com/play?cart=2536 but with a toroidal tunnel\r\nfinally got the angle computations right\r\n\r\ntry arrow keys\r\n\r\nthere's something oddly fascinating about these tunnel rides\r\n\r\neven though, having coded these myself, I know there's no surprise hidden behind the next bend\r\n\r\njust more of the same"
+  },
+  {
+    "id": 2304,
+    "text": "Enjoy !"
   },
   {
     "id": 2390,
@@ -9868,12 +9868,12 @@
     "text": "wrongly wrote 127b first due to empty lines at bottom of the code."
   },
   {
-    "id": 3541,
-    "text": "Recommended for 8-bit games. Designed for sprites, tiles, sounds, SFXs, and songs.\r\nUpdated!"
-  },
-  {
     "id": 3875,
     "text": "Robotnik's Theme from Adventures of Sonic the Hedgehog."
+  },
+  {
+    "id": 3541,
+    "text": "Recommended for 8-bit games. Designed for sprites, tiles, sounds, SFXs, and songs.\r\nUpdated!"
   },
   {
     "id": 1409,
@@ -10064,12 +10064,12 @@
     "text": "Nova 2023 ByteJam - Inspired by Polynomial's Laser Show"
   },
   {
-    "id": 2392,
-    "text": "Use arrow keys to move camera around (PS there is no collision)\r\n\r\nPress Z to re-generate a new map"
-  },
-  {
     "id": 2373,
     "text": "Bytes n Bits Space Invaders tutorial - Delicious in Dungeon style"
+  },
+  {
+    "id": 2392,
+    "text": "Use arrow keys to move camera around (PS there is no collision)\r\n\r\nPress Z to re-generate a new map"
   },
   {
     "id": 2335,
@@ -10088,12 +10088,12 @@
     "text": "                                 DESTROI DOS ASTEROIDD BOI!\r\nPress (A) or [Z] to shot!\r\n(\u003c)(^)(\u003e)(v) buttons to move OR [\u003c][^][\u003e][v] keys!\r\n\r\n                                  WIN WITH 25 POINTS! OMG!\r\n\r\nCredits: 60% of code by me, 40% of code by HanamileH.\r\nMusic/BGM: Press the B button - Lorenzo_HFJ\r\nSfx: 100% by me.\r\n\r\nLast updated: 04/30/2022 11:03 on Brazil."
   },
   {
-    "id": 2884,
-    "text": "USA Flag In TIC-80"
-  },
-  {
     "id": 4281,
     "text": "This is just a sprite edit of Pac 80 by Retropone, I only uploaded it so I can stream it on Discord =T"
+  },
+  {
+    "id": 2884,
+    "text": "USA Flag In TIC-80"
   },
   {
     "id": 1796,
@@ -10252,12 +10252,12 @@
     "text": "(C) 2021-2023 MegaBits21"
   },
   {
-    "id": 3125,
-    "text": "75 Character Dithered Plasma (new record!), created for Tiny Code Christmas day 4 ( #lovebytetcc )"
-  },
-  {
     "id": 2651,
     "text": "Julia Fractal example"
+  },
+  {
+    "id": 3125,
+    "text": "75 Character Dithered Plasma (new record!), created for Tiny Code Christmas day 4 ( #lovebytetcc )"
   },
   {
     "id": 3675,
@@ -10324,12 +10324,12 @@
     "text": "Move your mouse and Eyes follow it"
   },
   {
-    "id": 3291,
-    "text": "Try to draw the way of the exploding fist tape loader ... not perfect yet !\r\n\r\n"
-  },
-  {
     "id": 3638,
     "text": "512b intro for Inércia 2023."
+  },
+  {
+    "id": 3291,
+    "text": "Try to draw the way of the exploding fist tape loader ... not perfect yet !\r\n\r\n"
   },
   {
     "id": 2655,
@@ -10384,12 +10384,12 @@
     "text": "A kaleidoscopic, colourful effect, for Monday Night Bytes on 6/Aug/2024 (jtruk)"
   },
   {
-    "id": 4347,
-    "text": "Google's no internet dinosaur game for practise"
-  },
-  {
     "id": 4308,
     "text": "Top-down racing game based on SRB2Kart\r\n\r\nControls (on TIC-80 gamepad, check \"setup gamepad\" in TIC-80 options to see keyboard binds):\r\nA - Accelerate\r\nB - Drift\r\nX - Brake/drive backwards\r\nY - Use item\r\nLeft/Right - Steering\r\nUp/Down - Item aiming, some items behave differently depending on it, bananas can be thrown forward for example\r\n\r\nAlso you can enable auto acceleration in settings, might be helpful on phones. You'd still need to time accel button press for start boost tho\r\n\r\nUpdates:\r\n\r\n* 2025-06-26\r\n- New map: Lava Reef\r\n- Attempt to fix bots \"giving up\" sometimes\r\n- Bots now have a small \"pity\" boost if drifting is disabled on map, to compensate that\r\n\r\n* 2025-06-27\r\n- New map: Verdant Ruins Zone\r\n- All other maps now have \"Zone\" in name too\r\n- Fixed intermission highlight color being wrong (skincolor index was used instead of actual palette index)\r\n\r\n* 2025-06-29\r\n- Add unlockable \"Hell Maps\"! To unlock them, you need to get record attack medals on all non-hell maps. There are no exact plans for hell maps yet but they are supposed to be maps with gameplay that slightly differs from regular maps\r\n- New hell map: ??? (Inspired by same map in SRB2Kart by Spee)\r\n- Some parts of object and checkpoint code now support map wrapping around, was implemented for the new map\r\n\r\n* 2025-07-02\r\n- Initial music support (rn there's only 1 track for green hills. Music is disabled by default, can be enabled in settings. Enabling it will reserve 2 out of 4 sound channels for music)\r\n- New map: Egg Rock Zone (from SRB2)\r\n- New hell map: ??? (from DRRR)\r\n\r\n* 2025-07-05\r\n- Added character icons, which are displayed in intermission and mini-rankings. Thanks bhgdev for suggestion!\r\n- Mini-rankings allowed to notice an oversight in checkpoint system, which caused item roulette to roll wrong items sometimes (catch-up items for 1st for example). This is fixed now\r\n\r\n* 2025-07-08\r\n- Last place in match race now gets eliminated, with effect similar to explosion in ring racers. Also in general, all explosions now have a sound\r\n- Rubberbanding for bots gets weaker near end of race, to avoid situations where they overtake you with rubberband boost without a chance to catch up\r\n- Using \"RETRY\" option in game menu now does a quicker \"fade\"\r\n- Improvements to music system, added tracks (WIP) for main menu, intermission/level select (they share 1 track), and one of hell maps, tho music remains (and probably will remain) disabled by default\r\n- Function for drawing rotated sprites has been optimized, now it doesn't create bunch of matrices each time its called which should improve performance (hopefully should fix occasional stutters, which i personally been getting sometimes)\r\n\r\n* 2025-07-09\r\nI don't think i'll be updating game much more, for some time at least, so this is somewhat release update!\r\n- Buffed bot rubberbanding at last lap back a little, so they don't slow down too much especially on hard difficulty (now rubberbanding can get reduced at most to 25% of its strength, used to be 0%)\r\n- Bots are now bit smarter in terms of using items - on hard difficulty they will throw bananas and eggboxes forward if player is in front, or throw orbinauts backwards when player is behind. Also, they throw orbi's backward on all difficulties if they're in 1st place (since it makes no sense to throw them forward in 1st anyway)\r\n- All maps now have \"recommended\" bot list, so that they are more challenging (so for example on maps with a lot of turns you won't get sonic or metal sonic as opponents)\r\n- With all that, match race now has medals to win! Silver medal for 2nd/1st place on normal/hard difficulty, gold medal for 1st place on normal/hard, and platinum medal for 1st place on hard difficulty (currently, they don't do anything, maybe will add more unlockables for them at some point)\r\n- Item box respawn time has been reduced from 5 seconds to 1 (skipping them is too annoying and may be unforgiving if you are in last place)\r\n- Added spinout indication for minirankings (inspired by MiniRankingsPlus SRB2Kart mod)\r\n- Added new music track for Sunny Islands Zone, also changed menu theme a bit\r\n- Added proper scrolling credits :3"
+  },
+  {
+    "id": 4347,
+    "text": "Google's no internet dinosaur game for practise"
   },
   {
     "id": 3991,
@@ -10476,12 +10476,12 @@
     "text": "Simple wave practice"
   },
   {
-    "id": 4135,
-    "text": "This is a two-player Riichi Mahjong game.\r\nOnly the 1 and 9 tiles are used for Characters and Circles suits.\r\nChii (sequence melds) is not allowed.\r\nAll other rules follow the World Riichi Championship Rule.\r\n\r\nVersion 0.3.1\r\nFixed an issue introduced in version 0.3 where single waits for numbered tiles were no longer possible.\r\n\r\nVersion 0.3\r\nFixed an issue where the game would crash if a player's score became negative during a round starting from version 0.2.\r\n\r\nAlso fixed a bug where, in cases where both sequences and triplets interpretations were possible, the correct behavior should have been to determine the final interpretation after score calculation. However, due to an error, one interpretation was mistakenly invalidated before the score was calculated. This caused situations where Four Concealed Triplets failed to form and was incorrectly treated as Pure Double Sequence instead.\r\n\r\nVersion 0.2\r\n    The opponent AI is simple but sufficiently strong.\r\n    Fixed an incorrect evaluation of Three Concealed Triplets.\r\n    Design adjustments.\r\n\r\nVersion 0.1\r\n    Initial release."
-  },
-  {
     "id": 3760,
     "text": "256 byte intro for lovebyte 2024 (unpacked)"
+  },
+  {
+    "id": 4135,
+    "text": "This is a two-player Riichi Mahjong game.\r\nOnly the 1 and 9 tiles are used for Characters and Circles suits.\r\nChii (sequence melds) is not allowed.\r\nAll other rules follow the World Riichi Championship Rule.\r\n\r\nVersion 0.3.1\r\nFixed an issue introduced in version 0.3 where single waits for numbered tiles were no longer possible.\r\n\r\nVersion 0.3\r\nFixed an issue where the game would crash if a player's score became negative during a round starting from version 0.2.\r\n\r\nAlso fixed a bug where, in cases where both sequences and triplets interpretations were possible, the correct behavior should have been to determine the final interpretation after score calculation. However, due to an error, one interpretation was mistakenly invalidated before the score was calculated. This caused situations where Four Concealed Triplets failed to form and was incorrectly treated as Pure Double Sequence instead.\r\n\r\nVersion 0.2\r\n    The opponent AI is simple but sufficiently strong.\r\n    Fixed an incorrect evaluation of Three Concealed Triplets.\r\n    Design adjustments.\r\n\r\nVersion 0.1\r\n    Initial release."
   },
   {
     "id": 3775,
@@ -10492,6 +10492,10 @@
     "text": "No music, font yet maybe later  ; Paranoimia shinobi cracktro adapted for tic-80"
   },
   {
+    "id": 3534,
+    "text": "Changelog:\r\nVersion 0.2\r\n• Fixed Mr. Stumble Sprite\r\nVersion 0.1\r\n• Initial release"
+  },
+  {
     "id": 3778,
     "text": "powered by Orion Immediate Mode GUI (link https://tic80.com/play?cart=2796) is a WIP monophonic synthesizer.\r\n(if you want to turn off playing notes by keyboard there is a switch that turns it off on the bottom left)\r\nAdded:\r\nAn oscillator that has 10 different waveforms and volume slider.\r\nDistortion slider with an option to clip or warp.\r\nGlitch slider to, glitch.\r\npmem saving.\r\nPlanned:\r\nADSR Envelopes."
   },
@@ -10500,20 +10504,16 @@
     "text": "You just landed a new job cleaning up a local park.\r\nThe instructor is waiting to welcome you to explain the rest!"
   },
   {
-    "id": 3534,
-    "text": "Changelog:\r\nVersion 0.2\r\n• Fixed Mr. Stumble Sprite\r\nVersion 0.1\r\n• Initial release"
-  },
-  {
     "id": 3728,
     "text": "Module conversion for tic-80 demo !"
   },
   {
-    "id": 3687,
-    "text": "Part of the Countdown to Lovebyte 2024 - https://lovebyte.party\r\n(252 bytes compressed with Pakettic)"
-  },
-  {
     "id": 4224,
     "text": "Fly over those ring and obtain points!, and after 25 rings, the speed grows more!\r\n\r\npress (A) to jump\r\n\r\nmade by SR_MatterNoise\r\nInstagram: https://www.instagram.com/srmatternoisedev/"
+  },
+  {
+    "id": 3687,
+    "text": "Part of the Countdown to Lovebyte 2024 - https://lovebyte.party\r\n(252 bytes compressed with Pakettic)"
   },
   {
     "id": 3599,
@@ -11060,12 +11060,12 @@
     "text": "BG - Kyle Champman\r\nFG - StarGum65\r\n\r\nNote:\r\nOpen the code editor see brown text. Please remove your brown text code.\r\n\r\n(C) 2019 Master nama"
   },
   {
-    "id": 413,
-    "text": "Just testing uploading."
-  },
-  {
     "id": 156,
     "text": "A simple screen saver based off pendulum waves (https://www.youtube.com/watch?v=yVkdfJ9PkRQ) \r\n\u003c and \u003e to fast forward/rewind\r\n/\\ and \\/ to speed up and slow down "
+  },
+  {
+    "id": 413,
+    "text": "Just testing uploading."
   },
   {
     "id": 444,
@@ -11296,12 +11296,12 @@
     "text": "Update soon ;)\r\nScroll down v. Please comment below!.\r\n(C) 2019 Master nama"
   },
   {
-    "id": 298,
-    "text": "Jet Pack Redesign with a new theme and level"
-  },
-  {
     "id": 1108,
     "text": "Motion Loop Animation"
+  },
+  {
+    "id": 298,
+    "text": "Jet Pack Redesign with a new theme and level"
   },
   {
     "id": 619,
@@ -11376,12 +11376,12 @@
     "text": "i_core (core engine + sample: add/sub/mlt/div/flr/dup/cls/shw)\r\nhttps://jihem.itch.io/i-editor\r\n(from PICO8 to TIC80)"
   },
   {
-    "id": 902,
-    "text": "(C) 2018 Master nama 8000"
-  },
-  {
     "id": 606,
     "text": "EggCat is a character I designed one day in the physics course I took on my first semster in college. She's a kind and lovable cat in the shape of an egg. She likes to be in tranquility, so I thought I'd built this little scene with her here. Her design is also under Creative Commons (CC BY-NC 4.0)! Once she walks through the whole screen, the flowers are randomly re-placed and the grass flips to simulate as if the scenery keeps going."
+  },
+  {
+    "id": 902,
+    "text": "(C) 2018 Master nama 8000"
   },
   {
     "id": 1044,
@@ -11820,24 +11820,24 @@
     "text": "Light The Skull using mouse"
   },
   {
-    "id": 657,
-    "text": "Press down arrow when game starts. Instant freeze."
-  },
-  {
     "id": 2210,
     "text": "Press A (Keyboard) / Z (Mobile) to generate ip address.\r\n\r\n© 2021 MegaBits21"
+  },
+  {
+    "id": 657,
+    "text": "Press down arrow when game starts. Instant freeze."
   },
   {
     "id": 1336,
     "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
   },
   {
-    "id": 1985,
-    "text": "classic snake game"
-  },
-  {
     "id": 1334,
     "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
+  },
+  {
+    "id": 1985,
+    "text": "classic snake game"
   },
   {
     "id": 1992,
@@ -11988,12 +11988,12 @@
     "text": "Enjoy Animation"
   },
   {
-    "id": 2142,
-    "text": "Move the worm around using mouse"
-  },
-  {
     "id": 3656,
     "text": "Hypnotic plasma on day 4 of Tiny Code Christmas"
+  },
+  {
+    "id": 2142,
+    "text": "Move the worm around using mouse"
   },
   {
     "id": 2329,
@@ -12096,12 +12096,12 @@
     "text": "tron\r\n\r\ntron-game\r\n- 255b code \u003e 327b file \r\n- procedural visuals \r\n- look for tron_deluxe variant\r\n"
   },
   {
-    "id": 2801,
-    "text": "small clone of flappy bird"
-  },
-  {
     "id": 2455,
     "text": "A simple but hopefully physically accurate simulation of a perpetuum mobile^W^W spherical pendulum\r\nsee https://en.wikipedia.org/wiki/Spherical_pendulum#Hamiltonian_mechanics\r\nnot interactive, just a \"screensaver\""
+  },
+  {
+    "id": 2801,
+    "text": "small clone of flappy bird"
   },
   {
     "id": 2039,
@@ -12324,12 +12324,12 @@
     "text": "3x performance increase over previous version.\r\nBatteries not included."
   },
   {
-    "id": 1455,
-    "text": "A WIP game revolving around conveyors.\r\nAny help will be appreciated. "
-  },
-  {
     "id": 2741,
     "text": "My first tic80 game, Micro-Life. A sandbox microbial simulator. Mouse controls described in game. \r\nWork in progress.\r\n\r\n------------NEW IN V1.1----------------------------------------\r\n-Gamepad support. (auto switching based if mouse is moved)\r\n-Updated control info screen for gamepad.\r\n-Focus effect now can be turned off or on in menu.\r\n----------------------------------------------------------\r\nEnjoy and thanks for playing!"
+  },
+  {
+    "id": 1455,
+    "text": "A WIP game revolving around conveyors.\r\nAny help will be appreciated. "
   },
   {
     "id": 1851,
@@ -12348,12 +12348,12 @@
     "text": "Generates A Random Triangle Function"
   },
   {
-    "id": 2358,
-    "text": "Enjoy !\r\nMade this Accidentally"
-  },
-  {
     "id": 2032,
     "text": "My attempt at something. I just started coding with tic-80."
+  },
+  {
+    "id": 2358,
+    "text": "Enjoy !\r\nMade this Accidentally"
   },
   {
     "id": 2389,
@@ -12596,12 +12596,12 @@
     "text": "In all seriouness though: this is an example of a conformal map fractal."
   },
   {
-    "id": 2821,
-    "text": "This is daves84 nanostack converted from Lua to Fennel with his permission.\r\n\r\n- itch link -\u003e https://daves84.itch.io/nanostack\r\n- tic80 wiki -\u003e https://github.com/nesbox/TIC-80/wiki/Nanostack\r\n- gitlab -\u003e https://gitlab.com/ParlorTricks/nanostack"
-  },
-  {
     "id": 2559,
     "text": "A silly game I made. You control your character and the hoards of robots come for you. For some reason they only more towards you if you are in line with them. The idea is to lead them away from the top corner and then collect the computer there. Arrow keys to move."
+  },
+  {
+    "id": 2821,
+    "text": "This is daves84 nanostack converted from Lua to Fennel with his permission.\r\n\r\n- itch link -\u003e https://daves84.itch.io/nanostack\r\n- tic80 wiki -\u003e https://github.com/nesbox/TIC-80/wiki/Nanostack\r\n- gitlab -\u003e https://gitlab.com/ParlorTricks/nanostack"
   },
   {
     "id": 2176,
@@ -12708,12 +12708,12 @@
     "text": "i made this so i train my for loop knowledge\r\nand math knowledge ;)"
   },
   {
-    "id": 2650,
-    "text": "Mandelbrot Fractal example"
-  },
-  {
     "id": 3042,
     "text": "A screensaver using the TIC-80 symbols"
+  },
+  {
+    "id": 2650,
+    "text": "Mandelbrot Fractal example"
   },
   {
     "id": 2830,
@@ -12756,16 +12756,16 @@
     "text": "Heavily WIP, currently unplayable."
   },
   {
+    "id": 2684,
+    "text": "e"
+  },
+  {
     "id": 3116,
     "text": "A cart to visualize the relationship between angle and distance in polar coordinates. Click to move the end coordinates of the line.\r\nCreated for Lovebyte's Tiny Code Christmas. 12 days of sizecoding and demoscene challenges! Check it out at https://tcc.lovebyte.party/"
   },
   {
     "id": 2085,
     "text": "It's your right"
-  },
-  {
-    "id": 2684,
-    "text": "e"
   },
   {
     "id": 3052,
@@ -12816,16 +12816,16 @@
     "text": "original Mario bros game by Nintendo\r\noriginal clone code by Trelemar\r\noriginal music by Luna\r\nall edits by Poyopoyo and Boxguy by Poyopoyo"
   },
   {
+    "id": 3666,
+    "text": "The goal is to implement this game in each supported language. Check the list below for the links.\r\n\r\n- Fennel v0: https://tic80.com/play?cart=2930\r\n- Janet v2: https://tic80.com/play?cart=3666\r\n- JavaScript v0: https://tic80.com/play?cart=2932\r\n- Lua v2: https://tic80.com/play?cart=2516\r\n- MoonScript v0: https://tic80.com/play?cart=2931\r\n- Ruby v0: https://tic80.com/play?cart=2933\r\n- Squirrel v0: https://tic80.com/play?cart=2937\r\n- Wren v2: https://tic80.com/play?cart=2935"
+  },
+  {
     "id": 3182,
     "text": "256 bytes packed.\r\n11th in the Get Ready New Talent Intro competition\r\n"
   },
   {
     "id": 3192,
     "text": "will she save him?"
-  },
-  {
-    "id": 3666,
-    "text": "The goal is to implement this game in each supported language. Check the list below for the links.\r\n\r\n- Fennel v0: https://tic80.com/play?cart=2930\r\n- Janet v2: https://tic80.com/play?cart=3666\r\n- JavaScript v0: https://tic80.com/play?cart=2932\r\n- Lua v2: https://tic80.com/play?cart=2516\r\n- MoonScript v0: https://tic80.com/play?cart=2931\r\n- Ruby v0: https://tic80.com/play?cart=2933\r\n- Squirrel v0: https://tic80.com/play?cart=2937\r\n- Wren v2: https://tic80.com/play?cart=2935"
   },
   {
     "id": 2985,
@@ -12980,12 +12980,12 @@
     "text": "Just a very SIMPLE demo, while learning Lua from scratch!"
   },
   {
-    "id": 3152,
-    "text": "Christmas scene for http://tcc.lovebyte.party/day1/"
-  },
-  {
     "id": 3217,
     "text": "256b executable graphics for Lovebyte 2023"
+  },
+  {
+    "id": 3152,
+    "text": "Christmas scene for http://tcc.lovebyte.party/day1/"
   },
   {
     "id": 3089,
@@ -13040,12 +13040,12 @@
     "text": "Messy work in progress on something with many autonomous walkers in a single large map. Not sure what other game mechanics this needs."
   },
   {
-    "id": 3289,
-    "text": "NOTE: This cartridge was made in 2021 (outdated version)\r\nso we're going to make a 2023 updated version that could be better :)\r\n\r\nHELP (Tutorial):\r\nPress Up to Move Up Ball.\r\nPress Down to Move Down Ball.\r\nPress A (Mobile) / Z (Keyboard) to Grow up Ball.\r\nPress B (Mobile) / X (Keyboard) to Shrink Down the Ball.\r\nPress Q (Keyboard) to Change the Colour's Ball.\r\nPress 1 (Keyboard) to Reset Cartridge.\r\nPress Y (Mobile) / S (Keyboard) to Left Moving Fast Ball.\r\nPress X (Mobile) / A (Keyboard) to Right Moving Fast Ball.\r\n\r\nChangelog V1.0 (2023 Update):\r\n- Added Trace Debug (check for code editor to see \"tracedebug\" in settings variable\r\nto change like this \"false\" to \"after\"\r\n- Added All Proper Variables in this code\r\n- Removed some unused\r\n- Changed Circle is too big (obj_size=130), a circle is too small (obj_size=0) Limited\r\nwhen pressing A or B buttons with the proper function system\r\n- And More!\r\n\r\n(C) 2023 MegaBits21"
-  },
-  {
     "id": 3224,
     "text": "Added lock-on type. Slightly modified Örgönjigüür's patterns. Changed method for camera scrolling (you don't have to hug the sides anymore).\r\nHold mouse button for manual, high range and slow lock-on attack. Release to launch missiles on locked enemies. Click+hold mouse button for automatic, low range and fast lock-on attack. It tries to find an enemy to lock, and launches missiles once it doesn't find anything to attack. An enemy can't be locked more than 1 time. The enemies nearest to the player are locked first.\r\nAlso slight modifications to the scoring system."
+  },
+  {
+    "id": 3289,
+    "text": "NOTE: This cartridge was made in 2021 (outdated version)\r\nso we're going to make a 2023 updated version that could be better :)\r\n\r\nHELP (Tutorial):\r\nPress Up to Move Up Ball.\r\nPress Down to Move Down Ball.\r\nPress A (Mobile) / Z (Keyboard) to Grow up Ball.\r\nPress B (Mobile) / X (Keyboard) to Shrink Down the Ball.\r\nPress Q (Keyboard) to Change the Colour's Ball.\r\nPress 1 (Keyboard) to Reset Cartridge.\r\nPress Y (Mobile) / S (Keyboard) to Left Moving Fast Ball.\r\nPress X (Mobile) / A (Keyboard) to Right Moving Fast Ball.\r\n\r\nChangelog V1.0 (2023 Update):\r\n- Added Trace Debug (check for code editor to see \"tracedebug\" in settings variable\r\nto change like this \"false\" to \"after\"\r\n- Added All Proper Variables in this code\r\n- Removed some unused\r\n- Changed Circle is too big (obj_size=130), a circle is too small (obj_size=0) Limited\r\nwhen pressing A or B buttons with the proper function system\r\n- And More!\r\n\r\n(C) 2023 MegaBits21"
   },
   {
     "id": 4010,
@@ -13092,12 +13092,12 @@
     "text": "My own take on Conway's Game of Life on the TIC-80\r\nControls:\r\nR - reset the board\r\nP - pause the simulation"
   },
   {
-    "id": 3924,
-    "text": "tiny sandbox\r\nAll objects in the programm are attracted to each other with a certain force due to the law of universal gravitation. Any two bodies are attracted to each other with a force that is directly proportional to the mass of each and inversely proportional to the square of the distance between them.\r\n\r\nthis project on itch.io: https://k12t12.itch.io/gravity-sandbox-80"
-  },
-  {
     "id": 3588,
     "text": "fps 80 but 1 colour :) by tonygamer12"
+  },
+  {
+    "id": 3924,
+    "text": "tiny sandbox\r\nAll objects in the programm are attracted to each other with a certain force due to the law of universal gravitation. Any two bodies are attracted to each other with a force that is directly proportional to the mass of each and inversely proportional to the square of the distance between them.\r\n\r\nthis project on itch.io: https://k12t12.itch.io/gravity-sandbox-80"
   },
   {
     "id": 3413,
@@ -13252,12 +13252,12 @@
     "text": "a snack game"
   },
   {
-    "id": 3531,
-    "text": "Its very simple, dont expect so much content."
-  },
-  {
     "id": 3811,
     "text": "Small implementation of visual suduko-like puzzles.\r\n\r\nLeft click to place / change tiles\r\nRight click to clear tiles / place marker\r\nArrow keys or joypad buttons to rotate tiles"
+  },
+  {
+    "id": 3531,
+    "text": "Its very simple, dont expect so much content."
   },
   {
     "id": 3143,
@@ -13408,16 +13408,16 @@
     "text": "Day 3 of Lovebyte’s Tiny Code Christmas: Per-pixel effect (127 chars)"
   },
   {
+    "id": 3938,
+    "text": "Use arrow keys to play. Avoid the meteors. Have fun :)"
+  },
+  {
     "id": 3142,
     "text": "Day 9 of Lovebyte’s Tiny Code Christmas: Shadebobs, expert edition. 123 chars (118 w/o initial cls)"
   },
   {
     "id": 3730,
     "text": "This is the last module conversion example from my tic-80 tracker conversion tool\r\nfrom mptracker or normal protracker module from Amiga, you can  soon download this nice\r\ntool to help you for converting module, so stay tuned .. Amiga Rulez !\r\n"
-  },
-  {
-    "id": 3938,
-    "text": "Use arrow keys to play. Avoid the meteors. Have fun :)"
   },
   {
     "id": 4150,
@@ -13724,6 +13724,10 @@
     "text": "this noise sound better"
   },
   {
+    "id": 4372,
+    "text": "Thanks for the source code REVENGE OF YAKYUKEN. It's simple: win the game of rock, paper, scissors, and undress the girl\r\nLeft: Rock\r\nUp: Scissors\r\nRight: Paper\r\nZ: To Next\r\nOr Click on the screen with the mouse."
+  },
+  {
     "id": 4033,
     "text": "A mod of Pop! Fishing game (https://genderfreak.itch.io/pop-fishing) where Vanellope goes fishing in the soda rivers of Sugar Rush.\r\nContains 10 exclusive items related to Wreck-It Ralph."
   },
@@ -13738,10 +13742,6 @@
   {
     "id": 3822,
     "text": "A milky way animation made in 693 Bytes\r\n-Added stars in background"
-  },
-  {
-    "id": 4372,
-    "text": "Thanks for the source code REVENGE OF YAKYUKEN. It's simple: win the game of rock, paper, scissors, and undress the girl\r\nLeft: Rock\r\nUp: Scissors\r\nRight: Paper\r\nZ: To Next\r\nOr Click on the screen with the mouse."
   },
   {
     "id": 4039,
@@ -13928,16 +13928,16 @@
     "text": "A rabbit explores a carrot labyrinth"
   },
   {
+    "id": 4225,
+    "text": "Press 'Z' for new animation\r\nPress 'X' to see circle path"
+  },
+  {
     "id": 4045,
     "text": "Released in 2024"
   },
   {
     "id": 4064,
     "text": "Just get twenty points, easy as that...if it weren't for inflation rates decreasing the point value of the tokens by SIXTEEN TIMES! Also, you can't miss more than three tokens.\r\n\r\nMade for a challenge."
-  },
-  {
-    "id": 4225,
-    "text": "Press 'Z' for new animation\r\nPress 'X' to see circle path"
   },
   {
     "id": 4053,
@@ -13964,12 +13964,12 @@
     "text": "Project for the OGAM project October 2024 (OGAM #40)\r\n\r\nThe objective is to dodge the bubles and pierce them using the harpoons\r\n\r\nUse the directional arrows to move\r\n\r\n(w) For the harpoon\r\n\r\nI haven't had much time this month. However, I created the best mini-game possible! Even if there are still many things to improve and add!"
   },
   {
-    "id": 3947,
-    "text": "Press Left / Right to change no of iterations"
-  },
-  {
     "id": 4051,
     "text": "A little holiday 1K (size of the lua code)"
+  },
+  {
+    "id": 3947,
+    "text": "Press Left / Right to change no of iterations"
   },
   {
     "id": 4085,
@@ -14168,12 +14168,12 @@
     "text": "A simple algorithm for spreading fire orthogonally.\r\n\r\nPress arrows to move the circle around, press A/Z to reset."
   },
   {
-    "id": 3978,
-    "text": "Sushi making simulator.\r\nDrag and drop ingredients and try to roll them together using the makisu (bamboo mat) without everything exploding.\r\nAdjust perspective with arrow keys.\r\nI would have made the physics more robust, but it runs too slowly to feel worthwhile.\r\nThere is secret music in track 05, and lots of unused sprites for sushi ingredients (and whole sushi).\r\nRepo: https://github.com/1j01/makisu (includes this TIC-80 version as well as a fully 3D version)"
-  },
-  {
     "id": 4254,
     "text": "A dada cartridge after \"La Trahison des images\" by René Magritte\r\nhttps://en.wikipedia.org/wiki/The_Treachery_of_Images\r\n\r\nMade at the Chaos Treff in Bern, Switzerland.\r\nHappy May Day!"
+  },
+  {
+    "id": 3978,
+    "text": "Sushi making simulator.\r\nDrag and drop ingredients and try to roll them together using the makisu (bamboo mat) without everything exploding.\r\nAdjust perspective with arrow keys.\r\nI would have made the physics more robust, but it runs too slowly to feel worthwhile.\r\nThere is secret music in track 05, and lots of unused sprites for sushi ingredients (and whole sushi).\r\nRepo: https://github.com/1j01/makisu (includes this TIC-80 version as well as a fully 3D version)"
   },
   {
     "id": 4118,
@@ -14184,12 +14184,12 @@
     "text": "Is simply playground for TIC-80\r\n\r\nYou play game in Itch.io\r\nhttps://nazarthefloppa.itch.io/nazarmark"
   },
   {
-    "id": 4015,
-    "text": "Originally created for the #lovebytetcc Christmas challenge 2022."
-  },
-  {
     "id": 4119,
     "text": "A 16 line of colors for TIC-80"
+  },
+  {
+    "id": 4015,
+    "text": "Originally created for the #lovebytetcc Christmas challenge 2022."
   },
   {
     "id": 3990,
@@ -14208,16 +14208,16 @@
     "text": "A simple experimental plotter for TIC-80.\r\nIt is missing a lot of experimental features right now, and doesn't even have a proper input functionality and I have to add functions in the code.\r\n\r\nThis is the current form of function definition and their defaults.\r\n  {\r\n     func   =  \"1\"        -- [string] \u003cturns to function\u003e\r\n     funcx  =  \"...\"      -- [string] \u003cturns to function\u003e\r\n     start  = -100        -- [number]\r\n     finish =  100        -- [number]\r\n     prec   = 0.1         -- [number]\r\n     color  =  2          -- [number]\r\n     label  =  \"function\" -- [string]\r\n     ptype  =  plot       -- \u003cfunction\u003e: plot, polar\r\n  }\r\nI'm almost sure I'm not using proper syntax here but it seems understandable."
   },
   {
-    "id": 4014,
-    "text": "a demo of some sort, first published at Skrolli Party 2024. Ranking at 7th place (out of 11 entries) for obviously unknown reasonz. Greetings to everyone who was participating. It was a fun weekend!"
-  },
-  {
     "id": 4055,
     "text": "A simple mind reader demo, yep thats all.\r\n\r\nI sometimes do pointless stuff."
   },
   {
     "id": 4097,
     "text": "64 byte intro for sizecoding showcase @inercia 2024"
+  },
+  {
+    "id": 4014,
+    "text": "a demo of some sort, first published at Skrolli Party 2024. Ranking at 7th place (out of 11 entries) for obviously unknown reasonz. Greetings to everyone who was participating. It was a fun weekend!"
   },
   {
     "id": 4020,
@@ -14228,16 +14228,16 @@
     "text": "This is the stupidest project ive worked on"
   },
   {
+    "id": 4047,
+    "text": "very basic DVD logo screensaver, kind of rushed and has a TIC-80 cover of the song \"Dist. Themes\" by EntropyAuthor, credits to him, if you want to you can check out his channel \r\n\r\nit's my first cart so don't expect anything too special"
+  },
+  {
     "id": 4069,
     "text": "Sorry im use tool from this link\r\nhttps://github.com/MichuButAnother/mpt-to-tic"
   },
   {
     "id": 4172,
     "text": "try it.."
-  },
-  {
-    "id": 4047,
-    "text": "very basic DVD logo screensaver, kind of rushed and has a TIC-80 cover of the song \"Dist. Themes\" by EntropyAuthor, credits to him, if you want to you can check out his channel \r\n\r\nit's my first cart so don't expect anything too special"
   },
   {
     "id": 4191,
@@ -14252,12 +14252,12 @@
     "text": "Arrows for XY movement, hold A [X] for XZ movement. Same applies to shape editor (S [Y]). In editor, use Z [A] to make a line and X [B] to remove most recent line."
   },
   {
-    "id": 4058,
-    "text": "177b cartridge use only memcpy() and sfx()"
-  },
-  {
     "id": 4156,
     "text": "cool spider :). Now with \"movement prediction\" and shadows!"
+  },
+  {
+    "id": 4058,
+    "text": "177b cartridge use only memcpy() and sfx()"
   },
   {
     "id": 4035,
@@ -14292,12 +14292,12 @@
     "text": "A test PSG song for TIC-80 "
   },
   {
-    "id": 4211,
-    "text": "Hello World Boys \u0026 Girls Edition \r\nby the code spr(), you can switch between sprites, 1 (for ticsy) and 5 (for tico)"
-  },
-  {
     "id": 4030,
     "text": "A simply sprite compressor in 930 bytes for TIC-80\r\n\r\n(C) 2024 NazarFloppaDev"
+  },
+  {
+    "id": 4211,
+    "text": "Hello World Boys \u0026 Girls Edition \r\nby the code spr(), you can switch between sprites, 1 (for ticsy) and 5 (for tico)"
   },
   {
     "id": 4133,
@@ -14380,20 +14380,20 @@
     "text": "The active player keeps switching! This is a work-in-progress cart for a local multiplayer game. Arrow keys to control Player 1, WASD to control Player 2. "
   },
   {
-    "id": 4207,
-    "text": "A quick app I spun together to test color dithering combinations."
-  },
-  {
     "id": 4143,
     "text": "Is there a \"Screensaver\" Category?"
   },
   {
-    "id": 4200,
-    "text": "3D rendering test, CCTV edition. Controls are up/down for tilt, left/right for pan, and A/B for zoom. Feel free to use the engine for whatever you want.\r\n- 0x30507DE"
+    "id": 4207,
+    "text": "A quick app I spun together to test color dithering combinations."
   },
   {
     "id": 4374,
     "text": "You can't collect rings and the deaths are counted."
+  },
+  {
+    "id": 4200,
+    "text": "3D rendering test, CCTV edition. Controls are up/down for tilt, left/right for pan, and A/B for zoom. Feel free to use the engine for whatever you want.\r\n- 0x30507DE"
   },
   {
     "id": 4196,
@@ -14456,12 +14456,12 @@
     "text": "Just a little game i made in a car trip"
   },
   {
-    "id": 4214,
-    "text": "C is slightly faster than Zig. They are almost the same."
-  },
-  {
     "id": 4316,
     "text": "adventer game🤣"
+  },
+  {
+    "id": 4214,
+    "text": "C is slightly faster than Zig. They are almost the same."
   },
   {
     "id": 4377,
@@ -14516,12 +14516,12 @@
     "text": "tool for testing which buttons are pressed. In documentation there are wrong buttons"
   },
   {
-    "id": 4251,
-    "text": "My first 2a07 style remix/cover for TIC-80"
-  },
-  {
     "id": 4369,
     "text": "Enjoy Animation!"
+  },
+  {
+    "id": 4251,
+    "text": "My first 2a07 style remix/cover for TIC-80"
   },
   {
     "id": 4276,
@@ -14544,12 +14544,12 @@
     "text": "simple sanke game"
   },
   {
-    "id": 4241,
-    "text": "Press 'Z' for new pattern"
-  },
-  {
     "id": 4291,
     "text": "We spent Sunday morning making a small demo as a family. Music based on \"Born Country\" by B.Hill and J.Schweers. Pixelart by ashlloyd7, code by seism \u0026 ashlloyd7."
+  },
+  {
+    "id": 4241,
+    "text": "Press 'Z' for new pattern"
   },
   {
     "id": 4261,
@@ -14564,16 +14564,16 @@
     "text": "Based on the card game Scoundrel, by Zach Gage and Kurt Bieg"
   },
   {
+    "id": 4336,
+    "text": "can you get to 2048?"
+  },
+  {
     "id": 4231,
     "text": "A fast pacing game where you control a dot to hit a maximum of green rectangle and avoid red in 30 seconds.\r\nThis include score, combos and last scores for match with friends."
   },
   {
     "id": 4284,
     "text": "WIP RPG game that needs plenty of work. Feel free to suggest things to add\r\n\r\nPress Q to start a battle and add another enemy to the existing battle (feature to not be included in the full release)"
-  },
-  {
-    "id": 4336,
-    "text": "can you get to 2048?"
   },
   {
     "id": 4244,
@@ -14584,12 +14584,12 @@
     "text": "a simple Block Distroyer game ( inspired by bubble shooter + ping pong)"
   },
   {
-    "id": 4297,
-    "text": "so your eyes wont burn,\r\napply this to your config file"
-  },
-  {
     "id": 4267,
     "text": "Demo that will eventually turn in to a game"
+  },
+  {
+    "id": 4297,
+    "text": "so your eyes wont burn,\r\napply this to your config file"
   },
   {
     "id": 4302,
@@ -14600,12 +14600,12 @@
     "text": "Simple drum machine I programmed to get to grips with the sfx editor. Currently no backing tracks, metronome, or kit customisation but I might add some in future!"
   },
   {
-    "id": 4310,
-    "text": "This is 0.2 version of a minesweeper.\r\nIt's playable, and it's a first game project I somewhat finished.\r\nMy first working(ish) game :D"
-  },
-  {
     "id": 4340,
     "text": "Memey ping pong"
+  },
+  {
+    "id": 4310,
+    "text": "This is 0.2 version of a minesweeper.\r\nIt's playable, and it's a first game project I somewhat finished.\r\nMy first working(ish) game :D"
   },
   {
     "id": 4240,
@@ -14668,12 +14668,12 @@
     "text": "Wanted to try if a few techniques old games used for CRT screens would work with the CRT filter TIC-80 has."
   },
   {
-    "id": 4328,
-    "text": "Just a sprite test i've worked on, but to switch characters you can use on the code spr() in the code editor to change the character for example spr 0 for the first one and /30 for the animation of the first one and 4 for the second one and /60 for the second ones animation."
-  },
-  {
     "id": 4335,
     "text": "simple Verlet solver"
+  },
+  {
+    "id": 4328,
+    "text": "Just a sprite test i've worked on, but to switch characters you can use on the code spr() in the code editor to change the character for example spr 0 for the first one and /30 for the animation of the first one and 4 for the second one and /60 for the second ones animation."
   },
   {
     "id": 4333,
@@ -14748,16 +14748,16 @@
     "text": "Chaikins algorithm for smoothing curves kinda"
   },
   {
+    "id": 4361,
+    "text": "grass in grass in grass in grass in grass in..."
+  },
+  {
     "id": 4349,
     "text": "Animation i made for LoveByte 2024"
   },
   {
     "id": 4352,
     "text": "Particle based physics. Based off Jakobsens paper"
-  },
-  {
-    "id": 4361,
-    "text": "grass in grass in grass in grass in grass in..."
   },
   {
     "id": 4375,
