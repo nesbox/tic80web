@@ -12,6 +12,14 @@
                     "name": "dev",
                     "shell_cmd": "npm run dev"
                 },
+
+                {
+                    "name": "sync",
+                    "shell_cmd": "go run .",
+                    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+                    "working_dir": "${project_path}",
+                },
+                
             ]
         }
     ],
