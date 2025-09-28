@@ -51,8 +51,8 @@ func main() {
 	// A reusable HTTP client.
 	client := &http.Client{}
 
-	// Fetch the list of games. The function now also saves the JSON file internally.
-	games, err := fetchGames(client)
+	// Fetch the list of games.
+	games, rawGames, err := fetchGames(client)
 	if err != nil {
 		fmt.Printf("Failed to fetch games: %v\n", err)
 		return
@@ -106,6 +106,24 @@ func main() {
 
 	fmt.Println("\nAll cart downloads finished.")
 
+	// Update games.json with new unique names
+	for i, game := range games {
+		rawGames[i]["name"] = game.Name
+	}
+	for _, g := range rawGames {
+		delete(g, "text")
+	}
+	modifiedBody, err := json.MarshalIndent(rawGames, "", "  ")
+	if err != nil {
+		fmt.Printf("Failed to marshal updated games: %v\n", err)
+		return
+	}
+	if err := os.WriteFile("src/data/games.json", modifiedBody, 0644); err != nil {
+		fmt.Printf("Failed to save updated games.json: %v\n", err)
+		return
+	}
+	fmt.Println("games.json updated with unique names.")
+
 	// Process avatars to encode as base64 for filtered users only.
 	processAvatars(client, filtered)
 
@@ -125,75 +143,71 @@ func main() {
 	fmt.Println("users.json updated.")
 }
 
-// fetchGames fetches the list of games from the TIC-80 API, saves the raw
-// JSON to games.json, and returns the parsed game list.
-func fetchGames(client *http.Client) ([]Game, error) {
+// fetchGames fetches the list of games from the TIC-80 API and returns the parsed game list and raw games.
+func fetchGames(client *http.Client) ([]Game, []map[string]interface{}, error) {
 	resp, err := client.Get(fmt.Sprintf("%s/json?fn=games", baseURL))
 	if err != nil {
-		return nil, fmt.Errorf("error making GET request: %w", err)
+		return nil, nil, fmt.Errorf("error making GET request: %w", err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("received non-OK status code: %d", resp.StatusCode)
+		return nil, nil, fmt.Errorf("received non-OK status code: %d", resp.StatusCode)
 	}
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return nil, fmt.Errorf("error reading response body: %w", err)
+		return nil, nil, fmt.Errorf("error reading response body: %w", err)
 	}
 
-	// Parse to map to remove text field
 	var rawGames []map[string]interface{}
 	if err := json.Unmarshal(body, &rawGames); err != nil {
-		return nil, fmt.Errorf("error unmarshaling raw JSON: %w", err)
-	}
-
-	// Remove text field from each game
-	for _, game := range rawGames {
-		delete(game, "text")
-	}
-
-	// Marshal back without text
-	modifiedBody, err := json.MarshalIndent(rawGames, "", "  ")
-	if err != nil {
-		return nil, fmt.Errorf("error marshaling modified JSON: %w", err)
-	}
-
-	// Save the modified JSON data to a file.
-	if err := os.WriteFile("src/data/games.json", modifiedBody, 0644); err != nil {
-		// We return the parsing error, but print the file write error.
-		fmt.Printf("Error saving games.json: %v\n", err)
-	} else {
-		fmt.Println("Successfully saved games.json")
+		return nil, nil, fmt.Errorf("error unmarshaling raw JSON: %w", err)
 	}
 
 	var games []Game
 	if err := json.Unmarshal(body, &games); err != nil {
-		return nil, fmt.Errorf("error unmarshaling JSON: %w", err)
+		return nil, nil, fmt.Errorf("error unmarshaling JSON: %w", err)
 	}
 
-	return games, nil
+	return games, rawGames, nil
 }
 
 // downloadCarts downloads all games concurrently using a worker pool pattern.
 func downloadCarts(client *http.Client, games []Game, users []User) {
+	// Clean the public/dev folder before downloading
+	if err := os.RemoveAll("public/dev"); err != nil {
+		fmt.Printf("Error cleaning public/dev: %v\n", err)
+		return
+	}
+	if err := os.Mkdir("public/dev", 0755); err != nil {
+		fmt.Printf("Error creating public/dev: %v\n", err)
+		return
+	}
+
+	// Group games by user
+	gamesByUser := make(map[int][]Game)
+	for _, game := range games {
+		gamesByUser[game.User] = append(gamesByUser[game.User], game)
+	}
+
 	var wg sync.WaitGroup
 	// Buffered channel acts as a semaphore to limit concurrency.
 	sem := make(chan struct{}, concurrencyLimit)
+	var globalCounter int64 = -1
 
-	for i, game := range games {
+	for userID, userGames := range gamesByUser {
 		wg.Add(1)
 		sem <- struct{}{} // Acquire a slot
 
-		go func(i int, game Game) {
+		go func(userID int, userGames []Game) {
 			defer wg.Done()
 			defer func() { <-sem }() // Release the slot
 
-			// Find the username for this game
+			// Find the username for this user
 			var username string
 			for _, u := range users {
-				if id, ok := u["id"].(float64); ok && int(id) == game.User {
+				if id, ok := u["id"].(float64); ok && int(id) == userID {
 					if name, ok := u["name"].(string); ok {
 						username = strings.ToLower(name)
 						break
@@ -201,46 +215,60 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 				}
 			}
 			if username == "" {
-				fmt.Printf("No username found for game %s\n", game.Title)
+				fmt.Printf("No username found for user %d\n", userID)
 				return
 			}
 
-			cartname := game.Name
-			if cartname == "" {
-				cartname = game.Title
-			}
+			// Process games sequentially for this user to ensure unique names
+			for _, game := range userGames {
+				cartname := game.Name
+				if cartname == "" {
+					cartname = game.Title
+				}
 
-			cartPath := fmt.Sprintf("public/dev/%s/%s/%s.tic", username, cartname, cartname)
-			_, err := os.Stat(cartPath)
+				// Ensure unique cartname by appending numbers if directory exists
+				originalCartname := cartname
+				suffix := 0
+				for {
+					candidate := originalCartname
+					if suffix > 0 {
+						candidate = fmt.Sprintf("%s%d", originalCartname, suffix)
+					}
+					cartDir := fmt.Sprintf("public/dev/%s/%s", username, candidate)
+					if _, err := os.Stat(cartDir); os.IsNotExist(err) {
+						cartname = candidate
+						break
+					}
+					suffix++
+				}
 
-			// Download only if the file does not exist.
-			if errors.Is(err, os.ErrNotExist) {
+				// Update the game name in the original games slice
+				for i, g := range games {
+					if g.ID == game.ID {
+						games[i].Name = cartname
+						break
+					}
+				}
+
+				cartPath := fmt.Sprintf("public/dev/%s/%s/%s.tic", username, cartname, cartname)
+
 				// Create the directory
 				if err := os.MkdirAll(filepath.Dir(cartPath), 0755); err != nil {
 					fmt.Printf("Error creating directory for %s: %v\n", game.Title, err)
-					return
+					continue
 				}
-				if err := downloadFile(client, game.Hash, cartPath, game.Title, i, len(games)); err != nil {
+				current := atomic.AddInt64(&globalCounter, 1)
+				if err := downloadFile(client, game.Hash, cartPath, game.Title, int(current), len(games)); err != nil {
 					fmt.Printf("Failed to download %s: %v\n", game.Title, err)
 				}
-			} else if err == nil {
-				fmt.Printf("[%d/%d] - %s already exists. Skipping.\n", i+1, len(games), game.Title)
-			} else {
-				fmt.Printf("Error checking file status for %s: %v\n", game.Title, err)
-			}
 
-			// Download cover
-			coverPath := fmt.Sprintf("public/dev/%s/%s/cover.png", username, cartname)
-			if _, err := os.Stat(coverPath); errors.Is(err, os.ErrNotExist) {
+				// Download cover
+				coverPath := fmt.Sprintf("public/dev/%s/%s/cover.png", username, cartname)
 				if err := downloadCover(client, game.Hash, coverPath); err != nil {
 					fmt.Printf("Failed to download cover for %s: %v\n", game.Title, err)
 				}
-			} else if err == nil {
-				// Cover already exists, skip
-			} else {
-				fmt.Printf("Error checking cover for %s: %v\n", game.Title, err)
 			}
-		}(i, game)
+		}(userID, userGames)
 	}
 	wg.Wait()
 }
