@@ -67,6 +67,7 @@ const UserDev = () => {
   return (
     <div>
       <h2><Link to="/dev">Devs</Link> <span className="text-muted">&gt;</span> {currentUser.name}</h2>
+      <hr/>
       <p>
         <UserAvatar user={currentUser} />
       </p>

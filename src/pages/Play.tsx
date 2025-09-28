@@ -9,7 +9,7 @@ import { PAGINATION, SORTS } from '../constants';
 const Play = () => {
   const { games: contextGames, categories, usersMap, loading } = useData();
   const { categoryName, sortName } = useParams<{ categoryName: string; sortName: string }>();
-  const currentCategoryName = categoryName || 'games';
+  const currentCategoryName = categoryName || 'all';
   const currentSortName = sortName || 'popular';
   const currentCategoryData = categories.find(cat => cat.name.toLowerCase() === currentCategoryName);
   const currentCategory = currentCategoryData ? currentCategoryData.id : 0;
@@ -44,7 +44,7 @@ const Play = () => {
 
   useEffect(() => {
     if (!loading && contextGames.length > 0) {
-      let filteredGames = contextGames.filter(game => game.category === currentCategory);
+      let filteredGames = currentCategory === -1 ? contextGames : contextGames.filter(game => game.category === currentCategory);
       let sortedGames: Game[];
 
       if (currentSort === 0) {
@@ -111,7 +111,7 @@ const Play = () => {
       <ul className="nav nav-pills">
         {categories.map((category) => (
           <li key={category.id} role="presentation" className={category.id === currentCategory ? 'active' : ''}>
-            <Link to={`/play/${category.name.toLowerCase()}/${currentSortName}`}>{category.name}</Link>
+            <Link to={currentSortName === 'popular' ? (category.name.toLowerCase() == 'all' ? `/play` : `/play/${category.name.toLowerCase()}`) : `/play/${category.name.toLowerCase()}/${currentSortName}`}>{category.name}</Link>
           </li>
         ))}
       </ul>
@@ -122,7 +122,7 @@ const Play = () => {
       <ul className="nav nav-pills nav-small">
         {SORTS.map((sort) => (
           <li key={sort.id} role="presentation" className={sort.id === currentSort ? 'active' : ''}>
-            <Link to={`/play/${currentCategoryName}/${sort.path}`}>{sort.name}</Link>
+            <Link to={sort.path === 'popular' ? (currentCategoryName === 'all' ? '/play' : `/play/${currentCategoryName}`) : `/play/${currentCategoryName}/${sort.path}`}>{sort.name}</Link>
           </li>
         ))}
       </ul>

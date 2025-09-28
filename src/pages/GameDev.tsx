@@ -40,9 +40,9 @@ const GameDev = () => {
   return (
     <div>
       <div>
-        <h1>
-          <Link to="/play">Games</Link> <span className="text-muted">{'>'}</span> {game.title}
-        </h1>
+        <h2>
+          <Link to="/dev">Devs</Link> <span className="text-muted">{'>'}</span> <Link to={`/dev/${usersMap[user.id]}`}>{user.name}</Link> <span className="text-muted">{'>'}</span> {game.title}
+        </h2>
         <hr />
         <div>{game.desc || 'No description available'}</div>
         <div>made by {game.author}</div>

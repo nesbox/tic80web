@@ -62,7 +62,7 @@ export const DataProvider = ({ children }: DataProviderProps) => {
 
         setGames(filteredGames);
         setUsers(usersData);
-        setCategories(categoriesData);
+        setCategories([{ id: -1, name: 'All', info: 'All carts.' }, ...categoriesData]);
 
         const map = usersData.reduce((acc: Record<number, string>, user: User) => {
           acc[user.id] = user.name.toLowerCase();

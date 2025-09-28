@@ -85,7 +85,7 @@ const Dev = () => {
 
   return (
     <>
-      <h2>Developers</h2>
+      <h2>Devs</h2>
 
       <hr/>
 
