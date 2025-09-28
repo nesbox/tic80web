@@ -112,6 +112,7 @@ func main() {
 	}
 	for _, g := range rawGames {
 		delete(g, "text")
+		delete(g, "hash")
 	}
 	modifiedBody, err := json.MarshalIndent(rawGames, "", "  ")
 	if err != nil {
