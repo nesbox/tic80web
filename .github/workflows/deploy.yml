@@ -33,7 +33,7 @@ jobs:
       - name: Install
         run: |
           sudo apt-get update
-          sudo apt-get install gcc-12 g++-12 libxi-dev libxcursor-dev libasound2-dev libgl-dev -y
+          sudo apt-get install gcc-12 g++-12 libxi-dev libxcursor-dev libasound2-dev libgl-dev gdb -y
           sudo ln -s -f /usr/bin/gcc-12 /usr/bin/gcc
           sudo ln -s -f /usr/bin/g++-12 /usr/bin/g++
 
@@ -46,7 +46,7 @@ jobs:
       - name: Export help
         run: |
           cd tic80
-          ./build/bin/tic80 --cli --fs=. --cmd='export help help.md'
+          gdb --batch --ex "run" --ex "bt full" ./build/tic80 --cli --fs=. --cmd='export help help.md' 2>&1
 
       - name: Copy help to data
         run: cp tic80/help.md src/data/help.md
