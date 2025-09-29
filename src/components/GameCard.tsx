@@ -34,4 +34,3 @@ const GameCard = ({ game, userName, className = "col-md-4" }: GameCardProps) => 
 };
 
 export default GameCard;
-export type { Game };

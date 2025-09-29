@@ -5,6 +5,7 @@ import { GameCard, Loading } from '../components';
 import type { Game } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION, SORTS } from '../constants';
+import { sortGames } from '../utils';
 
 const Play = () => {
   const { games: contextGames, categories, usersMap, loading } = useData();
@@ -31,40 +32,10 @@ const Play = () => {
     });
   };
 
-  const sortGames = (games: Game[], sortId: number) => {
-    switch (sortId) {
-      case 1: // most recent
-        return [...games].sort((a, b) => b.updated - a.updated);
-      case 2: // top rated
-        return [...games].sort((a, b) => b.rating - a.rating);
-      default:
-        return games;
-    }
-  };
-
   useEffect(() => {
     if (!loading && contextGames.length > 0) {
       let filteredGames = currentCategory === -1 ? contextGames : contextGames.filter(game => game.category === currentCategory);
-      let sortedGames: Game[];
-
-      if (currentSort === 0) {
-        // Popular: recent games sorted by rating, expand time window until we have games
-        let days = RECENT_DAYS;
-        let recentGames = [];
-        let attempts = 0;
-        const maxAttempts = 10; // Prevent infinite loop
-
-        do {
-          const recentTimestamp = Date.now() - (days * 24 * 60 * 60 * 1000);
-          recentGames = filteredGames.filter(game => game.updated > recentTimestamp);
-          days += RECENT_DAYS;
-          attempts++;
-        } while (recentGames.length === 0 && attempts < maxAttempts);
-
-        sortedGames = [...recentGames].sort((a, b) => b.rating !== a.rating ? b.rating - a.rating : b.updated - a.updated);
-      } else {
-        sortedGames = sortGames(filteredGames, currentSort);
-      }
+      const sortedGames = sortGames(filteredGames, currentSort, RECENT_DAYS);
 
       setGames(sortedGames);
       setVisibleGames(sortedGames.slice(0, PAGINATION.gamesPerLoad));
@@ -122,7 +93,7 @@ const Play = () => {
       <ul className="nav nav-pills nav-small">
         {SORTS.map((sort) => (
           <li key={sort.id} role="presentation" className={sort.id === currentSort ? 'active' : ''}>
-            <Link to={sort.path === 'popular' ? (currentCategoryName === 'all' ? '/play' : `/play/${currentCategoryName}`) : `/play/${currentCategoryName}/${sort.path}`}>{sort.name}</Link>
+            <Link to={sort.path === 'popular' ? (currentCategoryName === 'all' ? '/play' : `/play/${currentCategoryName}`) : `/play/${currentCategoryName}/${sort.path}`}>{sort.label}</Link>
           </li>
         ))}
       </ul>
