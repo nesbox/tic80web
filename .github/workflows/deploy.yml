@@ -9,51 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-help-md:
-    runs-on: ubuntu-22.04
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-
-      - uses: actions/checkout@v4
-        with:
-          repository: nesbox/tic-80
-          ref: sokol
-          path: tic80
-          submodules: recursive
-          fetch-depth: 0
-
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6
-
-      - name: Install
-        run: |
-          sudo apt-get update
-          sudo apt-get install gcc-12 g++-12 libxi-dev libxcursor-dev libasound2-dev libgl-dev gdb -y
-          sudo ln -s -f /usr/bin/gcc-12 /usr/bin/gcc
-          sudo ln -s -f /usr/bin/g++-12 /usr/bin/g++
-
-      - name: Build
-        run: |
-          cd tic80/build
-          cmake ..
-          cmake --build . --parallel
-
-      - name: Export help
-        run: |
-          cd tic80
-          gdb --batch --ex "run" --ex "bt full" --args ./build/tic80 --cli --fs=. --cmd='export help help.md' 2>&1
-
-      - name: Copy help to data
-        run: cp tic80/help.md src/data/help.md
-
   build-and-deploy:
     runs-on: ubuntu-latest
-    needs: generate-help-md
     
     environment:
       name: github-pages
