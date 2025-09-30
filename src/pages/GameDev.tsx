@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useData } from '../contexts/DataContext';
-import { Loading, Player } from '../components';
+import { Loading, Player, usePageTitle } from '../components';
 
 const GameDev = () => {
+  usePageTitle();
   const { user: userParam, game: gameParam } = useParams<{ user: string; game: string }>();
   const { games, users, usersMap, loading } = useData();
 

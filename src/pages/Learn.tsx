@@ -3,9 +3,11 @@ import { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkSlug from 'remark-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import { usePageTitle } from '../components';
 import helpContent from '../data/help.md?raw';
 
 const Learn = () => {
+  usePageTitle();
   useEffect(() => {
     const hash = window.location.hash;
     if (hash) {

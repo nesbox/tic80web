@@ -1,6 +1,7 @@
-import { Player } from '../components';
+import { Player, usePageTitle } from '../components';
 
 const Create = () => {
+  usePageTitle();
 
   return (
     <div>

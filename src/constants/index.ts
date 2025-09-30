@@ -40,7 +40,7 @@ export const PAGINATION = {
 
 // Sort options
 export const SORTS = [
-  { id: 0, path: 'popular', label: 'New & Popular' },
-  { id: 1, path: 'recent', label: 'Most Recent' },
-  { id: 2, path: 'top', label: 'Top Rated' },
+  { id: 0, name: 'Popular', path: 'popular', label: 'New & Popular' },
+  { id: 1, name: 'Recent', path: 'recent', label: 'Most Recent' },
+  { id: 2, name: 'Top', path: 'top', label: 'Top Rated' },
 ] as const;

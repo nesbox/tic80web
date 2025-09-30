@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { APP_CONFIG, IMAGES } from '../constants';
-import { GameCard, Loading } from '../components';
+import { GameCard, Loading, usePageTitle } from '../components';
 import type { Game } from '../types';
 import { useData } from '../contexts/DataContext';
 
 const Home = () => {
+  usePageTitle();
   const { games, usersMap, loading } = useData();
   const [topGames, setTopGames] = useState<Game[]>([]);
 

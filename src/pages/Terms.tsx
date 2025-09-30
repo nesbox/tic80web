@@ -1,5 +1,8 @@
 
+import { usePageTitle } from '../components';
+
 const Terms = () => {
+  usePageTitle();
   return (
     <>
       <h1>Terms of Use</h1>

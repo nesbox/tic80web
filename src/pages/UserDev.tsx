@@ -1,11 +1,12 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { GameCard, Loading, UserAvatar } from '../components';
+import { GameCard, Loading, UserAvatar, usePageTitle } from '../components';
 import type { Game, User } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION } from '../constants';
 
 const UserDev = () => {
+  usePageTitle();
   const { user } = useParams<{ user: string }>();
   const { users, games, loading } = useData();
   const [currentUser, setCurrentUser] = useState<User | null>(null);

@@ -1,4 +1,5 @@
 import type { Game } from '../types';
+import { SORTS } from '../constants';
 
 /**
  * Utility function to combine CSS class names
@@ -79,4 +80,71 @@ export const sortGames = (games: Game[], sortId: number, recentDays: number = 90
       return [...recentGames].sort((a, b) => b.rating !== a.rating ? b.rating - a.rating : b.updated - a.updated);
     }
   }
+};
+
+/**
+ * Generate page title based on current route and parameters
+ */
+export const usePageTitle = (pathname: string, params: Record<string, string | undefined>, data?: {
+  categories?: any[];
+  games?: Game[];
+  users?: any[];
+  usersMap?: Record<number, string>;
+}): string => {
+  const baseTitle = 'TIC-80';
+
+  const pathSegments = pathname.split('/').filter(Boolean);
+
+  switch (pathname) {
+    case '/':
+      return `${baseTitle} tiny computer`;
+    case '/learn':
+      return `Learn / ${baseTitle}`;
+    case '/create':
+      return `Create / ${baseTitle}`;
+    case '/dev':
+      return `Developers / ${baseTitle}`;
+    case '/terms':
+      return `Terms of Use / ${baseTitle}`;
+    default:
+      break;
+  }
+
+  if (pathname.startsWith('/play')) {
+    const categoryName = params.categoryName || 'all';
+    const sortName = params.sortName || 'popular';
+
+    let title = 'Carts / ' + baseTitle;
+
+    if (categoryName !== 'all') {
+      const category = data?.categories?.find(cat => cat.name.toLowerCase() === categoryName);
+      if (category) {
+        title = `${category.name} / ${baseTitle}`;
+      }
+    }
+
+    const sort = SORTS.find(sort => sort.path === sortName);
+    return `${sort?.name || 'Popular'} ${title}`;
+  }
+
+  if (pathname.startsWith('/dev/') && pathSegments.length >= 2) {
+    const userName = pathSegments[1];
+    const user = data?.users?.find(u => u.name.toLowerCase() === userName.toLowerCase());
+
+    if (!user) {
+      return baseTitle;
+    }
+
+    if (pathSegments.length === 2) {
+      return `Carts by ${user.name} / ${baseTitle}`;
+    }
+
+    if (pathSegments.length === 3) {
+      const gameName = pathSegments[2];
+      const game = data?.games?.find(g => g.name === gameName && g.user === user.id);
+      return `${game?.title || gameName} / ${baseTitle}`;
+    }
+  }
+
+  return baseTitle;
 };

@@ -1,13 +1,14 @@
 
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { GameCard, Loading } from '../components';
+import { GameCard, Loading, usePageTitle } from '../components';
 import type { Game } from '../types';
 import { useData } from '../contexts/DataContext';
 import { PAGINATION, SORTS } from '../constants';
 import { sortGames } from '../utils';
 
 const Play = () => {
+  usePageTitle();
   const { games: contextGames, categories, usersMap, loading } = useData();
   const { categoryName, sortName } = useParams<{ categoryName: string; sortName: string }>();
   const currentCategoryName = categoryName || 'all';
