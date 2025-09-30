@@ -1,19 +1,6 @@
 # TIC-80 tiny computer
-1.1.2837 (be42d6f)
-https://tic80.com (C) 2017-2023
-
-## Table of Contents
-
-- [Welcome](#welcome)
-- [Specification](#specification)
-- [Console commands](#console-commands)
-- [API functions](#api-functions)
-- [Button IDs](#button-ids)
-- [Key IDs](#key-ids)
-- [Startup options](#startup-options)
-- [Terms of Use](#terms-of-use)
-- [Privacy Policy](#privacy-policy)
-- [MIT License](#mit-license)
+1.2.3067-dev (b715658)
+https://tic80.com (C) 2017-2025
 
 ## Welcome
 TIC-80 is a fantasy computer for making, playing and sharing tiny games.
@@ -31,7 +18,7 @@ INPUT     4 gamepads with 8 buttons / mouse / keyboard.
 SPRITES   256 8x8 tiles and 256 8x8 sprites.
 MAP       240x136 cells, 1920x1088 pixels.
 SOUND     4 channels with configurable waveforms.
-CODE      64KB of lua, ruby, js, moon, fennel, scheme, squirrel, wren, wasm, janet or python.
+CODE      64KB of lua.
 ```
 ```
 
@@ -62,7 +49,8 @@ CODE      64KB of lua, ruby, js, moon, fennel, scheme, squirrel, wren, wasm, jan
 | 14A04 | ALT FONT          | 1016  |
 | 14DFC | ALT FONT PARAMS   | 8     |
 | 14E04 | BUTTONS MAPPING   | 32    |
-| 14E24 | ** RESERVED **    | 12764 |
+| 14E24 | PCM SAMPLES       | 128   |
+| 14EA4 | ** RESERVED **    | 12636 |
 +-------+-------------------+-------+
 ```
 ```
@@ -84,98 +72,111 @@ CODE      64KB of lua, ruby, js, moon, fennel, scheme, squirrel, wren, wasm, jan
 
 ## Console commands
 
+### add
+Upload file to the  local storage.
+usage: `add`
+
 ### cd
-change directory.
+Change directory.
 usage: `
 cd <path>
 cd /
 cd ..`
 
 ### cls
-clear console screen.
+Clear console screen.
 usage: `cls`
 
 ### config
-edit system configuration cartridge,
-use `reset` param to reset current configuration,
-use `default` to edit default cart template.
+Edit system configuration cartridge.
+Use `reset` param to reset current configuration.
+Use `default` to edit default cart template.
 usage: `config [reset|default]`
 
 ### del
-delete from the filesystem.
+Delete from the filesystem.
 usage: `del <file|folder>`
 
 ### demo
-install demo carts to the current directory.
+Install demo carts to the current directory.
 usage: `demo`
 
 ### dir
-show list of local files.
+Show list of local files.
 usage: `dir`
 
 ### edit
-open cart editors.
+Open cart editors (Hotkey: ESC or F1).
 usage: `edit`
 
 ### eval
-run code provided code.
+Run provided code within the console, useful for debugging and testing.
+
+Tips
+- Use trace() to log the results. Eg: eval trace(2+2)
+- The virtual machine should be launched first by running a cart; otherwise it will output an empty string.
 usage: `eval`
 
 ### exit
-exit the application.
+Exit the application (Hotkey: CTRL+Q).
 usage: `exit`
 
 ### export
-export cart to HTML,
-native build (win linux rpi mac),
 export sprites/map/... as a .png image or export sfx and music to .wav files.
 usage: `
-export [win|winxp|linux|rpi|mac|html|binary|tiles|sprites|map|mapimg|sfx|music|screen|help|...] <file> [bank=0 vbank=0 id=0 ...]`
+export [binary|tiles|sprites|map|mapimg|sfx|music|screen|help|] <file> [bank=0 vbank=0 id=0 ]`
 
 ### folder
-open working directory in OS.
+Open working directory in OS.
 usage: `folder`
 
+### get
+Download file from the local storage.
+usage: `get <file>`
+
 ### help
-show help info about commands/api/...
-usage: `help [<text>|version|welcome|spec|ram|vram|commands|api|keys|buttons|startup|terms|license]`
+Show help info about commands/api/...
+usage: `help [<text>|version|welcome|spec|ram|vram|commands|api|keys|buttons|options|hotkeys|terms|license]`
 
 ### import
-import code/sprites/map/... from an external file.
+Import code/sprites/map/... from an external file.
+While importing images, colors are merged to the closest color of the palette.
 usage: `
-import [binary|tiles|sprites|map|code|screen|...] <file> [bank=0 x=0 y=0 w=0 h=0 vbank=0 ...]`
+import [binary|tiles|sprites|map|code|screen|] <file> [bank=0 x=0 y=0 w=0 h=0 vbank=0 bpp=0 ]`
 
 ### load
-load cartridge from the local filesystem(there's no need to type the .tic extension).
-you can also load just the section (sprites, map etc) from another cart.
+Load cartridge from the local filesystem(there's no need to type the .tic extension).
+You can also load just the section (sprites, map, screen etc)from another cart.
 usage: `load <cart> [code|tiles|sprites|map|sfx|music|palette|flags|screen]`
 
 ### menu
-show game menu where you can setup video, sound and input options.
+Show menu where you can setup video, sound and input options.
 usage: `menu`
 
 ### mkdir
-make a directory.
+Make a directory.
 usage: `mkdir <name>`
 
 ### new
-creates a new `Hello World` cartridge.
-usage: `new <lua|ruby|js|moon|fennel|scheme|squirrel|wren|wasm|janet|python>`
+Creates a new `Hello World` cartridge.
+usage: `new <lua>`
 
 ### resume
-resume last run cart / project.
-usage: `resume`
+Resume last run cart / project. Reload game code
+first if given reload as an argument.
+usage: `resume [reload]`
 
 ### run
-run current cart / project.
+Run current cart / project (Hotkey: CTRL+R).
 usage: `run`
 
 ### save
-save cartridge to the local filesystem, use .lua .rb .js .moon .fnl .scm .nut .wren .wasmp .janet .py cart extension to save it in text format (PRO feature).
+Save cartridge to the local filesystem (Hotkey: CTRL+S), use .lua cart extension to save it in text format (PRO feature).
+Use .png file extension to save it as a png cart.
 usage: `save <cart>`
 
 ### surf
-open carts browser.
+Open carts browser.
 usage: `surf`
 
 ## API functions
@@ -253,6 +254,20 @@ It uses the Bresenham algorithm.
 `exit()`
 Interrupts program execution and returns to the console when the TIC function ends.
 
+### fft
+`fft(start_freq end_freq=-1)`
+Retrieves a value from 1024 buckets that map to a region of audible frequencies.
+Each has value of roughly 0..1 based on the intensity of sound at that frequency at that time.
+If end_freq is not provided, a single value is returned for the start_freq.
+If end_freq is provided, a sum of all values in the range is returned.
+
+### ffts
+`ffts(start_freq end_freq=-1)`
+Creates 1024 buckets that map to a region of audible frequencies and applies smoothing to it.
+Each returns a value of roughly 0..1 based on the intensity of sound at that frequency at that time.
+If end_freq is not provided, a single value is returned for the start_freq.
+If end_freq is provided, a sum of all values in the range is returned.
+
 ### fget
 `fget(sprite_id flag) -> bool`
 Returns true if the specified flag of the sprite is set. See `fset()` for more details.
@@ -324,6 +339,11 @@ Related: `map()` `mget()` `sync()`.
 `music(track=-1 frame=-1 row=-1 loop=true sustain=false tempo=-1 speed=-1)`
 This function starts playing a track created in the Music Editor.
 Call without arguments to stop the music.
+
+### paint
+`paint(x y color bordercolor=-1)`
+This function fills a contiguous area with a new color.
+If bordercolor is given fill will extend to color boundary.
 
 ### peek
 `peek(addr bits=8) -> value`
@@ -576,14 +596,128 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 --volume=<int>   global volume value [0-15]
 --cli            console only output
 --fullscreen     enable fullscreen mode
---vsync          enable VSYNC
---soft           use software rendering
 --fs=<str>       path to the file system folder
 --scale=<int>    main window scale
 --cmd=<str>      run commands in the console
 --keepcmd        re-execute commands on every run
 --version        print program version
---crt            enable CRT monitor effect
+```
+
+## Hotkeys
+
+### General:
+```
+CTRL+R/ENTER        Run current project.
+CTRL+S              Save cart.
+CTRL+X/C/V          Cut/copy/paste in the editors.
+CTRL+Z/Y            Undo/redo changes in the editors.
+F6                  Toggle CRT filter.
+F7                  Assign cover image while in game.
+F8                  Take a screenshot.
+F9                  Start/stop GIF video recording.
+F11/ALT+ENTER       Fullscreen/window mode.
+CTRL+Q              Quit the application.
+```
+
+### Navigation:
+```
+ESC                 Switch console/editor or open menu while in game.
+ESC+F1              Switch to code editor while in game.
+ALT+~               Show console.
+ALT+1/F1            Show code editor.
+ALT+2/F2            Show sprite editor.
+ALT+3/F3            Show map editor.
+ALT+4/F4            Show sfx editor.
+ALT+5/F5            Show music editor.
+CTRL+PGUP/PGDOWN    Switch to previous/next editor mode.
+```
+
+### Code Editor:
+```
+CTRL+F              Find.
+CTRL+G              Go to line.
+CTRL+P/N            Move to previous/next line.
+ALT/CTRL+LEFT       Move to previous word.
+ALT/CTRL+RIGHT      Move to next word.
+ALT/CTRL+BACKSPACE  Delete previous word.
+ALT/CTRL+DELETE     Delete next word.
+CTRL+K              Delete end of line.
+CTRL+D              Duplicate current line.
+CTRL+J              Newline.
+CTRL+A              Select all.
+CTRL+F1             Bookmark current line.
+F1                  Move to next bookmark.
+CTRL+B              Show bookmark list.
+CTRL+O              Show code outline and navigate functions.
+CTRL+TAB            Indent line.
+CTRL+SHIFT+TAB      Unindent line.
+CTRL+/              Comment/Uncomment line.
+RIGHT CLICK         Drag.
+SCROLL WHEEL        Vertical scrolling.
+SHIFT+SCROLL WHEEL  Horizontal scrolling.
+CTRL+L              Center screen on cursor.
+```
+
+### Sprite Editor:
+```
+TAB                 Switch tiles/sprites.
+[]                  Choose previous/next palette color.
+-/=                 Change brush size.
+SCROLL              Canvas zoom.
+1                   Select brush.
+2                   Select color picker.
+3                   Select selection tool.
+4                   Select filling tool.
+5                   Flip horizontally.
+6                   Flip vertically.
+7                   Rotate.
+8/DELETE            Erase.
+```
+
+### Map Editor:
+```
+SHIFT               Show tilesheet.
+CTRL+CLICK          Replace all identical tiles (when the Fill tool [4] is selected).
+`                   Show/hide grid.
+TAB/SCROLL          Switch to full world map.
+1                   Select draw.
+2                   Select drag map.
+3                   Select selection tool.
+4                   Select filling tool.
+```
+
+### SFX Editor:
+```
+SPACE               Play last played note.
+Z,X,C,V,B,N,M       Play notes corresponding to one octave (bottom row of QWERTY layout).
+S,D,G,H,J           Play notes corresponding to sharps and flats (home row of QWERTY layout).
+```
+
+### Music Editor:
+```
+SHIFT+ENTER         Play pattern from cursor position in the music editor.
+ENTER               Play frame.
+SPACE               Play track.
+CTRL+F              Follow.
+Z,X,C,V,B,N,M       Play notes corresponding to one octave (bottom row of QWERTY layout) in tracker mode.
+S,D,G,H,J           Play notes corresponding to sharps and flats (home row of QWERTY layout) in tracker mode.
+A                   Insert note break (or 'stop').
+DELETE              Delete selection / selected row.
+BACKSPACE           Delete the row above.
+INSERT              Insert rows below.
+CTRL+F1             Decrease notes by Semitone.
+CTRL+F2             Increase notes by Semitone.
+CTRL+F3             Decrease octaves.
+CTRL+F4             Increase octaves.
+CTRL+RIGHT          Jump forward one frame.
+CTRL+LEFT           Jump backward one frame.
+TAB                 Go to next channel.
+SHIFT+TAB           Go to previous channel.
++                   Next pattern.
+-                   Previous pattern.
+CTRL+UP             Next instrument.
+CTRL+DOWN           Previous instrument.
+F5                  Switch piano/tracker mode.
 ```
 
 ## Terms of Use
@@ -598,7 +732,7 @@ We store only the user's email and password in encrypted form and will not trans
 
 ## MIT License
 
-Copyright (c) 2017-2023 Vadim Grigoruk @nesbox // grigoruk@gmail.com
+Copyright (c) 2017-2025 Vadim Grigoruk @nesbox // grigoruk@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
