@@ -63,7 +63,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
 
@@ -75,11 +75,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: help-md
-          path: .
-
-      - name: Replace help.md
-        run: |
-          mv help.md src/data/help.md
+          path: src/data
 
       - name: Setup Go
         if: github.event_name == 'schedule'
@@ -92,6 +88,14 @@ jobs:
         run: |
           go mod tidy
           go run .
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update data files" || echo "No changes to commit"
+          git push
 
       - name: Setup Node.js 
         uses: actions/setup-node@v4
