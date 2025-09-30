@@ -46,7 +46,7 @@ jobs:
       - name: Export help
         run: |
           cd tic80
-          gdb --batch --ex "run" --ex "bt full" --args ./build/tic80 --cli --fs=. --cmd='export help help.md' 2>&1
+          build/bin/tic80 --cli --fs=. --cmd='export help help.md'
 
       - name: Copy help to data
         run: cp tic80/help.md src/data/help.md
