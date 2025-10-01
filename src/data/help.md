@@ -1,20 +1,33 @@
 # TIC-80 tiny computer
-1.2.3067-dev (b715658)
+1.2.3068-dev (05ee1a5)
 https://tic80.com (C) 2017-2025
 
+## Table of Contents
+
+- [Welcome](#welcome)
+- [Specification](#specification)
+- [Console commands](#console-commands)
+- [API functions](#api-functions)
+- [Button IDs](#button-ids)
+- [Key IDs](#key-ids)
+- [Startup options](#startup-options)
+- [Terms of Use](#terms-of-use)
+- [Privacy Policy](#privacy-policy)
+- [MIT License](#mit-license)
+
 ## Welcome
-TIC-80 is a fantasy computer for making, playing and sharing tiny games.
+TIC-80 is a fantasy computer for making, playing, and sharing tiny games.
 
-It has built-in tools for development: code, sprites, maps, sound editors and the command line, which is enough to create a mini retro game.
-In the end, you will get a cartridge file, which can be stored and played on the website.
+It has built-in tools for development: code, sprite, map, and sound editors, plus a command line interface, which is enough to create a mini retro game.
+At the end, you get a cartridge file that can be stored and played on the website.
 
-Also, the game can be packed into a player that works on all popular platforms and distributed as you wish.
-To make a retro-style game, the whole creation process takes place under some technical limitations: 240x136 pixels display, 16 color palette, 256 8x8 color sprites, 4 channel sound, etc.
+Games can also be packaged into players that work on all popular platforms and distributed as desired.
+To create a retro-style game, the entire development process operates under technical limitations: 240x136 pixel display, 16-color palette, 256 8x8 color sprites, 4-channel sound, etc.
 
 ## Specification
 ```
-DISPLAY   240x136 pixels, 16 colors palette.
-INPUT     4 gamepads with 8 buttons / mouse / keyboard.
+DISPLAY   240x136 pixels, 16-color palette.
+INPUT     4 gamepads with 8 buttons, mouse, and keyboard.
 SPRITES   256 8x8 tiles and 256 8x8 sprites.
 MAP       240x136 cells, 1920x1088 pixels.
 SOUND     4 channels with configurable waveforms.
@@ -22,12 +35,11 @@ CODE      64KB of lua.
 ```
 ```
 
-+-----------------------------------+
-|           96KB RAM LAYOUT         |
-+-------+-------------------+-------+
+.-----------------------------------.
+|           80KB RAM LAYOUT         |
+|-----------------------------------|
 | ADDR  | INFO              | BYTES |
-+-------+-------------------+-------+
-| 00000 | <VRAM>            | 16384 |
+|-----------------------------------|
 | 04000 | TILES             | 8192  |
 | 06000 | SPRITES           | 8192  |
 | 08000 | MAP               | 32640 |
@@ -51,14 +63,14 @@ CODE      64KB of lua.
 | 14E04 | BUTTONS MAPPING   | 32    |
 | 14E24 | PCM SAMPLES       | 128   |
 | 14EA4 | ** RESERVED **    | 12636 |
-+-------+-------------------+-------+
+'-----------------------------------'
 ```
 ```
-+-----------------------------------+
+.-----------------------------------.
 |          16KB VRAM LAYOUT         |
-+-------+-------------------+-------+
+|-----------------------------------|
 | ADDR  | INFO              | BYTES |
-+-------+-------------------+-------+
+|-----------------------------------|
 | 00000 | SCREEN            | 16320 |
 | 03FC0 | PALETTE           | 48    |
 | 03FF0 | PALETTE MAP       | 8     |
@@ -66,14 +78,14 @@ CODE      64KB of lua.
 | 03FF9 | SCREEN OFFSET     | 2     |
 | 03FFB | MOUSE CURSOR      | 1     |
 | 03FFC | BLIT SEGMENT      | 1     |
-| 03FFD | ... (reserved)    | 3     |
-+-------+-------------------+-------+
+| 03FFD | ** RESERVED **    | 3     |
+'-----------------------------------'
 ```
 
 ## Console commands
 
 ### add
-Upload file to the  local storage.
+Upload file to the local storage.
 usage: `add`
 
 ### cd
@@ -89,8 +101,8 @@ usage: `cls`
 
 ### config
 Edit system configuration cartridge.
-Use `reset` param to reset current configuration.
-Use `default` to edit default cart template.
+Use `reset` parameter to reset current configuration.
+Use `default` to edit default cartridge template.
 usage: `config [reset|default]`
 
 ### del
@@ -98,7 +110,7 @@ Delete from the filesystem.
 usage: `del <file|folder>`
 
 ### demo
-Install demo carts to the current directory.
+Install demo cartridges to the current directory.
 usage: `demo`
 
 ### dir
@@ -112,9 +124,9 @@ usage: `edit`
 ### eval
 Run provided code within the console, useful for debugging and testing.
 
-Tips
-- Use trace() to log the results. Eg: eval trace(2+2)
-- The virtual machine should be launched first by running a cart; otherwise it will output an empty string.
+Tips:
+- Use trace() to log the results. E.g.: eval trace(2+2)
+- The virtual machine should be launched first by running a cartridge; otherwise it will output an empty string.
 usage: `eval`
 
 ### exit
@@ -122,12 +134,12 @@ Exit the application (Hotkey: CTRL+Q).
 usage: `exit`
 
 ### export
-export sprites/map/... as a .png image or export sfx and music to .wav files.
+Export sprites/map/... as PNG images or export SFX and music to WAV files.
 usage: `
 export [binary|tiles|sprites|map|mapimg|sfx|music|screen|help|] <file> [bank=0 vbank=0 id=0 ]`
 
 ### folder
-Open working directory in OS.
+Open working directory in the operating system.
 usage: `folder`
 
 ### get
@@ -135,22 +147,22 @@ Download file from the local storage.
 usage: `get <file>`
 
 ### help
-Show help info about commands/api/...
+Show help information about commands/API/...
 usage: `help [<text>|version|welcome|spec|ram|vram|commands|api|keys|buttons|options|hotkeys|terms|license]`
 
 ### import
 Import code/sprites/map/... from an external file.
-While importing images, colors are merged to the closest color of the palette.
+When importing images, colors are merged to the closest color in the palette.
 usage: `
 import [binary|tiles|sprites|map|code|screen|] <file> [bank=0 x=0 y=0 w=0 h=0 vbank=0 bpp=0 ]`
 
 ### load
-Load cartridge from the local filesystem(there's no need to type the .tic extension).
-You can also load just the section (sprites, map, screen etc)from another cart.
+Load cartridge from the local filesystem (no need to type the .tic extension).
+You can also load just a section (sprites, map, screen, etc.) from another cartridge.
 usage: `load <cart> [code|tiles|sprites|map|sfx|music|palette|flags|screen]`
 
 ### menu
-Show menu where you can setup video, sound and input options.
+Show menu where you can set up video, sound, and input options.
 usage: `menu`
 
 ### mkdir
@@ -162,8 +174,7 @@ Creates a new `Hello World` cartridge.
 usage: `new <lua>`
 
 ### resume
-Resume last run cart / project. Reload game code
-first if given reload as an argument.
+Resume the last run cartridge/project. Reload game code first if 'reload' is given as an argument.
 usage: `resume [reload]`
 
 ### run
@@ -171,12 +182,12 @@ Run current cart / project (Hotkey: CTRL+R).
 usage: `run`
 
 ### save
-Save cartridge to the local filesystem (Hotkey: CTRL+S), use .lua cart extension to save it in text format (PRO feature).
-Use .png file extension to save it as a png cart.
+Save cartridge to the local filesystem (Hotkey: CTRL+S). Use a .lua  cart extension to save it in text format (PRO feature).
+Use .png file extension to save it as a PNG cartridge.
 usage: `save <cart>`
 
 ### surf
-Open carts browser.
+Open cartridge browser.
 usage: `surf`
 
 ## API functions
@@ -521,9 +532,9 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 
 ## Button IDs
 ```
-+--------+----+----+----+----+
+.----------------------------.
 | ACTION | P1 | P2 | P3 | P4 |
-+--------+----+----+----+----+
+|----------------------------|
 |     UP |  0 |  8 | 16 | 24 |
 |   DOWN |  1 |  9 | 17 | 25 |
 |   LEFT |  2 | 10 | 18 | 26 |
@@ -532,14 +543,14 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 |      B |  5 | 13 | 21 | 29 |
 |      X |  6 | 14 | 22 | 30 |
 |      Y |  7 | 15 | 23 | 31 |
-+--------+----+----+----+----+
+'----------------------------'
 ```
 
 ## Key IDs
 ```
-+----+------------+ +----+------------+
+.-----------------. .-----------------.
 |CODE|    KEY     | |CODE|    KEY     |
-+----+------------+ +----+------------+
+|-----------------| |-----------------|
 |  1 | A          | | 48 | SPACE      |
 |  2 | B          | | 49 | TAB        |
 |  3 | C          | | 50 | RETURN     |
@@ -587,7 +598,7 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 | 45 | COMMA      | | 92 | NUMDIVIDE  |
 | 46 | PERIOD     | | 93 | NUMENTER   |
 | 47 | SLASH      | | 94 | NUMPERIOD  |
-+----+------------+ +----+------------+
+'-----------------' '-----------------'
 ```
 
 ## Startup options
@@ -608,7 +619,7 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 ### General:
 ```
 CTRL+R/ENTER        Run current project.
-CTRL+S              Save cart.
+CTRL+S              Save cartridge.
 CTRL+X/C/V          Cut/copy/paste in the editors.
 CTRL+Z/Y            Undo/redo changes in the editors.
 F6                  Toggle CRT filter.
