@@ -164,7 +164,7 @@ jobs:
       - name: Build
         run: |
           cd build
-          cmake ..
+          cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_IPO=ON -DBUILD_WITH_ALL=ON ..
           cmake --build . --parallel
 
       - name: Build AppImage
