@@ -11,19 +11,25 @@ import (
 	"sort"
 )
 
-func calculateSHA256(filePath string) (string, error) {
+type FileInfo struct {
+	Hash string `json:"hash"`
+	Size int64  `json:"size"`
+}
+
+func calculateSHA256(filePath string) (string, int64, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
-		return "", err
+		return "", 0, err
 	}
 	defer file.Close()
 
 	hash := sha256.New()
-	if _, err := io.Copy(hash, file); err != nil {
-		return "", err
+	size, err := io.Copy(hash, file)
+	if err != nil {
+		return "", 0, err
 	}
 
-	return hex.EncodeToString(hash.Sum(nil)), nil
+	return hex.EncodeToString(hash.Sum(nil)), size, nil
 }
 
 func main() {
@@ -37,18 +43,18 @@ func main() {
 		os.Exit(1)
 	}
 
-	hashes := make(map[string]string)
+	hashes := make(map[string]FileInfo)
 
 	for _, file := range files {
 		if !file.IsDir() && file.Name()[0] != '.' {
 			filePath := filepath.Join(downloadDir, file.Name())
-			hash, err := calculateSHA256(filePath)
+			hash, size, err := calculateSHA256(filePath)
 			if err != nil {
 				fmt.Printf("Error calculating hash for %s: %v\n", file.Name(), err)
 				continue
 			}
-			hashes[file.Name()] = hash
-			fmt.Printf("%s: %s\n", file.Name(), hash)
+			hashes[file.Name()] = FileInfo{Hash: hash, Size: size}
+			fmt.Printf("%s: %s (%d bytes)\n", file.Name(), hash, size)
 		}
 	}
 
@@ -59,7 +65,7 @@ func main() {
 	}
 	sort.Strings(keys)
 
-	sortedHashes := make(map[string]string)
+	sortedHashes := make(map[string]FileInfo)
 	for _, k := range keys {
 		sortedHashes[k] = hashes[k]
 	}
@@ -76,5 +82,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("Hashes saved to %s\n", hashesFile)
+	fmt.Printf("Hashes and sizes saved to %s\n", hashesFile)
 }

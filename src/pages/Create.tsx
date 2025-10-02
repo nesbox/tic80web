@@ -1,5 +1,12 @@
 import { Player, usePageTitle } from '../components';
-import hashes from '../data/hashes.json';
+import hashesData from '../data/hashes.json';
+
+type FileInfo = {
+  hash: string;
+  size: number;
+};
+
+const hashes = hashesData as unknown as Record<string, FileInfo>;
 
 const Create = () => {
   usePageTitle();
@@ -24,7 +31,7 @@ const Create = () => {
 
       <h2>Download</h2>
 
-      {Object.entries(hashes).map(([filename, hash]) => {
+      {Object.entries(hashes).map(([filename, info]: [string, { hash: string; size: number }]) => {
         const getDisplayName = (file: string) => {
           if (file.includes('.zip')) return 'Windows (.zip)';
           if (file.includes('.dmg')) return 'macOS (.dmg)';
@@ -32,11 +39,17 @@ const Create = () => {
           return file; // fallback
         };
 
+        const formatSize = (bytes: number) => {
+          if (bytes < 1024) return `${bytes} B`;
+          if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+          return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+        };
+
         return (
           <div key={filename}>
             <a href={`/download/${filename}`} download>{getDisplayName(filename)}</a>
             <div className="text-muted small mt-1">
-              SHA256: {hash}
+              Size: {formatSize(info.size)} | SHA256: {info.hash}
             </div>
             {filename.includes('.AppImage') && (
               <div className="text-muted small mt-1">
