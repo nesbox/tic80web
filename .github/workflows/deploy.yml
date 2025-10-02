@@ -10,19 +10,14 @@ on:
 
 jobs:
   generate-help-md:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
 
       - uses: actions/checkout@v4
         with:
           repository: nesbox/tic-80
           ref: sokol
-          path: tic80
           submodules: recursive
           fetch-depth: 0
 
@@ -36,18 +31,13 @@ jobs:
 
       - name: Build
         run: |
-          cd tic80/build
+          cd build
           cmake ..
           cmake --build . --parallel
 
-      - name: Export help
+      - name: Export help.md and version.md
         run: |
-          cd tic80
           build/bin/tic80 --cli --fs=. --cmd='export help help.md'
-
-      - name: Export version
-        run: |
-          cd tic80
           build/bin/tic80 --cli --fs=. --cmd="help version" > version.txt
 
       - name: Upload help.md and version.txt
@@ -55,12 +45,44 @@ jobs:
         with:
           name: help-md
           path: |
-            tic80/help.md
-            tic80/version.txt
+            help.md
+            version.txt
+
+  webapp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: mymindstorm/setup-emsdk@v14
+
+      - uses: actions/checkout@v4
+        with:
+          repository: nesbox/tic-80
+          ref: sokol
+          submodules: recursive
+          fetch-depth: 0
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+
+      - name: Build all
+        run: |
+          cd build
+          emcmake cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_IPO=ON -DBUILD_WITH_ALL=ON ..
+          cmake --build . --parallel
+
+      - name: Deploy
+        uses: actions/upload-artifact@v4
+        with:
+          name: "tic80-webapp"
+          path: |
+            build/bin/*
 
   build-and-deploy:
     runs-on: ubuntu-latest
-    needs: generate-help-md
+    needs: |
+      webapp
+      generate-help-md
     
     environment:
       name: github-pages
@@ -74,6 +96,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Download tic80-webapp artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: tic80-webapp
+          path: public
 
       - name: Download help.md artifact
         uses: actions/download-artifact@v4

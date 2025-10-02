@@ -1,7 +1,5 @@
 // Application constants
-import versionTxt from '../data/version.txt?raw';
-
-const version = versionTxt.trim().split(' ')[0];
+import version from '../data/version.txt?raw';
 
 export const APP_CONFIG = {
   name: 'TIC-80',
