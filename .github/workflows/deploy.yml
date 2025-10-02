@@ -108,10 +108,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: "tic80-windows"
-          path: |
-            build/bin/tic80-windows.zip
+          path: build/bin/tic80.zip
 
-  macos-arm:
+  macos:
     runs-on: macos-14
 
     steps:
@@ -140,9 +139,8 @@ jobs:
       - name: Deploy
         uses: actions/upload-artifact@v4
         with:
-          name: "tic80-macos-arm"
-          path: |
-            build/tic80.dmg
+          name: "tic80-macos"
+          path: build/tic80.dmg
 
   linux:
     runs-on: ubuntu-latest
@@ -170,10 +168,10 @@ jobs:
           cmake --build . --parallel
           cpack
 
-      - name: Upload help.md and version.txt
+      - name: Deploy
         uses: actions/upload-artifact@v4
         with:
-          name: help-md
+          name: "tic80-linux"
           path: build/tic80.deb
 
   build-and-deploy:
@@ -181,7 +179,7 @@ jobs:
     needs:
       - webapp
       - windows
-      - macos-arm
+      - macos
       - linux
       - generate-help-md
     
@@ -210,10 +208,10 @@ jobs:
           name: tic80-windows
           path: public/download
 
-      - name: Download tic80-macos-arm artifact
+      - name: Download tic80-macos artifact
         uses: actions/download-artifact@v4
         with:
-          name: tic80-macos-arm
+          name: tic80-macos
           path: public/download
 
       - name: Download tic80-linux artifact
