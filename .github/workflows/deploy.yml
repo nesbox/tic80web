@@ -238,6 +238,10 @@ jobs:
           go mod tidy
           go run .
 
+      - name: Update download hashes
+        if: github.event_name == 'schedule'
+        run: npm run update-hashes
+
       - name: Commit changes
         if: github.event_name == 'schedule'
         run: |

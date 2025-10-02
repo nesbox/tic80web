@@ -6,7 +6,7 @@ declare global {
     jQuery: typeof jQuery;
   }
 
-  const __BUILD_YEAR__: string;
+
 }
 
 export {};

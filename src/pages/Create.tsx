@@ -1,4 +1,5 @@
 import { Player, usePageTitle } from '../components';
+import hashes from '../data/hashes.json';
 
 const Create = () => {
   usePageTitle();
@@ -8,13 +9,13 @@ const Create = () => {
       <h1>Create Your Game</h1>
       <hr />
 
-      <h2>In the Browser</h2>
+      <h2>Browser Editor</h2>
       <Player />
 
       <div id="add-modal" className="modal">
         <div className="modal-content">
           <span className="close">&times;</span>
-          <p>Select a file to add to the computer</p>
+          <p>Select a file to add to your project</p>
           <p>
             <input type="file" id="upload-input" />
           </p>
@@ -22,59 +23,62 @@ const Create = () => {
       </div>
 
       <h2>Download</h2>
+
+      {Object.entries(hashes).map(([filename, hash]) => {
+        const getDisplayName = (file: string) => {
+          if (file.includes('.zip')) return 'Windows (.zip)';
+          if (file.includes('.dmg')) return 'macOS (.dmg)';
+          if (file.includes('.deb')) return 'Linux (.deb)';
+          return file; // fallback
+        };
+
+        return (
+          <div key={filename}>
+            <a href={`/download/${filename}`} download>{getDisplayName(filename)}</a>
+            <div className="text-muted small mt-1">
+              SHA256: {hash}
+            </div>
+          </div>
+        );
+      })}
+
       <hr />
 
-      <div>
-        <a href="/download/tic80.zip" download>Download TIC-80 for Windows (.zip)</a>
-      </div>
-
-      <div>
-        <a href="/download/tic80.dmg" download>Download TIC-80 for MacOS (.dmg)</a>
-      </div>
-
-      <div>
-        <a href="/download/tic80.deb" download>Download TIC-80 for Linux (.deb)</a>
-      </div>
-
-      <hr />
-
-      <h2 id="pro">
-        PRO version <span className="text-muted">(has some extra features)</span>
-      </h2>
+      <h2 id="pro">PRO Version</h2>
+      <p className="text-muted">Unlock extra features for enhanced game development</p>
 
       <div>
         <div>
-          <div>CARTRIDGES IN TEXT FORMAT</div>
+          <div>Cartridges in Text Format</div>
           <div className="text-muted">
-            you can save / load cartridges in text format, and create your game in any editor you want, also useful for
-            version control systems
+            Save and load cartridges in text format. Create your game in any editor you want, and easily integrate with version control systems.
           </div>
         </div>
 
         <div>
-          <div>EXPORT WITHOUT EDITORS</div>
+          <div>Export Without Editors</div>
           <div className="text-muted">
-            you can export your game only without editors, and then publish it to app stores
+            Export your game without the editors, perfect for publishing to app stores.
           </div>
         </div>
 
         <div>
-          <div>SUPPORT AUTHOR</div>
+          <div>Support the Author</div>
           <div className="text-muted">
-            You can support developer and future development if you liked TIC-80 :)
+            Support the developer and future development if you enjoyed TIC-80 :)
           </div>
         </div>
 
         <div>and more...</div>
       </div>
 
-      <h2>
-        <a href="https://nesbox.itch.io/tic80/purchase">Buy PRO on itch.io for $10</a>
-      </h2>
+      <div className="mt-3">
+        <a href="https://nesbox.itch.io/tic80/purchase" className="btn btn-primary">Buy PRO on itch.io for $10</a>
+      </div>
 
       <hr />
 
-      <h2>Also available on</h2>
+      <h2>Available on Other Platforms</h2>
 
       <div>
         <a href="https://nesbox.itch.io/tic80">itch.io</a>
