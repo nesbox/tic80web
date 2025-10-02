@@ -25,7 +25,15 @@ const Create = () => {
       <hr />
 
       <div>
-        <a href="/download/tic80-windows.zip" download>Download TIC-80 for Windows (.zip)</a>
+        <a href="/download/tic80.zip" download>Download TIC-80 for Windows (.zip)</a>
+      </div>
+
+      <div>
+        <a href="/download/tic80.dmg" download>Download TIC-80 for MacOS (.dmg)</a>
+      </div>
+
+      <div>
+        <a href="/download/tic80.deb" download>Download TIC-80 for Linux (.deb)</a>
       </div>
 
       <hr />
