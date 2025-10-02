@@ -1,7 +1,11 @@
 // Application constants
+import versionTxt from '../data/version.txt?raw';
+
+const version = versionTxt.trim().split(' ')[0];
+
 export const APP_CONFIG = {
   name: 'TIC-80',
-  version: 'v1.1.2837',
+  version,
   description: 'fantasy computer for making, playing and sharing tiny games',
   author: 'Vadim Grigoruk @nesbox',
 } as const;

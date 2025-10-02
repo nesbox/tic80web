@@ -45,11 +45,18 @@ jobs:
           cd tic80
           build/bin/tic80 --cli --fs=. --cmd='export help help.md'
 
-      - name: Upload help.md artifact
+      - name: Export version
+        run: |
+          cd tic80
+          build/bin/tic80 --cli --fs=. --cmd="help version" > version.txt
+
+      - name: Upload help.md and version.txt
         uses: actions/upload-artifact@v4
         with:
           name: help-md
-          path: tic80/help.md
+          path: |
+            tic80/help.md
+            tic80/version.txt
 
   build-and-deploy:
     runs-on: ubuntu-latest

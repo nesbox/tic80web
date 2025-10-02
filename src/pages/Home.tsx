@@ -32,10 +32,8 @@ const Home = () => {
           width="64" 
           height="64"
         />
-        <h1>
-          {APP_CONFIG.name} tiny computer{' '}
-          <span className="text-muted">{APP_CONFIG.version}</span>
-        </h1>   
+        <h1>{APP_CONFIG.name} tiny computer</h1>
+        <h3 className="text-muted">{APP_CONFIG.version}</h3>
       </header>
 
       <hr/>

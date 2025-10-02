@@ -1,4 +1,5 @@
 import { Player, usePageTitle } from '../components';
+import { APP_CONFIG } from '../constants';
 
 const Create = () => {
   usePageTitle();
@@ -21,7 +22,7 @@ const Create = () => {
         </div>
       </div>
 
-      <h2>Latest Stable Version 1.1.2837</h2>
+      <h2>Latest Version {APP_CONFIG.version}</h2>
       <p>
         <a href="https://github.com/nesbox/TIC-80/releases/tag/v1.1.2837">Changelog</a>
       </p>
