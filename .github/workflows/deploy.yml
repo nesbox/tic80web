@@ -166,13 +166,17 @@ jobs:
           cd build
           cmake ..
           cmake --build . --parallel
-          cpack
 
-      - name: Deploy
+      - name: Build AppImage
+        run: |
+          chmod +x build-appimage.sh
+          ./build-appimage.sh
+
+      - name: Deploy AppImage
         uses: actions/upload-artifact@v4
         with:
-          name: "tic80-linux"
-          path: build/tic80.deb
+          name: "tic80-appimage"
+          path: TIC-80.AppImage
 
   update-hashes:
     runs-on: ubuntu-latest
@@ -197,10 +201,10 @@ jobs:
           name: tic80-macos
           path: public/download
 
-      - name: Download tic80-linux artifact
+      - name: Download tic80-appimage artifact
         uses: actions/download-artifact@v4
         with:
-          name: tic80-linux
+          name: tic80-appimage
           path: public/download
 
       - name: Calculate hashes
@@ -253,10 +257,10 @@ jobs:
           name: tic80-macos
           path: public/download
 
-      - name: Download tic80-linux artifact
+      - name: Download tic80-appimage artifact
         uses: actions/download-artifact@v4
         with:
-          name: tic80-linux
+          name: tic80-appimage
           path: public/download
 
       - name: Download help.md artifact

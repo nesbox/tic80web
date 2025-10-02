@@ -28,7 +28,7 @@ const Create = () => {
         const getDisplayName = (file: string) => {
           if (file.includes('.zip')) return 'Windows (.zip)';
           if (file.includes('.dmg')) return 'macOS (.dmg)';
-          if (file.includes('.deb')) return 'Linux (.deb)';
+          if (file.includes('.AppImage')) return 'Linux (AppImage)';
           return file; // fallback
         };
 
@@ -38,6 +38,11 @@ const Create = () => {
             <div className="text-muted small mt-1">
               SHA256: {hash}
             </div>
+            {filename.includes('.AppImage') && (
+              <div className="text-muted small mt-1">
+                After download: <code>chmod +x TIC-80.AppImage && ./TIC-80.AppImage</code>
+              </div>
+            )}
           </div>
         );
       })}
