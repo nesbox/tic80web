@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { APP_CONFIG } from '../constants';
 
 interface PlayerProps {
   coverImage?: string;
@@ -11,8 +12,11 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
   const gameBorderRef = useRef<HTMLDivElement>(null);
   const [tic80Module, setTic80Module] = useState<any>(null);
 
-  // Cache-busting parameter based on latest commit hash
-  const cacheBuster = __COMMIT_HASH__;
+  // Cache-busting parameter based on hash part from version string
+  const versionHashMatch = APP_CONFIG.version.match(/\(([^)]+)\)/);
+  const cacheBuster = versionHashMatch 
+    ? versionHashMatch[1] 
+    : APP_CONFIG.version.trim().split(' ')[0];
 
   useEffect(() => {
     const updateHeight = () => {

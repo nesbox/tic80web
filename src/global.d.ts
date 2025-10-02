@@ -7,7 +7,6 @@ declare global {
   }
 
   const __BUILD_YEAR__: string;
-  const __COMMIT_HASH__: string;
 }
 
 export {};
