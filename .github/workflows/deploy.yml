@@ -159,7 +159,7 @@ jobs:
 
       - name: Install
         run: |
-          sudo apt-get install build-essential libxi-dev libxcursor-dev libasound2-dev libgl-dev -y
+          sudo apt-get install build-essential libxi-dev libxcursor-dev libasound2-dev libgl-dev libfuse2 -y
 
       - name: Build
         run: |
