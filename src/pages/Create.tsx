@@ -33,9 +33,9 @@ const Create = () => {
 
       {Object.entries(hashes).map(([filename, info]: [string, { hash: string; size: number }]) => {
         const getDisplayName = (file: string) => {
-          if (file.includes('.zip')) return 'Windows (.zip)';
-          if (file.includes('.dmg')) return 'macOS (.dmg)';
-          if (file.includes('.AppImage')) return 'Linux (AppImage)';
+          if (file.includes('.zip')) return `Windows (${file})`;
+          if (file.includes('.dmg')) return `macOS (${file})`;
+          if (file.includes('.AppImage')) return `Linux (${file})`;
           return file; // fallback
         };
 
@@ -48,12 +48,12 @@ const Create = () => {
         return (
           <div key={filename}>
             <a href={`/download/${filename}`} download>{getDisplayName(filename)}</a>
-            <div className="text-muted small mt-1">
-              Size: {formatSize(info.size)} | SHA256: {info.hash}
+            <div className="small mt-1">
+              <span className="text-muted">Size: </span>{formatSize(info.size)} <span className="text-muted">SHA256: </span>{info.hash}
             </div>
             {filename.includes('.AppImage') && (
-              <div className="text-muted small mt-1">
-                After download: <code>chmod +x TIC-80.AppImage && ./TIC-80.AppImage</code>
+              <div className="small mt-1">
+                <span className="text-muted">After download: </span><span className="text-success">chmod +x TIC-80.AppImage && ./TIC-80.AppImage</span>
               </div>
             )}
           </div>
