@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { GameCard, Loading, usePageTitle } from '../components';
 import type { Game } from '../types';
@@ -33,6 +33,18 @@ const Play = () => {
     });
   };
 
+  const loadMoreGames = useCallback(() => {
+    const currentLength = visibleGames.length;
+    const nextGames = games.slice(currentLength, currentLength + PAGINATION.gamesPerLoad);
+
+    if (nextGames.length > 0) {
+      setVisibleGames(prev => [...prev, ...nextGames]);
+      setHasMore(currentLength + nextGames.length < games.length);
+    } else {
+      setHasMore(false);
+    }
+  }, [games, visibleGames.length]);
+
   useEffect(() => {
     if (!loading && contextGames.length > 0) {
       let filteredGames = currentCategory === -1 ? contextGames : contextGames.filter(game => game.category === currentCategory);
@@ -41,6 +53,9 @@ const Play = () => {
       setGames(sortedGames);
       setVisibleGames(sortedGames.slice(0, PAGINATION.gamesPerLoad));
       setHasMore(sortedGames.length > PAGINATION.gamesPerLoad);
+
+      // Reset scroll position when sort/filter changes to prevent loading wrong games
+      window.scrollTo(0, 0);
     }
   }, [contextGames, loading, currentCategory, currentSort]);
 
@@ -60,19 +75,7 @@ const Play = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [hasMore, visibleGames.length]);
-
-  const loadMoreGames = () => {
-    const currentLength = visibleGames.length;
-    const nextGames = games.slice(currentLength, currentLength + PAGINATION.gamesPerLoad);
-
-    if (nextGames.length > 0) {
-      setVisibleGames(prev => [...prev, ...nextGames]);
-      setHasMore(currentLength + nextGames.length < games.length);
-    } else {
-      setHasMore(false);
-    }
-  };
+  }, [hasMore, loadMoreGames]);
 
   if (loading) {
     return <Loading />;
