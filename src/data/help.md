@@ -1,5 +1,5 @@
 # TIC-80 tiny computer
-1.2.3068-dev (05ee1a5)
+1.2.3081-dev (c102ae2)
 https://tic80.com (C) 2017-2025
 
 ## Table of Contents
@@ -32,14 +32,27 @@ SPRITES   256 8x8 tiles and 256 8x8 sprites.
 MAP       240x136 cells, 1920x1088 pixels.
 SOUND     4 channels with configurable waveforms.
 CODE      64KB of lua.
-```
-```
 
-.-----------------------------------.
-|           80KB RAM LAYOUT         |
-|-----------------------------------|
+,-----------------------------------.
+|     --=  16KB VRAM LAYOUT  =--    |
+:===================================:
 | ADDR  | INFO              | BYTES |
-|-----------------------------------|
+|-------+-------------------+-------|
+| 00000 | SCREEN            | 16320 |
+| 03FC0 | PALETTE           | 48    |
+| 03FF0 | PALETTE MAP       | 8     |
+| 03FF8 | BORDER COLOR      | 1     |
+| 03FF9 | SCREEN OFFSET     | 2     |
+| 03FFB | MOUSE CURSOR      | 1     |
+| 03FFC | BLIT SEGMENT      | 1     |
+| 03FFD | ** RESERVED **    | 3     |
+'-----------------------------------'
+
+,-----------------------------------.
+|     --=  80KB RAM LAYOUT  =--     |
+:===================================:
+| ADDR  | INFO              | BYTES |
+|-------+-------------------+-------|
 | 04000 | TILES             | 8192  |
 | 06000 | SPRITES           | 8192  |
 | 08000 | MAP               | 32640 |
@@ -63,22 +76,6 @@ CODE      64KB of lua.
 | 14E04 | BUTTONS MAPPING   | 32    |
 | 14E24 | PCM SAMPLES       | 128   |
 | 14EA4 | ** RESERVED **    | 12636 |
-'-----------------------------------'
-```
-```
-.-----------------------------------.
-|          16KB VRAM LAYOUT         |
-|-----------------------------------|
-| ADDR  | INFO              | BYTES |
-|-----------------------------------|
-| 00000 | SCREEN            | 16320 |
-| 03FC0 | PALETTE           | 48    |
-| 03FF0 | PALETTE MAP       | 8     |
-| 03FF8 | BORDER COLOR      | 1     |
-| 03FF9 | SCREEN OFFSET     | 2     |
-| 03FFB | MOUSE CURSOR      | 1     |
-| 03FFC | BLIT SEGMENT      | 1     |
-| 03FFD | ** RESERVED **    | 3     |
 '-----------------------------------'
 ```
 
@@ -532,9 +529,9 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 
 ## Button IDs
 ```
-.----------------------------.
+,----------------------------.
 | ACTION | P1 | P2 | P3 | P4 |
-|----------------------------|
+|--------+----+----+----+----|
 |     UP |  0 |  8 | 16 | 24 |
 |   DOWN |  1 |  9 | 17 | 25 |
 |   LEFT |  2 | 10 | 18 | 26 |
@@ -548,9 +545,9 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 
 ## Key IDs
 ```
-.-----------------. .-----------------.
+,-----------------. ,-----------------.
 |CODE|    KEY     | |CODE|    KEY     |
-|-----------------| |-----------------|
+|----+------------| |----+------------|
 |  1 | A          | | 48 | SPACE      |
 |  2 | B          | | 49 | TAB        |
 |  3 | C          | | 50 | RETURN     |
