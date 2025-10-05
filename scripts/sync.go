@@ -14,6 +14,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"sort"
 	"strings"
 	"sync"
 	"sync/atomic"
@@ -57,6 +58,16 @@ func main() {
 		fmt.Printf("Failed to fetch games: %v\n", err)
 		return
 	}
+
+	// Sort games and rawGames by ID to maintain consistent order
+	sort.Slice(games, func(i, j int) bool {
+		return games[i].ID < games[j].ID
+	})
+	sort.Slice(rawGames, func(i, j int) bool {
+		idI := int(rawGames[i]["id"].(float64))
+		idJ := int(rawGames[j]["id"].(float64))
+		return idI < idJ
+	})
 
 	fmt.Printf("Successfully downloaded and parsed %d games.\n\n", len(games))
 
@@ -190,6 +201,13 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 	gamesByUser := make(map[int][]Game)
 	for _, game := range games {
 		gamesByUser[game.User] = append(gamesByUser[game.User], game)
+	}
+
+	// Sort each user's games by ID
+	for userID := range gamesByUser {
+		sort.Slice(gamesByUser[userID], func(i, j int) bool {
+			return gamesByUser[userID][i].ID < gamesByUser[userID][j].ID
+		})
 	}
 
 	var wg sync.WaitGroup
