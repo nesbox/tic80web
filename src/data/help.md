@@ -31,7 +31,7 @@ INPUT     4 gamepads with 8 buttons, mouse, and keyboard.
 SPRITES   256 8x8 tiles and 256 8x8 sprites.
 MAP       240x136 cells, 1920x1088 pixels.
 SOUND     4 channels with configurable waveforms.
-CODE      64KB of lua.
+CODE      64KB of lua, ruby, js, moon, fennel, scheme, squirrel, wren, wasm, janet or python.
 
 ,-----------------------------------.
 |     --=  16KB VRAM LAYOUT  =--    |
@@ -168,7 +168,7 @@ usage: `mkdir <name>`
 
 ### new
 Creates a new `Hello World` cartridge.
-usage: `new <lua>`
+usage: `new <lua|ruby|js|moon|fennel|scheme|squirrel|wren|wasm|janet|python>`
 
 ### resume
 Resume the last run cartridge/project. Reload game code first if 'reload' is given as an argument.
@@ -179,7 +179,7 @@ Run current cart / project (Hotkey: CTRL+R).
 usage: `run`
 
 ### save
-Save cartridge to the local filesystem (Hotkey: CTRL+S). Use a .lua  cart extension to save it in text format (PRO feature).
+Save cartridge to the local filesystem (Hotkey: CTRL+S). Use a .lua .rb .js .moon .fnl .scm .nut .wren .wasmp .janet .py  cart extension to save it in text format (PRO feature).
 Use .png file extension to save it as a PNG cartridge.
 usage: `save <cart>`
 
