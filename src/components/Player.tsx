@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import { APP_CONFIG } from '../constants';
 import useVersion from '../hooks/useVersion';
 
 interface PlayerProps {
