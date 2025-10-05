@@ -26,11 +26,19 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
       }
     };
 
+    const handleBeforeUnload = () => {
+      if (tic80Module) {
+        tic80Module._force_exit();
+      }
+    };
+
     updateHeight();
     window.addEventListener('resize', updateHeight);
+    window.addEventListener('beforeunload', handleBeforeUnload);
 
     return () => {
       window.removeEventListener('resize', updateHeight);
+      window.removeEventListener('beforeunload', handleBeforeUnload);
       // Cleanup tic80 module when component unmounts
       if (tic80Module) {
         // Add cleanup logic here if tic80 module has a cleanup method
@@ -145,7 +153,6 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
         style={{
           width: '100%',
           height: '100%',
-          imageRendering: 'pixelated',
           display: 'none'
         }}
         id="canvas"
