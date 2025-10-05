@@ -26,9 +26,12 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
       }
     };
 
-    const handleBeforeUnload = () => {
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
       if (tic80Module) {
         tic80Module._force_exit();
+
+        // !TODO: remove it in the future if annoying
+        e.returnValue = "Please wait a moment while the game exits.";
       }
     };
 
