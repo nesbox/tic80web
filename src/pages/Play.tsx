@@ -48,6 +48,12 @@ const Play = () => {
   useEffect(() => {
     if (!loading && contextGames.length > 0) {
       let filteredGames = currentCategory === -1 ? contextGames : contextGames.filter(game => game.category === currentCategory);
+
+      // Hide games without rating in popular category
+      if (currentSortName === 'popular') {
+        filteredGames = filteredGames.filter(game => game.rating > 0);
+      }
+
       const sortedGames = sortGames(filteredGames, currentSort, RECENT_DAYS);
 
       setGames(sortedGames);
