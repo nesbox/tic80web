@@ -275,6 +275,9 @@ jobs:
           name: hashes
           path: src/data
 
+      - name: Generate version.json
+        run: go run scripts/generate-version.go
+
       - name: Setup Go
         if: github.event_name == 'schedule'
         uses: actions/setup-go@v5
