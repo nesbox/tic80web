@@ -57,6 +57,15 @@ export interface Text {
   text: string;
 }
 
+// Version info types
+export interface VersionInfo {
+  major: number;
+  minor: number;
+  patch: number;
+  suffix: string;
+  commit: string;
+}
+
 // Common component props
 export interface BaseComponentProps {
   className?: string;

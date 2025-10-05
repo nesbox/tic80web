@@ -1,43 +1,15 @@
-import { useState, useEffect } from 'react';
-
-interface VersionInfo {
-  major: number;
-  minor: number;
-  patch: number;
-  suffix?: string;
-  commit?: string;
-}
+import { useMemo } from 'react';
+import type { VersionInfo } from '../types';
+import versionData from '../data/version.json' assert { type: 'json' };
 
 const useVersion = () => {
-  const [version, setVersion] = useState<VersionInfo | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const fetchVersion = async () => {
-      try {
-        const response = await fetch('/version.json');
-        if (!response.ok) {
-          throw new Error('Failed to fetch version info');
-        }
-        const data: VersionInfo = await response.json();
-        setVersion(data);
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'Unknown error');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchVersion();
-  }, []);
+  const version: VersionInfo = useMemo(() => versionData as VersionInfo, []);
 
   const getVersionString = () => {
-    if (!version) return '';
     return `${version.major}.${version.minor}.${version.patch}${version.suffix ? `-${version.suffix}` : ''}${version.commit ? ` (${version.commit})` : ''}`;
   };
 
-  return { version, loading, error, getVersionString };
+  return { version, loading: false, error: null, getVersionString };
 };
 
 export default useVersion;

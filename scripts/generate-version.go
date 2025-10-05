@@ -97,5 +97,12 @@ func main() {
 		os.Exit(1)
 	}
 
+	// Write to src/data/version.json
+	err = os.WriteFile("src/data/version.json", jsonData, 0644)
+	if err != nil {
+		fmt.Printf("Error writing src/data/version.json: %v\n", err)
+		os.Exit(1)
+	}
+
 	fmt.Println("version.json generated successfully")
 }
