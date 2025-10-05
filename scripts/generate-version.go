@@ -18,7 +18,7 @@ type VersionInfo struct {
 
 func main() {
 	// Read version.txt
-	data, err := os.ReadFile("src/data/version.txt")
+	data, err := os.ReadFile("tmp/version.txt")
 	if err != nil {
 		fmt.Printf("Error reading version.txt: %v\n", err)
 		os.Exit(1)

@@ -1,9 +1,7 @@
 // Application constants
-import version from '../data/version.txt?raw';
 
 export const APP_CONFIG = {
   name: 'TIC-80',
-  version,
   description: 'fantasy computer for making, playing and sharing tiny games',
   author: 'Vadim Grigoruk @nesbox',
 } as const;

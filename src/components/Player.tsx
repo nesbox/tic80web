@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { APP_CONFIG } from '../constants';
+import useVersion from '../hooks/useVersion';
 
 interface PlayerProps {
   coverImage?: string;
@@ -11,12 +12,10 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const gameBorderRef = useRef<HTMLDivElement>(null);
   const [tic80Module, setTic80Module] = useState<any>(null);
+  const { version } = useVersion();
 
-  // Cache-busting parameter based on hash part from version string
-  const versionHashMatch = APP_CONFIG.version.match(/\(([^)]+)\)/);
-  const cacheBuster = versionHashMatch 
-    ? versionHashMatch[1] 
-    : APP_CONFIG.version.trim().split(' ')[0];
+  // Cache-busting parameter based on commit hash
+  const cacheBuster = version?.commit || 'unknown';
 
   useEffect(() => {
     const updateHeight = () => {

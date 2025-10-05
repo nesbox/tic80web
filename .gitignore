@@ -3,4 +3,5 @@ node_modules
 *.sublime-workspace
 dist
 sync
+tmp/
 public/download/*

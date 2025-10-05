@@ -4,10 +4,12 @@ import { APP_CONFIG, IMAGES } from '../constants';
 import { GameCard, Loading, usePageTitle } from '../components';
 import type { Game } from '../types';
 import { useData } from '../contexts/DataContext';
+import useVersion from '../hooks/useVersion';
 
 const Home = () => {
   usePageTitle();
   const { games, usersMap, loading } = useData();
+  const { getVersionString } = useVersion();
   const [topGames, setTopGames] = useState<Game[]>([]);
 
   useEffect(() => {
@@ -33,7 +35,7 @@ const Home = () => {
           height="64"
         />
         <h1>{APP_CONFIG.name} tiny computer</h1>
-        <h3 className="text-muted">{APP_CONFIG.version}</h3>
+        <h3 className="text-muted">{getVersionString()}</h3>
       </header>
 
       <hr/>
