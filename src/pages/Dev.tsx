@@ -77,7 +77,9 @@ const Dev = () => {
   };
 
   const getUserGames = (userId: number) => {
-    return (userGamesMap[userId] || []).slice(0, 3);
+    return (userGamesMap[userId] || [])
+      .sort((a, b) => b.rating - a.rating)
+      .slice(0, 3);
   };
 
   if (loading) {
