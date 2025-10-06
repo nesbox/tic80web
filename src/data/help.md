@@ -1,6 +1,6 @@
 # TIC-80 tiny computer
-1.2.3081-dev (c102ae2)
-https://tic80.com (C) 2017-2025
+1.2.3086-dev (4e4859c)
+https://web.tic80.com (C) 2017-2025
 
 ## Table of Contents
 
@@ -729,7 +729,7 @@ F5                  Switch piano/tracker mode.
 ```
 
 ## Terms of Use
-- All cartridges posted on the https://tic80.com website are the property of their authors.
+- All cartridges posted on the https://web.tic80.com website are the property of their authors.
 - Do not redistribute the cartridge without permission, directly from the author.
 - By uploading cartridges to the site, you grant Nesbox the right to freely use and distribute them. All other rights by default remain with the author.
 - Do not post material that violates copyright, obscenity or any other laws.
