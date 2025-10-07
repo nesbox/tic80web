@@ -14826,5 +14826,17 @@
   {
     "id": 4405,
     "text": "A raycasting demo in 256 bytes, for Deadline 2025 demoparty"
+  },
+  {
+    "id": 4406,
+    "text": "TIC-80 demo by Spectrox, released at Deadline 2025\r\n\r\nCode \u0026 Graphics: Olympian / Spectrox\r\nMusic: Virgill / Alcatraz\r\n\r\nSource code at: https://github.com/olymp14n/spectrox-prelude_to_neobyte\r\n\r\nPLEASE NOTE: This is the online version of the demo. Due to performance reasons, some effects have been slightly reduced. Please use a Chromium-based browser to watch. It's possible that some scenes may still run slowly ;)\r\nPlease see here for the full desktop version: https://www.pouet.net/prod.php?which=105086"
+  },
+  {
+    "id": 4407,
+    "text": "My snake - my first game at TIC-80 :)"
+  },
+  {
+    "id": 4408,
+    "text": "Just me learning how to instance and stuff. Had to fix a bunch of stuff because i have so much to learn.\r\n"
   }
 ]
