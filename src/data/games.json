@@ -51462,7 +51462,7 @@
     "desc": "TIC-80 demo.",
     "id": 4406,
     "name": "prelude_to_neobyte",
-    "rating": 0,
+    "rating": 1,
     "title": "PRELUDE TO NEOBYTE",
     "updated": 1759778756902,
     "user": 12689
@@ -51514,5 +51514,17 @@
     "title": "Sonic Mini Limited Lives",
     "updated": 1759853513673,
     "user": 9748
+  },
+  {
+    "added": 1759940314905,
+    "author": "Virgill / Alcatraz",
+    "category": 3,
+    "desc": "Soundtrack for \"Prelude to Neobyte\" by Spectrox",
+    "id": 4411,
+    "name": "prelude_to_neobyte_music",
+    "rating": 0,
+    "title": "PRELUDE TO NEOBYTE MUSIC",
+    "updated": 1759940314905,
+    "user": 10044
   }
 ]
