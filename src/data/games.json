@@ -51462,7 +51462,7 @@
     "desc": "TIC-80 demo.",
     "id": 4406,
     "name": "prelude_to_neobyte",
-    "rating": 1,
+    "rating": 3,
     "title": "PRELUDE TO NEOBYTE",
     "updated": 1759778756902,
     "user": 12689
@@ -51505,14 +51505,14 @@
   },
   {
     "added": 1759853513673,
-    "author": "Weeppiko",
+    "author": "Weeppiko, Luke",
     "category": 0,
     "desc": "A Mini Sonic Game, but you only have 3 lives!",
     "id": 4410,
     "name": "sonic_mini_limited_lives",
     "rating": 0,
     "title": "Sonic Mini Limited Lives",
-    "updated": 1759853513673,
+    "updated": 1760036279108,
     "user": 9748
   },
   {
@@ -51522,9 +51522,33 @@
     "desc": "Soundtrack for \"Prelude to Neobyte\" by Spectrox",
     "id": 4411,
     "name": "prelude_to_neobyte_music",
-    "rating": 0,
+    "rating": 2,
     "title": "PRELUDE TO NEOBYTE MUSIC",
     "updated": 1759940314905,
     "user": 10044
+  },
+  {
+    "added": 1760046225578,
+    "author": "The Wandering Wizard",
+    "category": 0,
+    "desc": null,
+    "id": 4412,
+    "name": "quicksand",
+    "rating": 0,
+    "title": "QuickSand!",
+    "updated": 1760046697074,
+    "user": 12184
+  },
+  {
+    "added": 1760060536987,
+    "author": "Weeppiko, Luke",
+    "category": 0,
+    "desc": "A Mini Sonic Game, but you can transform!",
+    "id": 4413,
+    "name": "sonic_mini_has_all_the_chaos_emeralds",
+    "rating": 0,
+    "title": "Sonic Mini (has all the Chaos Emeralds)",
+    "updated": 1760060766686,
+    "user": 9748
   }
 ]
