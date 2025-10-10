@@ -1,0 +1,15 @@
+{
+	"files": [
+		"/dev/nesbox/palette_demo.tic",
+		"/dev/nesbox/remap_demo.tic",
+		"/dev/nesbox/music_demo.tic",
+		"/dev/nesbox/foubars.tic",
+		"/dev/nesbox/music_demo_2.tic",
+		"/dev/nesbox/music_demo_3.tic",
+		"/dev/nesbox/squashy_port.tic",
+		"/dev/nesbox/chiptune_made_by_rushjet1.tic",
+		"/dev/nesbox/sound_registers_visualizer.tic",
+		"/dev/nesbox/bad_apple.tic"
+	],
+	"folders": []
+}

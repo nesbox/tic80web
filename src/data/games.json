@@ -51534,7 +51534,7 @@
     "desc": null,
     "id": 4412,
     "name": "quicksand",
-    "rating": 0,
+    "rating": 1,
     "title": "QuickSand!",
     "updated": 1760046697074,
     "user": 12184
@@ -51550,5 +51550,17 @@
     "title": "Sonic Mini (has all the Chaos Emeralds)",
     "updated": 1760060766686,
     "user": 9748
+  },
+  {
+    "added": 1760096441928,
+    "author": "Sava",
+    "category": 1,
+    "desc": "Little scale-based note player, even has a surprise at the end!",
+    "id": 4414,
+    "name": "music_theory",
+    "rating": 0,
+    "title": "Music theory",
+    "updated": 1760096441928,
+    "user": 11428
   }
 ]

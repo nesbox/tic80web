@@ -1,0 +1,13 @@
+{
+	"files": [
+		"/dev/bear_thorne/coin_grab.tic",
+		"/dev/bear_thorne/simple_collision.tic",
+		"/dev/bear_thorne/pasture.tic",
+		"/dev/bear_thorne/grid_based_camera.tic",
+		"/dev/bear_thorne/push_em.tic",
+		"/dev/bear_thorne/clingy.tic",
+		"/dev/bear_thorne/bfs_pathfinding.tic",
+		"/dev/bear_thorne/lights_off.tic"
+	],
+	"folders": []
+}

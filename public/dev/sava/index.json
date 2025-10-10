@@ -1,0 +1,26 @@
+{
+	"files": [
+		"/dev/sava/spider_with_inverse_kinematics_legs.tic",
+		"/dev/sava/fireworks.tic",
+		"/dev/sava/water_particle_simulation.tic",
+		"/dev/sava/simple_shooter_game.tic",
+		"/dev/sava/snake.tic",
+		"/dev/sava/snake1.tic",
+		"/dev/sava/minesweeper.tic",
+		"/dev/sava/tetris.tic",
+		"/dev/sava/obj_file_renderer.tic",
+		"/dev/sava/palette_modification_test.tic",
+		"/dev/sava/blob.tic",
+		"/dev/sava/verlet_solver.tic",
+		"/dev/sava/2048.tic",
+		"/dev/sava/dfs_maze_generator_and_a_solver.tic",
+		"/dev/sava/fractal_blocks.tic",
+		"/dev/sava/satisfying_mining_game.tic",
+		"/dev/sava/powder_sim.tic",
+		"/dev/sava/eyes.tic",
+		"/dev/sava/sorting.tic",
+		"/dev/sava/a_bullet_hell_game.tic",
+		"/dev/sava/music_theory.tic"
+	],
+	"folders": []
+}

@@ -1,0 +1,21 @@
+{
+	"files": [
+		"/dev/trelemar/jetpac.tic",
+		"/dev/trelemar/flock_block.tic",
+		"/dev/trelemar/paint.tic",
+		"/dev/trelemar/amrogue.tic",
+		"/dev/trelemar/map_rotation.tic",
+		"/dev/trelemar/platformer_tutorial.tic",
+		"/dev/trelemar/speck_mage.tic",
+		"/dev/trelemar/tiny_snake.tic",
+		"/dev/trelemar/bare_bones.tic",
+		"/dev/trelemar/snake_tutorial.tic",
+		"/dev/trelemar/camera_tutorial.tic",
+		"/dev/trelemar/cpong.tic",
+		"/dev/trelemar/mario_bros.tic",
+		"/dev/trelemar/cybro.tic",
+		"/dev/trelemar/abandoned_roguelike.tic",
+		"/dev/trelemar/double_barrel_single_wheel.tic"
+	],
+	"folders": []
+}

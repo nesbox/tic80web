@@ -1,0 +1,22 @@
+{
+	"files": [
+		"/dev/txgruppi/bomberman.tic",
+		"/dev/txgruppi/bezier_curve.tic",
+		"/dev/txgruppi/lua_pong.tic",
+		"/dev/txgruppi/flappy_thing.tic",
+		"/dev/txgruppi/iasl_42.tic",
+		"/dev/txgruppi/fennel_pong.tic",
+		"/dev/txgruppi/moon_pong.tic",
+		"/dev/txgruppi/js_pong.tic",
+		"/dev/txgruppi/ruby_pong.tic",
+		"/dev/txgruppi/wren_pong.tic",
+		"/dev/txgruppi/squirrel_pong.tic",
+		"/dev/txgruppi/star_attack.tic",
+		"/dev/txgruppi/point_rect_collision.tic",
+		"/dev/txgruppi/point_circ_collision.tic",
+		"/dev/txgruppi/sudoku_solver_wave_function_collapse.tic",
+		"/dev/txgruppi/janet_pong.tic",
+		"/dev/txgruppi/mata_mosca.tic"
+	],
+	"folders": []
+}

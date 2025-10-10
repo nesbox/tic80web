@@ -58,12 +58,12 @@ const GameDev = () => {
           updated: <span className="date">{updatedDate}</span>
         </div>
         <div>
-          <a href={`/dev/${usersMap[user.id]}/${game.name}/${game.name}.tic`}>download cartridge</a>
+          <a href={`/dev/${usersMap[user.id]}/${game.name}.tic`}>download cartridge</a>
         </div>
         <Player
           coverImage={`/dev/${usersMap[user.id]}/${game.name}/cover.png`}
           showCoverImage={true}
-          cart={`/dev/${usersMap[user.id]}/${game.name}/${game.name}.tic`}
+          cart={`/dev/${usersMap[user.id]}/${game.name}.tic`}
         />
         <div id="add-modal" className="modal">
           <div className="modal-content">

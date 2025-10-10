@@ -1,0 +1,10 @@
+{
+	"files": [
+		"/dev/atesin/draconus_intro_music.tic",
+		"/dev/atesin/joystick_angle_library.tic",
+		"/dev/atesin/31_colors_palette_test.tic",
+		"/dev/atesin/distance_to_line_library.tic",
+		"/dev/atesin/library_swept_intersection_between_lines.tic"
+	],
+	"folders": []
+}

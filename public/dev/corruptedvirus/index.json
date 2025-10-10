@@ -1,0 +1,18 @@
+{
+	"files": [
+		"/dev/corruptedvirus/unimportant.tic",
+		"/dev/corruptedvirus/powder_tic.tic",
+		"/dev/corruptedvirus/ball.tic",
+		"/dev/corruptedvirus/langton_s_ant.tic",
+		"/dev/corruptedvirus/conway_s_game_of_life.tic",
+		"/dev/corruptedvirus/sound_surface.tic",
+		"/dev/corruptedvirus/rain.tic",
+		"/dev/corruptedvirus/loading_screen.tic",
+		"/dev/corruptedvirus/recursive_tentacle.tic",
+		"/dev/corruptedvirus/elementary_cellular_automaton.tic",
+		"/dev/corruptedvirus/sorting.tic",
+		"/dev/corruptedvirus/game_title.tic",
+		"/dev/corruptedvirus/mandelbrot_and_julia_fractals.tic"
+	],
+	"folders": []
+}

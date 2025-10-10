@@ -1,0 +1,18 @@
+{
+	"files": [
+		"/dev/sakura/conway_s_game_of_life.tic",
+		"/dev/sakura/conway_s_game_of_life_lua_port.tic",
+		"/dev/sakura/conway_s_game_of_life1.tic",
+		"/dev/sakura/freecell.tic",
+		"/dev/sakura/minesweeper.tic",
+		"/dev/sakura/sudoku.tic",
+		"/dev/sakura/kaleidoscope.tic",
+		"/dev/sakura/sudoku8000.tic",
+		"/dev/sakura/conway_s_game_of_life_wasm_port.tic",
+		"/dev/sakura/conway_s_game_of_life_c_port.tic",
+		"/dev/sakura/conway_s_game_of_life_nim_port.tic",
+		"/dev/sakura/conway_s_game_of_life_d_port.tic",
+		"/dev/sakura/sudoku16x16.tic"
+	],
+	"folders": []
+}

@@ -1,0 +1,12 @@
+{
+	"files": [
+		"/dev/petet/balmung.tic",
+		"/dev/petet/fallspire.tic",
+		"/dev/petet/potion_curse.tic",
+		"/dev/petet/voxel_renderer.tic",
+		"/dev/petet/tic_topos.tic",
+		"/dev/petet/mandelbrot_explorer.tic",
+		"/dev/petet/knotsnake.tic"
+	],
+	"folders": []
+}

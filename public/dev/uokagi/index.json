@@ -1,0 +1,16 @@
+{
+	"files": [
+		"/dev/uokagi/autoborder.tic",
+		"/dev/uokagi/semi_autotile.tic",
+		"/dev/uokagi/key_display.tic",
+		"/dev/uokagi/cellautomatile.tic",
+		"/dev/uokagi/4color_puzzle.tic",
+		"/dev/uokagi/manualwfc.tic",
+		"/dev/uokagi/circuit_diagram2.tic",
+		"/dev/uokagi/shodo.tic",
+		"/dev/uokagi/chocobo_thema.tic",
+		"/dev/uokagi/font_set.tic",
+		"/dev/uokagi/auto_wang_tiles.tic"
+	],
+	"folders": []
+}

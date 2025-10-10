@@ -1,0 +1,10 @@
+{
+	"files": [
+		"/dev/mcmiller/conway_s_game_of_life.tic",
+		"/dev/mcmiller/breadth_first_search.tic",
+		"/dev/mcmiller/depth_first_search.tic",
+		"/dev/mcmiller/greedy_best_first_search.tic",
+		"/dev/mcmiller/a_search.tic"
+	],
+	"folders": []
+}

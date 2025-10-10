@@ -1,0 +1,11 @@
+{
+	"files": [
+		"/dev/archaicvirus/tree_generator.tic",
+		"/dev/archaicvirus/planet_generator.tic",
+		"/dev/archaicvirus/rotating_moon.tic",
+		"/dev/archaicvirus/tileman.tic",
+		"/dev/archaicvirus/craptorio.tic",
+		"/dev/archaicvirus/particle_forge.tic"
+	],
+	"folders": []
+}

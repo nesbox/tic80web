@@ -34,10 +34,13 @@ type Game struct {
 	Added    int    `json:"added"`
 	Updated  int    `json:"updated"`
 	Category int    `json:"category"`
+	Rating   int    `json:"rating"`
 }
 
 // User represents a user from the TIC-80 database.
 type User map[string]interface{}
+
+
 
 const (
 	// Number of concurrent downloads. A reasonable starting point.
@@ -47,6 +50,8 @@ const (
 	// Common prefix for all avatar base64 strings (PNG header).
 	avatarPrefix = "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEUaHCxdJ12xPlPvfVf/zXWn8HA4t2QlcXkpNm87XclBpvZz7/f09PSUsMJWbIYzPFcHRRrAAAAA"
 )
+
+
 
 func main() {
 	// A reusable HTTP client.
@@ -98,6 +103,8 @@ func main() {
 	}
 
 	fmt.Printf("Successfully loaded and parsed %d users.\n\n", len(users))
+
+
 
 	// Filter users to only include those with games
 	hasGames := make(map[int]bool)
@@ -153,6 +160,8 @@ func main() {
 	}
 
 	fmt.Println("users.json updated.")
+
+	createDevIndexes(games, users)
 }
 
 // fetchGames fetches the list of games from the TIC-80 API and returns the parsed game list and raw games.
@@ -245,7 +254,7 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 					cartname = game.Title
 				}
 
-				// Ensure unique cartname by appending numbers if directory exists
+				// Ensure unique cartname by appending numbers if file exists
 				originalCartname := cartname
 				suffix := 0
 				for {
@@ -253,8 +262,8 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 					if suffix > 0 {
 						candidate = fmt.Sprintf("%s%d", originalCartname, suffix)
 					}
-					cartDir := fmt.Sprintf("public/dev/%s/%s", username, candidate)
-					if _, err := os.Stat(cartDir); os.IsNotExist(err) {
+					cartFile := fmt.Sprintf("public/dev/%s/%s.tic", username, candidate)
+					if _, err := os.Stat(cartFile); os.IsNotExist(err) {
 						cartname = candidate
 						break
 					}
@@ -269,7 +278,7 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 					}
 				}
 
-				cartPath := fmt.Sprintf("public/dev/%s/%s/%s.tic", username, cartname, cartname)
+				cartPath := fmt.Sprintf("public/dev/%s/%s.tic", username, cartname)
 
 				// Create the directory
 				if err := os.MkdirAll(filepath.Dir(cartPath), 0755); err != nil {
@@ -283,6 +292,10 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 
 				// Download cover
 				coverPath := fmt.Sprintf("public/dev/%s/%s/cover.png", username, cartname)
+				if err := os.MkdirAll(filepath.Dir(coverPath), 0755); err != nil {
+					fmt.Printf("Error creating directory for cover %s: %v\n", game.Title, err)
+					continue
+				}
 				if err := downloadCover(client, game.Hash, coverPath); err != nil {
 					fmt.Printf("Failed to download cover for %s: %v\n", game.Title, err)
 				}
@@ -315,6 +328,72 @@ func downloadFile(client *http.Client, hash, path, title string, current, total 
 
 	fmt.Printf("[%d/%d] - %s downloaded: %d bytes\n", current+1, total, title, len(body))
 	return nil
+}
+
+func createDevIndexes(games []Game, users []User) {
+	getUsername := func(userID int) string {
+		for _, u := range users {
+			if id, ok := u["id"].(float64); ok && int(id) == userID {
+				if name, ok := u["name"].(string); ok {
+					return strings.ToLower(name)
+				}
+			}
+		}
+		return ""
+	}
+
+	gamesByUser := make(map[int][]Game)
+	for _, g := range games {
+		gamesByUser[g.User] = append(gamesByUser[g.User], g)
+	}
+
+	// Create root dev/index.json with folders as usernames
+	devFolders := []string{}
+	for userID := range gamesByUser {
+		username := getUsername(userID)
+		if username != "" {
+			devFolders = append(devFolders, username)
+		}
+	}
+	sort.Strings(devFolders)
+
+	rootData := map[string]interface{}{
+		"folders": devFolders,
+		"files": []string{},
+	}
+	rootBytes, err := json.MarshalIndent(rootData, "", "\t")
+	if err != nil {
+		fmt.Printf("Error marshaling root dev index: %v\n", err)
+		return
+	}
+	os.WriteFile("public/dev/index.json", rootBytes, 0644)
+
+	// Create index.json for each user folder
+	for userID, userGames := range gamesByUser {
+		username := getUsername(userID)
+		if username == "" { continue }
+
+		fileList := []string{}
+		for _, g := range userGames {
+			path := fmt.Sprintf("/dev/%s/%s.tic", username, g.Name)
+			fileList = append(fileList, path)
+		}
+
+		data := map[string]interface{}{
+			"folders": []string{},
+			"files": fileList,
+		}
+
+		jsonBytes, err := json.MarshalIndent(data, "", "\t")
+		if err != nil {
+			fmt.Printf("Error marshaling for dev %s: %v\n", username, err)
+			continue
+		}
+
+		os.WriteFile(fmt.Sprintf("public/dev/%s/index.json", username), jsonBytes, 0644)
+	}
+
+	fmt.Println("Created dev indexes.")
 }
 
 // downloadCover downloads and processes the cover GIF to PNG with sweetie16 palette.
@@ -370,6 +449,8 @@ func loadUsers(client *http.Client, url string) ([]User, error) {
 
 	return users, nil
 }
+
+
 
 // processAvatars processes each avatar PNG to encode as base64 concurrently.
 func processAvatars(client *http.Client, users []User) {
