@@ -1,5 +1,5 @@
 # TIC-80 tiny computer
-1.2.3086-dev (4e4859c)
+1.2.3087-dev (6661576)
 https://web.tic80.com (C) 2017-2025
 
 ## Table of Contents

@@ -51450,7 +51450,7 @@
     "desc": "A raycasting demo in 256 bytes, for Deadline 2025 demoparty",
     "id": 4405,
     "name": "neasden_ballet",
-    "rating": 0,
+    "rating": 1,
     "title": "Neasden Ballet",
     "updated": 1759526020340,
     "user": 4801
@@ -51512,7 +51512,7 @@
     "name": "sonic_mini_limited_lives",
     "rating": 0,
     "title": "Sonic Mini Limited Lives",
-    "updated": 1760036279108,
+    "updated": 1760113644498,
     "user": 9748
   },
   {
@@ -51560,7 +51560,7 @@
     "name": "music_theory",
     "rating": 0,
     "title": "Music theory",
-    "updated": 1760096441928,
+    "updated": 1760117373178,
     "user": 11428
   }
 ]
