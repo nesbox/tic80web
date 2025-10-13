@@ -51574,5 +51574,29 @@
     "title": "Sonic Mini + Bridge Zone",
     "updated": 1760208070779,
     "user": 9748
+  },
+  {
+    "added": 1760297978758,
+    "author": "Sava",
+    "category": 1,
+    "desc": "Runs at 60 fps on my PC, pretty optimized. Uses a double buffer approach",
+    "id": 4416,
+    "name": "smooth_mandelbrot_set_explorer",
+    "rating": 0,
+    "title": "Smooth Mandelbrot set explorer",
+    "updated": 1760298083039,
+    "user": 11428
+  },
+  {
+    "added": 1760302667288,
+    "author": "game developer, email, etc.",
+    "category": 0,
+    "desc": "short description",
+    "id": 4417,
+    "name": "game_title",
+    "rating": 0,
+    "title": "game title",
+    "updated": 1760302667288,
+    "user": 12706
   }
 ]

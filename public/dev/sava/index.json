@@ -20,7 +20,8 @@
 		"/dev/sava/eyes.tic",
 		"/dev/sava/sorting.tic",
 		"/dev/sava/a_bullet_hell_game.tic",
-		"/dev/sava/music_theory.tic"
+		"/dev/sava/music_theory.tic",
+		"/dev/sava/smooth_mandelbrot_set_explorer.tic"
 	],
 	"folders": []
 }
