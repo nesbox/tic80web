@@ -1,10 +1,10 @@
 {
 	"files": [
-		"/dev/atesin/draconus_intro_music.tic",
-		"/dev/atesin/joystick_angle_library.tic",
-		"/dev/atesin/31_colors_palette_test.tic",
-		"/dev/atesin/distance_to_line_library.tic",
-		"/dev/atesin/library_swept_intersection_between_lines.tic"
+		"/dev/atesin/draconus_intro_music.tic?1c9cf0a",
+		"/dev/atesin/joystick_angle_library.tic?e8ecd29",
+		"/dev/atesin/31_colors_palette_test.tic?d506134",
+		"/dev/atesin/distance_to_line_library.tic?7c0dc9c",
+		"/dev/atesin/library_swept_intersection_between_lines.tic?0015ee3"
 	],
 	"folders": []
 }

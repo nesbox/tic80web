@@ -1,16 +1,16 @@
 {
 	"files": [
-		"/dev/uokagi/autoborder.tic",
-		"/dev/uokagi/semi_autotile.tic",
-		"/dev/uokagi/key_display.tic",
-		"/dev/uokagi/cellautomatile.tic",
-		"/dev/uokagi/4color_puzzle.tic",
-		"/dev/uokagi/manualwfc.tic",
-		"/dev/uokagi/circuit_diagram2.tic",
-		"/dev/uokagi/shodo.tic",
-		"/dev/uokagi/chocobo_thema.tic",
-		"/dev/uokagi/font_set.tic",
-		"/dev/uokagi/auto_wang_tiles.tic"
+		"/dev/uokagi/autoborder.tic?6bd6587",
+		"/dev/uokagi/semi_autotile.tic?8d8d9e1",
+		"/dev/uokagi/key_display.tic?e9f3e0b",
+		"/dev/uokagi/cellautomatile.tic?5cdda4d",
+		"/dev/uokagi/4color_puzzle.tic?d62e95f",
+		"/dev/uokagi/manualwfc.tic?b80978b",
+		"/dev/uokagi/circuit_diagram2.tic?062cc84",
+		"/dev/uokagi/shodo.tic?9e815bc",
+		"/dev/uokagi/chocobo_thema.tic?c768eb5",
+		"/dev/uokagi/font_set.tic?2e643d6",
+		"/dev/uokagi/auto_wang_tiles.tic?f3fc1a3"
 	],
 	"folders": []
 }

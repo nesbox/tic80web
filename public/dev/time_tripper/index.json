@@ -1,21 +1,21 @@
 {
 	"files": [
-		"/dev/time_tripper/structure_mania.tic",
-		"/dev/time_tripper/voronoi_diagram.tic",
-		"/dev/time_tripper/block_destruction.tic",
-		"/dev/time_tripper/tic_80_palette_mosaic.tic",
-		"/dev/time_tripper/fire_pen.tic",
-		"/dev/time_tripper/particle_test.tic",
-		"/dev/time_tripper/particle_test_2.tic",
-		"/dev/time_tripper/rc_flight_simulator.tic",
-		"/dev/time_tripper/ray_tracing.tic",
-		"/dev/time_tripper/wave.tic",
-		"/dev/time_tripper/music_box.tic",
-		"/dev/time_tripper/character_generator_shooting.tic",
-		"/dev/time_tripper/rubber.tic",
-		"/dev/time_tripper/drone_attack.tic",
-		"/dev/time_tripper/covid_19.tic",
-		"/dev/time_tripper/zombie_defense.tic"
+		"/dev/time_tripper/structure_mania.tic?4705df1",
+		"/dev/time_tripper/voronoi_diagram.tic?62be35f",
+		"/dev/time_tripper/block_destruction.tic?19ad329",
+		"/dev/time_tripper/tic_80_palette_mosaic.tic?22bd4c9",
+		"/dev/time_tripper/fire_pen.tic?05227c1",
+		"/dev/time_tripper/particle_test.tic?8d55ceb",
+		"/dev/time_tripper/particle_test_2.tic?8c065fd",
+		"/dev/time_tripper/rc_flight_simulator.tic?449a783",
+		"/dev/time_tripper/ray_tracing.tic?62581a3",
+		"/dev/time_tripper/wave.tic?e4022a7",
+		"/dev/time_tripper/music_box.tic?9ed31fe",
+		"/dev/time_tripper/character_generator_shooting.tic?f07d7e6",
+		"/dev/time_tripper/rubber.tic?52edc42",
+		"/dev/time_tripper/drone_attack.tic?e7b97ce",
+		"/dev/time_tripper/covid_19.tic?c3db6b0",
+		"/dev/time_tripper/zombie_defense.tic?ce556f7"
 	],
 	"folders": []
 }

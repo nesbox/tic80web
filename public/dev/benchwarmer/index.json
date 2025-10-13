@@ -1,12 +1,12 @@
 {
 	"files": [
-		"/dev/benchwarmer/auto_tiles_test.tic",
-		"/dev/benchwarmer/ticman.tic",
-		"/dev/benchwarmer/space_boi.tic",
-		"/dev/benchwarmer/5_in_row.tic",
-		"/dev/benchwarmer/marico.tic",
-		"/dev/benchwarmer/luigi.tic",
-		"/dev/benchwarmer/wip_morio_like_game.tic"
+		"/dev/benchwarmer/auto_tiles_test.tic?8406e50",
+		"/dev/benchwarmer/ticman.tic?99a6a2e",
+		"/dev/benchwarmer/space_boi.tic?ce9f76f",
+		"/dev/benchwarmer/5_in_row.tic?8c0bb18",
+		"/dev/benchwarmer/marico.tic?b9d76a7",
+		"/dev/benchwarmer/luigi.tic?fbbdc66",
+		"/dev/benchwarmer/wip_morio_like_game.tic?f5d8e7b"
 	],
 	"folders": []
 }

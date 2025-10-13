@@ -1,13 +1,13 @@
 {
 	"files": [
-		"/dev/msx80/oseo.tic",
-		"/dev/msx80/secret_agents.tic",
-		"/dev/msx80/fun_with_vectors.tic",
-		"/dev/msx80/driving_model.tic",
-		"/dev/msx80/warm_wheels.tic",
-		"/dev/msx80/doors_of_doom.tic",
-		"/dev/msx80/turns_of_war.tic",
-		"/dev/msx80/candy_rain.tic"
+		"/dev/msx80/oseo.tic?af07aed",
+		"/dev/msx80/secret_agents.tic?eb58260",
+		"/dev/msx80/fun_with_vectors.tic?7673e03",
+		"/dev/msx80/driving_model.tic?35463f4",
+		"/dev/msx80/warm_wheels.tic?2bd7734",
+		"/dev/msx80/doors_of_doom.tic?63095f0",
+		"/dev/msx80/turns_of_war.tic?4817683",
+		"/dev/msx80/candy_rain.tic?ba2bfb0"
 	],
 	"folders": []
 }

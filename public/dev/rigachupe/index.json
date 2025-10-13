@@ -1,18 +1,18 @@
 {
 	"files": [
-		"/dev/rigachupe/image_decoder.tic",
-		"/dev/rigachupe/indiana_jones_1.tic",
-		"/dev/rigachupe/tge_text_adventure_game_engine_v190130_1700.tic",
-		"/dev/rigachupe/mole.tic",
-		"/dev/rigachupe/slider.tic",
-		"/dev/rigachupe/voxelon.tic",
-		"/dev/rigachupe/demo_game.tic",
-		"/dev/rigachupe/vector_editor.tic",
-		"/dev/rigachupe/skeletal_animation.tic",
-		"/dev/rigachupe/light.tic",
-		"/dev/rigachupe/vector_drawing_tool.tic",
-		"/dev/rigachupe/particle_fx.tic",
-		"/dev/rigachupe/sokoban.tic"
+		"/dev/rigachupe/image_decoder.tic?3201566",
+		"/dev/rigachupe/indiana_jones_1.tic?b516b0f",
+		"/dev/rigachupe/tge_text_adventure_game_engine_v190130_1700.tic?fdb8dbe",
+		"/dev/rigachupe/mole.tic?9ae622c",
+		"/dev/rigachupe/slider.tic?67acd15",
+		"/dev/rigachupe/voxelon.tic?29ab772",
+		"/dev/rigachupe/demo_game.tic?ba3a89c",
+		"/dev/rigachupe/vector_editor.tic?ffa14a3",
+		"/dev/rigachupe/skeletal_animation.tic?61a7853",
+		"/dev/rigachupe/light.tic?5208d2b",
+		"/dev/rigachupe/vector_drawing_tool.tic?9b65c9b",
+		"/dev/rigachupe/particle_fx.tic?d529e8c",
+		"/dev/rigachupe/sokoban.tic?ec00a95"
 	],
 	"folders": []
 }

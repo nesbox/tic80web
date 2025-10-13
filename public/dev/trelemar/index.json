@@ -1,21 +1,21 @@
 {
 	"files": [
-		"/dev/trelemar/jetpac.tic",
-		"/dev/trelemar/flock_block.tic",
-		"/dev/trelemar/paint.tic",
-		"/dev/trelemar/amrogue.tic",
-		"/dev/trelemar/map_rotation.tic",
-		"/dev/trelemar/platformer_tutorial.tic",
-		"/dev/trelemar/speck_mage.tic",
-		"/dev/trelemar/tiny_snake.tic",
-		"/dev/trelemar/bare_bones.tic",
-		"/dev/trelemar/snake_tutorial.tic",
-		"/dev/trelemar/camera_tutorial.tic",
-		"/dev/trelemar/cpong.tic",
-		"/dev/trelemar/mario_bros.tic",
-		"/dev/trelemar/cybro.tic",
-		"/dev/trelemar/abandoned_roguelike.tic",
-		"/dev/trelemar/double_barrel_single_wheel.tic"
+		"/dev/trelemar/jetpac.tic?a21817f",
+		"/dev/trelemar/flock_block.tic?b7a9161",
+		"/dev/trelemar/paint.tic?9f8e9a3",
+		"/dev/trelemar/amrogue.tic?15d11e7",
+		"/dev/trelemar/map_rotation.tic?8ff8546",
+		"/dev/trelemar/platformer_tutorial.tic?70f69ec",
+		"/dev/trelemar/speck_mage.tic?21de4c8",
+		"/dev/trelemar/tiny_snake.tic?c9afa46",
+		"/dev/trelemar/bare_bones.tic?595045c",
+		"/dev/trelemar/snake_tutorial.tic?e682df8",
+		"/dev/trelemar/camera_tutorial.tic?e4e3900",
+		"/dev/trelemar/cpong.tic?866f047",
+		"/dev/trelemar/mario_bros.tic?a4d5c12",
+		"/dev/trelemar/cybro.tic?c2c5141",
+		"/dev/trelemar/abandoned_roguelike.tic?38cf5e2",
+		"/dev/trelemar/double_barrel_single_wheel.tic?138bfe0"
 	],
 	"folders": []
 }

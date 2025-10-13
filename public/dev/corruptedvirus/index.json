@@ -1,18 +1,18 @@
 {
 	"files": [
-		"/dev/corruptedvirus/unimportant.tic",
-		"/dev/corruptedvirus/powder_tic.tic",
-		"/dev/corruptedvirus/ball.tic",
-		"/dev/corruptedvirus/langton_s_ant.tic",
-		"/dev/corruptedvirus/conway_s_game_of_life.tic",
-		"/dev/corruptedvirus/sound_surface.tic",
-		"/dev/corruptedvirus/rain.tic",
-		"/dev/corruptedvirus/loading_screen.tic",
-		"/dev/corruptedvirus/recursive_tentacle.tic",
-		"/dev/corruptedvirus/elementary_cellular_automaton.tic",
-		"/dev/corruptedvirus/sorting.tic",
-		"/dev/corruptedvirus/game_title.tic",
-		"/dev/corruptedvirus/mandelbrot_and_julia_fractals.tic"
+		"/dev/corruptedvirus/unimportant.tic?527fc04",
+		"/dev/corruptedvirus/powder_tic.tic?cb959be",
+		"/dev/corruptedvirus/ball.tic?6aadb13",
+		"/dev/corruptedvirus/langton_s_ant.tic?5b75220",
+		"/dev/corruptedvirus/conway_s_game_of_life.tic?4151ff4",
+		"/dev/corruptedvirus/sound_surface.tic?6845892",
+		"/dev/corruptedvirus/rain.tic?4a5d551",
+		"/dev/corruptedvirus/loading_screen.tic?01a0bea",
+		"/dev/corruptedvirus/recursive_tentacle.tic?8e803cb",
+		"/dev/corruptedvirus/elementary_cellular_automaton.tic?e2d0394",
+		"/dev/corruptedvirus/sorting.tic?8463d90",
+		"/dev/corruptedvirus/game_title.tic?7f408b9",
+		"/dev/corruptedvirus/mandelbrot_and_julia_fractals.tic?2c2754d"
 	],
 	"folders": []
 }

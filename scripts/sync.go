@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"crypto/sha256"
 	"encoding/base64"
 	"encoding/hex"
 	"encoding/json"
@@ -35,6 +36,7 @@ type Game struct {
 	Updated  int    `json:"updated"`
 	Category int    `json:"category"`
 	Rating   int    `json:"rating"`
+	FileHash string `json:"-"`
 }
 
 // User represents a user from the TIC-80 database.
@@ -120,7 +122,7 @@ func main() {
 	fmt.Printf("Filtered to %d users with games.\n", len(filtered))
 
 	// Download all carts concurrently.
-	downloadCarts(client, games, filtered)
+	gameHashes := downloadCarts(client, games, filtered)
 
 	fmt.Println("\nAll cart downloads finished.")
 
@@ -161,7 +163,7 @@ func main() {
 
 	fmt.Println("users.json updated.")
 
-	createDevIndexes(games, users)
+	createDevIndexes(games, users, gameHashes)
 }
 
 // fetchGames fetches the list of games from the TIC-80 API and returns the parsed game list and raw games.
@@ -195,15 +197,18 @@ func fetchGames(client *http.Client) ([]Game, []map[string]interface{}, error) {
 }
 
 // downloadCarts downloads all games concurrently using a worker pool pattern.
-func downloadCarts(client *http.Client, games []Game, users []User) {
+func downloadCarts(client *http.Client, games []Game, users []User) *sync.Map {
+	// Use sync.Map to store game hashes
+	var gameHashes sync.Map
+
 	// Clean the public/dev folder before downloading
 	if err := os.RemoveAll("public/dev"); err != nil {
 		fmt.Printf("Error cleaning public/dev: %v\n", err)
-		return
+		return &gameHashes
 	}
 	if err := os.Mkdir("public/dev", 0755); err != nil {
 		fmt.Printf("Error creating public/dev: %v\n", err)
-		return
+		return &gameHashes
 	}
 
 	// Group games by user
@@ -286,8 +291,12 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 					continue
 				}
 				current := atomic.AddInt64(&globalCounter, 1)
-				if err := downloadFile(client, game.Hash, cartPath, game.Title, int(current), len(games)); err != nil {
+				hash, err := downloadFile(client, game.Hash, cartPath, game.Title, int(current), len(games), game.ID)
+				if err != nil {
 					fmt.Printf("Failed to download %s: %v\n", game.Title, err)
+				} else {
+					// Store the hash in sync.Map
+					gameHashes.Store(game.ID, hash)
 				}
 
 				// Download cover
@@ -303,34 +312,40 @@ func downloadCarts(client *http.Client, games []Game, users []User) {
 		}(userID, userGames)
 	}
 	wg.Wait()
+
+	return &gameHashes
 }
 
 // downloadFile performs the actual file download logic.
-func downloadFile(client *http.Client, hash, path, title string, current, total int) error {
-	resp, err := client.Get(fmt.Sprintf("%s/cart/%s/cart.tic", baseURL, hash))
+func downloadFile(client *http.Client, gameHash, path, title string, current, total int, gameID int) (string, error) {
+	resp, err := client.Get(fmt.Sprintf("%s/cart/%s/cart.tic", baseURL, gameHash))
 	if err != nil {
-		return fmt.Errorf("error making GET request for cart: %w", err)
+		return "", fmt.Errorf("error making GET request for cart: %w", err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("received non-OK status code: %d", resp.StatusCode)
+		return "", fmt.Errorf("received non-OK status code: %d", resp.StatusCode)
 	}
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return fmt.Errorf("error reading response body: %w", err)
+		return "", fmt.Errorf("error reading response body: %w", err)
 	}
 
+	// Compute SHA256 hash of the content
+	fileHash := sha256.Sum256(body)
+	fileHashShort := fmt.Sprintf("%x", fileHash)[:7] // Short version, first 7 symbols
+
 	if err := os.WriteFile(path, body, 0644); err != nil {
-		return fmt.Errorf("error writing file: %w", err)
+		return "", fmt.Errorf("error writing file: %w", err)
 	}
 
 	fmt.Printf("[%d/%d] - %s downloaded: %d bytes\n", current+1, total, title, len(body))
-	return nil
+	return fileHashShort, nil
 }
 
-func createDevIndexes(games []Game, users []User) {
+func createDevIndexes(games []Game, users []User, gameHashes *sync.Map) {
 	getUsername := func(userID int) string {
 		for _, u := range users {
 			if id, ok := u["id"].(float64); ok && int(id) == userID {
@@ -375,8 +390,13 @@ func createDevIndexes(games []Game, users []User) {
 
 		fileList := []string{}
 		for _, g := range userGames {
-			path := fmt.Sprintf("/dev/%s/%s.tic", username, g.Name)
-			fileList = append(fileList, path)
+			if hash, ok := gameHashes.Load(g.ID); ok {
+				path := fmt.Sprintf("/dev/%s/%s.tic?%s", username, g.Name, hash)
+				fileList = append(fileList, path)
+			} else {
+				path := fmt.Sprintf("/dev/%s/%s.tic", username, g.Name)
+				fileList = append(fileList, path)
+			}
 		}
 
 		data := map[string]interface{}{

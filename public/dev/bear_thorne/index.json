@@ -1,13 +1,13 @@
 {
 	"files": [
-		"/dev/bear_thorne/coin_grab.tic",
-		"/dev/bear_thorne/simple_collision.tic",
-		"/dev/bear_thorne/pasture.tic",
-		"/dev/bear_thorne/grid_based_camera.tic",
-		"/dev/bear_thorne/push_em.tic",
-		"/dev/bear_thorne/clingy.tic",
-		"/dev/bear_thorne/bfs_pathfinding.tic",
-		"/dev/bear_thorne/lights_off.tic"
+		"/dev/bear_thorne/coin_grab.tic?f97d7d4",
+		"/dev/bear_thorne/simple_collision.tic?be820cc",
+		"/dev/bear_thorne/pasture.tic?f029149",
+		"/dev/bear_thorne/grid_based_camera.tic?9ebe0d8",
+		"/dev/bear_thorne/push_em.tic?efc175f",
+		"/dev/bear_thorne/clingy.tic?2a8e73e",
+		"/dev/bear_thorne/bfs_pathfinding.tic?d1f232b",
+		"/dev/bear_thorne/lights_off.tic?96095ca"
 	],
 	"folders": []
 }

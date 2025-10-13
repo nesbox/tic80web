@@ -1,15 +1,15 @@
 {
 	"files": [
-		"/dev/commensalism/double_pendulum_rotation.tic",
-		"/dev/commensalism/2d_light.tic",
-		"/dev/commensalism/galaxy.tic",
-		"/dev/commensalism/piano_roll.tic",
-		"/dev/commensalism/particles.tic",
-		"/dev/commensalism/polyrhythm.tic",
-		"/dev/commensalism/tichou.tic",
-		"/dev/commensalism/triangle_centres.tic",
-		"/dev/commensalism/trisectrix_of_maclaurin.tic",
-		"/dev/commensalism/camtest.tic"
+		"/dev/commensalism/double_pendulum_rotation.tic?339c365",
+		"/dev/commensalism/2d_light.tic?d37e05e",
+		"/dev/commensalism/galaxy.tic?2b01a08",
+		"/dev/commensalism/piano_roll.tic?1c825a1",
+		"/dev/commensalism/particles.tic?56462e3",
+		"/dev/commensalism/polyrhythm.tic?c0ba349",
+		"/dev/commensalism/tichou.tic?e4d69ed",
+		"/dev/commensalism/triangle_centres.tic?fd7fd7b",
+		"/dev/commensalism/trisectrix_of_maclaurin.tic?23956c9",
+		"/dev/commensalism/camtest.tic?438e77b"
 	],
 	"folders": []
 }

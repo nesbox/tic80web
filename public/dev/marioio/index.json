@@ -1,10 +1,10 @@
 {
 	"files": [
-		"/dev/marioio/crt_graphics.tic",
-		"/dev/marioio/no_internet.tic",
-		"/dev/marioio/afterimage_demo.tic",
-		"/dev/marioio/mouse_controls.tic",
-		"/dev/marioio/saving_data_optimization.tic"
+		"/dev/marioio/crt_graphics.tic?55fa530",
+		"/dev/marioio/no_internet.tic?0cedded",
+		"/dev/marioio/afterimage_demo.tic?45981ea",
+		"/dev/marioio/mouse_controls.tic?ba14135",
+		"/dev/marioio/saving_data_optimization.tic?74c8425"
 	],
 	"folders": []
 }

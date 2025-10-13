@@ -1,12 +1,12 @@
 {
 	"files": [
-		"/dev/petet/balmung.tic",
-		"/dev/petet/fallspire.tic",
-		"/dev/petet/potion_curse.tic",
-		"/dev/petet/voxel_renderer.tic",
-		"/dev/petet/tic_topos.tic",
-		"/dev/petet/mandelbrot_explorer.tic",
-		"/dev/petet/knotsnake.tic"
+		"/dev/petet/balmung.tic?fa30f8e",
+		"/dev/petet/fallspire.tic?06e9446",
+		"/dev/petet/potion_curse.tic?a6f616c",
+		"/dev/petet/voxel_renderer.tic?912ca08",
+		"/dev/petet/tic_topos.tic?1038627",
+		"/dev/petet/mandelbrot_explorer.tic?1f66282",
+		"/dev/petet/knotsnake.tic?55ed5f1"
 	],
 	"folders": []
 }

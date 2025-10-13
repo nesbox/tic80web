@@ -1,9 +1,10 @@
 {
 	"files": [
-		"/dev/luke/easyhex_palette.tic",
-		"/dev/luke/sonic_mini_ringless.tic",
-		"/dev/luke/sonic_mini_limited_lives.tic",
-		"/dev/luke/sonic_mini_has_all_the_chaos_emeralds.tic"
+		"/dev/luke/easyhex_palette.tic?bd65f1b",
+		"/dev/luke/sonic_mini_ringless.tic?adb8a6e",
+		"/dev/luke/sonic_mini_limited_lives.tic?db7f88e",
+		"/dev/luke/sonic_mini_has_all_the_chaos_emeralds.tic?02f9663",
+		"/dev/luke/sonic_mini_bridge_zone.tic?0e536e7"
 	],
 	"folders": []
 }

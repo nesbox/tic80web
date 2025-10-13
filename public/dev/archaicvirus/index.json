@@ -1,11 +1,11 @@
 {
 	"files": [
-		"/dev/archaicvirus/tree_generator.tic",
-		"/dev/archaicvirus/planet_generator.tic",
-		"/dev/archaicvirus/rotating_moon.tic",
-		"/dev/archaicvirus/tileman.tic",
-		"/dev/archaicvirus/craptorio.tic",
-		"/dev/archaicvirus/particle_forge.tic"
+		"/dev/archaicvirus/tree_generator.tic?45688e2",
+		"/dev/archaicvirus/planet_generator.tic?f016857",
+		"/dev/archaicvirus/rotating_moon.tic?5a300ad",
+		"/dev/archaicvirus/tileman.tic?f177b1c",
+		"/dev/archaicvirus/craptorio.tic?9874f2e",
+		"/dev/archaicvirus/particle_forge.tic?2f7c32a"
 	],
 	"folders": []
 }

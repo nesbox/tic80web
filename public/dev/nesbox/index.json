@@ -1,15 +1,15 @@
 {
 	"files": [
-		"/dev/nesbox/palette_demo.tic",
-		"/dev/nesbox/remap_demo.tic",
-		"/dev/nesbox/music_demo.tic",
-		"/dev/nesbox/foubars.tic",
-		"/dev/nesbox/music_demo_2.tic",
-		"/dev/nesbox/music_demo_3.tic",
-		"/dev/nesbox/squashy_port.tic",
-		"/dev/nesbox/chiptune_made_by_rushjet1.tic",
-		"/dev/nesbox/sound_registers_visualizer.tic",
-		"/dev/nesbox/bad_apple.tic"
+		"/dev/nesbox/palette_demo.tic?bc271da",
+		"/dev/nesbox/remap_demo.tic?80897f8",
+		"/dev/nesbox/music_demo.tic?2273543",
+		"/dev/nesbox/foubars.tic?ff35b92",
+		"/dev/nesbox/music_demo_2.tic?899fa43",
+		"/dev/nesbox/music_demo_3.tic?d2c7b9f",
+		"/dev/nesbox/squashy_port.tic?045ed43",
+		"/dev/nesbox/chiptune_made_by_rushjet1.tic?65e5c3a",
+		"/dev/nesbox/sound_registers_visualizer.tic?8ab4156",
+		"/dev/nesbox/bad_apple.tic?3c41881"
 	],
 	"folders": []
 }

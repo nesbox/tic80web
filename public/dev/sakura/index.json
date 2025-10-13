@@ -1,18 +1,18 @@
 {
 	"files": [
-		"/dev/sakura/conway_s_game_of_life.tic",
-		"/dev/sakura/conway_s_game_of_life_lua_port.tic",
-		"/dev/sakura/conway_s_game_of_life1.tic",
-		"/dev/sakura/freecell.tic",
-		"/dev/sakura/minesweeper.tic",
-		"/dev/sakura/sudoku.tic",
-		"/dev/sakura/kaleidoscope.tic",
-		"/dev/sakura/sudoku8000.tic",
-		"/dev/sakura/conway_s_game_of_life_wasm_port.tic",
-		"/dev/sakura/conway_s_game_of_life_c_port.tic",
-		"/dev/sakura/conway_s_game_of_life_nim_port.tic",
-		"/dev/sakura/conway_s_game_of_life_d_port.tic",
-		"/dev/sakura/sudoku16x16.tic"
+		"/dev/sakura/conway_s_game_of_life.tic?c528943",
+		"/dev/sakura/conway_s_game_of_life_lua_port.tic?124b91b",
+		"/dev/sakura/conway_s_game_of_life1.tic?95cddde",
+		"/dev/sakura/freecell.tic?0ceb3b8",
+		"/dev/sakura/minesweeper.tic?07c4431",
+		"/dev/sakura/sudoku.tic?71cd1e4",
+		"/dev/sakura/kaleidoscope.tic?eab3879",
+		"/dev/sakura/sudoku8000.tic?13ee3e6",
+		"/dev/sakura/conway_s_game_of_life_wasm_port.tic?33658a2",
+		"/dev/sakura/conway_s_game_of_life_c_port.tic?e2c3d07",
+		"/dev/sakura/conway_s_game_of_life_nim_port.tic?65dcfcc",
+		"/dev/sakura/conway_s_game_of_life_d_port.tic?d157ff2",
+		"/dev/sakura/sudoku16x16.tic?41dcb28"
 	],
 	"folders": []
 }

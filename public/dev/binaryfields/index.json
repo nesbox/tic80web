@@ -1,11 +1,11 @@
 {
 	"files": [
-		"/dev/binaryfields/christmas.tic",
-		"/dev/binaryfields/snow.tic",
-		"/dev/binaryfields/gradient.tic",
-		"/dev/binaryfields/plasma.tic",
-		"/dev/binaryfields/tunnel.tic",
-		"/dev/binaryfields/tunnel2.tic"
+		"/dev/binaryfields/christmas.tic?01f1a2a",
+		"/dev/binaryfields/snow.tic?9ea6be6",
+		"/dev/binaryfields/gradient.tic?f003683",
+		"/dev/binaryfields/plasma.tic?c73090c",
+		"/dev/binaryfields/tunnel.tic?27a0bcd",
+		"/dev/binaryfields/tunnel2.tic?568813b"
 	],
 	"folders": []
 }
