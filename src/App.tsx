@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { useEffect, Suspense, lazy } from 'react';
 
 import { Header, Footer, ErrorBoundary, Loading } from './components';
 import { getSessionStorageItem, removeSessionStorageItem } from './utils';
 import { ROUTES } from './constants';
-import { DataProvider } from './contexts/DataContext';
+import { DataProvider, useData } from './contexts/DataContext';
 
 // Lazy load pages for better performance
 const Home = lazy(() => import('./pages/Home'));
@@ -19,12 +19,46 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 
 function AppContent() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { games, usersMap, loading } = useData();
 
   // Function to check if a path is a valid route
   const isValidRoute = (path: string): boolean => {
     // Check if path starts with any valid route
     return Object.values(ROUTES).some(route => path.startsWith(route));
   };
+
+  // Handle legacy URL redirects
+  useEffect(() => {
+    if (loading) return;
+
+    const searchParams = new URLSearchParams(location.search);
+
+    // Handle ?cart=<game_id> redirects (from old play URLs)
+    const cartId = searchParams.get('cart');
+    if (cartId && location.pathname === '/play') {
+      const gameId = parseInt(cartId, 10);
+      const game = games.find(g => g.id === gameId);
+      if (game && usersMap[game.user]) {
+        const userName = usersMap[game.user];
+        const newPath = `/dev/${userName}/${game.name}`;
+        navigate(newPath, { replace: true });
+        return;
+      }
+    }
+
+    // Handle ?id=<user_id> redirects (from old dev URLs)
+    const userId = searchParams.get('id');
+    if (userId && location.pathname === '/dev') {
+      const id = parseInt(userId, 10);
+      const userName = usersMap[id];
+      if (userName) {
+        const newPath = `/dev/${userName}`;
+        navigate(newPath, { replace: true });
+        return;
+      }
+    }
+  }, [location, games, usersMap, loading, navigate]);
 
   useEffect(() => {
     // Check if we were redirected from a 404
