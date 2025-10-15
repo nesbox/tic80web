@@ -39414,7 +39414,7 @@
     "desc": "an alien landscape in 128 bytes for Outline 2023",
     "id": 3366,
     "name": "neon_planet",
-    "rating": 3,
+    "rating": 4,
     "title": "Neon Planet",
     "updated": 1684615975308,
     "user": 4801
@@ -48594,7 +48594,7 @@
     "desc": null,
     "id": 4166,
     "name": "abstract_block_waves_demo",
-    "rating": 8,
+    "rating": 9,
     "title": "Abstract Block Waves (Demo)",
     "updated": 1755030195908,
     "user": 6237
@@ -50142,7 +50142,7 @@
     "desc": "game for speedrunners",
     "id": 4295,
     "name": "go_fast",
-    "rating": 2,
+    "rating": 3,
     "title": "GO FAST",
     "updated": 1755199935963,
     "user": 461
@@ -51450,7 +51450,7 @@
     "desc": "A raycasting demo in 256 bytes, for Deadline 2025 demoparty",
     "id": 4405,
     "name": "neasden_ballet",
-    "rating": 1,
+    "rating": 2,
     "title": "Neasden Ballet",
     "updated": 1759526020340,
     "user": 4801
@@ -51613,14 +51613,14 @@
   },
   {
     "added": 1760362822186,
-    "author": "dukeDarer-- desc: Use dice and deck to be the best.-- script: lua-- input: keyboard",
+    "author": "dukeDarer-- desc: Use dice and deck to be the best.-- script: lua-- input: mouse",
     "category": 4,
-    "desc": "Use dice and deck to be the best.-- script: lua-- input: keyboard",
+    "desc": "Use dice and deck to be the best.-- script: lua-- input: mouse",
     "id": 4419,
-    "name": "of_dice_and_deck_author_dukedarer_desc_use_dice_and_deck_to_be_the_best_script_lua_input_keyboard",
+    "name": "of_dice_and_deck_author_dukedarer_desc_use_dice_and_deck_to_be_the_best_script_lua_input_mouse",
     "rating": 0,
-    "title": "Of Dice And Deck-- author: dukeDarer-- desc: Use dice and deck to be the best.-- script: lua-- input: keyboard",
-    "updated": 1760362822186,
+    "title": "Of Dice And Deck-- author: dukeDarer-- desc: Use dice and deck to be the best.-- script: lua-- input: mouse",
+    "updated": 1760462565692,
     "user": 11285
   },
   {
@@ -51634,5 +51634,41 @@
     "title": "Combo Clashers",
     "updated": 1760362991586,
     "user": 11285
+  },
+  {
+    "added": 1760443293303,
+    "author": "Sava",
+    "category": 3,
+    "desc": "Made in my very small compressed midi player, which has exactly 80 lines of code",
+    "id": 4421,
+    "name": "beethoven_pathetique",
+    "rating": 1,
+    "title": "Beethoven - \"Pathetique\"",
+    "updated": 1760444559809,
+    "user": 11428
+  },
+  {
+    "added": 1760521060297,
+    "author": "TripleCubes, congusbongus",
+    "category": 0,
+    "desc": "Summon friends in this cute platformer",
+    "id": 4422,
+    "name": "crystalline",
+    "rating": 0,
+    "title": "Crystalline",
+    "updated": 1760521060297,
+    "user": 2888
+  },
+  {
+    "added": 1760545837159,
+    "author": "Altrix Studios",
+    "category": 0,
+    "desc": "Collect the carrots within a limited number of moves!",
+    "id": 4423,
+    "name": "carrot_collector",
+    "rating": 0,
+    "title": "Carrot Collector",
+    "updated": 1760545837159,
+    "user": 1306
   }
 ]
