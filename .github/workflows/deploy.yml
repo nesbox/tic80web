@@ -31,7 +31,7 @@ jobs:
       - name: Build
         run: |
           cd build
-          cmake -DBUILD_WITH_ALL=ON ..
+          cmake -DBUILD_WITH_ALL=ON -DBUILD_TOOLS=ON ..
           cmake --build . --parallel
 
       - name: Export help.md and version.md
@@ -46,6 +46,13 @@ jobs:
           path: |
             help.md
             version.txt
+
+      - name: Upload xplode
+        uses: actions/upload-artifact@v4
+        with:
+          name: xplode
+          path: |
+            build/bin/xplode
 
   webapp:
     runs-on: ubuntu-latest
@@ -267,11 +274,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: help-md
-          path: tmp
-
-      - name: Move help.md
-        run: |
-          mv tmp/help.md src/data/help.md
+          path: src/data
 
       - name: Download hashes artifact
         uses: actions/download-artifact@v4
@@ -300,6 +303,18 @@ jobs:
           git add -A
           git commit -m "Update data files" || echo "No changes to commit"
           git push
+
+      - name: Download xplode artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: xplode
+          path: scripts
+
+      - name: Make xplode executable
+        run: chmod +x scripts/xplode
+
+      - name: Run explode carts
+        run: go run scripts/xplode.go
 
       - name: Setup Node.js 
         uses: actions/setup-node@v4

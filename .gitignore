@@ -2,6 +2,9 @@ node_modules
 .DS_Store
 *.sublime-workspace
 dist
-sync
+scripts/sync
+scripts/xplode
 tmp/
 public/download/*
+public/dev/*/
+!public/dev/**/*.tic
