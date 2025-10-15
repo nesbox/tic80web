@@ -274,7 +274,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: help-md
-          path: src/data
+          path: tmp
+
+      - name: Move help.md
+        run: |
+          mv tmp/help.md src/data/help.md
 
       - name: Download hashes artifact
         uses: actions/download-artifact@v4
