@@ -1,5 +1,5 @@
 # TIC-80 tiny computer
-1.2.3087-dev (6661576)
+1.2.3094-dev (548399c)
 https://web.tic80.com (C) 2017-2025
 
 ## Table of Contents
@@ -609,6 +609,7 @@ VRAM contains 2x16K memory chips, use vbank(0) or vbank(1) to switch between the
 --cmd=<str>      run commands in the console
 --keepcmd        re-execute commands on every run
 --version        print program version
+--threaded       force using threads without autodetecting refresh rate
 ```
 
 ## Hotkeys
