@@ -6,5 +6,7 @@ scripts/sync
 scripts/xplode
 tmp/
 public/download/*
+public/tree.json
+public/play/tree.json
 public/dev/*
 !public/dev/*/*.tic

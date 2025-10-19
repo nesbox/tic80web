@@ -317,6 +317,9 @@ jobs:
       - name: Make xplode executable
         run: chmod +x scripts/xplode
 
+      - name: Generate tree structure
+        run: go run scripts/gen-tree.go
+
       - name: Run explode carts
         run: go run scripts/xplode.go
 

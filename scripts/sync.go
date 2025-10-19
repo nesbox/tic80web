@@ -162,7 +162,7 @@ func main() {
 
 	fmt.Println("users.json updated.")
 
-	createDevIndexes(games, users, gameHashes)
+	    // Note: tree generation is now handled by gen-tree.go script in deploy.yml
 }
 
 // fetchGames fetches the list of games from the TIC-80 API and returns the parsed game list and raw games.
@@ -336,76 +336,6 @@ func downloadFile(client *http.Client, gameHash, path, title string, current, to
 	return fileHashShort, nil
 }
 
-func createDevIndexes(games []Game, users []User, gameHashes *sync.Map) {
-	getUsername := func(userID int) string {
-		for _, u := range users {
-			if id, ok := u["id"].(float64); ok && int(id) == userID {
-				if name, ok := u["name"].(string); ok {
-					return strings.ToLower(name)
-				}
-			}
-		}
-		return ""
-	}
-
-	gamesByUser := make(map[int][]Game)
-	for _, g := range games {
-		gamesByUser[g.User] = append(gamesByUser[g.User], g)
-	}
-
-	// Create root dev/tree.json with folders as usernames
-	devFolders := []string{}
-	for userID := range gamesByUser {
-		username := getUsername(userID)
-		if username != "" {
-			devFolders = append(devFolders, username)
-		}
-	}
-	sort.Strings(devFolders)
-
-	rootData := map[string]interface{}{
-		"folders": devFolders,
-		"files": []string{},
-	}
-	rootBytes, err := json.MarshalIndent(rootData, "", "\t")
-	if err != nil {
-		fmt.Printf("Error marshaling root dev tree: %v\n", err)
-		return
-	}
-	os.WriteFile("public/dev/tree.json", rootBytes, 0644)
-
-	// Create tree.json for each user folder
-	for userID, userGames := range gamesByUser {
-		username := getUsername(userID)
-		if username == "" { continue }
-
-		fileList := []string{}
-		for _, g := range userGames {
-			if hash, ok := gameHashes.Load(g.ID); ok {
-				path := fmt.Sprintf("/dev/%s/%s.tic?%s", username, g.Name, hash)
-				fileList = append(fileList, path)
-			} else {
-				path := fmt.Sprintf("/dev/%s/%s.tic", username, g.Name)
-				fileList = append(fileList, path)
-			}
-		}
-
-		data := map[string]interface{}{
-			"folders": []string{},
-			"files": fileList,
-		}
-
-		jsonBytes, err := json.MarshalIndent(data, "", "\t")
-		if err != nil {
-			fmt.Printf("Error marshaling for dev %s: %v\n", username, err)
-			continue
-		}
-
-		os.WriteFile(fmt.Sprintf("public/dev/%s/tree.json", username), jsonBytes, 0644)
-	}
-
-	fmt.Println("Created dev indexes.")
-}
 
 
 
