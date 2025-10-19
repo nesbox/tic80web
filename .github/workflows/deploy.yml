@@ -9,7 +9,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # Phase 1: Build platform binaries and tools
   generate-help-md:
     runs-on: ubuntu-latest
 
@@ -186,7 +185,6 @@ jobs:
           name: "tic80-appimage"
           path: TIC-80.AppImage
 
-  # Phase 2: Process data
   update-hashes:
     runs-on: ubuntu-latest
     needs:
@@ -225,95 +223,16 @@ jobs:
           name: hashes
           path: src/data/hashes.json
 
-  # Phase 3: Generate and deploy website
-  explode-carts:
-    runs-on: ubuntu-latest
-    needs:
-      - update-hashes
-      - generate-help-md
-      - webapp
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.22'
-
-      - name: Build and run sync.go
-        if: github.event_name == 'schedule'
-        run: go run scripts/sync.go
-
-      - name: Commit changes
-        if: github.event_name == 'schedule'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "Update data files" || echo "No changes to commit"
-          git push
-
-      - name: Download xplode artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: xplode
-          path: scripts
-
-      - name: Make xplode executable
-        run: chmod +x scripts/xplode
-
-      - name: Run explode carts
-        run: go run scripts/xplode.go
-
-      - name: Upload exploded data
-        uses: actions/upload-artifact@v4
-        with:
-          name: exploded-carts
-          path: |
-            src/data/*.json
-            public/**/*.json
-            public/**/*.tic
-
-  generate-tree:
-    runs-on: ubuntu-latest
-    needs:
-      - explode-carts
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download exploded data artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: exploded-carts
-          path: public
-
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.22'
-
-      - name: Generate tree structure
-        run: go run scripts/gen-tree.go
-
-      - name: Upload tree structure
-        uses: actions/upload-artifact@v4
-        with:
-          name: tree-structure
-          path: |
-            public/tree.json
-            public/play/tree.json
-            public/dev/tree.json
-            public/dev/**/tree.json
-
   build-and-deploy:
     runs-on: ubuntu-latest
     needs:
-      - generate-tree
-
+      - webapp
+      - windows
+      - macos
+      - linux
+      - generate-help-md
+      - update-hashes
+    
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -351,11 +270,6 @@ jobs:
           name: tic80-appimage
           path: public/download
 
-      - name: Download exploded data artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: exploded-carts
-
       - name: Download help.md artifact
         uses: actions/download-artifact@v4
         with:
@@ -366,19 +280,59 @@ jobs:
         run: |
           mv tmp/help.md src/data/help.md
 
+      - name: Download hashes artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: hashes
+          path: src/data
+
       - name: Generate version.json
         run: go run scripts/generate-version.go
 
-      - name: Setup Node.js
+      - name: Setup Go
+        if: github.event_name == 'schedule'
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Build and run sync.go
+        if: github.event_name == 'schedule'
+        run: go run scripts/sync.go
+
+      - name: Commit changes
+        if: github.event_name == 'schedule'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update data files" || echo "No changes to commit"
+          git push
+
+      - name: Download xplode artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: xplode
+          path: scripts
+
+      - name: Make xplode executable
+        run: chmod +x scripts/xplode
+
+      - name: Generate tree structure
+        run: go run scripts/gen-tree.go
+
+      - name: Run explode carts
+        run: go run scripts/xplode.go
+
+      - name: Setup Node.js 
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install dependencies 
         run: npm ci
 
-      - name: Build
+      - name: Build 
         run: npm run build
 
       - name: Setup Pages
