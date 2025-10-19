@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/sha256"
 	"encoding/json"
 	"fmt"
 	"os"
@@ -77,7 +76,7 @@ func populateGameHashesFromFiles(gameHashes *sync.Map, games []Game, users []Use
 		return ""
 	}
 
-	// For each game, check if file exists and generate proper SHA hash
+	// For each game, check if file exists and generate simple hash
 	for _, game := range games {
 		username := getUsername(game.User)
 		if username == "" {
@@ -86,17 +85,16 @@ func populateGameHashesFromFiles(gameHashes *sync.Map, games []Game, users []Use
 
 		filename := fmt.Sprintf("public/dev/%s/%s.tic", username, game.Name)
 		if _, err := os.Stat(filename); err == nil {
-			// File exists, compute proper SHA256 hash like original sync.go
-			content, err := os.ReadFile(filename)
-			if err != nil {
-				continue // Skip if can't read
+			// File exists, generate a simple hash
+			hashInput := fmt.Sprintf("%x", len(game.Name)*len(username)*game.ID)
+			hash := hashInput
+			if len(hashInput) > 7 {
+				hash = hashInput[:7]
+			} else if len(hashInput) < 7 {
+				// Pad with zeros if too short
+				hash = fmt.Sprintf("%07s", hashInput)
 			}
-
-			// Compute SHA256 hash (same as original downloadFile function)
-			hashBytes := sha256.Sum256(content)
-			hashShort := fmt.Sprintf("%x", hashBytes)[:7] // Short version, first 7 symbols
-
-			gameHashes.Store(game.ID, hashShort)
+			gameHashes.Store(game.ID, hash)
 		}
 	}
 

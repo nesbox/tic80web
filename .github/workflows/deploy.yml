@@ -308,6 +308,9 @@ jobs:
           git commit -m "Update data files" || echo "No changes to commit"
           git push
 
+      - name: Generate tree structure
+        run: go run scripts/gen-tree.go
+
       - name: Download xplode artifact
         uses: actions/download-artifact@v4
         with:
@@ -316,9 +319,6 @@ jobs:
 
       - name: Make xplode executable
         run: chmod +x scripts/xplode
-
-      - name: Generate tree structure
-        run: go run scripts/gen-tree.go
 
       - name: Run explode carts
         run: go run scripts/xplode.go
