@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"encoding/base64"
 	"encoding/hex"
 	"encoding/json"
@@ -121,7 +120,7 @@ func main() {
 	fmt.Printf("Filtered to %d users with games.\n", len(filtered))
 
 	// Download all carts concurrently.
-	gameHashes := downloadCarts(client, games, filtered)
+	downloadCarts(client, games, filtered)
 
 	fmt.Println("\nAll cart downloads finished.")
 
@@ -196,18 +195,15 @@ func fetchGames(client *http.Client) ([]Game, []map[string]interface{}, error) {
 }
 
 // downloadCarts downloads all games concurrently using a worker pool pattern.
-func downloadCarts(client *http.Client, games []Game, users []User) *sync.Map {
-	// Use sync.Map to store game hashes
-	var gameHashes sync.Map
-
+func downloadCarts(client *http.Client, games []Game, users []User) {
 	// Clean the public/dev folder before downloading
 	if err := os.RemoveAll("public/dev"); err != nil {
 		fmt.Printf("Error cleaning public/dev: %v\n", err)
-		return &gameHashes
+		return
 	}
 	if err := os.Mkdir("public/dev", 0755); err != nil {
 		fmt.Printf("Error creating public/dev: %v\n", err)
-		return &gameHashes
+		return
 	}
 
 	// Group games by user
@@ -290,50 +286,39 @@ func downloadCarts(client *http.Client, games []Game, users []User) *sync.Map {
 					continue
 				}
 				current := atomic.AddInt64(&globalCounter, 1)
-				hash, err := downloadFile(client, game.Hash, cartPath, game.Title, int(current), len(games), game.ID)
+				err := downloadFile(client, game.Hash, cartPath, game.Title, int(current), len(games), game.ID)
 				if err != nil {
 					fmt.Printf("Failed to download %s: %v\n", game.Title, err)
-				} else {
-					// Store the hash in sync.Map
-					gameHashes.Store(game.ID, hash)
 				}
-
-
 			}
 		}(userID, userGames)
 	}
 	wg.Wait()
-
-	return &gameHashes
 }
 
 // downloadFile performs the actual file download logic.
-func downloadFile(client *http.Client, gameHash, path, title string, current, total int, gameID int) (string, error) {
+func downloadFile(client *http.Client, gameHash, path, title string, current, total int, gameID int) error {
 	resp, err := client.Get(fmt.Sprintf("%s/cart/%s/cart.tic", baseURL, gameHash))
 	if err != nil {
-		return "", fmt.Errorf("error making GET request for cart: %w", err)
+		return fmt.Errorf("error making GET request for cart: %w", err)
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return "", fmt.Errorf("received non-OK status code: %d", resp.StatusCode)
+		return fmt.Errorf("received non-OK status code: %d", resp.StatusCode)
 	}
 
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return "", fmt.Errorf("error reading response body: %w", err)
+		return fmt.Errorf("error reading response body: %w", err)
 	}
 
-	// Compute SHA256 hash of the content
-	fileHash := sha256.Sum256(body)
-	fileHashShort := fmt.Sprintf("%x", fileHash)[:7] // Short version, first 7 symbols
-
 	if err := os.WriteFile(path, body, 0644); err != nil {
-		return "", fmt.Errorf("error writing file: %w", err)
+		return fmt.Errorf("error writing file: %w", err)
 	}
 
 	fmt.Printf("[%d/%d] - %s downloaded: %d bytes\n", current+1, total, title, len(body))
-	return fileHashShort, nil
+	return nil
 }
 
 
