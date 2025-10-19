@@ -229,7 +229,9 @@ jobs:
   explode-carts:
     runs-on: ubuntu-latest
     needs:
+      - update-hashes
       - generate-help-md
+      - webapp
 
     steps:
       - name: Checkout
@@ -310,10 +312,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     needs:
-      - webapp
-      - windows
-      - macos
-      - linux
       - generate-tree
 
     environment:
