@@ -233,9 +233,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate version.json
-        run: go run scripts/generate-version.go
-
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -368,6 +365,9 @@ jobs:
       - name: Move help.md
         run: |
           mv tmp/help.md src/data/help.md
+
+      - name: Generate version.json
+        run: go run scripts/generate-version.go
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
