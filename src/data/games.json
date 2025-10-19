@@ -51150,7 +51150,7 @@
     "desc": "A Pacman clone with multiple mazes and gameplay systems",
     "id": 4379,
     "name": "pacman_80",
-    "rating": 1,
+    "rating": 2,
     "title": "PACMAN 80",
     "updated": 1756497169096,
     "user": 12493
@@ -51670,5 +51670,29 @@
     "title": "Carrot Collector",
     "updated": 1760545837159,
     "user": 1306
+  },
+  {
+    "added": 1760825090639,
+    "author": "figgydevs",
+    "category": 0,
+    "desc": "Make choices and prosecute witches",
+    "id": 4424,
+    "name": "which_is_witch",
+    "rating": 0,
+    "title": "which is witch",
+    "updated": 1760825578276,
+    "user": 12734
+  },
+  {
+    "added": 1760830612039,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Jack O Lantern Snowman",
+    "id": 4425,
+    "name": "jack_o_lantern_snowman",
+    "rating": 0,
+    "title": "jack o lantern snowman",
+    "updated": 1760830612039,
+    "user": 3114
   }
 ]
