@@ -353,7 +353,7 @@ func createDevIndexes(games []Game, users []User, gameHashes *sync.Map) {
 		gamesByUser[g.User] = append(gamesByUser[g.User], g)
 	}
 
-	// Create root dev/index.json with folders as usernames
+	// Create root dev/tree.json with folders as usernames
 	devFolders := []string{}
 	for userID := range gamesByUser {
 		username := getUsername(userID)
@@ -369,12 +369,12 @@ func createDevIndexes(games []Game, users []User, gameHashes *sync.Map) {
 	}
 	rootBytes, err := json.MarshalIndent(rootData, "", "\t")
 	if err != nil {
-		fmt.Printf("Error marshaling root dev index: %v\n", err)
+		fmt.Printf("Error marshaling root dev tree: %v\n", err)
 		return
 	}
-	os.WriteFile("public/dev/index.json", rootBytes, 0644)
+	os.WriteFile("public/dev/tree.json", rootBytes, 0644)
 
-	// Create index.json for each user folder
+	// Create tree.json for each user folder
 	for userID, userGames := range gamesByUser {
 		username := getUsername(userID)
 		if username == "" { continue }
@@ -401,7 +401,7 @@ func createDevIndexes(games []Game, users []User, gameHashes *sync.Map) {
 			continue
 		}
 
-		os.WriteFile(fmt.Sprintf("public/dev/%s/index.json", username), jsonBytes, 0644)
+		os.WriteFile(fmt.Sprintf("public/dev/%s/tree.json", username), jsonBytes, 0644)
 	}
 
 	fmt.Println("Created dev indexes.")

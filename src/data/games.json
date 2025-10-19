@@ -45954,7 +45954,7 @@
     "desc": "Testing a self-made Z order system.",
     "id": 3946,
     "name": "z_order_test",
-    "rating": 3,
+    "rating": 4,
     "title": "Z Order Test",
     "updated": 1753556409090,
     "user": 8149
@@ -47598,7 +47598,7 @@
     "desc": null,
     "id": 4083,
     "name": "pigeon_magician",
-    "rating": 12,
+    "rating": 13,
     "title": "Pigeon Magician",
     "updated": 1757959091765,
     "user": 6237
@@ -50838,7 +50838,7 @@
     "desc": "A trash game",
     "id": 4353,
     "name": "trash",
-    "rating": 1,
+    "rating": 2,
     "title": "Trash",
     "updated": 1754242332510,
     "user": 8164
@@ -50958,7 +50958,7 @@
     "desc": "Find the Gems, Avoid the Mines!",
     "id": 4363,
     "name": "gemdigger",
-    "rating": 1,
+    "rating": 2,
     "title": "GemDigger",
     "updated": 1754765308089,
     "user": 12404
@@ -51150,7 +51150,7 @@
     "desc": "A Pacman clone with multiple mazes and gameplay systems",
     "id": 4379,
     "name": "pacman_80",
-    "rating": 1,
+    "rating": 2,
     "title": "PACMAN 80",
     "updated": 1756497169096,
     "user": 12493
@@ -51654,7 +51654,7 @@
     "desc": "Summon friends in this cute platformer",
     "id": 4422,
     "name": "crystalline",
-    "rating": 0,
+    "rating": 1,
     "title": "Crystalline",
     "updated": 1760521060297,
     "user": 2888
@@ -51666,9 +51666,33 @@
     "desc": "Collect the carrots within a limited number of moves!",
     "id": 4423,
     "name": "carrot_collector",
-    "rating": 0,
+    "rating": 2,
     "title": "Carrot Collector",
     "updated": 1760545837159,
     "user": 1306
+  },
+  {
+    "added": 1760825090639,
+    "author": "figgydevs",
+    "category": 0,
+    "desc": "Make choices and prosecute witches",
+    "id": 4424,
+    "name": "which_is_witch",
+    "rating": 0,
+    "title": "which is witch",
+    "updated": 1760825578276,
+    "user": 12734
+  },
+  {
+    "added": 1760830612039,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Jack O Lantern Snowman",
+    "id": 4425,
+    "name": "jack_o_lantern_snowman",
+    "rating": 0,
+    "title": "jack o lantern snowman",
+    "updated": 1760830612039,
+    "user": 3114
   }
 ]
