@@ -226,46 +226,14 @@ jobs:
           path: src/data/hashes.json
 
   # Phase 3: Generate and deploy website
-  generate-tree:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.22'
-
-      - name: Generate tree structure
-        run: go run scripts/gen-tree.go
-
-      - name: Upload tree structure
-        uses: actions/upload-artifact@v4
-        with:
-          name: tree-structure
-          path: |
-            public/tree.json
-            public/play/tree.json
-            public/dev/tree.json
-            public/dev/**/tree.json
-
   explode-carts:
     runs-on: ubuntu-latest
     needs:
       - generate-help-md
-      - generate-tree
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Download tree structure artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: tree-structure
-          path: public
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -306,6 +274,39 @@ jobs:
             public/**/*.json
             public/**/*.tic
 
+  generate-tree:
+    runs-on: ubuntu-latest
+    needs:
+      - explode-carts
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download exploded data artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: exploded-carts
+          path: public
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      - name: Generate tree structure
+        run: go run scripts/gen-tree.go
+
+      - name: Upload tree structure
+        uses: actions/upload-artifact@v4
+        with:
+          name: tree-structure
+          path: |
+            public/tree.json
+            public/play/tree.json
+            public/dev/tree.json
+            public/dev/**/tree.json
+
   build-and-deploy:
     runs-on: ubuntu-latest
     needs:
@@ -313,7 +314,7 @@ jobs:
       - windows
       - macos
       - linux
-      - explode-carts
+      - generate-tree
 
     environment:
       name: github-pages
