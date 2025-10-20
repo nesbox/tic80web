@@ -68,7 +68,7 @@ const Player = ({ coverImage, showCoverImage = false, cart }: PlayerProps) => {
         const moduleUrl = URL.createObjectURL(blob);
 
         // Import the module
-        const tic80 = await import(moduleUrl);
+        const tic80 = await import(/* @vite-ignore */ moduleUrl);
         const module = await tic80.default({
           canvas: canvasRef.current,
           locateFile: (path: string) => {
