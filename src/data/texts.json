@@ -14729,7 +14729,7 @@
   },
   {
     "id": 4375,
-    "text": "Work-In-Progress recreation/TIC-80 port of \"Get Jet Set\" which existed in EPCOT Center's Communicore from 1982-1993\r\n\r\n0.7 Alpha - Intro, Instructions, and Main Game are feature complete, ending still WIP"
+    "text": "Work-In-Progress recreation/TIC-80 port of \"Get Jet Set\" which existed in EPCOT Center's Communicore from 1982-1993\r\n\r\n0.9 Beta - Game feature complete with ending added and additional tweaks"
   },
   {
     "id": 4376,
@@ -14902,5 +14902,9 @@
   {
     "id": 4425,
     "text": "Jack O Lantern Snowman"
+  },
+  {
+    "id": 4426,
+    "text": "Free to use in any of your projects!"
   }
 ]
