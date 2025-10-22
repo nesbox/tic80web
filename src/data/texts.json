@@ -14910,5 +14910,9 @@
   {
     "id": 4427,
     "text": "Controls:\r\nD-pad -- move\r\nA/Z   -- phase\r\n\r\nDescription\r\nSurvive and outlast your enemies "
+  },
+  {
+    "id": 4428,
+    "text": "Spring Animation"
   }
 ]
