@@ -20,6 +20,7 @@ const Play = () => {
   const [games, setGames] = useState<Game[]>([]);
   const [visibleGames, setVisibleGames] = useState<Game[]>([]);
   const [hasMore, setHasMore] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
 
   const RECENT_DAYS = 90;
 
@@ -49,6 +50,10 @@ const Play = () => {
     if (!loading && contextGames.length > 0) {
       let filteredGames = currentCategory === -1 ? contextGames : contextGames.filter(game => game.category === currentCategory);
 
+      if (searchQuery) {
+        filteredGames = filteredGames.filter(game => game.title.toLowerCase().includes(searchQuery.toLowerCase()));
+      }
+
       // Hide games without rating in popular category
       if (currentSortName === 'popular') {
         filteredGames = filteredGames.filter(game => game.rating > 0);
@@ -63,7 +68,7 @@ const Play = () => {
       // Reset scroll position when sort/filter changes to prevent loading wrong games
       window.scrollTo(0, 0);
     }
-  }, [contextGames, loading, currentCategory, currentSort]);
+  }, [contextGames, loading, currentCategory, currentSort, searchQuery]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -100,13 +105,24 @@ const Play = () => {
         <p className="text-muted category-description">{formatTextWithLinks(currentCategoryData.info)}</p>
       )}
       <hr/>
-      <ul className="nav nav-pills nav-small">
-        {SORTS.map((sort) => (
-          <li key={sort.id} role="presentation" className={sort.id === currentSort ? 'active' : ''}>
-            <Link to={sort.path === 'popular' ? (currentCategoryName === 'all' ? '/play' : `/play/${currentCategoryName}`) : `/play/${currentCategoryName}/${sort.path}`}>{sort.label}</Link>
-          </li>
-        ))}
-      </ul>
+      <div className="row align-items-center">
+        <div className="col-md-6">
+          <ul className="nav nav-pills nav-small">
+            {SORTS.map((sort) => (
+              <li key={sort.id} role="presentation" className={sort.id === currentSort ? 'active' : ''}>
+                <Link to={sort.path === 'popular' ? (currentCategoryName === 'all' ? '/play' : `/play/${currentCategoryName}`) : `/play/${currentCategoryName}/${sort.path}`}>{sort.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="col-md-6">
+          <div className="input-group">
+            <input type="text" className="form-control" placeholder="Search for games..." onChange={(e) => setSearchQuery(e.target.value)} />
+            <span className="input-group-addon"><i className="fa fa-search"></i></span>
+          </div>
+        </div>
+
+      </div>
 
       <div className="row">
         {visibleGames.map((game) => (
