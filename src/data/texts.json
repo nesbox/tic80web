@@ -14914,5 +14914,9 @@
   {
     "id": 4428,
     "text": "Spring Animation"
+  },
+  {
+    "id": 4429,
+    "text": "Based on \"The Music of Erich Zann\" by HP Lovecraft, made for Cosmic Horror Jam IV for the TIC-80 fantasy console. \r\n\r\nYou are an old mute musician whose eerie scratchings at your violin can often be heard late into the night. What people don't know, and what you can't explain to them, is that every night as the sun sets, otherworldly horrors descend on the city and threaten to devour it. Only your Musick can hold them back.\r\n\r\nDuring the night, arrow keys/D-pad and the Z/X/A/S keys or A, B, X, and Y buttons play notes from different parts of your musical staff which rise up to repel the intruding hellspawn. \r\n\r\nDuring the day, left/right moves you through your room, the Z key or A button interacts with things, and the X key or B button pauses. You can sleep in your bed to regain stamina, practice music at your music rack or read books at your bookshelf to gain experience, or go to the door to head to town.\r\n\r\nYou will receive messages throughout the day alerting you when different shops will be open. The Repair Shop is open in the morning so you can repair broken strings or upgrade your violin. The bookstore will be open in the afternoon so you can buy new books, each with their own upgrade from studying, and the Orchestra will be open at night so you can play to make money.\r\n\r\nPlease check out the itch.io release to download the supplemental files! The game comes with an instruction manual, a list showing the implemented mechanics and the planned future updates, the game design document, and the short story \"The Music of Erich Zann\" by HP Lovecraft on which it was based. \r\nYou can find that here: https://the-wizards-tales.itch.io/themusick"
   }
 ]
