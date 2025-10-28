@@ -51162,7 +51162,7 @@
     "desc": "Relax at the Beach",
     "id": 4380,
     "name": "beach_relaxation",
-    "rating": 3,
+    "rating": 4,
     "title": "Beach Relaxation",
     "updated": 1756725603498,
     "user": 12476
@@ -51750,9 +51750,57 @@
     "desc": "custom multitasking operating system demo",
     "id": 4430,
     "name": "protos",
-    "rating": 0,
+    "rating": 1,
     "title": "ProtOS",
     "updated": 1761511038979,
     "user": 12756
+  },
+  {
+    "added": 1761536741340,
+    "author": "OsloOMA",
+    "category": 0,
+    "desc": "An incremental game about trash disposal",
+    "id": 4431,
+    "name": "heaps_llc",
+    "rating": 0,
+    "title": "HEAPS LLC",
+    "updated": 1761536741340,
+    "user": 12660
+  },
+  {
+    "added": 1761541394286,
+    "author": "OsloOMA",
+    "category": 5,
+    "desc": "A tribute demo from the perspective of lying in a forest, looking up at the stars.",
+    "id": 4432,
+    "name": "winter_s_coming",
+    "rating": 2,
+    "title": "Winter's Coming",
+    "updated": 1761541585335,
+    "user": 12660
+  },
+  {
+    "added": 1761541649161,
+    "author": "OsloOMA",
+    "category": 5,
+    "desc": "A soundless, serene beach demoscene.",
+    "id": 4433,
+    "name": "sundown",
+    "rating": 1,
+    "title": "Sundown",
+    "updated": 1761541649161,
+    "user": 12660
+  },
+  {
+    "added": 1761541762111,
+    "author": "StronkCheese",
+    "category": 0,
+    "desc": "Simple BlackJack Balatro-style game",
+    "id": 4434,
+    "name": "balackjack",
+    "rating": 0,
+    "title": "BalackJack",
+    "updated": 1761541762111,
+    "user": 8590
   }
 ]
