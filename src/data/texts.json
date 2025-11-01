@@ -14937,10 +14937,18 @@
   },
   {
     "id": 4435,
-    "text": "This free to play game my first game try it \u0026 give me feedback, this game are in Beta phase\r\nv0.5 - cutting \u0026 money system\r\nv0.4 - basic plant \u0026 growing system\r\nv0.3 - Basic pot\r\nv0.2 - move controler\r\nv0.1 - (Beta)"
+    "text": "This free to play game my first game try it \u0026 give me feedback, this game are in Beta phase\r\nv0.6 - money system+\r\nv0.5 - cutting \u0026 money system\r\nv0.4 - basic plant \u0026 growing system\r\nv0.3 - Basic pot\r\nv0.2 - move controler\r\nv0.1 - (Beta)"
   },
   {
     "id": 4436,
     "text": "Arrow keys: move left/right\r\nZ/A: Drop fruit\r\n\r\nHave fun!\r\n"
+  },
+  {
+    "id": 4440,
+    "text": "Author: Alligator\r\nCart original from: https://alligator.itch.io/molasses\r\n\r\nI ported it to work on newer versions of TIC-80, as it was crashing. I also added gamepad support, while still keeping support for the original mouse click controls. The button sprite I copied from emuurom.\r\nThe original game version limited us in 60 pieces per stage, and it would not inform us and it would just behave like a bug when it happened, so I just set to it give smaller polyominos past the 60 pieces. (as there are little space left on the screen)\r\n\r\nDescription:\r\n\r\nNorth End, Boston, 1919.\r\n2.3 Million gallons of molasses.\r\nOne newsboy.\r\n\r\nSave people from the sweetest of disasters in this Rampart-inspired strategy game!\r\n\r\nControls\r\n\r\nA btn - Left mouse: Place piece\r\nB btn - Right mouse: Rotate piece\r\nY btn - R: Restart level\r\nX btn - P: Pause\r\nF11: Fullscreen\r\nF: Disable flashing"
+  },
+  {
+    "id": 4441,
+    "text": "A game in which u stuck in North pole, A strategy game\r\nv0.2 - Polish \u0026 health an system\r\nv0.1 - Beta reliease"
   }
 ]
