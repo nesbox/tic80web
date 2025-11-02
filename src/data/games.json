@@ -51841,14 +51841,14 @@
   },
   {
     "added": 1761781728822,
-    "author": "onewing",
+    "author": "onewingmatt",
     "category": 4,
-    "desc": null,
+    "desc": "Complete President/Asshole card game with multiple modes and CPU AI",
     "id": 4438,
     "name": "asshole",
     "rating": 0,
     "title": "asshole",
-    "updated": 1761855503767,
+    "updated": 1762045274854,
     "user": 10034
   },
   {
@@ -51886,5 +51886,29 @@
     "title": "Cold Survivor",
     "updated": 1761932902409,
     "user": 12777
+  },
+  {
+    "added": 1762012694459,
+    "author": "Samiran3",
+    "category": 0,
+    "desc": "a simple farming game",
+    "id": 4442,
+    "name": "simple_farming_game",
+    "rating": 0,
+    "title": "Simple Farming game",
+    "updated": 1762012694459,
+    "user": 12777
+  },
+  {
+    "added": 1762015236533,
+    "author": "Sava",
+    "category": 0,
+    "desc": "Small Baba Is You demake with 8 levels",
+    "id": 4443,
+    "name": "baba_is_you_demake",
+    "rating": 0,
+    "title": "Baba Is You demake",
+    "updated": 1762015236533,
+    "user": 11428
   }
 ]
