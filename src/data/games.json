@@ -51884,7 +51884,7 @@
     "name": "cold_survivor",
     "rating": 0,
     "title": "Cold Survivor",
-    "updated": 1761932902409,
+    "updated": 1762097591768,
     "user": 12777
   },
   {
@@ -51910,5 +51910,29 @@
     "title": "Baba Is You demake",
     "updated": 1762015236533,
     "user": 11428
+  },
+  {
+    "added": 1762084019800,
+    "author": "SirWobb79 (admiralerkal79 via discord)",
+    "category": 4,
+    "desc": "A tool to make some form of molecule. Perphaps useful for visualisation",
+    "id": 4444,
+    "name": "molecule_maker",
+    "rating": 0,
+    "title": "Molecule Maker",
+    "updated": 1762084019800,
+    "user": 8149
+  },
+  {
+    "added": 1762126355427,
+    "author": "Popolon, partially after PotatoImaginator idea",
+    "category": 1,
+    "desc": "demo of vbank (new overlay method) masking capability",
+    "id": 4445,
+    "name": "vbanktest",
+    "rating": 0,
+    "title": "vbanktest",
+    "updated": 1762126355427,
+    "user": 4645
   }
 ]

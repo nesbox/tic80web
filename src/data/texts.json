@@ -14949,7 +14949,7 @@
   },
   {
     "id": 4441,
-    "text": "A game in which u stuck in North pole, A strategy game\r\nv0.2 - Polish \u0026 health an system\r\nv0.1 - Beta reliease"
+    "text": "A game in which u stuck in North pole, A strategy game\r\nv0.4 - Title screen\r\nv0.3 - wood workers\r\nv0.2 - Polish \u0026 health an system\r\nv0.1 - Beta reliease"
   },
   {
     "id": 4442,
@@ -14958,5 +14958,13 @@
   {
     "id": 4443,
     "text": "Free to copy :)\r\nMade out of my old, failed demake in one coding session"
+  },
+  {
+    "id": 4444,
+    "text": "2D molecule builder inspired by molymod models.\r\n\r\nBest used on keyboard as not all functions could fit on a gamepad. 1 function is unavailable.\r\n\r\n** Controls **\r\nARROWS - Move the display to view larger molecules, and to move the cursor\r\nZ (A) - Spawn new atom at cursor\r\nA/S (X/Y) - Cycle through atoms/bonds depending on the context. Pressing both allows reversal out of editing\r\nX (B) - Edit atoms. Pressing it again will delete the selected atom\r\n\r\nQ - Switch between coloured atoms and symbolic atoms. Can be done anytime"
+  },
+  {
+    "id": 4445,
+    "text": "demo of vbank() usage with masking function that replace overlay() for 2 layers mode. Idea of a circle mask is by PotatoImaginator"
   }
 ]
