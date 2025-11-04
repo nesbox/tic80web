@@ -14949,7 +14949,7 @@
   },
   {
     "id": 4441,
-    "text": "A game in which u stuck in North pole, A strategy game\r\nv0.4 - Title screen\r\nv0.3 - wood workers\r\nv0.2 - Polish \u0026 health an system\r\nv0.1 - Beta reliease"
+    "text": "A game in which u stuck in North pole, A strategy game\r\nv0.5 - Sidebar \u0026 foodhouse\r\nv0.4 - Title screen\r\nv0.3 - wood workers\r\nv0.2 - Polish \u0026 health an system\r\nv0.1 - Beta reliease"
   },
   {
     "id": 4442,
@@ -14965,6 +14965,10 @@
   },
   {
     "id": 4445,
-    "text": "demo of vbank() usage with masking function that replace overlay() for 2 layers mode. Idea of a circle mask is by PotatoImaginator"
+    "text": "demo of vbank() usage with masking function that replace overlay() for 2 layers mode. Idea of a circle mask is by PotatoImaginator.\r\nUpdate 2025-11-03 (1): updated to have correct screenshot, a function had been added that replace each pixels of the transparent zone of vbank(1) by it's pixel from vbank(0). Don't use it for card usual usage, it is far slower than TIC-80 fantasy-hardware (^^) mixing.\r\nUpdate 2025-11-03 (2): Added bdr distortion. An interesting aspect (would be useful for ingames/transition effects and demoscene. is each vbank can be distorted differently. "
+  },
+  {
+    "id": 4446,
+    "text": "You can copy if you want but ask for permission"
   }
 ]
