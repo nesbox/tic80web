@@ -51896,7 +51896,7 @@
     "name": "simple_farming_game",
     "rating": 0,
     "title": "Simple Farming game",
-    "updated": 1762012694459,
+    "updated": 1762609623529,
     "user": 12777
   },
   {
@@ -51929,10 +51929,10 @@
     "category": 1,
     "desc": "demo of vbank (new overlay method) masking capability",
     "id": 4445,
-    "name": "vbanktest",
+    "name": "vbank_demo",
     "rating": 1,
-    "title": "vbanktest",
-    "updated": 1762174281500,
+    "title": "vbank demo",
+    "updated": 1762629488718,
     "user": 4645
   },
   {
@@ -51946,5 +51946,17 @@
     "title": "Suika clone",
     "updated": 1762173404035,
     "user": 11428
+  },
+  {
+    "added": 1762649060426,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Ghost Costume animation for Halloween",
+    "id": 4447,
+    "name": "ghost_costume",
+    "rating": 0,
+    "title": "ghost costume",
+    "updated": 1762649060426,
+    "user": 3114
   }
 ]
