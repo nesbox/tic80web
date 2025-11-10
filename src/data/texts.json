@@ -14974,5 +14974,13 @@
   {
     "id": 4447,
     "text": "Ghost Costume animation for Halloween"
+  },
+  {
+    "id": 4448,
+    "text": "It's now your turn to build a city.  Start from zero, grow your city a global financial centre, or a seaside resort, or a manufacturing powerhouse.  It's your choice.\r\n\r\nUrbanity is a city building game designed around a satisfaction system.  Each residential, commercial, office, farm, and industrial building receives satisfaction points from positive interactions with other, usually adjacent, buildings.  High satisfaction ratings give bonus income and is required to unlock many late-game buildings.  It is your task to figure out how to best plan your city so you can maximize the synergy between buildings and make sure all your citizens and businesses are satisfied.\r\n\r\nYou can play the game with a mouse or a touch screen.  You can right click (or click on the X button on the top left corner) to cancel the current action.\r\n\r\nRemember to save your game!  All unsaved progress will be lost once you close or restart the game."
+  },
+  {
+    "id": 4449,
+    "text": "This is really just a small rom hack sorta thing I made while messing around with Weeppiko's SONIC MINI. All I did was replace a couple of graphics, sounds, and music, and even messed around with the code a little. \r\n(I know nothing about lua LOL)"
   }
 ]
