@@ -14965,7 +14965,7 @@
   },
   {
     "id": 4445,
-    "text": "demo of vbank() usage with masking function that replace overlay() for 2 layers mode. Idea of a circle mask is by PotatoImaginator.\r\nUpdate 2025-11-03 (1): updated to have correct screenshot, a function had been added that replace each pixels of the transparent zone of vbank(1) by it's pixel from vbank(0). Don't use it for card usual usage, it is far slower than TIC-80 fantasy-hardware (^^) mixing.\r\n* Update 2025-11-03 (2): Added bdr distortion. An interesting aspect (would be useful for ingames/transition effects and demoscene. is each vbank can be distorted differently.\r\n* Update 2025-11-08: Remove in memory map and generate it by function, and vary both vbank0/1, show how to use sprite as transparency mask, add bdr color bending, comment whole code."
+    "text": "demo of vbank() usage with masking function that replace overlay() for 2 layers mode. Idea of a circle mask is by PotatoImaginator.\r\n* Made a tutorial with explanations about it https://gblog4.popolon.org/tic80-vbank-demo/\r\nUpdate 2025-11-03 (1): updated to have correct screenshot, a function had been added that replace each pixels of the transparent zone of vbank(1) by it's pixel from vbank(0). Don't use it for card usual usage, it is far slower than TIC-80 fantasy-hardware (^^) mixing.\r\n* Update 2025-11-03 (2): Added bdr distortion. An interesting aspect (would be useful for ingames/transition effects and demoscene. is each vbank can be distorted differently.\r\n* Update 2025-11-08: Remove in memory map and generate it by function, and vary both vbank0/1, show how to use sprite as transparency mask, add bdr color bending, comment whole code."
   },
   {
     "id": 4446,
