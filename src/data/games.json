@@ -51771,12 +51771,12 @@
     "added": 1761541394286,
     "author": "OsloOMA",
     "category": 5,
-    "desc": "A tribute demo from the perspective of lying in a forest, looking up at the stars.",
+    "desc": "A tribute demo for my bro. From the perspective of lying in a forest, looking up at the stars.",
     "id": 4432,
-    "name": "winter_s_coming",
+    "name": "winter_is_coming",
     "rating": 2,
-    "title": "Winter's Coming",
-    "updated": 1761541585335,
+    "title": "Winter is Coming",
+    "updated": 1763874430942,
     "user": 12660
   },
   {
@@ -52042,5 +52042,29 @@
     "title": "desert",
     "updated": 1763855793827,
     "user": 3114
+  },
+  {
+    "added": 1763874045303,
+    "author": "OsloOMA",
+    "category": 0,
+    "desc": "Arena 2D Platformer prototype",
+    "id": 4455,
+    "name": "super_macho",
+    "rating": 1,
+    "title": "Super Macho!",
+    "updated": 1763874246143,
+    "user": 12660
+  },
+  {
+    "added": 1763909840021,
+    "author": "Thomas Tinkers",
+    "category": 0,
+    "desc": "A short top-down action \u0026 puzzle game where you must use and avoid swarms of wasps",
+    "id": 4456,
+    "name": "lord_of_the_wasps",
+    "rating": 0,
+    "title": "Lord Of the Wasps",
+    "updated": 1763909840021,
+    "user": 12886
   }
 ]
