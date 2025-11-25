@@ -51896,7 +51896,7 @@
     "name": "simple_farming_game",
     "rating": 0,
     "title": "Simple Farming game",
-    "updated": 1763275138213,
+    "updated": 1763988485713,
     "user": 12777
   },
   {
@@ -52028,7 +52028,7 @@
     "name": "game_title",
     "rating": 0,
     "title": "game title",
-    "updated": 1763726385730,
+    "updated": 1763986425405,
     "user": 11285
   },
   {
@@ -52050,7 +52050,7 @@
     "desc": "Arena 2D Platformer prototype",
     "id": 4455,
     "name": "super_macho",
-    "rating": 1,
+    "rating": 2,
     "title": "Super Macho!",
     "updated": 1763874246143,
     "user": 12660
@@ -52066,5 +52066,17 @@
     "title": "Lord Of the Wasps",
     "updated": 1763909840021,
     "user": 12886
+  },
+  {
+    "added": 1763985928029,
+    "author": "Pisinyan Games",
+    "category": 4,
+    "desc": "A puzzle game inspired by Puzznic, but with a unique twist. Players are presented with grids filled with colorful blocks. The goal is to match blocks of the same color or type to make them disappear.",
+    "id": 4457,
+    "name": "the_exciting_cube",
+    "rating": 0,
+    "title": "The Exciting Cube",
+    "updated": 1763986841699,
+    "user": 12624
   }
 ]

@@ -14953,7 +14953,7 @@
   },
   {
     "id": 4442,
-    "text": "a simple farming game\r\nv3.0 - Texture for shops \u0026 station\r\nv2.0 - Money system\r\nv1.0 - Relisea"
+    "text": "a simple farming game\r\nv4.0 - Sfx added!\r\nv3.0 - Texture for shops \u0026 station\r\nv2.0 - Money system\r\nv1.0 - Relisea\r\narrow to move\r\nZ \u0026 X for\r\nbuy \u0026 sell of seeds \u0026 plant"
   },
   {
     "id": 4443,
@@ -14997,10 +14997,14 @@
   },
   {
     "id": 4455,
-    "text": "SUPER MACHO!\r\n2D Platform Fighter\r\nCONTROLS\r\n​Keyboard:\r\n​Arrows: Move / Aim\r\n​Z: Jump\r\n​X: Melee / Pick Up\r\n​A: Shoot / Throw\r\n​S: Menu / Pause\r\n​Double Tap L/R: Sprint"
+    "text": "SUPER MACHO!\r\n2D Platform Fighter\r\nCONTROLS\r\n​Keyboard:\r\n​Arrows: Move / Aim\r\n​Z: Jump\r\n​X: Melee / Pick Up\r\n​A: Shoot / Throw\r\n​S: Menu / Pause\r\n​Double Tap L/R: Sprint\r\nPress Up to equip! \r\nDown + Jump == Drop Down Through Platforms\r\nDown + Sprint / Down + Airborn == Dive"
   },
   {
     "id": 4456,
     "text": "Lord of the Wasps. A short top down action puzzle game where you must use and avoid swarms of wasps"
+  },
+  {
+    "id": 4457,
+    "text": "A puzzle game inspired by Puzznic, but with a unique twist. Players are presented with grids filled with colorful blocks. The goal is to match blocks of the same color or type to make them disappear."
   }
 ]
