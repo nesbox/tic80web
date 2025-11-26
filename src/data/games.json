@@ -7866,7 +7866,7 @@
     "desc": "cool song from \"Undertale\"",
     "id": 667,
     "name": "ticalovania",
-    "rating": 7,
+    "rating": 8,
     "title": "Ticalovania",
     "updated": 1541016424501,
     "user": 1417
@@ -21810,7 +21810,7 @@
     "desc": "MacBeth Theme and mockup",
     "id": 1863,
     "name": "mr_macbeth_fight",
-    "rating": 5,
+    "rating": 6,
     "title": "Mr. MacBeth Fight",
     "updated": 1620867915512,
     "user": 5328
@@ -51354,7 +51354,7 @@
     "desc": "Eyes. That's it. Solve them... if you dare to",
     "id": 4397,
     "name": "eyes",
-    "rating": 0,
+    "rating": 1,
     "title": "Eyes",
     "updated": 1758746036564,
     "user": 11428
@@ -52028,7 +52028,7 @@
     "name": "game_title",
     "rating": 0,
     "title": "game title",
-    "updated": 1763986425405,
+    "updated": 1764069796123,
     "user": 11285
   },
   {
@@ -52052,7 +52052,7 @@
     "name": "super_macho",
     "rating": 2,
     "title": "Super Macho!",
-    "updated": 1763874246143,
+    "updated": 1764039908137,
     "user": 12660
   },
   {
@@ -52069,14 +52069,62 @@
   },
   {
     "added": 1763985928029,
-    "author": "Pisinyan Games",
+    "author": "Ttalgi Bit",
     "category": 4,
-    "desc": "A puzzle game inspired by Puzznic, but with a unique twist. Players are presented with grids filled with colorful blocks. The goal is to match blocks of the same color or type to make them disappear.",
+    "desc": "A puzzle game inspired by Puzznic. Match blocks to clear the stage.",
     "id": 4457,
     "name": "the_exciting_cube",
     "rating": 0,
     "title": "The Exciting Cube",
-    "updated": 1763986841699,
+    "updated": 1764075298726,
     "user": 12624
+  },
+  {
+    "added": 1764041382887,
+    "author": "OsloOMA",
+    "category": 5,
+    "desc": "Cozy Fish Pond",
+    "id": 4458,
+    "name": "curious_koi",
+    "rating": 0,
+    "title": "Curious Koi",
+    "updated": 1764041382887,
+    "user": 12660
+  },
+  {
+    "added": 1764041730379,
+    "author": "OsloOMA",
+    "category": 5,
+    "desc": "Interactive Demoscene",
+    "id": 4459,
+    "name": "a_long_drive",
+    "rating": 1,
+    "title": "A Long Drive",
+    "updated": 1764041730379,
+    "user": 12660
+  },
+  {
+    "added": 1764052484429,
+    "author": "Sava",
+    "category": 1,
+    "desc": "Key sign finder",
+    "id": 4460,
+    "name": "music_theory_test",
+    "rating": 0,
+    "title": "Music theory test",
+    "updated": 1764052484429,
+    "user": 11428
+  },
+  {
+    "added": 1764092399687,
+    "author": "hexahedron2",
+    "category": 1,
+    "desc": "My implementation of the FABRIK algorithm",
+    "id": 4461,
+    "name": "inverse_kinematics_test",
+    "rating": 0,
+    "title": "Inverse kinematics test",
+    "updated": 1764092399687,
+    "user": 11446
   }
 ]

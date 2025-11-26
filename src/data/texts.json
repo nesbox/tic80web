@@ -15006,5 +15006,17 @@
   {
     "id": 4457,
     "text": "A puzzle game inspired by Puzznic, but with a unique twist. Players are presented with grids filled with colorful blocks. The goal is to match blocks of the same color or type to make them disappear."
+  },
+  {
+    "id": 4458,
+    "text": "A procedural fish pond simulation for my bro.."
+  },
+  {
+    "id": 4459,
+    "text": "An interactive driving demoscene for my bro..\r\n\r\nPress up   / Accelerate \r\nPress down / Brake"
+  },
+  {
+    "id": 4461,
+    "text": "A simple FABRIK inverse kinematics algorithm demo. Every armature will point at your mouse cursor. Armatures can be added and customized by changing a few variables in the code"
   }
 ]
