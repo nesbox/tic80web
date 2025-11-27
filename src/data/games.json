@@ -28518,7 +28518,7 @@
     "desc": "Metroidvania Month 14",
     "id": 2438,
     "name": "antvania",
-    "rating": 24,
+    "rating": 25,
     "title": "AntVania",
     "updated": 1639531374648,
     "user": 5793
@@ -32682,7 +32682,7 @@
     "desc": "Rally game",
     "id": 2793,
     "name": "tic_cars",
-    "rating": 12,
+    "rating": 13,
     "title": "TIC CARS",
     "updated": 1652960838921,
     "user": 4024
@@ -36030,7 +36030,7 @@
     "desc": "metroidvania game about undead knight",
     "id": 3083,
     "name": "the_myths_and_legends_of_bone_knight",
-    "rating": 26,
+    "rating": 27,
     "title": "The Myths and Legends of Bone Knight",
     "updated": 1670670355335,
     "user": 5793
@@ -41058,7 +41058,7 @@
     "desc": "version 1.0 (powered by UniTIC v 1.3)",
     "id": 3538,
     "name": "portal_tic_80",
-    "rating": 70,
+    "rating": 71,
     "title": "Portal TIC-80",
     "updated": 1737981042817,
     "user": 2749
@@ -44634,7 +44634,7 @@
     "desc": "Work in progress",
     "id": 3836,
     "name": "tanuki_star",
-    "rating": 16,
+    "rating": 17,
     "title": "Tanuki Star",
     "updated": 1719251577074,
     "user": 6198
@@ -45714,7 +45714,7 @@
     "desc": "A passion project based on the Bluey TV show. Has elements from games like Metroid and Zelda.",
     "id": 3926,
     "name": "blueyvania",
-    "rating": 3,
+    "rating": 4,
     "title": "Blueyvania",
     "updated": 1758423446988,
     "user": 8506
@@ -47598,7 +47598,7 @@
     "desc": null,
     "id": 4083,
     "name": "pigeon_magician",
-    "rating": 13,
+    "rating": 14,
     "title": "Pigeon Magician",
     "updated": 1761851356826,
     "user": 6237
@@ -51654,7 +51654,7 @@
     "desc": "Summon friends in this cute platformer",
     "id": 4422,
     "name": "crystalline",
-    "rating": 1,
+    "rating": 2,
     "title": "Crystalline",
     "updated": 1760521060297,
     "user": 2888
@@ -52016,7 +52016,7 @@
     "name": "lizard_demo",
     "rating": 0,
     "title": "lizard demo",
-    "updated": 1763691015838,
+    "updated": 1764134589101,
     "user": 9918
   },
   {
@@ -52025,10 +52025,10 @@
     "category": 4,
     "desc": "short description",
     "id": 4453,
-    "name": "game_title",
+    "name": "chain_combo",
     "rating": 0,
-    "title": "game title",
-    "updated": 1764069796123,
+    "title": "Chain Combo",
+    "updated": 1764154738913,
     "user": 11285
   },
   {
@@ -52062,7 +52062,7 @@
     "desc": "A short top-down action \u0026 puzzle game where you must use and avoid swarms of wasps",
     "id": 4456,
     "name": "lord_of_the_wasps",
-    "rating": 0,
+    "rating": 1,
     "title": "Lord Of the Wasps",
     "updated": 1763909840021,
     "user": 12886
@@ -52126,5 +52126,17 @@
     "title": "Inverse kinematics test",
     "updated": 1764092399687,
     "user": 11446
+  },
+  {
+    "added": 1764153538169,
+    "author": "Ttalgi Bit",
+    "category": 0,
+    "desc": "Tap the normal burgers-avoid the broken ones!",
+    "id": 4462,
+    "name": "hamburger_trouble",
+    "rating": 0,
+    "title": "Hamburger Trouble",
+    "updated": 1764153566523,
+    "user": 12624
   }
 ]
