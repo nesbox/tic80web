@@ -45714,7 +45714,7 @@
     "desc": "A passion project based on the Bluey TV show. Has elements from games like Metroid and Zelda.",
     "id": 3926,
     "name": "blueyvania",
-    "rating": 4,
+    "rating": 5,
     "title": "Blueyvania",
     "updated": 1758423446988,
     "user": 8506
@@ -49878,7 +49878,7 @@
     "desc": "Space shooter",
     "id": 4273,
     "name": "dispara",
-    "rating": 5,
+    "rating": 6,
     "title": "Dispara",
     "updated": 1759790522076,
     "user": 11868
@@ -51450,7 +51450,7 @@
     "desc": "A raycasting demo in 256 bytes, for Deadline 2025 demoparty",
     "id": 4405,
     "name": "neasden_ballet",
-    "rating": 2,
+    "rating": 3,
     "title": "Neasden Ballet",
     "updated": 1759526020340,
     "user": 4801
@@ -51819,12 +51819,12 @@
     "added": 1761631406728,
     "author": "OsloOMA",
     "category": 0,
-    "desc": "A suika game",
+    "desc": "A suika game with Juice",
     "id": 4436,
     "name": "fruit_pop",
     "rating": 0,
     "title": "Fruit Pop!",
-    "updated": 1761631406728,
+    "updated": 1764299241063,
     "user": 12660
   },
   {
@@ -51896,7 +51896,7 @@
     "name": "simple_farming_game",
     "rating": 0,
     "title": "Simple Farming game",
-    "updated": 1763988485713,
+    "updated": 1764338617797,
     "user": 12777
   },
   {
@@ -51966,7 +51966,7 @@
     "desc": "A city building game",
     "id": 4448,
     "name": "urbanity",
-    "rating": 3,
+    "rating": 4,
     "title": "Urbanity",
     "updated": 1762710090345,
     "user": 11498
@@ -52138,5 +52138,17 @@
     "title": "Hamburger Trouble",
     "updated": 1764153566523,
     "user": 12624
+  },
+  {
+    "added": 1764372706588,
+    "author": "escherize",
+    "category": 1,
+    "desc": "short description",
+    "id": 4463,
+    "name": "gleam_demo",
+    "rating": 0,
+    "title": "gleam_demo",
+    "updated": 1764372706588,
+    "user": 2540
   }
 ]

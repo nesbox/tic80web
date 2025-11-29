@@ -14941,7 +14941,7 @@
   },
   {
     "id": 4436,
-    "text": "Arrow keys: move left/right\r\nZ/A: Drop fruit\r\n\r\nHave fun!\r\n"
+    "text": "Arrow keys: move left/right\r\nZ/A: Drop fruit\r\n\r\nFIXED: \r\n- jitter issues\r\n- added game over state\r\n- improved visuals\r\n- major bug fixes\r\n\r\n\r\nHave fun!\r\n"
   },
   {
     "id": 4440,
