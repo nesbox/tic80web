@@ -51342,7 +51342,7 @@
     "desc": "Simple powder sim i made in a day. Has exactly 400 lines of code",
     "id": 4396,
     "name": "powder_sim",
-    "rating": 0,
+    "rating": 1,
     "title": "Powder sim",
     "updated": 1758710195936,
     "user": 11428
@@ -51819,12 +51819,12 @@
     "added": 1761631406728,
     "author": "OsloOMA",
     "category": 0,
-    "desc": "A suika game with Juice",
+    "desc": "Suika game where rot turns to clearing sand",
     "id": 4436,
-    "name": "fruit_pop",
+    "name": "fruit_pop_sand_edition",
     "rating": 0,
-    "title": "Fruit Pop!",
-    "updated": 1764299241063,
+    "title": "Fruit Pop! (Sand Edition)",
+    "updated": 1764449415975,
     "user": 12660
   },
   {
@@ -52064,7 +52064,7 @@
     "name": "lord_of_the_wasps",
     "rating": 1,
     "title": "Lord Of the Wasps",
-    "updated": 1763909840021,
+    "updated": 1764416995249,
     "user": 12886
   },
   {
@@ -52150,5 +52150,17 @@
     "title": "gleam_demo",
     "updated": 1764372706588,
     "user": 2540
+  },
+  {
+    "added": 1764452446435,
+    "author": "Sava",
+    "category": 1,
+    "desc": "WFC-based random terrain generator",
+    "id": 4464,
+    "name": "wave_function_collapse",
+    "rating": 1,
+    "title": "Wave Function Collapse",
+    "updated": 1764452446435,
+    "user": 11428
   }
 ]
