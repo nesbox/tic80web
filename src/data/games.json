@@ -52071,12 +52071,12 @@
     "added": 1763985928029,
     "author": "Ttalgi Bit",
     "category": 4,
-    "desc": "A puzzle game inspired by Puzznic.",
+    "desc": null,
     "id": 4457,
     "name": "the_exciting_cube",
     "rating": 1,
     "title": "The Exciting Cube",
-    "updated": 1764760292065,
+    "updated": 1764852746420,
     "user": 12624
   },
   {
@@ -52174,5 +52174,29 @@
     "title": "Agar-80",
     "updated": 1764526475410,
     "user": 12660
+  },
+  {
+    "added": 1764856793563,
+    "author": "THE ANNOYA",
+    "category": 4,
+    "desc": null,
+    "id": 4466,
+    "name": "enthit",
+    "rating": 0,
+    "title": "ENTHIT",
+    "updated": 1764856793563,
+    "user": 12929
+  },
+  {
+    "added": 1764861076836,
+    "author": "game developer, email, etc.",
+    "category": 4,
+    "desc": "short description",
+    "id": 4467,
+    "name": "game_title",
+    "rating": 0,
+    "title": "game title",
+    "updated": 1764861076836,
+    "user": 12929
   }
 ]
