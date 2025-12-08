@@ -50946,7 +50946,7 @@
     "desc": "a recreation of when TIC-80 still used the DB-16 palette (pre-0.80)",
     "id": 4362,
     "name": "classtic",
-    "rating": 1,
+    "rating": 2,
     "title": "ClassTIC",
     "updated": 1754884275877,
     "user": 10890
@@ -52210,5 +52210,29 @@
     "title": "Umapyoi Derby",
     "updated": 1764952484304,
     "user": 12938
+  },
+  {
+    "added": 1765146165065,
+    "author": "grz / The Orz",
+    "category": 5,
+    "desc": "256 procedural gfx for INERCIA 2025",
+    "id": 4469,
+    "name": "terminus",
+    "rating": 0,
+    "title": "Terminus",
+    "updated": 1765146165065,
+    "user": 6376
+  },
+  {
+    "added": 1765146476018,
+    "author": "grz / The Orz",
+    "category": 5,
+    "desc": "256b procedural gfx for INERCIA 2025",
+    "id": 4470,
+    "name": "bug_off",
+    "rating": 0,
+    "title": "Bug Off !",
+    "updated": 1765147129588,
+    "user": 6376
   }
 ]
