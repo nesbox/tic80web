@@ -51378,7 +51378,7 @@
     "desc": "A maze game with procedural generation, a main menu for configuration, a scrolling camera, and randomized puzzle progression with scoring.",
     "id": 4399,
     "name": "dino_maze",
-    "rating": 2,
+    "rating": 3,
     "title": "Dino Maze",
     "updated": 1758898041213,
     "user": 12636
@@ -51390,7 +51390,7 @@
     "desc": "A bullet hell made in a day. Has exactly 150 lines of spaghetti code",
     "id": 4400,
     "name": "a_bullet_hell_game",
-    "rating": 2,
+    "rating": 3,
     "title": "A bullet hell game",
     "updated": 1758901414144,
     "user": 11428
@@ -51426,7 +51426,7 @@
     "desc": "Submission to LD42. A RPG which all character can only walk in one direction at the same time.",
     "id": 4403,
     "name": "one_direction",
-    "rating": 1,
+    "rating": 2,
     "title": "One direction",
     "updated": 1759417217229,
     "user": 12441
@@ -51534,7 +51534,7 @@
     "desc": null,
     "id": 4412,
     "name": "quicksand",
-    "rating": 2,
+    "rating": 3,
     "title": "QuickSand!",
     "updated": 1760046697074,
     "user": 12184
@@ -51654,7 +51654,7 @@
     "desc": "Summon friends in this cute platformer",
     "id": 4422,
     "name": "crystalline",
-    "rating": 2,
+    "rating": 3,
     "title": "Crystalline",
     "updated": 1760521060297,
     "user": 2888
@@ -51666,7 +51666,7 @@
     "desc": "Collect the carrots within a limited number of moves!",
     "id": 4423,
     "name": "carrot_collector",
-    "rating": 2,
+    "rating": 3,
     "title": "Carrot Collector",
     "updated": 1760545837159,
     "user": 1306
@@ -51714,7 +51714,7 @@
     "desc": "T-RON",
     "id": 4427,
     "name": "t_ron",
-    "rating": 0,
+    "rating": 1,
     "title": "T-ROn",
     "updated": 1763346022918,
     "user": 12660
@@ -51906,7 +51906,7 @@
     "desc": "Small Baba Is You demake with 8 levels",
     "id": 4443,
     "name": "baba_is_you_demake",
-    "rating": 0,
+    "rating": 1,
     "title": "Baba Is You demake",
     "updated": 1762015236533,
     "user": 11428
