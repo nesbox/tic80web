@@ -15042,5 +15042,13 @@
   {
     "id": 4470,
     "text": "A 256 bytes procedural gfx / intro for INERCIA 2025. Minified with Terser 5.20. To be packed with tic-tool. LANG header chunk should be appended as well."
+  },
+  {
+    "id": 4471,
+    "text": "256b intro for Inércia 2025"
+  },
+  {
+    "id": 4472,
+    "text": "256b version of an intro by EviL"
   }
 ]
