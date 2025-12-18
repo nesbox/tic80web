@@ -9800,6 +9800,10 @@
     "text": "Left click, (A) or hold-tap to draw\r\nRight click or (B)+hold-tap to erase\r\nPress Del key or (X) to clear your drawing\r\nPress comma/period to increase/decrease brush size\r\nPress O/P to change color\r\nAnd middle click or (Y)+(A) or (Y)+hold-tap to visit the rainbow road!\r\n\r\nChanges:\r\n1.0:\r\n- Initial release!\r\n1.1: The Controller Update:\r\n- Added controller and mobile support (use D-Pad to move pointer by ~10px/s)\r\n1.1.1:\r\n- Fixed typo in code that made controller D-pad not work properly\r\n1.1.2: The Better Controller Update:\r\n- Added full rainbow road support for controller\r\n1.2: The Colored Update:\r\n- Added brush customization, customize brush size and color!\r\n- Optimizations"
   },
   {
+    "id": 2868,
+    "text": "2025-12-16 - Improved saving and other minor changes. Now, in addition to all parameters, the distribution of animals in the areas is saved so that the game continues exactly as it was saved."
+  },
+  {
     "id": 2869,
     "text": "A jump'n run game.\r\nUpdate (Feb. 23, 2025): Improve title screen and music.\r\nUpdate (Feb. 24, 2025): Improve music again.\r\ncopyright (c) Deidara 2022. License: GPLv2. NO WARRANTY!"
   },
