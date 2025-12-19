@@ -9801,7 +9801,7 @@
   },
   {
     "id": 2868,
-    "text": "2025-12-16 - Improved saving and other minor changes. Now, in addition to all parameters, the distribution of animals in the areas is saved so that the game continues exactly as it was saved."
+    "text": "2025-12-18 - Improved saving and other minor changes. Now, in addition to all parameters, the distribution of animals in the areas is saved so that the game continues exactly as it was saved."
   },
   {
     "id": 2869,
@@ -15066,5 +15066,9 @@
   {
     "id": 4476,
     "text": "Christmas Tree Waves 2"
+  },
+  {
+    "id": 4477,
+    "text": "Christmas Tree Spiral"
   }
 ]
