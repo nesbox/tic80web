@@ -51450,7 +51450,7 @@
     "desc": "A raycasting demo in 256 bytes, for Deadline 2025 demoparty",
     "id": 4405,
     "name": "neasden_ballet",
-    "rating": 3,
+    "rating": 4,
     "title": "Neasden Ballet",
     "updated": 1759526020340,
     "user": 4801
@@ -51462,7 +51462,7 @@
     "desc": "TIC-80 demo.",
     "id": 4406,
     "name": "prelude_to_neobyte",
-    "rating": 3,
+    "rating": 4,
     "title": "PRELUDE TO NEOBYTE",
     "updated": 1759778756902,
     "user": 12689
@@ -52330,5 +52330,17 @@
     "title": "abstract christmas tree",
     "updated": 1766275483982,
     "user": 3114
+  },
+  {
+    "added": 1766350939978,
+    "author": "jtruk",
+    "category": 5,
+    "desc": "A happy Christmas + New Year to you!",
+    "id": 4479,
+    "name": "snowflake_generator_2025",
+    "rating": 1,
+    "title": "Snowflake Generator 2025",
+    "updated": 1766350939978,
+    "user": 8568
   }
 ]
