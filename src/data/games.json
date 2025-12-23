@@ -49878,7 +49878,7 @@
     "desc": "Space shooter",
     "id": 4273,
     "name": "dispara",
-    "rating": 6,
+    "rating": 7,
     "title": "Dispara",
     "updated": 1759790522076,
     "user": 11868
@@ -52342,5 +52342,17 @@
     "title": "Snowflake Generator 2025",
     "updated": 1766350939978,
     "user": 8568
+  },
+  {
+    "added": 1766410275166,
+    "author": "Juiffi",
+    "category": 0,
+    "desc": "One level, One Boss, One Goal: Name in the hall of Fame!",
+    "id": 4480,
+    "name": "shmuplet",
+    "rating": 0,
+    "title": "Shmuplet",
+    "updated": 1766410275166,
+    "user": 7584
   }
 ]
