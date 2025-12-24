@@ -52350,9 +52350,21 @@
     "desc": "One level, One Boss, One Goal: Name in the hall of Fame!",
     "id": 4480,
     "name": "shmuplet",
-    "rating": 0,
+    "rating": 1,
     "title": "Shmuplet",
     "updated": 1766410275166,
     "user": 7584
+  },
+  {
+    "added": 1766457141278,
+    "author": "n3e4",
+    "category": 4,
+    "desc": "Touhou fangame",
+    "id": 4481,
+    "name": "wip_touhou_fangaem",
+    "rating": 0,
+    "title": "[WIP] Touhou Fangaem",
+    "updated": 1766457141278,
+    "user": 13003
   }
 ]
