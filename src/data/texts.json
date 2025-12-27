@@ -15090,5 +15090,13 @@
   {
     "id": 4484,
     "text": "merry christmas (made on christmas eve)! first time trying this stuff"
+  },
+  {
+    "id": 4485,
+    "text": "left and right arrow keys to move\r\nz to jump"
+  },
+  {
+    "id": 4486,
+    "text": "LA ULTIMA MAZMORRA\r\n---------------\r\nDungeon crawler por turnos con sistema de clases, habilidades y equipo. Cabe recalcar que es mi primer juego, espero feedback ya que esta abierto a cambios :3\r\n\r\nCONTROLES:\r\nFlechas = Navegar\r\nZ = Aceptar/Atacar\r\nX = Cancelar/Volver\r\n\r\nCARACTERÍSTICAS:\r\n- 2 clases: Guerrero y Arquero\r\n- Sistema de inventario\r\n- Habilidades especiales\r\n- Jefes y enemigos elite\r\n- Mazmorras procedurales"
   }
 ]

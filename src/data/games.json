@@ -52364,7 +52364,7 @@
     "name": "wip_touhou_fangaem",
     "rating": 0,
     "title": "[WIP] Touhou Fangaem",
-    "updated": 1766457141278,
+    "updated": 1766717166323,
     "user": 13003
   },
   {
@@ -52402,5 +52402,29 @@
     "title": "christmas simple demo",
     "updated": 1766677916910,
     "user": 13012
+  },
+  {
+    "added": 1766716157832,
+    "author": "starumbreon",
+    "category": 0,
+    "desc": "a super mario fangame",
+    "id": 4485,
+    "name": "super_kitty_land",
+    "rating": 0,
+    "title": "super kitty land",
+    "updated": 1766766694780,
+    "user": 13014
+  },
+  {
+    "added": 1766778833798,
+    "author": "Zhailox",
+    "category": 0,
+    "desc": "Baja y Baja y Baja...",
+    "id": 4486,
+    "name": "la_ultima_mazmorra",
+    "rating": 0,
+    "title": "La Ultima Mazmorra",
+    "updated": 1766778932465,
+    "user": 13008
   }
 ]
