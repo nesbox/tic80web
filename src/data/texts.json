@@ -14733,7 +14733,7 @@
   },
   {
     "id": 4375,
-    "text": "Work-In-Progress recreation/TIC-80 port of \"Get Jet Set\" which existed in EPCOT Center's Communicore from 1982-1993\r\n\r\n0.9 Beta - Game feature complete with ending added and additional tweaks"
+    "text": "Work-In-Progress recreation/TIC-80 port of \"Get Jet Set\" which existed in EPCOT Center's Communicore from 1982-1993\r\n\r\n1.0 - Updated music and timing for ending.  Game is feature complete."
   },
   {
     "id": 4376,
@@ -15097,6 +15097,14 @@
   },
   {
     "id": 4486,
-    "text": "LA ULTIMA MAZMORRA\r\n---------------\r\nDungeon crawler por turnos con sistema de clases, habilidades y equipo. Cabe recalcar que es mi primer juego, espero feedback ya que esta abierto a cambios :3\r\n\r\nCONTROLES:\r\nFlechas = Navegar\r\nZ = Aceptar/Atacar\r\nX = Cancelar/Volver\r\n\r\nCARACTERÍSTICAS:\r\n- 2 clases: Guerrero y Arquero\r\n- Sistema de inventario\r\n- Habilidades especiales\r\n- Jefes y enemigos elite\r\n- Mazmorras procedurales"
+    "text": "LA ULTIMA MAZMORRA\r\n\r\nDungeon crawler por turnos con sistema de clases, habilidades y equipo. Cabe recalcar que es mi primer juego, espero feedback ya que esta abierto a cambios :3\r\n\r\nCONTROLES:\r\nFlechas = Navegar\r\nZ = Aceptar/Atacar\r\nX = Cancelar/Volver\r\n\r\nCambios ----------------------------------\r\n\r\nv0.4:\r\nMejora en la generacion de los items para la tienda\r\nSolucion de Bug en donde se seguia curando cuando ya tenia toda la vida\r\nSolucion de Bug para los buffs donde no persistian\r\nSe agrego un texto que muestra la cantidad de items stakeables que tienes\r\n"
+  },
+  {
+    "id": 4487,
+    "text": "tetris with trominoes (3-square shapes, as opposed to 4)\r\n\r\ninspired by the pico park minigame"
+  },
+  {
+    "id": 4488,
+    "text": "created this as a proposal for a game-making summer camp for kids at the uiuc community fablab.\r\nfruit ninja kind of demake."
   }
 ]

@@ -51098,13 +51098,13 @@
   {
     "added": 1756059611723,
     "author": "thefro",
-    "category": 4,
-    "desc": "A recreation of \"Get Jet Set\" game from EPCOT Center's Communicore",
+    "category": 0,
+    "desc": "A recreation of the \"Get Jet Set\" game from EPCOT Center's Communicore",
     "id": 4375,
     "name": "get_jet_set",
     "rating": 0,
     "title": "Get Jet Set",
-    "updated": 1760919206108,
+    "updated": 1766856487421,
     "user": 12468
   },
   {
@@ -52412,7 +52412,7 @@
     "name": "super_kitty_land",
     "rating": 0,
     "title": "super kitty land",
-    "updated": 1766766694780,
+    "updated": 1766883294719,
     "user": 13014
   },
   {
@@ -52421,10 +52421,34 @@
     "category": 0,
     "desc": "Baja y Baja y Baja...",
     "id": 4486,
-    "name": "la_ultima_mazmorra",
+    "name": "otra_mazmorra_mas",
     "rating": 0,
-    "title": "La Ultima Mazmorra",
-    "updated": 1766778932465,
+    "title": "Otra Mazmorra Mas",
+    "updated": 1766860724143,
     "user": 13008
+  },
+  {
+    "added": 1766848750937,
+    "author": "rodigu",
+    "category": 0,
+    "desc": "falling block game",
+    "id": 4487,
+    "name": "tritri",
+    "rating": 0,
+    "title": "tritri",
+    "updated": 1766848750937,
+    "user": 5531
+  },
+  {
+    "added": 1766849179128,
+    "author": "rodigu",
+    "category": 0,
+    "desc": "fruit ninja demake for the uiuc fablab summer camps",
+    "id": 4488,
+    "name": "fruity_knife",
+    "rating": 0,
+    "title": "fruity knife",
+    "updated": 1766849179128,
+    "user": 5531
   }
 ]
