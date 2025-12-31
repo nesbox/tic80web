@@ -43758,7 +43758,7 @@
     "desc": "demake of the 2014 indie point-and-click horror game for TIC-80 tiny computer",
     "id": 3763,
     "name": "five_nights_at_freddy_s",
-    "rating": 23,
+    "rating": 24,
     "title": "Five Nights at Freddy's",
     "updated": 1707785578251,
     "user": 2178
@@ -51606,7 +51606,7 @@
     "desc": "Very small compressed midi player, the file must be put through my other program first. Has exactly 80 lines of code",
     "id": 4418,
     "name": "midi_player",
-    "rating": 1,
+    "rating": 2,
     "title": "Midi player",
     "updated": 1760362533333,
     "user": 11428
@@ -52424,7 +52424,7 @@
     "name": "la_ultima_mazmorra",
     "rating": 0,
     "title": "LA ULTIMA MAZMORRA",
-    "updated": 1767047053181,
+    "updated": 1767143319564,
     "user": 13008
   },
   {
