@@ -52458,9 +52458,33 @@
     "desc": "realtime menu rpg",
     "id": 4489,
     "name": "cleric",
-    "rating": 0,
+    "rating": 2,
     "title": "cleric",
-    "updated": 1767359682253,
+    "updated": 1767461581451,
     "user": 69
+  },
+  {
+    "added": 1767472992360,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Happy New Year 2026",
+    "id": 4490,
+    "name": "happy_new_year_2026",
+    "rating": 0,
+    "title": "happy new year 2026",
+    "updated": 1767472992360,
+    "user": 3114
+  },
+  {
+    "added": 1767478020327,
+    "author": "Sava",
+    "category": 1,
+    "desc": "Just a sand sim with a player. Testing pixel collisions. Prepare for bugs",
+    "id": 4491,
+    "name": "sand",
+    "rating": 0,
+    "title": "Sand",
+    "updated": 1767478020327,
+    "user": 11428
   }
 ]
