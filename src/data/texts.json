@@ -15118,5 +15118,9 @@
   {
     "id": 4491,
     "text": "Free to copy"
+  },
+  {
+    "id": 4492,
+    "text": "A viewer to browse the Mandelbrot Set fractal.\r\n\r\nDirections:\r\n* Left-click to zoom in.\r\n* Right-click to zoom out.\r\n\r\n(Written in the Janet programming language.)"
   }
 ]

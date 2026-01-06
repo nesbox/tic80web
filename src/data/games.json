@@ -52486,5 +52486,17 @@
     "title": "Sand",
     "updated": 1767478020327,
     "user": 11428
+  },
+  {
+    "added": 1767588736414,
+    "author": "Jean-Luc Romano",
+    "category": 1,
+    "desc": "Generates the Mandelbrot Set for viewing and zooming.",
+    "id": 4492,
+    "name": "mandelbrot_set_viewer",
+    "rating": 0,
+    "title": "Mandelbrot Set Viewer",
+    "updated": 1767590636718,
+    "user": 12934
   }
 ]
