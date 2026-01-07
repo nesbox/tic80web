@@ -13149,7 +13149,7 @@
   },
   {
     "id": 3926,
-    "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites."
+    "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area."
   },
   {
     "id": 3927,
@@ -15121,6 +15121,14 @@
   },
   {
     "id": 4492,
-    "text": "A viewer to browse the Mandelbrot Set fractal.\r\n\r\nDirections:\r\n* Left-click to zoom in.\r\n* Right-click to zoom out.\r\n\r\n(Written in the Janet programming language.)"
+    "text": "A viewer to browse the Mandelbrot Set fractal.\r\n\r\nDirections:\r\n* Left-click to zoom in.\r\n* Right-click to zoom out.\r\n* Click and press \"J\" to see the corresponding Julia set.\r\n  (\"J\" toggles between the Mandelbrot and Julia sets.)\r\n\r\n(Written in the Janet programming language.)"
+  },
+  {
+    "id": 4494,
+    "text": "A simple puzzle game about clicking on groups of adjacent blocks of the same color to clear them before they fill the screen. Larger groups of blocks are worth more points. Bombs clear out all blocks of its matching color. Gray blocks can only be cleared by dropping them to the bottom of the screen.\r\n\r\nThe game only uses mouse controls."
+  },
+  {
+    "id": 4495,
+    "text": "Happy New Year Animation"
   }
 ]

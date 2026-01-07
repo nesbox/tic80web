@@ -45716,7 +45716,7 @@
     "name": "blueyvania",
     "rating": 5,
     "title": "Blueyvania",
-    "updated": 1758423446988,
+    "updated": 1767736269519,
     "user": 8506
   },
   {
@@ -52496,7 +52496,43 @@
     "name": "mandelbrot_set_viewer",
     "rating": 0,
     "title": "Mandelbrot Set Viewer",
-    "updated": 1767590636718,
+    "updated": 1767711473118,
     "user": 12934
+  },
+  {
+    "added": 1767717973362,
+    "author": "Tsukasa_the_time_maiden",
+    "category": 4,
+    "desc": null,
+    "id": 4493,
+    "name": "ball_demo",
+    "rating": 0,
+    "title": "Ball Demo",
+    "updated": 1767717973362,
+    "user": 13004
+  },
+  {
+    "added": 1767744979348,
+    "author": "Crestor",
+    "category": 0,
+    "desc": "A clone of Super Collapse",
+    "id": 4494,
+    "name": "collapse",
+    "rating": 0,
+    "title": "Collapse",
+    "updated": 1767745039390,
+    "user": 13068
+  },
+  {
+    "added": 1767745469648,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Happy New Year",
+    "id": 4495,
+    "name": "happy_new_year_20261",
+    "rating": 0,
+    "title": "happy new year 2026",
+    "updated": 1767745469648,
+    "user": 3114
   }
 ]
