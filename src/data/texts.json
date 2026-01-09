@@ -15130,5 +15130,13 @@
   {
     "id": 4495,
     "text": "Happy New Year Animation"
+  },
+  {
+    "id": 4496,
+    "text": "A tiny Balatro demake inspired by the popular game by Local Thunk."
+  },
+  {
+    "id": 4497,
+    "text": "This is an experiment in implementing slopes in an AABB collision system that usually allows only for axis-aligned rectangles. A full write-up about this is available at https://andreyor.st//posts/2026-01-09-slopes-in-aabb-collision-systems/\r\n\r\n(Objects can be dragged with a mouse)"
   }
 ]

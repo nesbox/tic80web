@@ -45716,7 +45716,7 @@
     "name": "blueyvania",
     "rating": 5,
     "title": "Blueyvania",
-    "updated": 1767736269519,
+    "updated": 1767851599103,
     "user": 8506
   },
   {
@@ -51966,7 +51966,7 @@
     "desc": "A city building game",
     "id": 4448,
     "name": "urbanity",
-    "rating": 5,
+    "rating": 6,
     "title": "Urbanity",
     "updated": 1762710090345,
     "user": 11498
@@ -52534,5 +52534,29 @@
     "title": "happy new year 2026",
     "updated": 1767745469648,
     "user": 3114
+  },
+  {
+    "added": 1767904509434,
+    "author": "kirb0993",
+    "category": 0,
+    "desc": "This is a Demake of the game Balatro by Local Thunk",
+    "id": 4496,
+    "name": "balatro_demake",
+    "rating": 1,
+    "title": "Balatro Demake",
+    "updated": 1767904509434,
+    "user": 12264
+  },
+  {
+    "added": 1767921215513,
+    "author": "Andrey Listopadov",
+    "category": 1,
+    "desc": "Making slopes wiht AABB collisions",
+    "id": 4497,
+    "name": "aabb_slopes",
+    "rating": 0,
+    "title": "AABB Slopes",
+    "updated": 1767922584725,
+    "user": 7747
   }
 ]
