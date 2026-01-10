@@ -5682,7 +5682,7 @@
     "desc": "Platformer game",
     "id": 483,
     "name": "stele",
-    "rating": 148,
+    "rating": 149,
     "title": "Stele",
     "updated": 1521227610100,
     "user": 1185
@@ -41214,7 +41214,7 @@
     "desc": "De-make of Factorio",
     "id": 3551,
     "name": "craptorio",
-    "rating": 13,
+    "rating": 14,
     "title": "Craptorio",
     "updated": 1696906263977,
     "user": 8491
@@ -51966,7 +51966,7 @@
     "desc": "A city building game",
     "id": 4448,
     "name": "urbanity",
-    "rating": 6,
+    "rating": 7,
     "title": "Urbanity",
     "updated": 1762710090345,
     "user": 11498
@@ -52410,7 +52410,7 @@
     "desc": "a super mario fangame",
     "id": 4485,
     "name": "super_kitty_land",
-    "rating": 0,
+    "rating": 1,
     "title": "super kitty land",
     "updated": 1766883294719,
     "user": 13014
@@ -52542,9 +52542,9 @@
     "desc": "This is a Demake of the game Balatro by Local Thunk",
     "id": 4496,
     "name": "balatro_demake",
-    "rating": 1,
+    "rating": 2,
     "title": "Balatro Demake",
-    "updated": 1767904509434,
+    "updated": 1767925943145,
     "user": 12264
   },
   {
@@ -52554,9 +52554,57 @@
     "desc": "Making slopes wiht AABB collisions",
     "id": 4497,
     "name": "aabb_slopes",
-    "rating": 0,
+    "rating": 1,
     "title": "AABB Slopes",
     "updated": 1767922584725,
     "user": 7747
+  },
+  {
+    "added": 1767965528728,
+    "author": "Sava",
+    "category": 0,
+    "desc": "A factory game. There's no goal, just experiment!",
+    "id": 4498,
+    "name": "little_factory",
+    "rating": 1,
+    "title": "Little Factory",
+    "updated": 1767967039014,
+    "user": 11428
+  },
+  {
+    "added": 1767997089900,
+    "author": "Sava",
+    "category": 0,
+    "desc": "welp, i tried",
+    "id": 4499,
+    "name": "celeste",
+    "rating": 0,
+    "title": "Celeste?",
+    "updated": 1767997089900,
+    "user": 11428
+  },
+  {
+    "added": 1767999928330,
+    "author": "Andrey Listopadov",
+    "category": 1,
+    "desc": "Computing Pi via elastic collisions",
+    "id": 4500,
+    "name": "pi_physics",
+    "rating": 0,
+    "title": "Pi-Physics",
+    "updated": 1768009100469,
+    "user": 7747
+  },
+  {
+    "added": 1768009101104,
+    "author": "Weeppiko, Luke",
+    "category": 0,
+    "desc": "A Mini Sonic Game's beta in the final engine!",
+    "id": 4501,
+    "name": "sonic_mini_frontport",
+    "rating": 0,
+    "title": "Sonic Mini Frontport",
+    "updated": 1768009468139,
+    "user": 9748
   }
 ]

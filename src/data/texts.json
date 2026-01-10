@@ -15138,5 +15138,21 @@
   {
     "id": 4497,
     "text": "This is an experiment in implementing slopes in an AABB collision system that usually allows only for axis-aligned rectangles. A full write-up about this is available at https://andreyor.st//posts/2026-01-09-slopes-in-aabb-collision-systems/\r\n\r\n(Objects can be dragged with a mouse)"
+  },
+  {
+    "id": 4498,
+    "text": "Free to copy :)"
+  },
+  {
+    "id": 4499,
+    "text": "Free to copy :)"
+  },
+  {
+    "id": 4500,
+    "text": "Computing Pi via perfectly elastic collisions.\r\n\r\nHeavily inspired by: https://www.youtube.com/watch?v=HEfHFsfGXjs"
+  },
+  {
+    "id": 4501,
+    "text": "A recreation of the Sonic Mini beta in Sonic Mini's final code."
   }
 ]
