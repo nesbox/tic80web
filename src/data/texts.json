@@ -15149,10 +15149,14 @@
   },
   {
     "id": 4500,
-    "text": "Computing Pi via perfectly elastic collisions.\r\n\r\nHeavily inspired by: https://www.youtube.com/watch?v=HEfHFsfGXjs"
+    "text": "Computing Pi via perfectly elastic collisions.\r\nHeavily inspired by a video from 3Blue1Brown: https://www.youtube.com/watch?v=HEfHFsfGXjs\r\n\r\nCompute time (browser):\r\n\r\n  - 3.14: 00:05:18\r\n  - 3.141: 02:44:56\r\n  - 3.1415: ??:??:??"
   },
   {
     "id": 4501,
     "text": "A recreation of the Sonic Mini beta in Sonic Mini's final code."
+  },
+  {
+    "id": 4504,
+    "text": "Happy Nude Deer from Suule, Gasman and TheGreenHerring, enjoy our little scroller"
   }
 ]
