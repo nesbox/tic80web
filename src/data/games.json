@@ -50981,10 +50981,10 @@
     "category": 0,
     "desc": "Shoot'em up.",
     "id": 4365,
-    "name": "retro_gunner_beta_version",
+    "name": "retro_gunner_version_0_8",
     "rating": 4,
-    "title": "RETRO GUNNER (Beta version)",
-    "updated": 1754895301256,
+    "title": "RETRO GUNNER (version 0.8)",
+    "updated": 1768129223837,
     "user": 4912
   },
   {
@@ -52592,7 +52592,7 @@
     "name": "pi_physics",
     "rating": 0,
     "title": "Pi-Physics",
-    "updated": 1768071277346,
+    "updated": 1768159080588,
     "user": 7747
   },
   {
@@ -52623,12 +52623,12 @@
     "added": 1768074877269,
     "author": "r0wan",
     "category": 4,
-    "desc": "short description",
+    "desc": "avoid falling sheep",
     "id": 4503,
-    "name": "it_s_raining_stuff",
+    "name": "it_s_raining_sheep",
     "rating": 0,
-    "title": "It's raining stuff",
-    "updated": 1768074877269,
+    "title": "It's raining sheep",
+    "updated": 1768153644149,
     "user": 13084
   },
   {
@@ -52642,5 +52642,17 @@
     "title": "Happy Nude Deer",
     "updated": 1768080860649,
     "user": 9935
+  },
+  {
+    "added": 1768182899567,
+    "author": "RBBS vs TPOLM^2",
+    "category": 5,
+    "desc": "demo for RSync 2026",
+    "id": 4505,
+    "name": "basketball_and_alarms",
+    "rating": 0,
+    "title": "Basketball and Alarms",
+    "updated": 1768182899567,
+    "user": 5296
   }
 ]

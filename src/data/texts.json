@@ -14693,7 +14693,7 @@
   },
   {
     "id": 4365,
-    "text": "Retro-style shoot'em up.\r\nCurrently, a beta version with three areas is available for play.\r\nThe final version will have a total of five areas.\r\nPlease wait a little longer until completion!\r\n\r\nHow to play (joypad can also be used)\r\n Cursor keys: Move your ship\r\n Z key (or S key): Shoot\r\n   (If you do not press the shot button, \r\n    the automatic absorption range of items will expand.)\r\n X key (or A key): Bomb\r\n"
+    "text": "Retro-style shoot'em up.\r\nYou can play four areas in this version.\r\nThe final version will have a total of five areas.\r\nPlease wait a little longer until completion!\r\n\r\nHow to play (joypad can also be used)\r\n Cursor keys: Move your ship\r\n Z key (or S key): Shoot\r\n   (If you do not press the shot button, \r\n    the automatic absorption range of items will expand.)\r\n X key (or A key): Bomb\r\n"
   },
   {
     "id": 4366,
@@ -15158,5 +15158,9 @@
   {
     "id": 4504,
     "text": "Happy Nude Deer from Suule, Gasman and TheGreenHerring, enjoy our little scroller"
+  },
+  {
+    "id": 4505,
+    "text": "Demo for RSync 2026"
   }
 ]
