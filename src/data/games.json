@@ -50706,7 +50706,7 @@
     "desc": "Bipolar Coordinates Watermelon Animation",
     "id": 4342,
     "name": "watermelon_2",
-    "rating": 0,
+    "rating": 1,
     "title": "watermelon 2",
     "updated": 1752968960768,
     "user": 3114
@@ -50718,7 +50718,7 @@
     "desc": "Bipolar Coordinates Watermelon Animation",
     "id": 4343,
     "name": "watermelon_3",
-    "rating": 0,
+    "rating": 1,
     "title": "watermelon 3",
     "updated": 1752969091572,
     "user": 3114
@@ -50730,7 +50730,7 @@
     "desc": "Stereographic Projection of Watermelon Animation",
     "id": 4344,
     "name": "watermelon_4",
-    "rating": 0,
+    "rating": 1,
     "title": "watermelon 4",
     "updated": 1752969286315,
     "user": 3114
@@ -51834,7 +51834,7 @@
     "desc": "terrain deformation",
     "id": 4437,
     "name": "worms_80",
-    "rating": 0,
+    "rating": 1,
     "title": "WORMS-80",
     "updated": 1761757179898,
     "user": 12756
@@ -51918,7 +51918,7 @@
     "desc": "A tool to make some form of molecule. Perphaps useful for visualisation",
     "id": 4444,
     "name": "molecule_maker",
-    "rating": 0,
+    "rating": 1,
     "title": "Molecule Maker",
     "updated": 1762084019800,
     "user": 8149
@@ -52542,7 +52542,7 @@
     "desc": "This is a Demake of the game Balatro by Local Thunk",
     "id": 4496,
     "name": "balatro_demake",
-    "rating": 2,
+    "rating": 3,
     "title": "Balatro Demake",
     "updated": 1767925943145,
     "user": 12264
@@ -52566,7 +52566,7 @@
     "desc": "A factory game. There's no goal, just experiment!",
     "id": 4498,
     "name": "little_factory",
-    "rating": 1,
+    "rating": 2,
     "title": "Little Factory",
     "updated": 1767967039014,
     "user": 11428
@@ -52650,7 +52650,7 @@
     "desc": "demo for RSync 2026",
     "id": 4505,
     "name": "basketball_and_alarms",
-    "rating": 0,
+    "rating": 1,
     "title": "Basketball and Alarms",
     "updated": 1768182899567,
     "user": 5296
