@@ -45714,9 +45714,9 @@
     "desc": "A passion project based on the Bluey TV show. Has elements from games like Metroid and Zelda.",
     "id": 3926,
     "name": "blueyvania",
-    "rating": 5,
+    "rating": 6,
     "title": "Blueyvania",
-    "updated": 1767851599103,
+    "updated": 1768548690555,
     "user": 8506
   },
   {
@@ -52666,5 +52666,17 @@
     "title": "Infinite Journey [beta]",
     "updated": 1768435307359,
     "user": 13008
+  },
+  {
+    "added": 1768592227829,
+    "author": "girl_ice_slizer",
+    "category": 4,
+    "desc": "short description",
+    "id": 4507,
+    "name": "my_firt_game",
+    "rating": 0,
+    "title": "my_firt_game",
+    "updated": 1768592227829,
+    "user": 13104
   }
 ]
