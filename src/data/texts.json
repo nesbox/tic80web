@@ -9800,10 +9800,6 @@
     "text": "Left click, (A) or hold-tap to draw\r\nRight click or (B)+hold-tap to erase\r\nPress Del key or (X) to clear your drawing\r\nPress comma/period to increase/decrease brush size\r\nPress O/P to change color\r\nAnd middle click or (Y)+(A) or (Y)+hold-tap to visit the rainbow road!\r\n\r\nChanges:\r\n1.0:\r\n- Initial release!\r\n1.1: The Controller Update:\r\n- Added controller and mobile support (use D-Pad to move pointer by ~10px/s)\r\n1.1.1:\r\n- Fixed typo in code that made controller D-pad not work properly\r\n1.1.2: The Better Controller Update:\r\n- Added full rainbow road support for controller\r\n1.2: The Colored Update:\r\n- Added brush customization, customize brush size and color!\r\n- Optimizations"
   },
   {
-    "id": 2868,
-    "text": "2025-12-18 - Improved saving and other minor changes. Now, in addition to all parameters, the distribution of animals in the areas is saved so that the game continues exactly as it was saved."
-  },
-  {
     "id": 2869,
     "text": "A jump'n run game.\r\nUpdate (Feb. 23, 2025): Improve title screen and music.\r\nUpdate (Feb. 24, 2025): Improve music again.\r\ncopyright (c) Deidara 2022. License: GPLv2. NO WARRANTY!"
   },
@@ -15156,6 +15152,10 @@
     "text": "A recreation of the Sonic Mini beta in Sonic Mini's final code."
   },
   {
+    "id": 4503,
+    "text": "A minigame about raining sheep.\r\n\r\nTilesets used:\r\nhttps://gvituri.itch.io/tiny-ranch\r\nhttps://prototypegames.itch.io/tiny-caverns"
+  },
+  {
     "id": 4504,
     "text": "Happy Nude Deer from Suule, Gasman and TheGreenHerring, enjoy our little scroller"
   },
@@ -15170,5 +15170,21 @@
   {
     "id": 4507,
     "text": "ookay"
+  },
+  {
+    "id": 4508,
+    "text": "A 3D sphere rendered with points or triangles"
+  },
+  {
+    "id": 4509,
+    "text": "128b intro for Operator Digitalfest"
+  },
+  {
+    "id": 4510,
+    "text": "Use mouse to toggle circles to form different fractals"
+  },
+  {
+    "id": 4511,
+    "text": "Simple simulation of water ripples."
   }
 ]

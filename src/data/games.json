@@ -954,7 +954,7 @@
     "desc": "ported from Pico-8 =)",
     "id": 81,
     "name": "ripples_demo_by_zep_lexaloffle",
-    "rating": 0,
+    "rating": 1,
     "title": "ripples demo by zep@lexaloffle ",
     "updated": 1492764382059,
     "user": 4
@@ -9438,7 +9438,7 @@
     "desc": "demo for botb",
     "id": 806,
     "name": "fallspire",
-    "rating": 79,
+    "rating": 80,
     "title": "Fallspire",
     "updated": 1555263935526,
     "user": 1720
@@ -52622,13 +52622,13 @@
   {
     "added": 1768074877269,
     "author": "r0wan",
-    "category": 4,
+    "category": 0,
     "desc": "avoid falling sheep",
     "id": 4503,
     "name": "it_s_raining_sheep",
     "rating": 0,
     "title": "It's raining sheep",
-    "updated": 1768153644149,
+    "updated": 1768730073017,
     "user": 13084
   },
   {
@@ -52638,7 +52638,7 @@
     "desc": "Happy New Year scroller featuring some drunk deer!",
     "id": 4504,
     "name": "happy_nude_deer",
-    "rating": 1,
+    "rating": 2,
     "title": "Happy Nude Deer",
     "updated": 1768080860649,
     "user": 9935
@@ -52650,7 +52650,7 @@
     "desc": "demo for RSync 2026",
     "id": 4505,
     "name": "basketball_and_alarms",
-    "rating": 1,
+    "rating": 2,
     "title": "Basketball and Alarms",
     "updated": 1768182899567,
     "user": 5296
@@ -52678,5 +52678,53 @@
     "title": "my_firt_game",
     "updated": 1768592227829,
     "user": 13104
+  },
+  {
+    "added": 1768672720414,
+    "author": "Marioio",
+    "category": 1,
+    "desc": "A 3D sphere rendered with points or triangles",
+    "id": 4508,
+    "name": "3d_sphere",
+    "rating": 0,
+    "title": "3D Sphere",
+    "updated": 1768672720414,
+    "user": 12299
+  },
+  {
+    "added": 1768698268242,
+    "author": "ps",
+    "category": 5,
+    "desc": "128b intro for Operator Digitalfest",
+    "id": 4509,
+    "name": "stranded_green_pattern",
+    "rating": 0,
+    "title": "stranded green pattern",
+    "updated": 1768698268242,
+    "user": 5296
+  },
+  {
+    "added": 1768698861002,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Use mouse to Toggle circles to form different fractals",
+    "id": 4510,
+    "name": "fractal_generator1",
+    "rating": 1,
+    "title": "fractal generator",
+    "updated": 1768698861002,
+    "user": 3114
+  },
+  {
+    "added": 1768749231971,
+    "author": "Marioio",
+    "category": 1,
+    "desc": "Simulation of water ripples",
+    "id": 4511,
+    "name": "water_ripples",
+    "rating": 0,
+    "title": "Water Ripples",
+    "updated": 1768749231971,
+    "user": 12299
   }
 ]
