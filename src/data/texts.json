@@ -13145,7 +13145,7 @@
   },
   {
     "id": 3926,
-    "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done."
+    "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area."
   },
   {
     "id": 3927,
@@ -15145,7 +15145,7 @@
   },
   {
     "id": 4500,
-    "text": "Computing Pi via perfectly elastic collisions.\r\nHeavily inspired by a video from 3Blue1Brown: https://www.youtube.com/watch?v=HEfHFsfGXjs\r\n\r\nCompute time (browser):\r\n\r\n  - 3.14: 00:05:18\r\n  - 3.141: 02:44:56\r\n  - 3.1415: ??:??:??\r\n\r\nCompute time (standalone, speedup*):\r\n\r\n  - 3.14: 00:05:16\r\n  - 3.141: 02:29:18\r\n  - 3.1415: 159:35:16\r\n\r\n* 1000 simulation steps per frame with time tracking"
+    "text": "Computing Pi via perfectly elastic collisions.\r\nHeavily inspired by a video from 3Blue1Brown: https://www.youtube.com/watch?v=HEfHFsfGXjs\r\n\r\nCompute time (browser):\r\n\r\n  - 3.14: 00:05:18\r\n  - 3.141: 02:44:56\r\n  - 3.1415: 173:33:30\r\n\r\nCompute time (standalone, speedup*):\r\n\r\n  - 3.14: 00:05:16\r\n  - 3.141: 02:29:18\r\n  - 3.1415: 159:35:16\r\n\r\n* 1000 simulation steps per frame with time tracking"
   },
   {
     "id": 4501,
@@ -15186,5 +15186,13 @@
   {
     "id": 4511,
     "text": "Simple simulation of water ripples."
+  },
+  {
+    "id": 4515,
+    "text": "Free to copy"
+  },
+  {
+    "id": 4516,
+    "text": "I am the first person to make a full Plants vs. Zombies game on TIC-80."
   }
 ]
