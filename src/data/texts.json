@@ -13145,7 +13145,7 @@
   },
   {
     "id": 3926,
-    "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area."
+    "text": "Here's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu."
   },
   {
     "id": 3927,
@@ -15194,5 +15194,9 @@
   {
     "id": 4516,
     "text": "I am the first person to make a full Plants vs. Zombies game on TIC-80."
+  },
+  {
+    "id": 4517,
+    "text": "Four LERP functions combined into one button-controlled LERP.\r\nSustain is not technically LERP as it has no end.\r\n\r\nPick components for different needs:\r\nASR for \"speed up - run (while holding button) - slow down\".\r\nAR for  \"jump - fall down\".\r\nADSR for \"jump - descend - fly (while holding button) - fall down\".\r\n\r\nTODO:\r\nChanging direction mid run causes visible speed spike, due to opposite direction gaining full speed before slowing down completely.\r\nSetting some components to 0 fails."
   }
 ]

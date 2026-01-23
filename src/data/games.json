@@ -45716,7 +45716,7 @@
     "name": "blueyvania",
     "rating": 6,
     "title": "Blueyvania",
-    "updated": 1768868226560,
+    "updated": 1769050599964,
     "user": 8506
   },
   {
@@ -52729,14 +52729,14 @@
   },
   {
     "added": 1768849444521,
-    "author": "game developer, email, etc.",
+    "author": "kirb0993",
     "category": 4,
     "desc": "Rebuild the railroads of the American northeast during the 19th century.",
     "id": 4512,
     "name": "steamline",
     "rating": 1,
     "title": "Steamline",
-    "updated": 1768849619765,
+    "updated": 1769052637456,
     "user": 12264
   },
   {
@@ -52786,5 +52786,17 @@
     "title": "Stickman vs Zombie",
     "updated": 1768949868661,
     "user": 11776
+  },
+  {
+    "added": 1769105808932,
+    "author": "r0wan",
+    "category": 1,
+    "desc": "Attack Decay Sustain Release state machine for movement",
+    "id": 4517,
+    "name": "adsr_movement",
+    "rating": 0,
+    "title": "ADSR movement",
+    "updated": 1769106185671,
+    "user": 13084
   }
 ]
