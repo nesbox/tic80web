@@ -51596,7 +51596,7 @@
     "name": "game_title",
     "rating": 0,
     "title": "game title",
-    "updated": 1760302667288,
+    "updated": 1769187446387,
     "user": 12706
   },
   {
@@ -52796,7 +52796,31 @@
     "name": "adsr_movement",
     "rating": 0,
     "title": "ADSR movement",
-    "updated": 1769106185671,
+    "updated": 1769187804004,
     "user": 13084
+  },
+  {
+    "added": 1769161309441,
+    "author": "SirWobb79 (@admiralerkal79 via discord)",
+    "category": 4,
+    "desc": "Graphing app made in TIC-80 with custom editor",
+    "id": 4518,
+    "name": "graphinator",
+    "rating": 0,
+    "title": "Graphinator",
+    "updated": 1769197844632,
+    "user": 8149
+  },
+  {
+    "added": 1769197553942,
+    "author": "Stoleru Laurentiu",
+    "category": 5,
+    "desc": "animation of falling sakura blossoms",
+    "id": 4519,
+    "name": "falling_cherry_blossoms",
+    "rating": 1,
+    "title": "falling cherry blossoms",
+    "updated": 1769197553942,
+    "user": 13143
   }
 ]

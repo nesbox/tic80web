@@ -15197,6 +15197,14 @@
   },
   {
     "id": 4517,
-    "text": "Four LERP functions combined into one button-controlled LERP.\r\nSustain is not technically LERP as it has no end.\r\n\r\nPick components for different needs:\r\nASR for \"speed up - run (while holding button) - slow down\".\r\nAR for  \"jump - fall down\".\r\nADSR for \"jump - descend - fly (while holding button) - fall down\".\r\n\r\nTODO:\r\nChanging direction mid run causes visible speed spike, due to opposite direction gaining full speed before slowing down completely.\r\nSetting some components to 0 fails."
+    "text": "Four LERP functions combined into one button-controlled LERP.\r\nSustain is not technically LERP as it has no end.\r\n\r\nPick components for different needs:\r\nASR for \"speed up - run (while holding button) - slow down\".\r\nAR for  \"jump - fall down\".\r\nADSR for \"jump - descend - fly (while holding button) - fall down\".\r\n"
+  },
+  {
+    "id": 4518,
+    "text": "*** VIEW MODE ***\r\nArrows to move, Z/X to zoom in/out (Z and X to return to (0, 0) or (0, f(0)) if snap is on), S to snap to y, A to enter function editor\r\n\r\n*** EDIT MODE ***\r\nUP/DOWN to change selection, LEFT/RIGHT to move cursor, Z to add, X to backspace/delete, S to convert Radians to Degrees or vice versa, A to exit the editor\r\n\r\n*** CUSTOM FUNCTION DEFINITIONS ***\r\n- xRoot(x, y) will calculate the Xth root of Y. xRoot(4, 256) returns 4\r\n- logX(x, y) will calculate the logarithm with base X of Y. logX(10, 100000) returns 5\r\n\r\n*** EXTRA NOTES ***\r\n- The expression is evaluated just as Lua would evaluate any math expression\r\n- Empty spaces while selecting something to add to the equation are actually spaces to improve readability!\r\n- Zoom is limited to 1e+15 to minimise any issues with floating point math and infinite loops\r\n- Some functions require 2 arguments, which explains the comma.\r\n\r\nFeedback and additions welcome!"
+  },
+  {
+    "id": 4519,
+    "text": "falling cherry blossoms\r\ninspired by Potato Imaginator:https://www.youtube.com/watch?v=L20MBErVSOQ"
   }
 ]
