@@ -52794,7 +52794,7 @@
     "desc": "Attack Decay Sustain Release state machine for movement",
     "id": 4517,
     "name": "adsr_movement",
-    "rating": 0,
+    "rating": 1,
     "title": "ADSR movement",
     "updated": 1769187804004,
     "user": 13084
@@ -52822,5 +52822,29 @@
     "title": "falling cherry blossoms",
     "updated": 1769197553942,
     "user": 13143
+  },
+  {
+    "added": 1769247293180,
+    "author": "Exsntnz",
+    "category": 5,
+    "desc": "horror",
+    "id": 4520,
+    "name": "the_nightmare",
+    "rating": 0,
+    "title": "The Nightmare",
+    "updated": 1769247293180,
+    "user": 12911
+  },
+  {
+    "added": 1769299730194,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Mechanical Principles",
+    "id": 4521,
+    "name": "scotch_yoke_mechanism",
+    "rating": 0,
+    "title": "scotch yoke mechanism",
+    "updated": 1769299730194,
+    "user": 3114
   }
 ]
