@@ -51906,7 +51906,7 @@
     "desc": "Small Baba Is You demake with 8 levels",
     "id": 4443,
     "name": "baba_is_you_demake",
-    "rating": 1,
+    "rating": 2,
     "title": "Baba Is You demake",
     "updated": 1762015236533,
     "user": 11428
@@ -52062,7 +52062,7 @@
     "desc": "A short top-down action \u0026 puzzle game where you must use and avoid swarms of wasps",
     "id": 4456,
     "name": "lord_of_the_wasps",
-    "rating": 2,
+    "rating": 3,
     "title": "Lord Of the Wasps",
     "updated": 1764416995249,
     "user": 12886
@@ -52736,7 +52736,7 @@
     "name": "steamline",
     "rating": 1,
     "title": "Steamline",
-    "updated": 1769052637456,
+    "updated": 1769387367681,
     "user": 12264
   },
   {
@@ -52796,7 +52796,7 @@
     "name": "adsr_movement",
     "rating": 1,
     "title": "ADSR movement",
-    "updated": 1769187804004,
+    "updated": 1769354047052,
     "user": 13084
   },
   {
@@ -52846,5 +52846,17 @@
     "title": "scotch yoke mechanism",
     "updated": 1769299730194,
     "user": 3114
+  },
+  {
+    "added": 1769371083015,
+    "author": "Metrigor",
+    "category": 0,
+    "desc": "it's minecraft 2d",
+    "id": 4522,
+    "name": "minicraft_2d",
+    "rating": 0,
+    "title": "minicraft-2D",
+    "updated": 1769371083015,
+    "user": 11883
   }
 ]
