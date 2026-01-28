@@ -52791,12 +52791,12 @@
     "added": 1769105808932,
     "author": "r0wan",
     "category": 1,
-    "desc": "Attack Decay Sustain Release state machine for movement",
+    "desc": "Run and Jump FSM + LERP",
     "id": 4517,
-    "name": "adsr_movement",
+    "name": "fsm_lerp_movement",
     "rating": 1,
-    "title": "ADSR movement",
-    "updated": 1769354047052,
+    "title": "FSM + LERP movement",
+    "updated": 1769540125194,
     "user": 13084
   },
   {

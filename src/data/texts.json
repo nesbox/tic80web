@@ -15197,7 +15197,7 @@
   },
   {
     "id": 4517,
-    "text": "Four LERP functions combined into one button-controlled LERP.\r\nSustain is not technically LERP as it has no end.\r\n\r\nPick components for different needs:\r\nASR for \"speed up - run (while holding button) - slow down\".\r\nAR for  \"jump - fall down\".\r\nADSR for \"jump - descend - fly (while holding button) - fall down\".\r\n"
+    "text": "Movement animation based on FSM and LERP\r\nRUN - idle, speedup, sustain, slowdown\r\nJUMP - idle, rise, fall\r\n"
   },
   {
     "id": 4518,
