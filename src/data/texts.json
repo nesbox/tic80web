@@ -15222,5 +15222,9 @@
   {
     "id": 4523,
     "text": "Hello everyone. Here I leave you a simple pseudo-3D test of a road projection. It would still be necessary to add sprites and their logic to create a game."
+  },
+  {
+    "id": 4525,
+    "text": "Incarne Kami, un jeune héros piégé dans un donjon mystérieux. Récupère les 100 orbes magiques dispersées dans le niveau pour t'échapper. Petit jeu de plateforme en développement."
   }
 ]
