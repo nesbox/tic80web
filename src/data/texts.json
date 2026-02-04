@@ -13145,7 +13145,7 @@
   },
   {
     "id": 3926,
-    "text": "---\r\nAlso viewable here:\r\nhttps://fizzii01.itch.io/blueyvania\r\n---\r\n\r\nHere's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu.\r\n\r\n--February 2nd, 2026 ***FIRST FULL RELEASE***\r\nA plethora of additions, as the game is now finished.\r\n+Slight addition to the opening sequence.\r\n+The ability to save and load games.\r\n+A jukebox of the game's OST.\r\n+Death messages are hints.\r\n+Chilli gives facts about your items.\r\n+A final dungeon and final boss\r\n+2 ENDINGS\r\n\r\nEnjoy my game. It was fun to work on for the past year and a half.\r\n"
+    "text": "*NOTE: This game DOES NOT use pmem, instead using map banks for save data. You have to save the cartridge itself in the console (or use ctrl+S) to preserve your saved progress.*\r\n---\r\nAlso viewable here:\r\nhttps://fizzii01.itch.io/blueyvania\r\n---\r\n\r\nHere's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu.\r\n\r\n--February 2nd, 2026 ***FIRST FULL RELEASE***\r\nA plethora of additions, as the game is now finished.\r\n+Slight addition to the opening sequence.\r\n+The ability to save and load games.\r\n+A jukebox of the game's OST.\r\n+Death messages are hints.\r\n+Chilli gives facts about your items.\r\n+A final dungeon and final boss.\r\n+2 ENDINGS.\r\n\r\nEnjoy my game. It was fun to work on for the past year and a half.\r\n\r\n--February 3rd, 2026\r\nAdded a clarification to the save message and redid the cover image.\r\n"
   },
   {
     "id": 3927,
@@ -14421,7 +14421,7 @@
   },
   {
     "id": 4293,
-    "text": "A wind-up toy sandbox game.\r\n\r\n---CONTROLS---\r\n\r\nUnfocused\r\n\r\nDOWN - Enter focus mode\r\nLEFT/RIGHT - Change tile type\r\nS - Summon Walk-Um at the mouse cursor\r\nZ - Move camera like a trackpad when held\r\nX - Delete all Wind-Ums in the scene\r\nLEFT CLICK - Add a tile to the world (or erase if on eraser)\r\nRIGHT CLICK - Erase a tile regardless if on eraser or not\r\n\r\nFocused\r\n\r\nUP/DOWN - Swap to a different Walk-Um (UP when on NO.1 will un-focus)\r\nX - Un-focus immediately\r\nZ - Stop/Resume a Walk-Um's movement\r\nA - Wind the Wind-Um by 30 when it is not moving\r\nS - Delete the focused Wind-Um\r\nLEFT/RIGHT - Change direction of the Wind-Um"
+    "text": "Unlike most of the stuff I upload, this is NOT gamepad/mobile compatible. There are functions which are not able to be used to make the most of this cart, but basic features may be available through existing gamepad keys!\r\n\r\nA wind-up toy sandbox game.\r\n\r\n***CONTROLS***\r\n\r\nUnfocused\r\n\r\nDOWN - Enter focus mode\r\nLEFT/RIGHT - Change tile type\r\nS - Summon walker at the mouse cursor\r\nZ - Move camera like a trackpad when held\r\nX - Delete all walkers in the scene\r\nLEFT CLICK - Add a tile to the world (or erase if on eraser)\r\nRIGHT CLICK - Erase a tile regardless if on eraser or not\r\nIJKL - Move camera traditionally with keys\r\nQ/W (or hold 1/2) - Change the speed multiplier for the simulation (E to reset to 1x speed)\r\nP - Pause and unpause the simulation\r\n\r\nFocused\r\n\r\nUP/DOWN - Swap to a different walker (UP when on NO.1 will un-focus)\r\nX - Un-focus immediately\r\nZ - Stop/Resume a walker's movement\r\nA - Wind the walker by a bit when it is not moving\r\nS - Delete the focused walker\r\nLEFT/RIGHT - Change direction of the walker"
   },
   {
     "id": 4294,
@@ -15242,5 +15242,13 @@
   {
     "id": 4530,
     "text": "shoot some targets"
+  },
+  {
+    "id": 4531,
+    "text": "Unlike most of the stuff I upload, this is NOT gamepad/mobile compatible. There are functions which are not able to be used to make the most of this cart, but basic features may be available through existing gamepad keys!\r\n\r\nThis is a counter test that acts like a mechanical counter of sorts. It has some functions to showcase its features\r\n\r\n*** CONTROLS ***\r\nAdd/Subtract - Z/X (Single) | A/S (Held) | Q/W (Press for auto, E to stop auto-ing)\r\nSwitch digit left/right - N/M\r\nAdd/Remove digit - J/K\r\nIncrease/Decrease speed - I/O\r\n(Un) Pause - P"
+  },
+  {
+    "id": 4532,
+    "text": "A content-driven road-trip roguelite game: drive between strange POIs, do quick loot raids, extract, and upgrade your car in the garage to survive escalating anomalies."
   }
 ]

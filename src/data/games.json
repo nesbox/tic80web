@@ -45716,7 +45716,7 @@
     "name": "blueyvania",
     "rating": 6,
     "title": "Blueyvania",
-    "updated": 1770019171721,
+    "updated": 1770167144539,
     "user": 8506
   },
   {
@@ -50115,12 +50115,12 @@
     "added": 1749481400959,
     "author": "am79",
     "category": 4,
-    "desc": "Watch and control miniature figures as they travel",
+    "desc": "Watch and control miniature figures as they travel in your workshop!",
     "id": 4293,
     "name": "wind_up_walkers",
     "rating": 0,
     "title": "Wind-Up Walkers",
-    "updated": 1749578534821,
+    "updated": 1770150220278,
     "user": 8149
   },
   {
@@ -52954,5 +52954,41 @@
     "title": "Target Clicker",
     "updated": 1770058294779,
     "user": 13143
+  },
+  {
+    "added": 1770149706180,
+    "author": "SirWobb79 (@admiralerkal79 via discord)",
+    "category": 4,
+    "desc": "A simple counter style I wanted to try",
+    "id": 4531,
+    "name": "roller_counter",
+    "rating": 0,
+    "title": "Roller Counter",
+    "updated": 1770149706180,
+    "user": 8149
+  },
+  {
+    "added": 1770168217810,
+    "author": "Marat Azizov, t.me/etomarat, @etomarat",
+    "category": 4,
+    "desc": "A content-driven road-trip roguelite game: drive between strange POIs, do quick loot raids, extract, and upgrade your car in the garage to survive escalating anomalies.  # noqa: E501",
+    "id": 4532,
+    "name": "wyrdway",
+    "rating": 0,
+    "title": "Wyrdway",
+    "updated": 1770168217810,
+    "user": 13220
+  },
+  {
+    "added": 1770168865932,
+    "author": "Marat Azizov, t.me/etomarat, @etomarat",
+    "category": 4,
+    "desc": "A content-driven road-trip roguelite game: drive between strange POIs, do quick loot raids, extract, and upgrade your car in the garage to survive escalating anomalies.  # noqa: E501",
+    "id": 4533,
+    "name": "wyrdway1",
+    "rating": 0,
+    "title": "Wyrdway",
+    "updated": 1770168865932,
+    "user": 13220
   }
 ]
