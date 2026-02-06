@@ -11625,7 +11625,7 @@
   },
   {
     "id": 3476,
-    "text": "You're a lil snek that eats FOOD\r\npress up and down to change difficulty/speed"
+    "text": "You're a lil snek that eats FOOD.\r\npress up and down to change difficulty/speed.\r\nsaves your hi-score.\r\n3 speeds: ez, med, hard.\r\nOriginally written in MoonScript but HTML export is broken.\r\nsource code: https://github.com/UnusualEgg/tic80-snek"
   },
   {
     "id": 3477,
