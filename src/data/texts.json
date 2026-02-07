@@ -15262,5 +15262,9 @@
   {
     "id": 4536,
     "text": "Find your way through the swamp. But be careful, because the water level obscures many of the paths. You'll have to find your way by trial and error. And by wet clothes.\r\n\r\nThis game can be played alone or with some friends. Try each turn to get further than the others. Who will finally solve the maze and be the first to reach the exit?\r\n\r\nControls: just the arrow keys."
+  },
+  {
+    "id": 4538,
+    "text": "A classic Pong game with some minor twists. Credit to Zach Attakk Codes for the guidance on YouTube\r\nKeyboard Controls:\r\nP1 : W (Up), S (Down), X (Serve Ball)\r\nP2: Up arrow (Up), Down arrow (Down), M (Serve Ball)\r\n\r\nBe sure to setup the gamepad controls at menu (Press Esc) for each player before playing \r\n\r\nThis is my first game ever created. There'll be more games coming soon :3"
   }
 ]
