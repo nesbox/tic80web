@@ -11178,7 +11178,7 @@
     "desc": "A CHIP-8 Interpreter/VM/Emulator",
     "id": 953,
     "name": "chip_80",
-    "rating": 4,
+    "rating": 5,
     "title": "CHIP-80",
     "updated": 1764960231966,
     "user": 232
@@ -45715,8 +45715,8 @@
     "id": 3926,
     "name": "blueyvania",
     "rating": 6,
-    "title": "Blueyvania",
-    "updated": 1770233429423,
+    "title": "BlueyVANIA",
+    "updated": 1770933310204,
     "user": 8506
   },
   {
@@ -49590,7 +49590,7 @@
     "desc": "A single- AND multi-player soccer (or football) game. ABSOLUTELY NO WARRANTY!",
     "id": 4249,
     "name": "tic_soccer",
-    "rating": 2,
+    "rating": 3,
     "title": "Tic Soccer",
     "updated": 1767002573425,
     "user": 7445
@@ -51774,7 +51774,7 @@
     "desc": "A tribute demo for my bro. From the perspective of lying in a forest, looking up at the stars.",
     "id": 4432,
     "name": "winter_is_coming",
-    "rating": 3,
+    "rating": 4,
     "title": "Winter is Coming",
     "updated": 1766896064489,
     "user": 12660
@@ -52062,7 +52062,7 @@
     "desc": "A short top-down action \u0026 puzzle game where you must use and avoid swarms of wasps",
     "id": 4456,
     "name": "lord_of_the_wasps",
-    "rating": 3,
+    "rating": 4,
     "title": "Lord Of the Wasps",
     "updated": 1764416995249,
     "user": 12886
@@ -53098,5 +53098,29 @@
     "title": "code-golf pong",
     "updated": 1770628684445,
     "user": 6856
+  },
+  {
+    "added": 1770880705357,
+    "author": "CrazyFox",
+    "category": 2,
+    "desc": "Generator povelu pro trenink sermu",
+    "id": 4543,
+    "name": "generator_povelu",
+    "rating": 0,
+    "title": "Generator povelu",
+    "updated": 1770880705357,
+    "user": 514
+  },
+  {
+    "added": 1770906155348,
+    "author": "its still me",
+    "category": 0,
+    "desc": "the title seems pretty self explanatory",
+    "id": 4544,
+    "name": "pop_the_balloons",
+    "rating": 0,
+    "title": "pop the balloons",
+    "updated": 1770906155348,
+    "user": 13143
   }
 ]
