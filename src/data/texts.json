@@ -15350,5 +15350,17 @@
   {
     "id": 4566,
     "text": "Place the points with left and right mouse buttons and the four ABXY buttons"
+  },
+  {
+    "id": 4567,
+    "text": " Proyecto de juego  escrito en C\r\n compilado a WASM\r\n \r\n Con Y accedes a un menu para modificar\r\n graficos y balancear rendimiento\r\n \r\n Funciona mejor en app para escritorio\r\n de TIC 80"
+  },
+  {
+    "id": 4568,
+    "text": "MINTIC \r\nMine sweepers in GameBoy style!\r\nIf you thought \"Minesweeper\" was old and boring, MINTIC will change your mind. The classic challenge is here, now in green retro graphics.\r\n\r\nXeonBrix is me :) :\r\nhttps://www.youtube.com/@XeonBrix\r\n\r\nOf king play test :\r\nhttps://youtube.com/channel/UCoJZiBnICUnMVgddseICMyg?si=jVjXmpXCNMY2BSUC\r\n\r\n\r\n"
+  },
+  {
+    "id": 4569,
+    "text": "This is a small platform game that I will be developing seriously; it only goes up to level 2.\r\n\r\nStandard controls: Arrow keys + Z, X"
   }
 ]

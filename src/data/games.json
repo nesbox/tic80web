@@ -53394,9 +53394,33 @@
     "desc": null,
     "id": 4567,
     "name": "cave_explorer",
-    "rating": 0,
+    "rating": 1,
     "title": "cave_explorer",
-    "updated": 1772662755144,
+    "updated": 1772687777140,
     "user": 13376
+  },
+  {
+    "added": 1772746000839,
+    "author": "XeonBrix and game test of king",
+    "category": 0,
+    "desc": "minesweeper for tic-80, style GameBoy",
+    "id": 4568,
+    "name": "mintic",
+    "rating": 0,
+    "title": "MinTic",
+    "updated": 1772746000839,
+    "user": 11776
+  },
+  {
+    "added": 1772757231073,
+    "author": "Zhailox",
+    "category": 0,
+    "desc": "A small platform game that combines difficulty with simple mechanics. Inspired by...?",
+    "id": 4569,
+    "name": "isolation",
+    "rating": 0,
+    "title": "Isolation",
+    "updated": 1772757231073,
+    "user": 13008
   }
 ]
