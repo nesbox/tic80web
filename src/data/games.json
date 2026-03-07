@@ -52662,7 +52662,7 @@
     "desc": "procedurally generated infinite scroller",
     "id": 4506,
     "name": "infinite_journey_beta",
-    "rating": 2,
+    "rating": 3,
     "title": "Infinite Journey [beta]",
     "updated": 1768435307359,
     "user": 13008
@@ -53396,7 +53396,7 @@
     "name": "cave_explorer",
     "rating": 1,
     "title": "cave_explorer",
-    "updated": 1772687777140,
+    "updated": 1772765489552,
     "user": 13376
   },
   {
@@ -53418,9 +53418,21 @@
     "desc": "A small platform game that combines difficulty with simple mechanics. Inspired by...?",
     "id": 4569,
     "name": "isolation",
-    "rating": 0,
+    "rating": 1,
     "title": "Isolation",
     "updated": 1772757231073,
     "user": 13008
+  },
+  {
+    "added": 1772766413376,
+    "author": "Alex Mayer",
+    "category": 0,
+    "desc": "Jump over stuff with cute characters",
+    "id": 4570,
+    "name": "critter_crossing",
+    "rating": 1,
+    "title": "Critter Crossing",
+    "updated": 1772766413376,
+    "user": 13339
   }
 ]
