@@ -11166,7 +11166,7 @@
     "desc": "cartrige in tic 80",
     "id": 952,
     "name": "nyan_cat",
-    "rating": 9,
+    "rating": 10,
     "title": "nyan cat",
     "updated": 1572009184911,
     "user": 2749
@@ -50118,7 +50118,7 @@
     "desc": "Watch and control miniature figures as they travel in your workshop!",
     "id": 4293,
     "name": "wind_up_walkers",
-    "rating": 0,
+    "rating": 1,
     "title": "Wind-Up Walkers",
     "updated": 1770150220278,
     "user": 8149
@@ -52074,7 +52074,7 @@
     "desc": null,
     "id": 4457,
     "name": "the_exciting_cube",
-    "rating": 1,
+    "rating": 2,
     "title": "The Exciting Cube",
     "updated": 1764852746420,
     "user": 12624
@@ -52674,7 +52674,7 @@
     "desc": "short description",
     "id": 4507,
     "name": "my_firt_game",
-    "rating": 0,
+    "rating": 1,
     "title": "my_firt_game",
     "updated": 1768592227829,
     "user": 13104
@@ -52758,7 +52758,7 @@
     "desc": "short description",
     "id": 4514,
     "name": "radgievtardis",
-    "rating": 0,
+    "rating": 1,
     "title": "radgievtardis",
     "updated": 1768862687880,
     "user": 13120
@@ -53394,7 +53394,7 @@
     "desc": null,
     "id": 4567,
     "name": "cave_explorer",
-    "rating": 1,
+    "rating": 2,
     "title": "cave_explorer",
     "updated": 1772765489552,
     "user": 13376
@@ -53446,5 +53446,29 @@
     "title": "perspective yin yang",
     "updated": 1772928707501,
     "user": 3114
+  },
+  {
+    "added": 1772964468174,
+    "author": "GlyphBit",
+    "category": 0,
+    "desc": "Your pet snake only follows the ball, make sure to feed it.",
+    "id": 4572,
+    "name": "feed_the_snake",
+    "rating": 0,
+    "title": "Feed the snake",
+    "updated": 1772964468174,
+    "user": 13401
+  },
+  {
+    "added": 1773004605245,
+    "author": "Capturts",
+    "category": 4,
+    "desc": "A simple duck simulator",
+    "id": 4573,
+    "name": "tranquil_rubber_ducks",
+    "rating": 0,
+    "title": "Tranquil Rubber Ducks",
+    "updated": 1773004605245,
+    "user": 308
   }
 ]
