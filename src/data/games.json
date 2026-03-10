@@ -53180,7 +53180,7 @@
     "name": "hunted",
     "rating": 0,
     "title": "Hunted",
-    "updated": 1772047548008,
+    "updated": 1773085868049,
     "user": 13232
   },
   {
@@ -53406,7 +53406,7 @@
     "desc": "minesweeper for tic-80, style GameBoy",
     "id": 4568,
     "name": "mintic",
-    "rating": 0,
+    "rating": 1,
     "title": "MinTic",
     "updated": 1772746000839,
     "user": 11776
@@ -53418,7 +53418,7 @@
     "desc": "A small platform game that combines difficulty with simple mechanics. Inspired by...?",
     "id": 4569,
     "name": "isolation",
-    "rating": 1,
+    "rating": 2,
     "title": "Isolation",
     "updated": 1772757231073,
     "user": 13008
@@ -53430,7 +53430,7 @@
     "desc": "Jump over stuff with cute characters",
     "id": 4570,
     "name": "critter_crossing",
-    "rating": 1,
+    "rating": 2,
     "title": "Critter Crossing",
     "updated": 1772766413376,
     "user": 13339
