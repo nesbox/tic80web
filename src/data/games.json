@@ -53470,5 +53470,29 @@
     "title": "Tranquil Rubber Ducks",
     "updated": 1773004605245,
     "user": 308
+  },
+  {
+    "added": 1773208055284,
+    "author": "Electro L.I.B (Daniel.C)",
+    "category": 0,
+    "desc": "Adaptation of the original game Pacmania on Tic-80",
+    "id": 4574,
+    "name": "ticmania",
+    "rating": 1,
+    "title": "TicMania",
+    "updated": 1773208055284,
+    "user": 13288
+  },
+  {
+    "added": 1773249407028,
+    "author": "hse",
+    "category": 4,
+    "desc": "short description",
+    "id": 4575,
+    "name": "catx",
+    "rating": 0,
+    "title": "catx",
+    "updated": 1773250607116,
+    "user": 8160
   }
 ]
