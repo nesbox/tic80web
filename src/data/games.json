@@ -52734,7 +52734,7 @@
     "desc": "Design railway networks across the 19th century.",
     "id": 4512,
     "name": "railway",
-    "rating": 2,
+    "rating": 3,
     "title": "Railway",
     "updated": 1772916780621,
     "user": 12264
@@ -53454,7 +53454,7 @@
     "desc": "Your pet snake only follows the ball, make sure to feed it.",
     "id": 4572,
     "name": "feed_the_snake",
-    "rating": 0,
+    "rating": 1,
     "title": "Feed the snake",
     "updated": 1772964468174,
     "user": 13401
