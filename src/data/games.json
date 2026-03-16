@@ -33500,7 +33500,7 @@
     "name": "labyrinth",
     "rating": 12,
     "title": "labyrinth",
-    "updated": 1766063476508,
+    "updated": 1773608288884,
     "user": 5287
   },
   {
@@ -53478,7 +53478,7 @@
     "desc": "Adaptation of the original game Pacmania on Tic-80",
     "id": 4574,
     "name": "ticmania",
-    "rating": 1,
+    "rating": 2,
     "title": "TicMania",
     "updated": 1773208055284,
     "user": 13288
@@ -53518,5 +53518,29 @@
     "title": "spiral peel",
     "updated": 1773530043306,
     "user": 3114
+  },
+  {
+    "added": 1773547054250,
+    "author": "src3453, music by Slipstream",
+    "category": 1,
+    "desc": "Demo for my music visualizer. Music is from Slipstream's demo Life's a beach",
+    "id": 4578,
+    "name": "my_new_visualizer_demo_lifes_a_beach",
+    "rating": 0,
+    "title": "My new visualizer demo (Lifes a beach)",
+    "updated": 1773547340337,
+    "user": 8805
+  },
+  {
+    "added": 1773625788517,
+    "author": "Diego Martinez",
+    "category": 0,
+    "desc": "Metroidvania starring Bicho the cat.",
+    "id": 4579,
+    "name": "bicho",
+    "rating": 0,
+    "title": "Bicho",
+    "updated": 1773625788517,
+    "user": 11332
   }
 ]
