@@ -2610,7 +2610,7 @@
     "desc": "Remake of Nintendo's arcade classic",
     "id": 223,
     "name": "mario_bros",
-    "rating": 119,
+    "rating": 120,
     "title": "Mario Bros?",
     "updated": 1506192574136,
     "user": 5
@@ -45714,7 +45714,7 @@
     "desc": "A passion project based on the Bluey TV show. Has elements from games like Metroid and Zelda.",
     "id": 3926,
     "name": "blueyvania",
-    "rating": 6,
+    "rating": 7,
     "title": "BlueyVANIA",
     "updated": 1771352934114,
     "user": 8506
@@ -53178,7 +53178,7 @@
     "desc": "Tu dois survivre le plus longtemps possible alors que tu est chasse par des monstres sur une map",
     "id": 4549,
     "name": "hunted",
-    "rating": 0,
+    "rating": 1,
     "title": "Hunted",
     "updated": 1773085868049,
     "user": 13232
@@ -53406,7 +53406,7 @@
     "desc": "minesweeper for tic-80, style GameBoy",
     "id": 4568,
     "name": "mintic",
-    "rating": 1,
+    "rating": 2,
     "title": "MinTic",
     "updated": 1772746000839,
     "user": 11776
@@ -53480,7 +53480,7 @@
     "name": "ticmania",
     "rating": 2,
     "title": "TicMania",
-    "updated": 1773208055284,
+    "updated": 1773710426572,
     "user": 13288
   },
   {
@@ -53538,9 +53538,33 @@
     "desc": "Metroidvania starring Bicho the cat.",
     "id": 4579,
     "name": "bicho",
-    "rating": 0,
+    "rating": 1,
     "title": "Bicho",
     "updated": 1773625788517,
     "user": 11332
+  },
+  {
+    "added": 1773694121343,
+    "author": "XeonBrix",
+    "category": 0,
+    "desc": "Game in Game Jam 2 day",
+    "id": 4580,
+    "name": "fire_atk",
+    "rating": 0,
+    "title": "Fire atk",
+    "updated": 1773694301232,
+    "user": 11776
+  },
+  {
+    "added": 1773709590582,
+    "author": "Trakatranks",
+    "category": 5,
+    "desc": null,
+    "id": 4581,
+    "name": "connect",
+    "rating": 0,
+    "title": "CONNECT",
+    "updated": 1773709590582,
+    "user": 10071
   }
 ]

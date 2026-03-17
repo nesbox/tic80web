@@ -15381,7 +15381,7 @@
   },
   {
     "id": 4574,
-    "text": "TicMania – Jump into a pseudo-3D Pac-Mania adventure!\r\n\r\nFan adaptation of the classic Pac-Mania (© 1987 Bandai Namco)\r\nMade for TIC-80 – not affiliated with Bandai Namco.\r\n\r\nFeatures:\r\n• Isometric levels with wrapping edges\r\n• Jump over ghosts!\r\n• Turbo mode, power-ups \u0026 fruits\r\n• 5 different mazes\r\n• Highscores \u0026 funky intro animation\r\n\r\nEnjoy the chaos!"
+    "text": "TicMania – Jump into a pseudo-3D Pac-Mania adventure!\r\nFan adaptation of the classic Pac-Mania (© 1987 Bandai Namco)\r\nMade for TIC-80 – not affiliated with Bandai Namco.\r\nFeatures:\r\n• Isometric levels with wrapping edges\r\n• Jump over ghosts!\r\n• Turbo mode, power-ups \u0026 fruits\r\n• 5 different mazes\r\n• Highscores \u0026 funky intro animation\r\n\r\nTicMania v1.1 changelog:\r\n- Persistent highscore saving\r\n- Fixed bugs in turbo mode\r\n- Added comments in source code\r\n\r\nEnjoy the chaos!"
   },
   {
     "id": 4577,
@@ -15390,5 +15390,13 @@
   {
     "id": 4579,
     "text": "Metroidvania starring the eponymous cat.\r\n\r\n(Work In Progress)"
+  },
+  {
+    "id": 4580,
+    "text": "This game was made for the TIC-80 Game Jam, and it was created during the last two days of the jam, so it's a small experimental prototype rather than a full game.\r\n\r\nThe goal was simply to test a fun gameplay idea under time pressure. Despite being simple, it represents the core of a concept that could be expanded in the future."
+  },
+  {
+    "id": 4581,
+    "text": "Silly me trying to get familiar with the TIC-80"
   }
 ]
