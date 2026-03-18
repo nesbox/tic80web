@@ -3354,7 +3354,7 @@
     "desc": "A rail-shooter set in a fake-3D world made for #FC_JAM.",
     "id": 287,
     "name": "mainfighter",
-    "rating": 17,
+    "rating": 18,
     "title": "MainFighter",
     "updated": 1545506753001,
     "user": 242
@@ -6414,7 +6414,7 @@
     "desc": "Clone of Sonic 3's Minigame",
     "id": 546,
     "name": "grab_the_blue_spheres",
-    "rating": 12,
+    "rating": 13,
     "title": "Grab the Blue Spheres!",
     "updated": 1528211894420,
     "user": 219
@@ -6738,7 +6738,7 @@
     "desc": "An arcade racing game!",
     "id": 573,
     "name": "warm_wheels",
-    "rating": 29,
+    "rating": 30,
     "title": "Warm Wheels",
     "updated": 1529601574120,
     "user": 1409
@@ -8574,7 +8574,7 @@
     "desc": "scoring 7 points",
     "id": 728,
     "name": "air_hockey",
-    "rating": 16,
+    "rating": 17,
     "title": "Air Hockey",
     "updated": 1549275094694,
     "user": 2187
@@ -9390,7 +9390,7 @@
     "desc": "MS Windows 3.1 Minesweeper clone",
     "id": 802,
     "name": "minesweeper",
-    "rating": 23,
+    "rating": 24,
     "title": "Minesweeper",
     "updated": 1554645014870,
     "user": 2407
@@ -11478,7 +11478,7 @@
     "desc": "Solitaire from Shenzhen I/O",
     "id": 978,
     "name": "shenzhen_i_o_solitaire",
-    "rating": 16,
+    "rating": 17,
     "title": "Shenzhen I/O Solitaire",
     "updated": 1688946183912,
     "user": 2954
@@ -14046,7 +14046,7 @@
     "desc": "remake of Activision game",
     "id": 1199,
     "name": "kaboom",
-    "rating": 4,
+    "rating": 5,
     "title": "Kaboom!",
     "updated": 1588344104341,
     "user": 2464
@@ -18090,7 +18090,7 @@
     "desc": "make your 2d game based on a simple plataformer template",
     "id": 1540,
     "name": "tic_80_plataformer_template",
-    "rating": 19,
+    "rating": 20,
     "title": "TIC-80 plataformer template",
     "updated": 1608135921459,
     "user": 4115
@@ -20286,7 +20286,7 @@
     "desc": "256 byte game for lovebyte 2021",
     "id": 1735,
     "name": "skip_ahead",
-    "rating": 22,
+    "rating": 23,
     "title": "Skip Ahead",
     "updated": 1615752343631,
     "user": 5265
@@ -20358,7 +20358,7 @@
     "desc": "Play PocketCube(2x2x2) in Tic80",
     "id": 1741,
     "name": "pocketcube",
-    "rating": 7,
+    "rating": 8,
     "title": "PocketCube",
     "updated": 1616307400224,
     "user": 5310
@@ -21486,7 +21486,7 @@
     "desc": "platform puzzler",
     "id": 1836,
     "name": "liquid_runner_ii",
-    "rating": 10,
+    "rating": 11,
     "title": "Liquid Runner II",
     "updated": 1619736371578,
     "user": 1571
@@ -37386,7 +37386,7 @@
     "desc": "Space Invaders clone made in TIC-80 that features upgrades and new enemies!",
     "id": 3196,
     "name": "invaders",
-    "rating": 6,
+    "rating": 7,
     "title": "INVADERS",
     "updated": 1675473550730,
     "user": 8506
@@ -37506,7 +37506,7 @@
     "desc": "Remake Pitfall (Atari 2600 version)",
     "id": 3206,
     "name": "pitfall",
-    "rating": 3,
+    "rating": 4,
     "title": "Pitfall",
     "updated": 1676042386942,
     "user": 5696
@@ -38010,7 +38010,7 @@
     "desc": null,
     "id": 3248,
     "name": "terrain_spotting",
-    "rating": 8,
+    "rating": 9,
     "title": "Terrain Spotting",
     "updated": 1678353606160,
     "user": 8296
@@ -39402,7 +39402,7 @@
     "desc": "A Pacman clone with multiple mazes and gameplay systems",
     "id": 3365,
     "name": "pacman_80",
-    "rating": 42,
+    "rating": 43,
     "title": "PACMAN 80",
     "updated": 1749165095458,
     "user": 8908
@@ -40122,7 +40122,7 @@
     "desc": "A Mini Sonic Game",
     "id": 3460,
     "name": "sonic_mini",
-    "rating": 53,
+    "rating": 54,
     "title": "Sonic Mini",
     "updated": 1712802005931,
     "user": 6198
@@ -43758,7 +43758,7 @@
     "desc": "demake of the 2014 indie point-and-click horror game for TIC-80 tiny computer",
     "id": 3763,
     "name": "five_nights_at_freddy_s",
-    "rating": 24,
+    "rating": 25,
     "title": "Five Nights at Freddy's",
     "updated": 1707785578251,
     "user": 2178
@@ -44010,7 +44010,7 @@
     "desc": "A 2D platformer set in the hollows filled with deadly spikes and poisonous water.",
     "id": 3784,
     "name": "in_the_hollows",
-    "rating": 6,
+    "rating": 7,
     "title": "In the Hollows",
     "updated": 1723559835114,
     "user": 9962
@@ -44034,7 +44034,7 @@
     "desc": "A small Hang On clone",
     "id": 3786,
     "name": "pocket_hang_on",
-    "rating": 18,
+    "rating": 19,
     "title": "Pocket Hang On",
     "updated": 1710630457896,
     "user": 6198
@@ -47802,7 +47802,7 @@
     "desc": "contra-inspired Run'n'Gun made for the Retro Flavored Jam",
     "id": 4100,
     "name": "erazor",
-    "rating": 5,
+    "rating": 6,
     "title": "Erazor",
     "updated": 1734120447670,
     "user": 11236
@@ -53396,7 +53396,7 @@
     "name": "cave_explorer",
     "rating": 2,
     "title": "cave_explorer",
-    "updated": 1773415431536,
+    "updated": 1773718930044,
     "user": 13376
   },
   {
@@ -53480,7 +53480,7 @@
     "name": "ticmania",
     "rating": 2,
     "title": "TicMania",
-    "updated": 1773710426572,
+    "updated": 1773733555466,
     "user": 13288
   },
   {
@@ -53566,5 +53566,17 @@
     "title": "CONNECT",
     "updated": 1773709590582,
     "user": 10071
+  },
+  {
+    "added": 1773794682845,
+    "author": "txgruppi",
+    "category": 0,
+    "desc": "Classic Pong. Keyboard: Q/Z left paddle up/down, O/M right paddle up/down, Space to start or restart. Made by Cursor. Tested by Humans.",
+    "id": 4582,
+    "name": "pong_made_by_cursor_tested_by_humans",
+    "rating": 0,
+    "title": "Pong - Made by Cursor. Tested by Humans.",
+    "updated": 1773794755562,
+    "user": 5212
   }
 ]
