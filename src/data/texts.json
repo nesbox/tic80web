@@ -15402,5 +15402,17 @@
   {
     "id": 4582,
     "text": "A classic two-player Pong game for the TIC-80 fantasy console. First to 5 points wins.\r\n\r\n\r\nCONTROLS (keyboard)\r\n-------------------\r\n\r\n  Left player (left paddle)\r\n    Q  — move up\r\n    Z  — move down\r\n\r\n  Right player (right paddle)\r\n    O  — move up\r\n    M  — move down\r\n\r\n  Space  — start game (from menu) or start a new game (after game over)\r\n\r\n\r\nHOW TO PLAY\r\n-----------\r\n\r\n  • Each player controls a paddle on their side of the screen.\r\n  • The ball bounces off the top and bottom walls and off the paddles.\r\n  • If the ball passes your paddle and leaves the screen on your side, your opponent scores a point.\r\n  • The first player to reach 5 points wins the round.\r\n  • After the game over screen, press Space to play again.\r\n\r\n\r\nTECHNICAL NOTES\r\n---------------\r\n\r\n  • Resolution: 240×136 pixels (TIC-80 default).\r\n  • No sound effects or music.\r\n  • Single Lua cartridge (pong.lua); no external assets required.\r\n  • Built for TIC-80 with keyboard input.\r\n\r\n\r\nCREDITS\r\n-------\r\n\r\n  Made by Cursor. Tested by Humans.\r\n"
+  },
+  {
+    "id": 4585,
+    "text": "Enjoy Animation"
+  },
+  {
+    "id": 4586,
+    "text": "controll:\r\ntouch device or mouse.\r\ngame:\r\nplayable(no sound)"
+  },
+  {
+    "id": 4587,
+    "text": "日本語テスト兼用\r\n完成させる気が薄いゲーム？"
   }
 ]
