@@ -15434,5 +15434,13 @@
   {
     "id": 4602,
     "text": "stars"
+  },
+  {
+    "id": 4603,
+    "text": "Mandelbrot viewer in TIC-80\r\n\r\nMore detail will take longer to render. The rendering is broken up in frame-by-frame chunks to try mitigate workload per frame\r\n\r\n--- CONTROLS ---\r\nARROWS - Move the image\r\nZ/X - Zoom\r\nA/S - Increase/Decrease iteration count"
+  },
+  {
+    "id": 4604,
+    "text": "Press Z to shoot"
   }
 ]

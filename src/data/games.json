@@ -52542,7 +52542,7 @@
     "desc": "This is a Demake of the game Balatro by Local Thunk",
     "id": 4496,
     "name": "balatro_demake",
-    "rating": 5,
+    "rating": 6,
     "title": "Balatro Demake",
     "updated": 1767925943145,
     "user": 12264
@@ -53214,7 +53214,7 @@
     "desc": "Retro demake inspired by Seed In. Built in TIC-80 in under 7 days",
     "id": 4552,
     "name": "seed_tic",
-    "rating": 3,
+    "rating": 4,
     "title": "Seed TIC",
     "updated": 1771693320960,
     "user": 11776
@@ -53818,5 +53818,29 @@
     "title": "Star Catcher",
     "updated": 1774045900524,
     "user": 13470
+  },
+  {
+    "added": 1774102839455,
+    "author": "SirWobb79 (@admiralerkal79 via discord)",
+    "category": 1,
+    "desc": null,
+    "id": 4603,
+    "name": "mandelbrot_viewer",
+    "rating": 0,
+    "title": "Mandelbrot Viewer",
+    "updated": 1774102839455,
+    "user": 8149
+  },
+  {
+    "added": 1774119765940,
+    "author": "yep! still me",
+    "category": 0,
+    "desc": null,
+    "id": 4604,
+    "name": "shoot_the_green_balls",
+    "rating": 0,
+    "title": "shoot the green balls",
+    "updated": 1774119765940,
+    "user": 13143
   }
 ]
