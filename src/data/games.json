@@ -39942,7 +39942,7 @@
     "desc": "Conveyor belt puzzle game",
     "id": 3423,
     "name": "continous_factory",
-    "rating": 26,
+    "rating": 27,
     "title": "Continous Factory",
     "updated": 1688729745894,
     "user": 2888
@@ -53394,7 +53394,7 @@
     "desc": null,
     "id": 4567,
     "name": "cave_explorer",
-    "rating": 2,
+    "rating": 3,
     "title": "cave_explorer",
     "updated": 1773718930044,
     "user": 13376
@@ -53454,7 +53454,7 @@
     "desc": "Your pet snake only follows the ball, make sure to feed it.",
     "id": 4572,
     "name": "feed_the_snake",
-    "rating": 1,
+    "rating": 2,
     "title": "Feed the snake",
     "updated": 1772964468174,
     "user": 13401
@@ -53538,7 +53538,7 @@
     "desc": "Metroidvania starring Bicho the cat.",
     "id": 4579,
     "name": "bicho",
-    "rating": 2,
+    "rating": 3,
     "title": "Bicho",
     "updated": 1773625788517,
     "user": 11332
@@ -53754,7 +53754,7 @@
     "desc": "Classic Snake Game",
     "id": 4597,
     "name": "snake",
-    "rating": 0,
+    "rating": 1,
     "title": "snake",
     "updated": 1774035173394,
     "user": 13460
@@ -53841,6 +53841,18 @@
     "rating": 0,
     "title": "shoot the green balls",
     "updated": 1774119765940,
+    "user": 13143
+  },
+  {
+    "added": 1774203085280,
+    "author": "me",
+    "category": 4,
+    "desc": "a 3D random labyrinth",
+    "id": 4605,
+    "name": "3d_labyrinth",
+    "rating": 0,
+    "title": "3D Labyrinth",
+    "updated": 1774203240234,
     "user": 13143
   }
 ]
