@@ -3105,7 +3105,7 @@
   },
   {
     "id": 953,
-    "text": "To load a ROM:\r\nAdd your .ch8 ROM file to TIC-80's root cartridge directory. Then, on the TIC-80 command line, type \"import map \u003cfilename\u003e.ch8\". The ROM stored in the map is replaced with the new one.\r\n\r\nControls (QWERTY = CHIP-8):\r\n1-2-3-4 = 1-2-3-C\r\nQ-W-E-R = 4-5-6-D\r\nA-S-D-F = 7-8-9-E\r\nZ-X-C-V = A-0-B-F\r\n\r\n\r\n*** What's a CHIP-8, you might ask? ***\r\n\r\nCHIP-8 is a virtual machine standard that was originally designed for some late 70s computers, starting with the RCA COSMAC VIP kit computer. The VM could use up to 4 KB of RAM and featured rudimentary 64x32 monochrome graphics. The VM implemented a CPU with 16 8-bit general-purpose data registers, a 12-bit program counter, a call stack of at least 12 return addresses, a 12-bit pointer register, an 8-bit 60Hz timer, and access to the system buzzer. It was designed to ease game development for these COSMAC-based systems.\r\n\r\nRead more: https://en.wikipedia.org/wiki/CHIP-8\r\n\r\n\r\nUpdate 1, released September 25th, 2019:\r\n- Fixed an error with the CALL opcode. Dumb typos. Pong 2 hack now plays.\r\n- Prevent crashing with illegal opcode. Show a little message in the top-left corner instead.\r\n- Re-positioned the CHIP-8 screen to the center, so that it's more comfortable.\r\n\r\nUpdate 2, released September 28th, 2019:\r\n- Stack memory and framebuffer are now independent from main RAM. Fixes Tetris's graphical glitches.\r\n- Added code disassembly view at the bottom.\r\n- More fixes.\r\n\r\nUpdate 3, released November 27th, 2019:\r\n- Forgot to change the number of one of the opcodes in the disassembly view. Fixed now.\r\n\r\nUpdate 4, released August 2nd, 2020:\r\n- OVR() is now being used to upscale the CHIP-8 display area in the TIC() framebuffer, so now I can properly show the screen at 3X scale, making it more comfortable to the eyes. Most drawing API functions in OVR() won't affect the framebuffer, so it doesn't mess with the work area.\r\n- Now using format() with hex formatting, so I can display most registers in hexadecimal. Thanks to someone in Discord for helping me out, I don't understand a lot of this weird formatting stuff!\r\n- Changed the TIC-80 default beeper tone to something more old-school! Why not recreate the RCA Studio II buzzer noise?\r\n- More code optimizations.\r\n\r\nUpdate 5, released November 5th, 2024:\r\n- The screen scaling has been fixed for the latest stable version of TIC-80.\r\n- The disassembly for opcode Fx0A now reports the register about to receive the key code.\r\n- More emulator options have been added, namely scaling factor, stack top limit, and theme color.\r\n- Minor changes.\r\n\r\nUpdate 6, released December 1st, 2025:\r\n- Fixed a wraparound bug with the Ex9E and ExA1 instructions.\r\n- Minor change to the Fx33 disassembly.\r\n\r\nUpdate 7, released December 5th, 2025:\r\n- Whoops, fixed the wraparound bug with 5xy0 and 9xy0 as well.\r\n- The code size is now beautiful!"
+    "text": "To load a ROM:\r\nAdd your .ch8 ROM file to TIC-80's root cartridge directory. Then, on the TIC-80 command line, type \"import map \u003cfilename\u003e.ch8\". The ROM stored in the map is replaced with the new one.\r\n\r\nControls (QWERTY = CHIP-8):\r\n1-2-3-4 = 1-2-3-C\r\nQ-W-E-R = 4-5-6-D\r\nA-S-D-F = 7-8-9-E\r\nZ-X-C-V = A-0-B-F\r\n\r\n\r\n*** What's a CHIP-8, you might ask? ***\r\n\r\nCHIP-8 is a virtual machine standard that was originally designed for some late 70s computers, starting with the RCA COSMAC VIP kit computer. The VM could use up to 4 KB of RAM and featured rudimentary 64x32 monochrome graphics. The VM implemented a CPU with 16 8-bit general-purpose data registers, a 12-bit program counter, a call stack of at least 12 return addresses, a 12-bit pointer register, an 8-bit 60Hz timer, and access to the system buzzer. It was designed to ease game development for these COSMAC-based systems.\r\n\r\nRead more: https://en.wikipedia.org/wiki/CHIP-8\r\n\r\n\r\nUpdate 1, released September 25th, 2019:\r\n- Fixed an error with the CALL opcode. Dumb typos. Pong 2 hack now plays.\r\n- Prevent crashing with illegal opcode. Show a little message in the top-left corner instead.\r\n- Re-positioned the CHIP-8 screen to the center, so that it's more comfortable.\r\n\r\nUpdate 2, released September 28th, 2019:\r\n- Stack memory and framebuffer are now independent from main RAM. Fixes Tetris's graphical glitches.\r\n- Added code disassembly view at the bottom.\r\n- More fixes.\r\n\r\nUpdate 3, released November 27th, 2019:\r\n- Forgot to change the number of one of the opcodes in the disassembly view. Fixed now.\r\n\r\nUpdate 4, released August 2nd, 2020:\r\n- OVR() is now being used to upscale the CHIP-8 display area in the TIC() framebuffer, so now I can properly show the screen at 3X scale, making it more comfortable to the eyes. Most drawing API functions in OVR() won't affect the framebuffer, so it doesn't mess with the work area.\r\n- Now using format() with hex formatting, so I can display most registers in hexadecimal. Thanks to someone in Discord for helping me out, I don't understand a lot of this weird formatting stuff!\r\n- Changed the TIC-80 default beeper tone to something more old-school! Why not recreate the RCA Studio II buzzer noise?\r\n- More code optimizations.\r\n\r\nUpdate 5, released November 5th, 2024:\r\n- The screen scaling has been fixed for the latest stable version of TIC-80.\r\n- The disassembly for opcode Fx0A now reports the register about to receive the key code.\r\n- More emulator options have been added, namely scaling factor, stack top limit, and theme color.\r\n- Minor changes.\r\n\r\nUpdate 6, released December 1st, 2025:\r\n- Fixed a wraparound bug with the Ex9E and ExA1 instructions.\r\n- Minor change to the Fx33 disassembly.\r\n\r\nUpdate 7, released December 5th, 2025:\r\n- Whoops, fixed the wraparound bug with 5xy0 and 9xy0 as well.\r\n- The code size is now beautiful!\r\n\r\nUpdate 8, released May 11th, 2026:\r\n- Fixed the borrow behavior with 8xy5 and 8xy7. They were following the Cowgod behavior which happened to be carried over into the CHIP-8 Wikipedia description. Subtracting any number from itself should result in no borrow, for which case VF must be set to 1, hence the change to `\u003e=`."
   },
   {
     "id": 954,
@@ -6149,7 +6149,7 @@
   },
   {
     "id": 1812,
-    "text": "A game about defeating 5 difficult bosses in a world based on cryptocurrencies.\r\n\r\nDemo cart for ethertic.io, an Ethereum dApp that enables the minting of TIC-80 cartridges into NFTs."
+    "text": "A game about defeating 5 difficult bosses"
   },
   {
     "id": 1813,
@@ -9801,7 +9801,7 @@
   },
   {
     "id": 2868,
-    "text": "2026-03-15\r\n- Animals now appear when loading a saved game or changing level during gameplay, previously they didn't appear until changing zone.\r\n- The location where animals appear has been changed to more random."
+    "text": "- The distribution of animals by zone is fixed during each game, unless you change levels, and it is retained when saving. The location where the animals appear in each zone changes each time you enter it."
   },
   {
     "id": 2869,
@@ -13149,7 +13149,7 @@
   },
   {
     "id": 3926,
-    "text": "*NOTE: This game DOES NOT use pmem, instead using map banks for save data. You have to save the cartridge itself in the console (or use ctrl+S) to preserve your saved progress.*\r\n---\r\nAlso viewable here:\r\nhttps://fizzii01.itch.io/blueyvania\r\n---\r\n\r\nHere's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu.\r\n\r\n--February 2nd, 2026 ***FIRST FULL RELEASE***\r\nA plethora of additions, as the game is now finished.\r\n+Slight addition to the opening sequence.\r\n+The ability to save and load games.\r\n+A jukebox of the game's OST.\r\n+Death messages are hints.\r\n+Chilli gives facts about your items.\r\n+A final dungeon and final boss.\r\n+2 ENDINGS.\r\n\r\nEnjoy my game. It was fun to work on for the past year and a half.\r\n\r\n--February 3rd, 2026\r\nAdded a clarification to the save message and redid the cover image.\r\n\r\n--February 4th, 2026\r\nProperly redid the cover image.\r\n\r\n--February 11th, 2026\r\nFixed a bug regarding how money is stored in the save file.\r\n\r\n--February 12th, 2026\r\nResolved a potential soft-lock.\r\n\r\n--February 16th, 2026\r\nMade player character and entities visible during scrolling.\r\n\r\n--February 17th, 2026\r\nFixed a bug regarding scrolling and eye-related enemies."
+    "text": "*NOTE: This game DOES NOT use pmem, instead using map banks for save data. You have to save the cartridge itself in the console (or use ctrl+S) to preserve your saved progress.*\r\n---\r\nAlso viewable here:\r\nhttps://fizzii01.itch.io/blueyvania\r\n---\r\n\r\nHere's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu.\r\n\r\n--February 2nd, 2026 ***FIRST FULL RELEASE***\r\nA plethora of additions, as the game is now finished.\r\n+Slight addition to the opening sequence.\r\n+The ability to save and load games.\r\n+A jukebox of the game's OST.\r\n+Death messages are hints.\r\n+Chilli gives facts about your items.\r\n+A final dungeon and final boss.\r\n+2 ENDINGS.\r\n\r\nEnjoy my game. It was fun to work on for the past year and a half.\r\n\r\n--February 3rd, 2026\r\nAdded a clarification to the save message and redid the cover image.\r\n\r\n--February 4th, 2026\r\nProperly redid the cover image.\r\n\r\n--February 11th, 2026\r\nFixed a bug regarding how money is stored in the save file.\r\n\r\n--February 12th, 2026\r\nResolved a potential soft-lock.\r\n\r\n--February 16th, 2026\r\nMade player character and entities visible during scrolling.\r\n\r\n--February 17th, 2026\r\nFixed a bug regarding scrolling and eye-related enemies.\r\n\r\n--March 23rd, 2026\r\nFixed a bug in regard to the stick wand.\r\n\r\n--March 25th, 2026\r\nFixed a bug in which players could get part of their money from a previous save file when saving.\r\n\r\n--April 14th, 2026\r\nFixed a softlock in a specific area that could be accessed without the required item.\r\n\r\n--April 16th, 2026\r\nPatched a bug in an enemy's code. Also added credit to Chunk for pointing out two bugs so far."
   },
   {
     "id": 3927,
@@ -14037,7 +14037,7 @@
   },
   {
     "id": 4186,
-    "text": "A test PSG song for TIC-80 "
+    "text": "A test Sega PSG song for TIC-80 "
   },
   {
     "id": 4187,
@@ -14101,7 +14101,7 @@
   },
   {
     "id": 4202,
-    "text": "the waveforms are now updated to a PSG sound chip"
+    "text": "the waveforms are now updated to the SN76489 sound chip"
   },
   {
     "id": 4203,
@@ -15313,11 +15313,11 @@
   },
   {
     "id": 4555,
-    "text": "hello world.\r\n(add cart test)"
+    "text": "Game Concept\r\n​This is a game where the purpose may seem unclear at first. However, as you play through it multiple times, the reason will gradually reveal itself.\r\n​To put it simply: you must rotate the universe itself to guide a disabled, \"Slug-class\" spaceship to the goal.\r\n\r\n​It features a Time Attack mode."
   },
   {
     "id": 4556,
-    "text": "touch device and mouse.\r\n"
+    "text": "touch device and mouse.\r\n​Fingers work best on smartphones! Just grab the colors you need from nearby."
   },
   {
     "id": 4558,
@@ -15349,7 +15349,7 @@
   },
   {
     "id": 4565,
-    "text": "​If it's well-received, I'll consider fixes, adjustments, and new content.\r\n​..but rumination never stops."
+    "text": "Experience the stress!\r\n\r\n​If it's well-received, I'll consider fixes, adjustments, and new content.\r\n​..but rumination never stops."
   },
   {
     "id": 4566,
@@ -15365,7 +15365,7 @@
   },
   {
     "id": 4569,
-    "text": "This is a small platform game that I will be developing seriously; it only goes up to level 2.\r\n\r\nStandard controls: Arrow keys + Z, X"
+    "text": "This is a small platform game that I will be developing seriously; it only goes up to level 2.\r\n\r\nStandard controls: Arrow keys + Z, X\r\n\r\nv0.2:\r\nI've made some gameplay improvements, added sound effects (my first game with sound!), and a pretty attractive start menu. Thanks for playing!\r\n\r\nNOTE: I'M LOOKING FOR PEOPLE WHO WANT TO HELP ME DESIGN LEVELS\r\n\r\nv0.3\r\n\r\nFor this version, we collaborated with fizzii01. We added a new enemy/trap, a new level (3), and a new song for that level.\r\n\r\nThanks to fizzii01 for his contribution."
   },
   {
     "id": 4570,
@@ -15381,7 +15381,7 @@
   },
   {
     "id": 4574,
-    "text": "TicMania – Jump into a pseudo-3D Pac-Mania adventure!\r\nFan adaptation of the classic Pac-Mania (© 1987 Bandai Namco)\r\nMade for TIC-80 – not affiliated with Bandai Namco.\r\nFeatures:\r\n• Isometric levels with wrapping edges\r\n• Jump over ghosts!\r\n• Turbo mode, power-ups \u0026 fruits\r\n• 5 different mazes\r\n• Highscores \u0026 funky intro animation\r\n\r\nTicMania v1.1 changelog:\r\n- Persistent highscore saving\r\n- Fixed bugs in turbo mode\r\n- Added comments in source code\r\n\r\nTicMania v1.2 changelog:\r\n-Convert all variables to local variables (Speed improvement)\r\n \"Sorry if I annoyed anyone with my variables that weren't declared as local! I'm still not very experienced with Lua. ;)\"\r\n-Readjustment of the remaining lives box\r\n\r\nEnjoy the chaos!"
+    "text": "TicMania – Jump into a pseudo-3D Pac-Mania adventure!\r\nFan adaptation of the classic Pac-Mania (© 1987 Bandai Namco)\r\nMade for TIC-80 – not affiliated with Bandai Namco.\r\nFeatures:\r\n• Isometric levels with wrapping edges\r\n• Jump over ghosts!\r\n• Turbo mode, power-ups \u0026 fruits\r\n• 5 different mazes\r\n• Highscores \u0026 funky intro animation\r\n\r\nTicMania v1.1 changelog:\r\n- Persistent highscore saving\r\n- Fixed bugs in turbo mode\r\n- Added comments in source code\r\n\r\nTicMania v1.2 changelog:\r\n-Convert all variables to local variables (Speed improvement)\r\n \"Sorry if I annoyed anyone with my variables that weren't declared as local! I'm still not very experienced with Lua. ;)\"\r\n-Readjustment of the remaining lives box\r\n\r\nTicMania v1.3 changelog:\r\nAddition of all the keyboard keys used in the game to the splash screen.\r\n\r\nTicMania v1.4 changelog:\r\n-Addition of beta support for touchscreen.\r\n(Feel free to comment if you have tested the touch mode, as I unfortunately do not have a phone or tablet to test it myself. Please confirm if the touchpad mode works well. To activate it, simply tap 'Start Game.)\r\n\r\nEnjoy the chaos!"
   },
   {
     "id": 4577,
@@ -15442,5 +15442,269 @@
   {
     "id": 4604,
     "text": "Press Z to shoot"
+  },
+  {
+    "id": 4607,
+    "text": "A quick experiment for flying through a starfield!"
+  },
+  {
+    "id": 4608,
+    "text": "Gather the page fragments of the Necronomicon to summon The Skeleton King.  How many waves can you survive?  Eight relics and four weapons to collect and upgrade!\r\n\r\nMade for B1T Jam 3, December 2025."
+  },
+  {
+    "id": 4609,
+    "text": "Help our hero penguin collect stones for its nest, but beware of other penguins on the highway who care not for your fragile cargo.  Use other stones to strategically route the enemy penguins away so that you can safely transport your mossy stones.\r\n\r\nCreated for Comfy Jam Winter 2026."
+  },
+  {
+    "id": 4610,
+    "text": "Vent your frustrations on those pesky atoms and steal their electrons.  Don't forget to charge the lightning rod before your shield expires!  Upgrade your attacks and destroy the uranium atom!\r\n\r\nSubmission to B1T Jam 4."
+  },
+  {
+    "id": 4611,
+    "text": "A simple Breakout clone with combos added for scoring. Combos increase for each brick the ball hits before the touching the paddle. Saves your hi scores for extra replayability! There's a total of 5 levels.\r\n\r\nLeft moves the paddle left\r\nRight moves the paddle right\r\nA or Space launches the ball\r\nP or Y Button Pauses the game\r\nM or X Button Mutes the music"
+  },
+  {
+    "id": 4612,
+    "text": "In 'Downhill Escape', you play as a downhill skier trying to avoid obstacles while making it as far down the hill as possible before an avalanche overtakes you.\r\n\r\nThe game has three difficulty settings that control how many obstacles are generated as you ski down the hill.\r\n\r\nYou can also control how far the skier descends before the avalanche starts, or turn the avalanche off completely.\r\n\r\nThe game is inspired by the classic SkiFree."
+  },
+  {
+    "id": 4613,
+    "text": "Remake Of Classic Sokoban"
+  },
+  {
+    "id": 4614,
+    "text": "Tiger Stripes Animation"
+  },
+  {
+    "id": 4615,
+    "text": "Free to copy :)\r\n(though no one would want to read my code...?)"
+  },
+  {
+    "id": 4617,
+    "text": "MPMC Group Project from EEE A\r\n\r\nVarun, Gerard, Riithvic, Rithik, Pasanth"
+  },
+  {
+    "id": 4618,
+    "text": "A little mining game.\r\n\r\nControls:\r\n- A -\u003e Dig down\r\n- B -\u003e Dig forwards (based on facing)\r\n- X -\u003e Upgrades\r\n- Y -\u003e Ladder\r\nThe game menu contains options for purchasing a new map and getting unstuck, against a cost.\r\n\r\nHow to play:\r\nDig up ores from below and bring them to the surface to sell them.\r\nOpen the upgrades screen to use your money to purchase upgrades and ladders.\r\nUse ladders and upgrades to go deeper to dig up more valueble ores.\r\nYou cannot dig directly upwards! be careful not to get yourself stuck!\r\n\r\nThe jetpack is for completionists, you will have to dig out multiple maps to fully upgrade it!\r\n\r\nHow to win:\r\n- Collect 18 emeralds, or\r\n- Purchase all upgrades\r\n\r\nProgrammed in Rust with WASM.\r\n\r\nMade by bjorn1004."
+  },
+  {
+    "id": 4619,
+    "text": "Leopard Stripes Animation"
+  },
+  {
+    "id": 4624,
+    "text": "a game"
+  },
+  {
+    "id": 4626,
+    "text": "Tiger Stripes Animation"
+  },
+  {
+    "id": 4628,
+    "text": "This a tiny concept of a font editor for TIC-80, designed to create custom bitmap fonts with support for ligatures, exports a json file in the console"
+  },
+  {
+    "id": 4629,
+    "text": "\"BrainSport's Deductive Reasoning Home Game\" -- the game show home game from a parallel universe. One round of five, from a show billing itself as a 'modern mental pentathlon.' OBJECT: Grab the card that matches neither color nor suit of either card below. Two cards with two suits means one card remains that isn't eliminated by the clues-- that's the one you try to grab before anybody else can. Grab the right one, you get points. Grab the wrong one, everybody else gets points.\r\n\r\nSolo players can use 1-5 to lock in their choices, multiplayer mode has players using five of the buttons to buzz in (left, up, right, A, and B). It's fairly playable, I just ain't got around to adding sfx or music yet, nor really tested the multiplayer-- one player mode works well enough for my liking that I wanted to share *something* I have made.\r\n\r\nBased on the brilliant 'Schnappen' from the German television program 'Schlag den Raab.' My apologies to Brainpool TV GmbH, Stefan Raab, as well as anybody connected with them for my doing their game wrong like this, but I wanted to see what a version of this where shapes and colors weren't consistent across trials would play like and I have to say I think it plays pretty well."
+  },
+  {
+    "id": 4633,
+    "text": "Press 'x' to rotate in 'YZ' plane\r\nPress 'y' to rotate in 'XZ' plane\r\nPress 'z' to rotate in 'XY' plane"
+  },
+  {
+    "id": 4634,
+    "text": "a pacmania 2d on tic 80"
+  },
+  {
+    "id": 4637,
+    "text": "Gemini made this"
+  },
+  {
+    "id": 4638,
+    "text": "TIC-80 demo released at the Revision 2026 ranked 3rd place in the fantasy console competition. "
+  },
+  {
+    "id": 4640,
+    "text": "Did a little ad for my demoscene report. Participating at the Revision 2026 fantasy console competition."
+  },
+  {
+    "id": 4641,
+    "text": "A story based game where you make the challenging choices every hero must overcome.\r\n\r\nThe story, artwork, and music were created by Lazulia.\r\n\r\nControls:\r\nD-pad/Arrows: Change selection\r\nA/Z: Confirm selection\r\nB/X: Advance text without making selection\r\n\r\nSource Code: https://gitlab.com/amayer5125/story-of-the-hero"
+  },
+  {
+    "id": 4642,
+    "text": "             - Levex -\r\n\r\nDemo Released at Revision Party 2026\r\n\r\nhttps://www.pouet.net/prod.php?which=105938\r\n\r\n   Hike with us on this mountain\r\nMany paths can lead you to the peak.\r\n\r\nCode  : Speedman\r\nMusic : Virgill\r\nGraph : Speedman / Made\r\n"
+  },
+  {
+    "id": 4643,
+    "text": "nope"
+  },
+  {
+    "id": 4644,
+    "text": "walledit3\r\nrandom ​Texture generation tool.\r\n\r\nPerfect for:\r\n1) 3d-modeling.\r\n2) wallpaper.\r\n3) other art.\r\n4) killing time."
+  },
+  {
+    "id": 4646,
+    "text": "A card game inspired by Monopoly Deal, built for TIC-80.\r\n\r\nCollect 3 complete property sets before your opponent does. Bank money, charge rent, play action cards, and counter with Just Say No.\r\n\r\nDemo v0.22 — playable start to finish with a competent AI opponent. Full How to Play included. Controller, keyboard, and mouse all supported.\r\n\r\nFull version in development: complete card pool, smarter AI, music, rules settings...\r\n\r\nFeedback welcome also on\r\n- GitHub https://github.com/haulin/mortgage-crisis\r\n- itch.io https://haulin.itch.io/mortgage-crisis"
+  },
+  {
+    "id": 4649,
+    "text": "Multiply is an educational game designed to teach children multiplication tables from 0 to 10. It works progressively, allowing parents or teachers to track the child's development until they fully master the tables."
+  },
+  {
+    "id": 4651,
+    "text": "DNA Replication Game v0.1"
+  },
+  {
+    "id": 4653,
+    "text": "arrows -\u003e move camera\r\njoypad a -\u003e new tree\r\njoypad b -\u003e change bg color\r\nctrl -\u003e view seed data\r\nL -\u003e seed page:\r\n     joypad a -\u003e load tree\r\n     joypad b -\u003e exit"
+  },
+  {
+    "id": 4654,
+    "text": "pomswar\r\n20260429 update\r\ncontroll:\r\ntouch device or mouse.\r\n\r\nTo all you \"Mikans\" out there: Is PONG truly so amusing? Then I shall face you in battle... until you’ve had your fill!\r\n\r\n​Let me know if anything sounds off!"
+  },
+  {
+    "id": 4655,
+    "text": "Your next door neighbor is a weird fella named Jeff... Dahmer.\r\n\r\nYou need to live your life, by using left and right to move through your house and Z/fire button to clean up various issues in your house.\r\n\r\nWhile doing this, you should see Jeff doing his own thing. Sometimes, his own thing is weird. Press up to peep on him and build up evidence against his odd nocturnal activities. Press down to hide if he notices you. Build up enough evidence and call the cops to have them come take him away.\r\n\r\nBut note: if he catches you spying on him, he'll start to spy on you. And, if he doesn't like what he says, you'd better say your prayers."
+  },
+  {
+    "id": 4656,
+    "text": "WIP of a Frequency matching game"
+  },
+  {
+    "id": 4657,
+    "text": "Replicação do DNA v0.1"
+  },
+  {
+    "id": 4658,
+    "text": "a original game made by google gemini"
+  },
+  {
+    "id": 4659,
+    "text": "dont ask why im  holding ai`s hostage"
+  },
+  {
+    "id": 4661,
+    "text": "Hilbert Space Filling Curve"
+  },
+  {
+    "id": 4662,
+    "text": "First cart produced with TIC80, just some printed text bouncing around the screen."
+  },
+  {
+    "id": 4663,
+    "text": "An attempt at a Columns clone for the TIC. First game for the TIC, WIP.\r\n\r\nChanges:\r\nImproved field scan for 3s\r\nAdded splash screen\r\nAdded boot screen\r\nImproved colours\r\nImproved falling animation\r\nImproved playfield logic"
+  },
+  {
+    "id": 4664,
+    "text": "My first attempt using TIC-80. Would love to hear your thoughts! And you can also download the game at https://nan618.itch.io/metalbox"
+  },
+  {
+    "id": 4665,
+    "text": "plants vs zombies"
+  },
+  {
+    "id": 4666,
+    "text": "x16animator\r\n\r\nSimple 16x16 Animation Tool.\r\n\r\nMaking full use of TIC-80's built-in features (spr, pmem, export). Create, adjust, and record animations with ease.\r\n\r\nPerfect for quick samples and learning animation basics."
+  },
+  {
+    "id": 4667,
+    "text": "You are a little fly, you collect food for points and have to dodge the swatter.\r\nThat's my very first game i made in Tic and its my very first game i ever published :)\r\nI couldn't get the SFX to sound like it sounded in the editor so now it is like it is :/\r\nBut nevertheless.. HAVE FUN!"
+  },
+  {
+    "id": 4668,
+    "text": "Small platformer for the ZX jam (by Ivan Dev)\r\n\r\nZ + X controls\r\n\r\nXD"
+  },
+  {
+    "id": 4669,
+    "text": "i think it's kinda boring, but it's an attempt\r\n\r\nfree to copy :)"
+  },
+  {
+    "id": 4670,
+    "text": "Press 'Z' for New Rule\r\nPress 'X' to Fill Grid Randomly"
+  },
+  {
+    "id": 4671,
+    "text": "RECTRON\r\n​Concept: Survival Snake Race\r\n\r\n​Gameplay: Compete with many CPUs for scarce energy chips on the field.\r\n\r\n​Controls: Designed specifically for touchscreens. Mouse controls are experimental.\r\n\r\n​Status: Prototype only. I plan to overhaul the game significantly, so I’m sharing this version as a work-in-progress."
+  },
+  {
+    "id": 4673,
+    "text": "Use Z to start and pause.\r\nUse the LMB to choose inventory items and characters to use those items on."
+  },
+  {
+    "id": 4674,
+    "text": "Press 'Z' for New Rule\r\nPress 'X' to fill Grid randomly"
+  },
+  {
+    "id": 4675,
+    "text": "Adaptation of my Tiny-Morpion game for TIC-80.\r\nOriginally created for the TinyJoypad (ATtiny85).  You can play with keyboard, gamepad, or mouse — no configuration needed.\r\nKeyboard: Arrow keys + Z\r\n\r\n* Fix 1 : New cart with the menu aligned with the cursor.\r\n\r\n"
+  },
+  {
+    "id": 4676,
+    "text": "*** Ladders \u0026 Dragons ***\r\nOur hero runs straight\r\n-Move target and aim next to a wall (target turns green)\r\n-A button (key Z or W) to put and take back ladder at the target\r\n-B button (key X) take back the first ladder\r\n13 Levels so far\r\nI will update this cart, any comment is welcome :)\r\n\r\nThis game is an update of a game jam from GameCodeur\r\nin memory of David Mekersa"
+  },
+  {
+    "id": 4678,
+    "text": "Jisgsaw PUZZLE Typography Animation\r\nDifferent Colors with different jigsaw holes moving from different directions everytime"
+  },
+  {
+    "id": 4680,
+    "text": "A card game inspired by Balatro on TIC-80,\r\nbut with new rules like:\r\n\r\nHP system — if you make a bad hand, you lose HP, and vice versa.\r\nUsing a discard also costs HP.\r\n\r\nThe game currently has 40 jokers.\r\n\r\nIt’s still in beta, and I spent a full month developing it as a challenge to overcome my card game addiction.\r\nIf it gets enough support, I’ll continue working on the project. :)"
+  },
+  {
+    "id": 4681,
+    "text": "Update: trimmed down to 512 bytes, clipped to a 3rd of the screen to allow for future text on the side\r\nUpdate: minor improvements, added text on the sand"
+  },
+  {
+    "id": 4682,
+    "text": "This is something I have been working on, and its not done, but its in a usable state for creating an Isometric game\r\n\r\nIf you use this to create something, please let me know!"
+  },
+  {
+    "id": 4683,
+    "text": "I wanted to make a TIC-80 game of my own for 5 years now, but for one reason or another I was not able to. I created an 1 to 1 replica of the sokoban game we played on our feature/keypad phone but for TIC-80. Enjoy!"
+  },
+  {
+    "id": 4685,
+    "text": "Just a little project that I might expand to a full-on fangame. It's pretty barebones, but I think it has potential! Anyways, press the \u003c \u003e arrow buttons/keys to move, and the A button (Z key on keyboards) to jump! Have a nice day!"
+  },
+  {
+    "id": 4686,
+    "text": "Impossible Ring"
+  },
+  {
+    "id": 4687,
+    "text": "Pong clone developed while learning TIC-80 and Lua. Be sure to configure player 1 and 2 gamepads before completing. Pressing left and right navigates through the menus."
+  },
+  {
+    "id": 4689,
+    "text": "Press Z/X to Zoom In/Out\r\nPress LEFT/RIGHT to move Left/Right\r\nMove mouse"
+  },
+  {
+    "id": 4690,
+    "text": "HEXAVN started as a quiet question: what happens when survival asks for something unforgiving? It’s a five-episode story set in a hive that doesn’t brew honey, but a slow, toxic nectar meant only for defense. When a starving bear named Bea finally tracks them down, Hexa and her colony are forced to choose between protecting their home and showing mercy to something that’s just trying to live."
+  },
+  {
+    "id": 4691,
+    "text": "Press ENTER to load the new code for a particle!\r\n\r\nUse runes to create programs for your particles!\r\nDefinitions:\r\npush - push onto the main stack\r\npop - pop off the main stack\r\nlast - top entry on the stack\r\n\r\nThe starting particle is pushed automatically at the start, it (and other particle pushes) includes:\r\n x, y - position\r\n t - type (0-15 normal, 16 for out-of-bounds)\r\n\r\nHere're some basic runes:\r\n\u003c\u003e^v - push a particle in that direction\r\n@ - push a particle at position (x=last, y=secondlast)\r\n1234567890 - push number (continuous, an input of 100 will push the number \"100\", not \"1\" \"0\" \"0\")\r\n, - number separator (multi-number push - 1,0,0 will push \"1\" \"0\" \"0\")\r\n_ - pop\r\n$ - copy last\r\nq - swap last 2 particles by reference on grid\r\ns - store on 2nd stack (non-pop)\r\nl - load from 2nd stack (non-pop)\r\no - pop 2nd stack\r\n. - extract a entry on last, like:\r\n.[sqrt] - extract .sqrt of last\r\n.x, .y - extract .x or .y of last\r\n\r\nMath:\r\nm - push the lua math library, which includes sqrt, sin, cos, log, pi, random, etc.\r\n+ - push sum of last 2\r\n- - negate last\r\n* - push product of last 2\r\nr - push the reciprocal of last\r\n% - push mod last 2 (top-first)\r\n# - push a random integer from 0 to last\r\n\r\nLogic:\r\n/ = push last greater than secondlast\r\n\\ = push last less than secondlast\r\n= - push last equal to secondlast\r\n! - push not last\r\n\u0026 - push and last 2\r\n| - push or last 2\r\n?([code]:[code]) - if last : else\r\n~([code]) - while last\r\n\r\nExamples:\r\nsand: v.t0=?(___q:____.x1+sp.y1+l@.t0=?(___pq:p.xs1-l+sp.y1+l@.t0=?(___pq)))\r\nwater: v.t0=?(___q:1#=?(\u003e.t0=?(___pq):\u003c.t0=?(___pq)))"
+  },
+  {
+    "id": 4692,
+    "text": "A modded version of Balmung featuring Guns, OP deaths, and dialogue changes"
+  },
+  {
+    "id": 4693,
+    "text": "another test Sega PSG song for TIC-80"
+  },
+  {
+    "id": 4694,
+    "text": "A T6W28 style song for TIC-80"
+  },
+  {
+    "id": 4696,
+    "text": "“Demo of my dungeon crawler game, Innsmouse :)\r\n\r\nControls\r\n\r\nIn Maze\r\n\r\nArrow Keys — Move\r\nZ — Open Door\r\n\r\nIn Combat\r\n\r\nArrow Keys — Move Crosshair\r\nZ — Fire\r\nX — Reload\r\n\r\nIf you enjoy the game, pls leave a like or comment!\r\nMaybe I’ll finish it someday 😄"
+  },
+  {
+    "id": 4697,
+    "text": "No jacket required to play this sudoku puzzle!"
   }
 ]
