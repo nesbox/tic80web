@@ -15706,5 +15706,13 @@
   {
     "id": 4697,
     "text": "No jacket required to play this sudoku puzzle!"
+  },
+  {
+    "id": 4699,
+    "text": "Press F6 to toggle the CRT filter! Or turn it on via options\r\n\r\nFree to copy :)"
+  },
+  {
+    "id": 4700,
+    "text": "Smallest cartridge that meets TIC-80 website requirements. (16,425 bytes)"
   }
 ]

@@ -1,5 +1,5 @@
 # TIC-80 tiny computer
-1.2.3107-dev (010e7b0)
+1.2.3108-dev (68cdff2)
 https://web.tic80.com (C) 2017-2026
 
 ## Table of Contents
