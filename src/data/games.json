@@ -53354,7 +53354,7 @@
   {
     "added": 1772491646532,
     "author": "HanamileH, soxfox42",
-    "category": 0,
+    "category": 2,
     "desc": "version 1.0 (powered by UniTIC v 1.3)",
     "id": 4564,
     "name": "portal_3d_lvl_editor",
@@ -55006,5 +55006,29 @@
     "title": "game of life",
     "updated": 1778860409716,
     "user": 13143
+  },
+  {
+    "added": 1778943392854,
+    "author": "GDA",
+    "category": 5,
+    "desc": "demo for outlinedemoparty2026",
+    "id": 4702,
+    "name": "eten_chillen",
+    "rating": 0,
+    "title": "eten / chillen",
+    "updated": 1778943392854,
+    "user": 13700
+  },
+  {
+    "added": 1778986050139,
+    "author": "Hexabee Retro",
+    "category": 0,
+    "desc": "Classic Gold hunter game for Tic-80.",
+    "id": 4703,
+    "name": "gold_ie",
+    "rating": 0,
+    "title": "Gold.ie",
+    "updated": 1778986050139,
+    "user": 13635
   }
 ]
