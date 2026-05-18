@@ -54870,7 +54870,7 @@
     "desc": "Step into the hexagonal domain of Hexa. In a world where honey isn't made the classic way, every decision stings. A minimalist visual novel experience crafted with 8-bit limitations and deterministic logic.",
     "id": 4690,
     "name": "hexavn",
-    "rating": 0,
+    "rating": 1,
     "title": "HexaVN",
     "updated": 1778383441822,
     "user": 13635
@@ -55030,5 +55030,17 @@
     "title": "Gold.ie",
     "updated": 1778986050139,
     "user": 13635
+  },
+  {
+    "added": 1779025652768,
+    "author": "Olivier Sted",
+    "category": 0,
+    "desc": "Midgetgolf-like game",
+    "id": 4704,
+    "name": "ticgolf",
+    "rating": 0,
+    "title": "TICgolf",
+    "updated": 1779025652768,
+    "user": 12404
   }
 ]

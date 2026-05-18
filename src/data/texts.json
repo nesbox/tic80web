@@ -15722,5 +15722,9 @@
   {
     "id": 4703,
     "text": "Gold-ie is a classic gold miner arcade game made for the TIC-80 fantasy console. You swing a claw left and right, tap or press Z to shoot it, and try to catch gold, gems, and other treasures before time runs out. Heavier items pull back slower, so you have to think fast: grab the quick small stuff or wait for a big score? If you hook something useless, use a bomb to cut it loose and keep playing."
+  },
+  {
+    "id": 4704,
+    "text": "Play eleven courses of midget golf with just one button!\r\nWhich button?\r\nAny button.\r\n\r\nFor those who want to use this game as a starting point to make their own courses: I've used the flags in the sprite editor."
   }
 ]
