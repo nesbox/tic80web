@@ -54294,7 +54294,7 @@
     "desc": "demo for Revision 2026",
     "id": 4642,
     "name": "levex",
-    "rating": 3,
+    "rating": 5,
     "title": "Levex",
     "updated": 1775847793574,
     "user": 7490
@@ -54942,7 +54942,7 @@
     "desc": "Demo of a dungeon crawler game using raycasting engine by Wojciech Graj",
     "id": 4696,
     "name": "dungeon_of_innsmouse",
-    "rating": 3,
+    "rating": 4,
     "title": "Dungeon of Innsmouse",
     "updated": 1778680468672,
     "user": 13609
@@ -55014,7 +55014,7 @@
     "desc": "demo for outlinedemoparty2026",
     "id": 4702,
     "name": "eten_chillen",
-    "rating": 0,
+    "rating": 1,
     "title": "eten / chillen",
     "updated": 1778943392854,
     "user": 13700
@@ -55038,7 +55038,7 @@
     "desc": "Midgetgolf-like game",
     "id": 4704,
     "name": "ticgolf",
-    "rating": 0,
+    "rating": 1,
     "title": "TICgolf",
     "updated": 1779025652768,
     "user": 12404
