@@ -15726,5 +15726,13 @@
   {
     "id": 4704,
     "text": "Play eleven courses of midget golf with just one button!\r\nWhich button?\r\nAny button.\r\n\r\nFor those who want to use this game as a starting point to make their own courses: I've used the flags in the sprite editor."
+  },
+  {
+    "id": 4705,
+    "text": "View sprites from all blit segments. Shows Lua code to display the sprites.\r\n\r\nUp: Sprite -1\r\nDown: Sprite +1\r\nLeft: Blit segment -1\r\nRight: Blit segment +1"
+  },
+  {
+    "id": 4706,
+    "text": "Experiment to see which method wins: First to Last or Last to First"
   }
 ]

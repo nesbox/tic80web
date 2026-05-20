@@ -55042,5 +55042,29 @@
     "title": "TICgolf",
     "updated": 1779025652768,
     "user": 12404
+  },
+  {
+    "added": 1779232370436,
+    "author": "Luke",
+    "category": 2,
+    "desc": "View sprites from all blit segments.",
+    "id": 4705,
+    "name": "sprite_viewer",
+    "rating": 0,
+    "title": "Sprite Viewer",
+    "updated": 1779237050479,
+    "user": 9748
+  },
+  {
+    "added": 1779237789971,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Experiment to see which method usually wins",
+    "id": 4706,
+    "name": "experiment_1",
+    "rating": 0,
+    "title": "experiment 1",
+    "updated": 1779237789971,
+    "user": 3114
   }
 ]
