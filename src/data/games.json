@@ -53478,7 +53478,7 @@
     "desc": "Adaptation of the original game Pacmania on Tic-80",
     "id": 4574,
     "name": "ticmania",
-    "rating": 5,
+    "rating": 6,
     "title": "TicMania",
     "updated": 1777787225724,
     "user": 13288
@@ -53910,7 +53910,7 @@
     "desc": "Vent your frustrations on those pesky atoms and steal their electrons.",
     "id": 4610,
     "name": "shockingly_negative",
-    "rating": 6,
+    "rating": 7,
     "title": "Shockingly Negative",
     "updated": 1774571237207,
     "user": 13490
@@ -55066,5 +55066,17 @@
     "title": "experiment 1",
     "updated": 1779237789971,
     "user": 3114
+  },
+  {
+    "added": 1779373170917,
+    "author": "Hoss Fuller",
+    "category": 0,
+    "desc": "Travel the universe, cleaning up space junk.",
+    "id": 4707,
+    "name": "asteroids",
+    "rating": 2,
+    "title": "Asteroids",
+    "updated": 1779373170917,
+    "user": 13580
   }
 ]

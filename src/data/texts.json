@@ -15734,5 +15734,9 @@
   {
     "id": 4706,
     "text": "Experiment to see which method wins: First to Last or Last to First"
+  },
+  {
+    "id": 4707,
+    "text": "An Asteroids clone coding exercise based on the Bytes 'n' Bits tutorial, except everything is coded in classes and a formal state machine."
   }
 ]
