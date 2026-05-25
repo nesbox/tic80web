@@ -15553,7 +15553,7 @@
   },
   {
     "id": 4651,
-    "text": "DNA Replication Game v0.1"
+    "text": "DNA Replication Game v1.10"
   },
   {
     "id": 4653,
@@ -15573,7 +15573,7 @@
   },
   {
     "id": 4657,
-    "text": "Replicação do DNA v0.1"
+    "text": "Replicação do DNA v1.10"
   },
   {
     "id": 4658,
@@ -15701,7 +15701,7 @@
   },
   {
     "id": 4696,
-    "text": "“Demo of my dungeon crawler game, Innsmouse :)\r\n\r\nControls\r\n\r\nIn Maze\r\n\r\nArrow Keys — Move\r\nZ — Open Door\r\n\r\nIn Combat\r\n\r\nArrow Keys — Move Crosshair\r\nZ — Fire\r\nX — Reload\r\n\r\nIf you enjoy the game, pls leave a like or comment!\r\nMaybe I’ll finish it someday 😄"
+    "text": "Updated!\r\n- add perk system\r\n- add title screen\r\n- add more levels\r\n\r\n“Demo of my dungeon crawler game, Innsmouse :)\r\n\r\nControls\r\n\r\nIn Maze\r\n\r\nArrow Keys — Move\r\nZ — Open Door\r\n\r\nIn Combat\r\n\r\nArrow Keys — Move Crosshair\r\nZ — Fire\r\nX — Reload\r\n\r\nIf you enjoy the game, pls leave a like or comment!\r\nMaybe I’ll finish it someday 😄"
   },
   {
     "id": 4697,
@@ -15738,5 +15738,9 @@
   {
     "id": 4707,
     "text": "An Asteroids clone coding exercise based on the Bytes 'n' Bits tutorial, except everything is coded in classes and a formal state machine."
+  },
+  {
+    "id": 4708,
+    "text": "Spring Lisp Game Jam 2026 entry.\r\n\r\nA precision platformer with the focus on obtaining and maintaining speed.\r\n\r\nCollect powerups, escape the caverns, and reach for the stars!\r\n\r\nA write-up about the development process: https://andreyor.st/posts/2026-05-24-spring-lisp-game-jam-2026\r\n\r\nTips for playing:\r\n\r\n- When doing extended jumps, release the direction buttons to avoid losing speed\r\n- Press the slide button preemptively instead of timing your slides\r\n- Release the slide button when under a low ceiling, the slide will continue, and you'll be able to jump immediately after (jump doesn't work when the slide button is held)\r\n- If you don't know how to make a certain jump, try doing it without jumping (????)\r\n- Game menu features a dynamic camera and an option to toggle off music\r\n  (NOTE: the game was designed against a fixed camera. The dynamic camera is just for fun)\r\n\r\nShare your completion time and retries!\r\n\r\nAttributions:\r\n\r\n- Original music by https://whoisthatdf.bandcamp.com/, TIC-80 port by andreyorst\r\nPalette: https://lospec.com/palette-list/urbex-16"
   }
 ]
