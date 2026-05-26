@@ -55086,9 +55086,21 @@
     "desc": "Reach for the stars",
     "id": 4708,
     "name": "speed",
-    "rating": 2,
+    "rating": 3,
     "title": "SPEED",
     "updated": 1779681347562,
     "user": 7747
+  },
+  {
+    "added": 1779709528707,
+    "author": "Marioio",
+    "category": 1,
+    "desc": "Visual representation of Pascal's Triangle, inspired by Deckard's video on Youtube.",
+    "id": 4709,
+    "name": "pascals_triangle",
+    "rating": 0,
+    "title": "Pascals Triangle",
+    "updated": 1779709528707,
+    "user": 12299
   }
 ]
