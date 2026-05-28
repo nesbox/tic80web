@@ -24313,14 +24313,14 @@
   },
   {
     "added": 1628280644201,
-    "author": "Elias Josue (Weeppiko)",
+    "author": "-",
     "category": 1,
-    "desc": "Simple Line in Rectangle Intersection Test",
+    "desc": "-",
     "id": 2073,
-    "name": "line_in_rectangle_intersection",
+    "name": "deleted_cart",
     "rating": 2,
-    "title": "Line in Rectangle Intersection",
-    "updated": 1628280644201,
+    "title": "Deleted Cart",
+    "updated": 1779928980201,
     "user": 6198
   },
   {
@@ -25153,14 +25153,14 @@
   },
   {
     "added": 1630553557656,
-    "author": "Weeppiko",
+    "author": "-",
     "category": 1,
-    "desc": "A simple probability library for TIC-80",
+    "desc": "-",
     "id": 2145,
-    "name": "lucky",
+    "name": "deleted_cart1",
     "rating": 2,
-    "title": "Lucky",
-    "updated": 1630553557656,
+    "title": "Deleted Cart",
+    "updated": 1779929128403,
     "user": 6198
   },
   {
@@ -54714,7 +54714,7 @@
     "desc": "A wip sandbox",
     "id": 4677,
     "name": "bitminer",
-    "rating": 0,
+    "rating": 1,
     "title": "BitMiner",
     "updated": 1777581640484,
     "user": 13486
@@ -54774,7 +54774,7 @@
     "desc": "An attempt at an isometric engine that pulls from map data into an Isometric grid",
     "id": 4682,
     "name": "isometric_game_engine",
-    "rating": 2,
+    "rating": 3,
     "title": "Isometric Game Engine",
     "updated": 1777936243087,
     "user": 13569
@@ -54810,7 +54810,7 @@
     "desc": "mega man but different",
     "id": 4685,
     "name": "mega_man",
-    "rating": 0,
+    "rating": 1,
     "title": "mega man?",
     "updated": 1778106363639,
     "user": 10824
@@ -55114,5 +55114,29 @@
     "title": "aabb",
     "updated": 1779839042074,
     "user": 13743
+  },
+  {
+    "added": 1779910948614,
+    "author": "fizzii01",
+    "category": 4,
+    "desc": "A clone of Solomon's Key in TIC-80. (WIP)",
+    "id": 4711,
+    "name": "hermes",
+    "rating": 0,
+    "title": "Hermes",
+    "updated": 1779933262970,
+    "user": 8506
+  },
+  {
+    "added": 1779937044782,
+    "author": "TricoEfi",
+    "category": 4,
+    "desc": "A very early proof of concept",
+    "id": 4712,
+    "name": "buffertest",
+    "rating": 0,
+    "title": "BufferTest",
+    "updated": 1779937044782,
+    "user": 13501
   }
 ]

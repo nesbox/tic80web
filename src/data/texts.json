@@ -7108,10 +7108,6 @@
     "text": "a 1982 Commodore's classic arcade powered remake. enjoy!\r\nrev 2: Attract mode now only display High Score on top instead of hud.\r\nrev 3: \r\n-Nicer brickwall's graphics\r\n-once you get a gold, you can't pass over other ones (flagged as wall) until you bringed it to the vault. (like in the original game)\r\n-replaced music by original bass alarm."
   },
   {
-    "id": 2073,
-    "text": "Simple code to check for line on rectangle intersections that also works when both line points is inside the rectangle."
-  },
-  {
     "id": 2075,
     "text": "Enjoy Motion Animation"
   },
@@ -7374,10 +7370,6 @@
   {
     "id": 2144,
     "text": "Enjoy Animation"
-  },
-  {
-    "id": 2145,
-    "text": "A small library for TIC-80 that deals with probability. Useful for systems like random enemies encounters on RPGs, random drops, etc."
   },
   {
     "id": 2146,
@@ -15750,5 +15742,13 @@
   {
     "id": 4710,
     "text": "Click on the cube."
+  },
+  {
+    "id": 4711,
+    "text": "--May 27th, 2026\r\nHere's a short, working demo of a Solomon's Key clone that I've been working on as of late. So far, you can place and break blocks using X/B, squat while doing so, and break blocks with your head.\r\n\r\nI'm purposefully not doing a full one-to-one match to how Solomon's key works. I want to try to experiment with different types of enemies and mechanics. Since I'm planning on using bank-switching, there'll potentially be 512 levels. We have yet to see if I have that kind of chutzpah, though."
+  },
+  {
+    "id": 4712,
+    "text": "A (VERY EARLY) proof of concept of using buffers to draw in steps\r\nMade with C\r\n\r\nLibraries used:\r\nFastNoiseLite\r\n\r\nSource code will be made public when a more finished version is made\r\n\r\nThe steps the program is taking for the outline effect is:\r\nSave the current screen after drawing foreground\r\nSave the current tiles then clear them through memset(0)\r\nSave the screen as 1BPP tiles\r\nDraw those tiles 4 times with offset as you would normally do to get an outline\r\nDraw the saved screen with a custom method that uses a transparent color\r\nRestore the saved tiles\r\n\r\nFor the distortion, its just saving the current screen then offsetting the pixels depending of the sampled noise values, will expand on it later for a better looking effect (and one that doesn't tank the FPS)"
   }
 ]
