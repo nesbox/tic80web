@@ -15588,10 +15588,6 @@
     "text": "An attempt at a Columns clone for the TIC. First game for the TIC, WIP.\r\n\r\nChanges:\r\nImproved field scan for 3s\r\nAdded splash screen\r\nAdded boot screen\r\nImproved colours\r\nImproved falling animation\r\nImproved playfield logic"
   },
   {
-    "id": 4664,
-    "text": "- add a new item(weapon)\r\n- adjust difficulty curve\r\n\r\nMy first attempt using TIC-80. Would love to hear your thoughts! And you can also download the game at https://nan618.itch.io/metalbox"
-  },
-  {
     "id": 4665,
     "text": "plants vs zombies"
   },
