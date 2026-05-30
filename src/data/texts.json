@@ -15746,5 +15746,9 @@
   {
     "id": 4712,
     "text": "A (VERY EARLY) proof of concept of using buffers to draw in steps\r\nMade with C\r\n\r\nLibraries used:\r\nFastNoiseLite\r\n\r\nSource code will be made public when a more finished version is made\r\n\r\nThe steps the program is taking for the outline effect is:\r\nSave the current screen after drawing foreground\r\nSave the current tiles then clear them through memset(0)\r\nSave the screen as 1BPP tiles\r\nDraw those tiles 4 times with offset as you would normally do to get an outline\r\nDraw the saved screen with a custom method that uses a transparent color\r\nRestore the saved tiles\r\n\r\nFor the distortion, its just saving the current screen then offsetting the pixels depending of the sampled noise values, will expand on it later for a better looking effect (and one that doesn't tank the FPS)"
+  },
+  {
+    "id": 4713,
+    "text": "Keep Trying"
   }
 ]
