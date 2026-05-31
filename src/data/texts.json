@@ -15688,10 +15688,6 @@
     "text": "A T6W28 style song for TIC-80"
   },
   {
-    "id": 4696,
-    "text": "Updated!\r\n- add perk system\r\n- add title screen\r\n- add more levels\r\n\r\n“Demo of my dungeon crawler game, Innsmouse :)\r\n\r\nControls\r\n\r\nIn Maze\r\n\r\nArrow Keys — Move\r\nZ — Open Door\r\n\r\nIn Combat\r\n\r\nArrow Keys — Move Crosshair\r\nZ — Fire\r\nX — Reload\r\n\r\nIf you enjoy the game, pls leave a like or comment!\r\nMaybe I’ll finish it someday 😄"
-  },
-  {
     "id": 4697,
     "text": "No jacket required to play this sudoku puzzle!"
   },
@@ -15750,5 +15746,9 @@
   {
     "id": 4713,
     "text": "Keep Trying"
+  },
+  {
+    "id": 4714,
+    "text": "An incremental game about mining, inspired by Mega Miner.\r\nYou only need mouse for selecting upgrades, you can go to the next screen by pressing A."
   }
 ]
