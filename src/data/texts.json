@@ -15284,6 +15284,10 @@
     "text": "I'm not very familiar with coding in TIC-80, but I like making music in trackers. So I made a song in TIC-80! To whoever sees this, enjoy!\r\nAlso the spinning character on screen is Windell."
   },
   {
+    "id": 4547,
+    "text": "Compact traversal function using Dihedral Group 4 that traverses tiles in one of 8 directions using simple [1 0 0 1] matrix encoding"
+  },
+  {
     "id": 4548,
     "text": "Animation for Valentine's Day"
   },
@@ -15753,6 +15757,10 @@
   },
   {
     "id": 4715,
-    "text": "Catch falling rewards and avoid penalties in this fast-paced arcade game. The more points you earn, the faster the challenge becomes. Test your reflexes and see how high you can score!"
+    "text": "Catch falling rewards and avoid penalties in this fast-paced arcade game. The more points you earn, the faster the challenge becomes. Test your reflexes and see how high you can score!\r\n\r\nCurrent Version: \r\nVersion 0.2 - Added Levels and Game Over screen.\r\n\r\nPrevious Version:\r\nVersion 0.1 - Initial release\r\n\r\n"
+  },
+  {
+    "id": 4716,
+    "text": "A really simple game I made for a school project. It's not very good, so don't play it if you're happy in your life"
   }
 ]
