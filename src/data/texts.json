@@ -15774,5 +15774,21 @@
   {
     "id": 4718,
     "text": "An implementation of a terrain rendering algorithm called Voxel Space.\r\n\r\nCode and assets are adapted from https://github.com/s-macke/VoxelSpace\r\n\r\nControls:\r\n- movement: arrow keys\r\n- Gain altitude: z\r\n- loose altitude: x\r\n- switch maps: a, s"
+  },
+  {
+    "id": 4719,
+    "text": "An implementation of a terrain rendering algorithm called Voxel Space.\r\n\r\n512x512 map version crammed into the cart's internals using banks, maps, and flags to store the colormap and heightmap for two 512x512 images.\r\n\r\nCode and assets are adapted from https://github.com/s-macke/VoxelSpace\r\n\r\nControls:\r\n- movement: arrow keys\r\n- Gain altitude: Z\r\n- lose altitude: X"
+  },
+  {
+    "id": 4720,
+    "text": "An implementation of a terrain rendering algorithm called Voxel Space.\r\n\r\n512x512 desert map version crammed into the cart's internals using banks, maps, and flags to store the colormap and heightmap for two 512x512 images.\r\n\r\nCode and assets are adapted from https://github.com/s-macke/VoxelSpace\r\n\r\nControls:\r\n- movement: arrow keys\r\n- Gain altitude: Z\r\n- lose altitude: X"
+  },
+  {
+    "id": 4721,
+    "text": "SPACIA is a space shooter developed for the TIC-80 platform that blends the classic arcade structure of \"Space Invaders\" with a deep narrative. With its origins rooted in the Rijitsu era—a significant turning point in my creative journey—the game offers more than just a mechanical experience of destroying enemies; it is set at the heart of Spacia, an ancient vessel stolen from the \"Lost Planet\" that consumes the pilot's life force and memories as fuel. Players take on the role of a mysterious pilot who must balance the duty of saving Earth against the risk of losing their own identity with every victory.\r\n\r\nThe gameplay requires strategic positioning against waves of enemies that advance downward over 64 levels, utilizing barriers to block incoming fire while managing the game's steadily increasing difficulty. By combining classic 8-bit retro aesthetics with modern mechanics like invulnerability frames upon taking damage and cinematic alerts during stage transitions, the game offers players more than just a high score—it presents a dramatic mission to be completed."
+  },
+  {
+    "id": 4722,
+    "text": "SPACIA is a space shooter developed for the TIC-80 platform that blends the classic arcade structure of \"Space Invaders\" with a deep narrative. With its origins rooted in the Rijitsu era—a significant turning point in my creative journey—the game offers more than just a mechanical experience of destroying enemies; it is set at the heart of Spacia, an ancient vessel stolen from the \"Lost Planet\" that consumes the pilot's life force and memories as fuel. Players take on the role of a mysterious pilot who must balance the duty of saving Earth against the risk of losing their own identity with every victory.\r\n\r\nThe gameplay requires strategic positioning against waves of enemies that advance downward over 64 levels, utilizing barriers to block incoming fire while managing the game's steadily increasing difficulty. By combining classic 8-bit retro aesthetics with modern mechanics like invulnerability frames upon taking damage and cinematic alerts during stage transitions, the game offers players more than just a high score—it presents a dramatic mission to be completed."
   }
 ]
