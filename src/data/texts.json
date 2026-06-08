@@ -14549,7 +14549,7 @@
   },
   {
     "id": 4329,
-    "text": "A third simple demo i've made since you know, before"
+    "text": "A third simple demo i've made since you know, before - vbank(0) base palette(tiles) \u0026 vbank(1) watered palette(sprites)"
   },
   {
     "id": 4330,
@@ -15785,10 +15785,18 @@
   },
   {
     "id": 4721,
-    "text": "SPACIA is a space shooter developed for the TIC-80 platform that blends the classic arcade structure of \"Space Invaders\" with a deep narrative. With its origins rooted in the Rijitsu era—a significant turning point in my creative journey—the game offers more than just a mechanical experience of destroying enemies; it is set at the heart of Spacia, an ancient vessel stolen from the \"Lost Planet\" that consumes the pilot's life force and memories as fuel. Players take on the role of a mysterious pilot who must balance the duty of saving Earth against the risk of losing their own identity with every victory.\r\n\r\nThe gameplay requires strategic positioning against waves of enemies that advance downward over 64 levels, utilizing barriers to block incoming fire while managing the game's steadily increasing difficulty. By combining classic 8-bit retro aesthetics with modern mechanics like invulnerability frames upon taking damage and cinematic alerts during stage transitions, the game offers players more than just a high score—it presents a dramatic mission to be completed."
+    "text": "PRG's Snake is an intense arcade experience that combines classic snake mechanics with a retro aesthetic, challenging players with increasing speeds and randomized obstacles at every level. While the primary goal is to reach food targets to advance, the placement of obstacles and enemy units requires constant strategic attention and precise movement.\r\n\r\nThe most unique aspect of the project is the \"glitch\" mechanic triggered upon reaching level 257; rather than simply displaying a game-over screen, the software simulates a catastrophic hardware failure. By manipulating memory addresses and generating visual artifacts, the game transports the player into a convincing 8-bit system crash, transforming PRG's Snake from a simple skill-based game into an immersive piece of digital, nostalgic art."
   },
   {
     "id": 4722,
     "text": "SPACIA is a space shooter developed for the TIC-80 platform that blends the classic arcade structure of \"Space Invaders\" with a deep narrative. With its origins rooted in the Rijitsu era—a significant turning point in my creative journey—the game offers more than just a mechanical experience of destroying enemies; it is set at the heart of Spacia, an ancient vessel stolen from the \"Lost Planet\" that consumes the pilot's life force and memories as fuel. Players take on the role of a mysterious pilot who must balance the duty of saving Earth against the risk of losing their own identity with every victory.\r\n\r\nThe gameplay requires strategic positioning against waves of enemies that advance downward over 64 levels, utilizing barriers to block incoming fire while managing the game's steadily increasing difficulty. By combining classic 8-bit retro aesthetics with modern mechanics like invulnerability frames upon taking damage and cinematic alerts during stage transitions, the game offers players more than just a high score—it presents a dramatic mission to be completed."
+  },
+  {
+    "id": 4723,
+    "text": "Just posting to keep a record of my first original interactive creation. It's a simple \"game\" about keeping the Countdown between 0-60 with the up down arrow keys, there is a score counter, a way to lose, and the score should even go up faster when you're closer to 0 or 60! It's definitely not made as well as it could be, but I made it and that's what I'm happy with."
+  },
+  {
+    "id": 4724,
+    "text": "a/z to reset\r\nb/x to change visualization mode\r\n\r\n\r\nfreraeare to copy :)"
   }
 ]
