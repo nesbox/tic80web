@@ -53538,7 +53538,7 @@
     "desc": "Metroidvania starring Bicho the cat.",
     "id": 4579,
     "name": "bicho",
-    "rating": 5,
+    "rating": 6,
     "title": "Bicho",
     "updated": 1773625788517,
     "user": 11332
@@ -55074,7 +55074,7 @@
     "desc": "Travel the universe, cleaning up space junk.",
     "id": 4707,
     "name": "asteroids",
-    "rating": 2,
+    "rating": 3,
     "title": "Asteroids",
     "updated": 1779373170917,
     "user": 13580
@@ -55206,7 +55206,7 @@
     "desc": "Voxel Space rendering technique",
     "id": 4718,
     "name": "voxel_space",
-    "rating": 1,
+    "rating": 2,
     "title": "Voxel Space",
     "updated": 1780706945069,
     "user": 7747
@@ -55218,7 +55218,7 @@
     "desc": "Voxel Space rendering technique",
     "id": 4719,
     "name": "voxel_space_512",
-    "rating": 0,
+    "rating": 1,
     "title": "Voxel Space 512",
     "updated": 1780759857541,
     "user": 7747
@@ -55230,7 +55230,7 @@
     "desc": "Voxel Space rendering technique",
     "id": 4720,
     "name": "voxel_space_desert",
-    "rating": 0,
+    "rating": 1,
     "title": "Voxel Space Desert",
     "updated": 1780776946952,
     "user": 7747
@@ -55280,7 +55280,19 @@
     "name": "nibblebeat",
     "rating": 0,
     "title": "Nibblebeat",
-    "updated": 1780862634464,
+    "updated": 1780905909704,
     "user": 11428
+  },
+  {
+    "added": 1780910635145,
+    "author": "DCYD3",
+    "category": 0,
+    "desc": "VERTICAL SHOOT BY SCORE - 9 LIVES - 1 CYCLING MAP",
+    "id": 4725,
+    "name": "shoot_wave",
+    "rating": 0,
+    "title": "Shoot Wave",
+    "updated": 1780910635145,
+    "user": 8878
   }
 ]
