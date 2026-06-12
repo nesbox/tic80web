@@ -16182,7 +16182,7 @@
     "desc": "The nonviolent creature-scanning metroidvania",
     "id": 1378,
     "name": "emuurom",
-    "rating": 15,
+    "rating": 16,
     "title": "EMUUROM",
     "updated": 1675973094855,
     "user": 3814
@@ -40098,7 +40098,7 @@
     "desc": "lettroidvania",
     "id": 3457,
     "name": "jimi_can_not_read",
-    "rating": 18,
+    "rating": 19,
     "title": "Jimi can not read",
     "updated": 1713782614393,
     "user": 461
@@ -49578,7 +49578,7 @@
     "desc": "Micropoem",
     "id": 4248,
     "name": "orbital_reflections",
-    "rating": 2,
+    "rating": 3,
     "title": "Orbital Reflections",
     "updated": 1745480313813,
     "user": 4486
@@ -50550,7 +50550,7 @@
     "desc": "a simple cat sprite demo",
     "id": 4329,
     "name": "cat_sprites_demo",
-    "rating": 0,
+    "rating": 1,
     "title": "Cat Sprites Demo",
     "updated": 1780811572577,
     "user": 11281
@@ -54980,7 +54980,7 @@
     "name": "incrementower",
     "rating": 0,
     "title": "Incrementower",
-    "updated": 1781151424422,
+    "updated": 1781152690993,
     "user": 11428
   },
   {
@@ -55232,7 +55232,7 @@
     "name": "voxel_space_desert",
     "rating": 1,
     "title": "Voxel Space Desert",
-    "updated": 1780776946952,
+    "updated": 1781175175972,
     "user": 7747
   },
   {
@@ -55294,5 +55294,17 @@
     "title": "Shoot Wave",
     "updated": 1780910635145,
     "user": 8878
+  },
+  {
+    "added": 1781181761319,
+    "author": "Andrey Listopadov",
+    "category": 3,
+    "desc": "Crisis Core FFVII song cover",
+    "id": 4726,
+    "name": "night_of_seclusion",
+    "rating": 0,
+    "title": "Night Of Seclusion",
+    "updated": 1781181761319,
+    "user": 7747
   }
 ]
