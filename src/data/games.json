@@ -34830,7 +34830,7 @@
     "desc": "a TIC-80 implementation of the ancient board game",
     "id": 2981,
     "name": "royal_game_of_ur",
-    "rating": 7,
+    "rating": 8,
     "title": "Royal Game of Ur",
     "updated": 1665858389202,
     "user": 8005
@@ -36030,7 +36030,7 @@
     "desc": "metroidvania game about undead knight",
     "id": 3083,
     "name": "the_myths_and_legends_of_bone_knight",
-    "rating": 27,
+    "rating": 28,
     "title": "The Myths and Legends of Bone Knight",
     "updated": 1670670355335,
     "user": 5793
@@ -38466,7 +38466,7 @@
     "desc": "Will you guess the trick?",
     "id": 3286,
     "name": "this_is_magic",
-    "rating": 3,
+    "rating": 4,
     "title": "This is magic!",
     "updated": 1680116134905,
     "user": 6947
@@ -45709,14 +45709,14 @@
   },
   {
     "added": 1721884504656,
-    "author": "fizzii01, Chunk (debugging/playtesting)",
+    "author": "fizzii01",
     "category": 0,
     "desc": "A passion project based on the Bluey TV show. Has elements from games like Metroid and Zelda.",
     "id": 3926,
     "name": "blueyvania",
     "rating": 9,
     "title": "BlueyVANIA",
-    "updated": 1776354524386,
+    "updated": 1781543438871,
     "user": 8506
   },
   {
@@ -47778,7 +47778,7 @@
     "desc": "Game for Gamecodeur GameJam #38 - Clash on a map",
     "id": 4098,
     "name": "swap_tic_scroll",
-    "rating": 7,
+    "rating": 8,
     "title": "Swap-Tic Scroll",
     "updated": 1733877003595,
     "user": 10072
@@ -52638,7 +52638,7 @@
     "desc": "Happy New Year scroller featuring some drunk deer!",
     "id": 4504,
     "name": "happy_nude_deer",
-    "rating": 2,
+    "rating": 3,
     "title": "Happy Nude Deer",
     "updated": 1768080860649,
     "user": 9935
@@ -54702,7 +54702,7 @@
     "desc": "Use ladders to help our hero",
     "id": 4676,
     "name": "ladders_dragons",
-    "rating": 5,
+    "rating": 6,
     "title": "Ladders \u0026 Dragons",
     "updated": 1777985843776,
     "user": 12523
