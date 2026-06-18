@@ -2766,7 +2766,7 @@
     "desc": "A 3D first-person shooter for the TIC-80",
     "id": 237,
     "name": "fps80",
-    "rating": 87,
+    "rating": 88,
     "title": "FPS80",
     "updated": 1507506390125,
     "user": 339
@@ -7602,7 +7602,7 @@
     "desc": "gotta go fast",
     "id": 645,
     "name": "supernova",
-    "rating": 111,
+    "rating": 112,
     "title": "Supernova",
     "updated": 1538931588058,
     "user": 1845
@@ -8034,7 +8034,7 @@
     "desc": "Worst Cheap Quality Shoot 'em up exapmle No.6",
     "id": 683,
     "name": "wcq_no_6",
-    "rating": 51,
+    "rating": 52,
     "title": "WCQ No.6",
     "updated": 1543619004519,
     "user": 2025
@@ -11718,7 +11718,7 @@
     "desc": "1-Button itch.io Contest",
     "id": 999,
     "name": "1_button_sexy_slider_wip",
-    "rating": 9,
+    "rating": 10,
     "title": "1-Button Sexy Slider (WIP)",
     "updated": 1575624690113,
     "user": 2334
@@ -20886,7 +20886,7 @@
     "desc": "You want to get vaxxed? That's wonderful. Go make a demo about it!",
     "id": 1785,
     "name": "jab_runner",
-    "rating": 37,
+    "rating": 38,
     "title": "Jab Runner",
     "updated": 1617563421177,
     "user": 5433
@@ -28218,7 +28218,7 @@
     "desc": "An entry for the GitHub Game Off 2021.",
     "id": 2413,
     "name": "beyond_the_underground",
-    "rating": 46,
+    "rating": 47,
     "title": "Beyond the UnderGround",
     "updated": 1638279160191,
     "user": 2554
@@ -36030,7 +36030,7 @@
     "desc": "metroidvania game about undead knight",
     "id": 3083,
     "name": "the_myths_and_legends_of_bone_knight",
-    "rating": 28,
+    "rating": 29,
     "title": "The Myths and Legends of Bone Knight",
     "updated": 1670670355335,
     "user": 5793
@@ -54294,7 +54294,7 @@
     "desc": "demo for Revision 2026",
     "id": 4642,
     "name": "levex",
-    "rating": 5,
+    "rating": 6,
     "title": "Levex",
     "updated": 1775847793574,
     "user": 7490
@@ -55208,7 +55208,7 @@
     "name": "voxel_space",
     "rating": 2,
     "title": "Voxel Space",
-    "updated": 1780706945069,
+    "updated": 1781724966823,
     "user": 7747
   },
   {
@@ -55220,7 +55220,7 @@
     "name": "voxel_space_512",
     "rating": 2,
     "title": "Voxel Space 512",
-    "updated": 1780759857541,
+    "updated": 1781724815917,
     "user": 7747
   },
   {
@@ -55342,5 +55342,17 @@
     "title": "nimbus",
     "updated": 1781388937373,
     "user": 4801
+  },
+  {
+    "added": 1781712588224,
+    "author": "Andrey Listopadov",
+    "category": 1,
+    "desc": "Making slopes wiht AABB collisions",
+    "id": 4730,
+    "name": "aabb_slopes_v2_0",
+    "rating": 0,
+    "title": "AABB Slopes v2.0",
+    "updated": 1781712588224,
+    "user": 7747
   }
 ]

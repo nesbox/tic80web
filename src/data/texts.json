@@ -15773,7 +15773,7 @@
   },
   {
     "id": 4718,
-    "text": "An implementation of a terrain rendering algorithm called Voxel Space.\r\n\r\nCode and assets are adapted from https://github.com/s-macke/VoxelSpace\r\n\r\nControls:\r\n- movement: arrow keys\r\n- Gain altitude: z\r\n- loose altitude: x\r\n- switch maps: a, s"
+    "text": "A low-resolution implementation of a terrain rendering algorithm called Voxel Space featuring four 128x128px maps.\r\nCode and assets are adapted from https://github.com/s-macke/VoxelSpace\r\n\r\nControls:\r\n- Movement: arrow keys\r\n- Gain altitude: Z\r\n- Lose altitude: X\r\n- Switch maps: A, S\r\n\r\nHigher resolution maps (512x512px):\r\n- https://tic80.com/play?cart=4719\r\n- https://tic80.com/play?cart=4720"
   },
   {
     "id": 4719,
@@ -15818,5 +15818,9 @@
   {
     "id": 4729,
     "text": "Sketches in raytracing in 4K of code. Presented at Nova 2026 demoparty.\r\n\r\nfast CPU required"
+  },
+  {
+    "id": 4730,
+    "text": "A better implementation of slopes in an AABB collision system, featuring proper normals and ceiling slopes with multiple slope variants.\r\n\r\nThere's still some jank because bump.lua has a single-pass collision resolver, and handling multiple colliding objects with slopes and walls together can result in objects being pushed inside slopes, but it works much better than my previous cart featuring this technique."
   }
 ]
