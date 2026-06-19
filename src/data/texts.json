@@ -15821,6 +15821,26 @@
   },
   {
     "id": 4730,
-    "text": "A better implementation of slopes in an AABB collision system, featuring proper normals and ceiling slopes with multiple slope variants.\r\n\r\nThere's still some jank because bump.lua has a single-pass collision resolver, and handling multiple colliding objects with slopes and walls together can result in objects being pushed inside slopes, but it works much better than my previous cart featuring this technique."
+    "text": "A better implementation of slopes in an AABB collision system, featuring proper normals and ceiling slopes with multiple slope variants.\r\n\r\nThere's still some jank because bump.lua has a single-pass collision resolver, and handling multiple colliding objects with slopes and walls together can result in objects being pushed inside slopes, but it works much better than my previous cart featuring this technique.\r\n\r\nA write-up about the implementation: https://andreyor.st/posts/2026-06-17-better-slopes-in-aabb-collision-systems/"
+  },
+  {
+    "id": 4731,
+    "text": "Single small boss battle"
+  },
+  {
+    "id": 4732,
+    "text": "Free to copy :)\r\n(any part is fine, you can steal an algorithm if you want)"
+  },
+  {
+    "id": 4733,
+    "text": "A teeny tiny Ape Escape demake for the Tic80."
+  },
+  {
+    "id": 4734,
+    "text": "sss"
+  },
+  {
+    "id": 4735,
+    "text": "dddd"
   }
 ]
