@@ -55462,5 +55462,17 @@
     "title": "My Master Rpg Game",
     "updated": 1782017217248,
     "user": 13908
+  },
+  {
+    "added": 1782029666328,
+    "author": "Hexabee Retro",
+    "category": 0,
+    "desc": "Boxventure is a single-screen mini platform game where you overcome obstacles and progress through levels.",
+    "id": 4740,
+    "name": "boxventure",
+    "rating": 0,
+    "title": "BoxVenture",
+    "updated": 1782029666328,
+    "user": 13635
   }
 ]
