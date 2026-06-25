@@ -9793,7 +9793,7 @@
   },
   {
     "id": 2868,
-    "text": "- The distribution of animals by zone is fixed during each game, unless you change levels, and it is retained when saving. The location where the animals appear in each zone changes each time you enter it.\r\n2026-06-23 - Final touches, I suppose."
+    "text": "- The distribution of animals by zone is fixed during each game, unless you change levels, and it is retained when saving. The location where the animals appear in each zone changes each time you enter it.\r\n2026-06-24 - Final touches, I suppose."
   },
   {
     "id": 2869,
@@ -15869,6 +15869,10 @@
   },
   {
     "id": 4744,
-    "text": "A PCM player for TIC-80.\r\nThis requires a beta version of TIC-80, which you can get either at web.tic80.com or by compiling.\r\nThis is also ridiculously inefficient and uses all of tile, sprite and map memory for only 6 3/8 seconds playback.\r\nThe default sound loaded is the Aperture Science theme from Portal 2.\r\n\r\nHow to import:\r\nTruncate your audio to ~6.37 seconds if needed. Then export it as headerless, 7.68 KHz, unsigned 8-bit, mono. The rest of this guide assumes it's exported with filename \"in.raw\".\r\nRun the following Linux commands:\r\ntruncate -s 49024 in.raw\r\ndd if=in.raw of=tiles.raw bs=1K count=8\r\ndd if=in.raw of=sprites.raw bs=1K skip=8 count=8\r\ndd if=in.raw of=maps.raw bs=1K skip=16\r\n\r\nCopy tiles.raw, sprites.raw and maps.raw to the TIC-80 root.\r\nThen run the cart, open the Game Menu and select \"Import tiles\".\r\nRun the TIC-80 command \"import map tiles.raw\" and then run the cart. The message \"Tiles successfully imported\" should appear.\r\nRun it again, open the menu, and select \"Import sprites\".\r\nRun the command \"import map sprites.raw\" and then run the cart. The message \"Sprites successfully imported\" should appear.\r\nFinally, run the command \"import map maps.raw\". Then, run the cart to hear the sound coming out of TIC-80!"
+    "text": "A PCM player for TIC-80.\r\nThis requires a beta version of TIC-80, which you can get either at web.tic80.com or by compiling.\r\nThis is also ridiculously inefficient and uses all of tile, sprite and map memory for only 6 3/8 seconds playback.\r\nThe default sound loaded is the Aperture Science theme from Portal 2.\r\n\r\nHow to import:\r\nExport your audio as headerless, 7.68 KHz, unsigned 8-bit, mono. The rest of this guide assumes it's exported with filename \"in.raw\".\r\nRun the following Linux commands:\r\ntruncate -s 49024 in.raw\r\ndd if=in.raw of=tiles.raw bs=1K count=8\r\ndd if=in.raw of=sprites.raw bs=1K skip=8 count=8\r\ndd if=in.raw of=maps.raw bs=1K skip=16\r\n\r\nCopy tiles.raw, sprites.raw and maps.raw to the TIC-80 root.\r\nThen run the cart, open the Game Menu and select \"Import tiles\".\r\nRun the TIC-80 command \"import map tiles.raw\" and then run the cart. The message \"Tiles successfully imported\" should appear.\r\nRun it again, open the menu, and select \"Import sprites\".\r\nRun the command \"import map sprites.raw\" and then run the cart. The message \"Sprites successfully imported\" should appear.\r\nFinally, run the command \"import map maps.raw\". Then, run the cart to hear the sound coming out of TIC-80!"
+  },
+  {
+    "id": 4746,
+    "text": "Replace your cart with this to effectively delete it.\r\n(Enter the editor first though, and replace your username)"
   }
 ]
