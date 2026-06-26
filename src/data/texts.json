@@ -15865,7 +15865,7 @@
   },
   {
     "id": 4743,
-    "text": "Version 0.1 - This is a demo project showcasing basic shooting mechanics.\r\n\r\nVersion 0.1.1 - Created a basic game loop when user either wins or loses, they can continue playing\r\n\r\nVersion 0.1.2 - Added Playing Instructions on Menu Page\r\n"
+    "text": "Version 0.1 - This is a demo project showcasing basic shooting mechanics.\r\n\r\nVersion 0.1.1 - Created a basic game loop when user either wins or loses, they can continue playing\r\n\r\nVersion 0.1.3 - Added platforms through map editor. Enemy will be placed randomly on the platforms.\r\n\r\nVersion 0.1.2 - Added Playing Instructions on Menu Page\r\n"
   },
   {
     "id": 4744,
