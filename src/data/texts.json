@@ -15889,6 +15889,10 @@
   },
   {
     "id": 4750,
-    "text": "es un juego de plataformas y aventura \r\n\r\n1.0.0 beta: lansamiento del juego y mecanicas ocultas i faciles de usar.\r\n\r\n"
+    "text": "es un juego de plataformas y aventura \r\nel diseño de las patas estan inspirados por las de kirby y froogo uno de mis juegos favoritos.\r\n\r\n1.0.0 beta: lansamiento del juego y mecanicas ocultas i faciles de usar.\r\n\r\n"
+  },
+  {
+    "id": 4751,
+    "text": "Sqrt buffer sort (SBS) is a O(nlog(n)) sorting algorithm invented by me!\r\nIt uses techniques from Quick sort, Merge sort and Wiki sort to... be worse than quick sort\r\nSimple sqrt buffer sort (SSBS) is O(n√n) (i think)\r\n\r\nFree to copy :)"
   }
 ]

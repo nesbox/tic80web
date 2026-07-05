@@ -55594,5 +55594,17 @@
     "title": "bouncy_ball",
     "updated": 1783100764033,
     "user": 13782
+  },
+  {
+    "added": 1783205550997,
+    "author": "Sava",
+    "category": 1,
+    "desc": "My own sorting algorithm! Slower than quick but faster than merge",
+    "id": 4751,
+    "name": "sqrt_buffer_sort",
+    "rating": 0,
+    "title": "Sqrt buffer sort",
+    "updated": 1783205727860,
+    "user": 11428
   }
 ]
