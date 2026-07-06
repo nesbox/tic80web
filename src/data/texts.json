@@ -15893,6 +15893,6 @@
   },
   {
     "id": 4751,
-    "text": "Sqrt buffer sort (SBS) is a O(nlog(n)) sorting algorithm invented by me!\r\nIt uses techniques from Quick sort, Merge sort and Wiki sort to... be worse than quick sort\r\nSimple sqrt buffer sort (SSBS) is O(n√n) (i think)\r\n\r\nFree to copy :)"
+    "text": "Sqrt buffer sort (SBS) is a O(nlog(n)) sorting algorithm invented by me!\r\nIt uses techniques from Quick sort, Merge sort and Wiki sort to... be worse than quick sort\r\nSimple sqrt buffer sort (SSBS) is O(n√n) (i think)\r\n\r\nv0.2 - added Bucketed SBS - O(n) avg. added Noisy, Quadratic and Heapified shuffles\r\n\r\nFree to copy :)"
   }
 ]
