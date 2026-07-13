@@ -3066,7 +3066,7 @@
     "desc": "simple editor for 5x5 fonts with samples in Cyrillic, Latin, Greek, Hebrew and even some Japanese writings",
     "id": 263,
     "name": "tiny_5x5_fonts_and_editor",
-    "rating": 12,
+    "rating": 13,
     "title": "tiny 5x5 fonts and editor",
     "updated": 1509406804409,
     "user": 664
@@ -55606,5 +55606,29 @@
     "title": "Sqrt buffer sort",
     "updated": 1783245473499,
     "user": 11428
+  },
+  {
+    "added": 1783870711486,
+    "author": "deidara",
+    "category": 0,
+    "desc": "A 3D single- and multiplayer racing game. ABSOLUTELY NO WARRANTY!",
+    "id": 4752,
+    "name": "tic_star_racers",
+    "rating": 1,
+    "title": "Tic Star Racers",
+    "updated": 1783870711486,
+    "user": 7445
+  },
+  {
+    "added": 1783873208947,
+    "author": "lb_ii, andreyorst",
+    "category": 2,
+    "desc": "simple editor for 5x5 fonts with samples in Cyrillic, Latin, Greek, Hebrew and even some Japanese writings",
+    "id": 4753,
+    "name": "tiny_5x5_fonts_and_editor",
+    "rating": 0,
+    "title": "tiny 5x5 fonts and editor",
+    "updated": 1783873240398,
+    "user": 7747
   }
 ]

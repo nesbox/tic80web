@@ -15894,5 +15894,13 @@
   {
     "id": 4751,
     "text": "Sqrt buffer sort (SBS) is a O(nlog(n)) sorting algorithm invented by me!\r\nIt uses techniques from Quick sort, Merge sort and Wiki sort to... be worse than quick sort\r\nSimple sqrt buffer sort (SSBS) is O(n√n) (i think)\r\n\r\nv0.2 - added Bucketed SBS - O(n) avg. added Noisy, Quadratic and Heapified shuffles\r\n\r\nFree to copy :)"
+  },
+  {
+    "id": 4752,
+    "text": "A 3D single- and multiplayer racing game. ABSOLUTELY NO WARRANTY!\r\n\r\nPlay other games of mine too!\r\n--\u003e https://tic80.com/dev?id=7445"
+  },
+  {
+    "id": 4753,
+    "text": "Based on the original cart by lb_ii: https://tic80.com/play?cart=263\r\n\r\nDifferences from the original cart:\r\n\r\n- Fonts are now stored in 1BPP format, reducing used cart space (5x4 original fonts became 2x4)\r\n- Fixed the color used by diacritic marks\r\n- Changed the lbprint function API, allowing passing color and font as parameters to closer match regular TIC's print\r\n- Slight code refactoring\r\n\r\nSee the original cart description for usage instructions: https://tic80.com/play?cart=263\r\n\r\nPersonal thanks to lb_ii for implementing this useful tool!"
   }
 ]
