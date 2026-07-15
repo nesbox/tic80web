@@ -15861,7 +15861,7 @@
   },
   {
     "id": 4741,
-    "text": "8k intro i made for my demogroup Da Goofy Demo Mastermindz (formerly GRiBFORD)\r\nreleased at @Party 2026 Intro competition, ranked 4th"
+    "text": "8k intro i made for my demogroup Da Goofy Demo Mastermindz (formerly GRiBFORD)\r\nreleased at @Party 2026 Intro competition, ranked 4th\r\ndownload on Demozoo: https://demozoo.org/productions/393105/\r\nor pouet.net: https://www.pouet.net/prod.php?which=106490"
   },
   {
     "id": 4743,
@@ -15902,5 +15902,21 @@
   {
     "id": 4753,
     "text": "Based on the original cart by lb_ii: https://tic80.com/play?cart=263\r\n\r\nDifferences from the original cart:\r\n\r\n- Fonts are now stored in 1BPP format, reducing used cart space (5x4 original fonts became 2x4)\r\n- Fixed the color used by diacritic marks\r\n- Changed the lbprint function API, allowing passing color and font as parameters to closer match regular TIC's print\r\n- Slight code refactoring\r\n\r\nSee the original cart description for usage instructions: https://tic80.com/play?cart=263\r\n\r\nPersonal thanks to lb_ii for implementing this useful tool!"
+  },
+  {
+    "id": 4754,
+    "text": "released at Impulse 2026 Sizecoding Showcase\r\ncode: M3RL0CKSH0LM3S (me), music: D/V\r\ndownload at Demozoo: https://demozoo.org/productions/394181/\r\nor pouet.net: https://www.pouet.net/prod.php?which=106687"
+  },
+  {
+    "id": 4755,
+    "text": "released at DiHalt Summer 2026 1k intro compo, ranked 6th\r\ndownload at Demozoo: https://demozoo.org/productions/394226/\r\nor pouet.net: https://www.pouet.net/prod.php?which=106679"
+  },
+  {
+    "id": 4756,
+    "text": "Conway's game of life watch the cells grow into the space avaiable, simple rules govern if a cell lives, dies or is born each generation."
+  },
+  {
+    "id": 4757,
+    "text": "Fractal sentence"
   }
 ]
