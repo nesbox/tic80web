@@ -6720,10 +6720,6 @@
     "text": "Press Left / Right to move Left / Right"
   },
   {
-    "id": 1969,
-    "text": "v 1.1\r\nadded fps counter\r\nimproved performance"
-  },
-  {
     "id": 1971,
     "text": "Unofficial sequel of most sold and most popular game!\r\n   -{ WITH NEW CHARACTER }-\r\nHis name is Tetriguy!\r\nHe is nerd."
   },
@@ -9288,10 +9284,6 @@
     "text": "full release -\u003e https://tic80.com/play?cart=1989\r\nthis is a development version\r\nexpect bugs and half-finished features"
   },
   {
-    "id": 2709,
-    "text": "V 1.2\r\nThis is the first 3D editor in TIC-80 with a user-friendly interface\r\nWith this tool you can create your own 3D model\r\nThis editor is based on my 3D engine UniTIC (free to use)\r\nSo far there are few tools here, but they are enough to create something large-scale\r\nFor any questions, write to me in discord: HanamileH#8604\r\n\r\ndocumentation:\r\nhttps://blentic.soxfox.me/\r\n\r\nsadly, this editor cannot export models for the latest version of UniTIC\r\n\r\nBy HanamileH 2022"
-  },
-  {
     "id": 2710,
     "text": "Github: https://github.com/hanamileh-DEV/Unitic_3D_engine"
   },
@@ -9506,10 +9498,6 @@
   {
     "id": 2769,
     "text": "----OVERVIEW----\r\nUse the mouse pointer to shake colorful balls through attraction and repulsion forces.\r\n\r\n----CONTROLS----\r\n* Hold the left mouse button to attraction and the right one to repulsion.\r\n* Use the mouse scroll to alter the force field size.\r\n* Press the UP and DOWN arrows to alter the force intensity.\r\n* Press Z to reset the balls.\r\n\r\nDo you like to disarray things?\r\nIf yes, click to play and enjoy it. :)\r\n\r\n----UPDATES----\r\n07/05/22: Add GitHub repository link on code"
-  },
-  {
-    "id": 2770,
-    "text": "The first Portal 1 In TIC-80 with real 3d, portal system and advanced physics\r\nI spent a lot of time on this project, \r\nI hope you like it and I hope it deserves a like\r\nPowered By UniTIC (c) 2022"
   },
   {
     "id": 2772,
@@ -12777,7 +12765,7 @@
   },
   {
     "id": 3827,
-    "text": "github: https://github.com/hanamileh-DEV/Ara_ara_engine"
+    "text": "github: https://github.com/hanamileh/Ara_ara_engine"
   },
   {
     "id": 3828,
@@ -13141,7 +13129,7 @@
   },
   {
     "id": 3926,
-    "text": "*NOTE: This game now uses pmem. You can still save the cartridge itself if you want to keep multiple save files :)*\r\n---\r\nAlso viewable here:\r\nhttps://fizzii01.itch.io/blueyvania\r\n---\r\n\r\nHere's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu.\r\n\r\n--February 2nd, 2026 ***FIRST FULL RELEASE***\r\nA plethora of additions, as the game is now finished.\r\n+Slight addition to the opening sequence.\r\n+The ability to save and load games.\r\n+A jukebox of the game's OST.\r\n+Death messages are hints.\r\n+Chilli gives facts about your items.\r\n+A final dungeon and final boss.\r\n+2 ENDINGS.\r\n\r\nEnjoy my game. It was fun to work on for the past year and a half.\r\n\r\n--February 3rd, 2026\r\nAdded a clarification to the save message and redid the cover image.\r\n\r\n--February 4th, 2026\r\nProperly redid the cover image.\r\n\r\n--February 11th, 2026\r\nFixed a bug regarding how money is stored in the save file.\r\n\r\n--February 12th, 2026\r\nResolved a potential soft-lock.\r\n\r\n--February 16th, 2026\r\nMade player character and entities visible during scrolling.\r\n\r\n--February 17th, 2026\r\nFixed a bug regarding scrolling and eye-related enemies.\r\n\r\n--March 23rd, 2026\r\nFixed a bug in regard to the stick wand.\r\n\r\n--March 25th, 2026\r\nFixed a bug in which players could get part of their money from a previous save file when saving.\r\n\r\n--April 14th, 2026\r\nFixed a softlock in a specific area that could be accessed without the required item.\r\n\r\n--April 16th, 2026\r\nPatched a bug in an enemy's code. Also added credit to Chunk for pointing out two bugs so far.\r\n\r\n--June 15th, 2026\r\nFound and fixed another bug in that enemy's code.\r\n\r\n--June 30th, 2026 ***VERSION 2.0***\r\n+Added compatibility with pmem for easier saving. Specifically does not save map changes to barriers, switches, or keys. However, you can still save the cartridge itself to preserve those alterations.\r\n+Added a gauntlet mode.\r\n+Changed the art and music for the normal ending.\r\n+Fire projectiles now face the correct direction on the y-axis."
+    "text": "*NOTE: This game now uses pmem. You can still save the cartridge itself if you want to keep multiple save files :)*\r\n---\r\nAlso viewable here:\r\nhttps://fizzii01.itch.io/blueyvania\r\n---\r\n\r\nHere's a little something that I've been working on over the summer (2024). So far, I've got a few abilities and a boss coded in. Any feedback or suggestions would be highly appreciated.\r\n\r\nAlso moved the code for clouds and stars, so now it won't lag so much.\r\n\r\n--August 13, 2025\r\nAdded new area with a new boss and new items! The game is about 2/3 of the way done. Planning on implementing a save feature by the time it's complete.\r\n\r\n--August 14, 2025\r\nFixed a bug having to do with bank-swapping once HP reaches zero.\r\n\r\n--September 20, 2025\r\nAdded scrolling between rooms and changed some of the sprites.\r\n\r\n--January 5, 2026\r\nAdded some visual improvements, including to scrolling, and added an early look at a new area.\r\n\r\n--January 15, 2026\r\nFinished the new area and added a new boss. The game is currently ~85% done.\r\n\r\n--January 19, 2026\r\nFixed a bug in regards to enemies going out of bounds and added more NPCs to the city area.\r\n\r\n--January 21, 2026\r\nAdded a story sequence to the main menu.\r\n\r\n--February 2nd, 2026 ***FIRST FULL RELEASE***\r\nA plethora of additions, as the game is now finished.\r\n+Slight addition to the opening sequence.\r\n+The ability to save and load games.\r\n+A jukebox of the game's OST.\r\n+Death messages are hints.\r\n+Chilli gives facts about your items.\r\n+A final dungeon and final boss.\r\n+2 ENDINGS.\r\n\r\nEnjoy my game. It was fun to work on for the past year and a half.\r\n\r\n--February 3rd, 2026\r\nAdded a clarification to the save message and redid the cover image.\r\n\r\n--February 4th, 2026\r\nProperly redid the cover image.\r\n\r\n--February 11th, 2026\r\nFixed a bug regarding how money is stored in the save file.\r\n\r\n--February 12th, 2026\r\nResolved a potential soft-lock.\r\n\r\n--February 16th, 2026\r\nMade player character and entities visible during scrolling.\r\n\r\n--February 17th, 2026\r\nFixed a bug regarding scrolling and eye-related enemies.\r\n\r\n--March 23rd, 2026\r\nFixed a bug in regard to the stick wand.\r\n\r\n--March 25th, 2026\r\nFixed a bug in which players could get part of their money from a previous save file when saving.\r\n\r\n--April 14th, 2026\r\nFixed a softlock in a specific area that could be accessed without the required item.\r\n\r\n--April 16th, 2026\r\nPatched a bug in an enemy's code. Also added credit to Chunk for pointing out two bugs so far.\r\n\r\n--June 15th, 2026\r\nFound and fixed another bug in that enemy's code.\r\n\r\n--June 30th, 2026 ***VERSION 2.0***\r\n+Added compatibility with pmem for easier saving. Specifically does not save map changes to barriers, switches, or keys. However, you can still save the cartridge itself to preserve those alterations.\r\n+Added a gauntlet mode.\r\n+Changed the art and music for the normal ending.\r\n+Fire projectiles now face the correct direction on the y-axis.\r\n\r\n--July 21st, 2026\r\n+Fixed an indexing bug by tweaking the final boss slightly.\r\n+The subtitle that says, \"Version 2.0!!\" no longer appears at the jukebox mode.\r\n\r\n--July 22nd, 2026\r\n+Tweaked the guantlet and added Big Bingo as an encounter.\r\n+Elapsed time saves and loads accurately"
   },
   {
     "id": 3927,
@@ -13673,7 +13661,7 @@
   },
   {
     "id": 4083,
-    "text": "A fantasy themed sidescrolling shooter.\r\nCurrently WIP. As of now, only two unfinished stages exist in the game - town and castle.\r\nThe technological goal is to fit a PRO-style game within 64 KiB of code and 1 bank of each asset type. That's a tall order, but I'm trying the best I can to both achieve the tech goal and have a game that's fun to play.\r\nAlso, my first original TIC-80 game to be made public.\r\n\r\n(28.07.2025) Changed the horizontal movement of the \"ray\" enemy\r\n(28.06.2025) Added BGM\r\n(29.04.2025 Update: Proper and fixed enemy placement in Stage 1. Testing.)\r\n\r\nControls:\r\nPress/hold A button (Z key) - shoot\r\nB button (X key) - turn around\r\nY button (S key) - pause\r\nX button (A key) - special\r\n\r\nWeapons:\r\n- I: Simple\r\n- II: Spread\r\n- III: Wave\r\n- IV: Burner"
+    "text": "A fantasy themed sidescrolling shooter.\r\nCurrently WIP. As of now, only two unfinished stages exist in the game - town and castle.\r\nThe technological goal is to fit a PRO-style game within 64 KiB of code and 1 bank of each asset type. That's a tall order, but I'm trying the best I can to both achieve the tech goal and have a game that's fun to play.\r\nAlso, my first original TIC-80 game to be made public.\r\n\r\n(28.07.2025) Changed the horizontal movement of the \"ray\" enemy\r\n(28.06.2025) Added BGM (I wrote it myself)\r\n(29.04.2025 Update: Proper and fixed enemy placement in Stage 1. Testing.)\r\n\r\nControls:\r\nPress/hold A button (Z key) - shoot\r\nB button (X key) - turn around\r\nY button (S key) - pause\r\nX button (A key) - special\r\n\r\nWeapons:\r\n- I: Simple\r\n- II: Spread\r\n- III: Wave\r\n- IV: Burner"
   },
   {
     "id": 4084,
@@ -14685,7 +14673,7 @@
   },
   {
     "id": 4365,
-    "text": "A retro-style shoot 'em up.\r\nChoose your favorite craft from 4 player characters and 2 bomb types,\r\nand conquer all 5 stages, including branching paths totaling 15 areas!\r\nFeatures TEAMPLAY mode(using all 4 crafts) and BOSSRUSH mode.\r\n\r\n* Controls (Joypad also supported)\r\n    Cursor keys: Move your ship, select items\r\n    Z key (S key): Shoot, confirm selections\r\n    X key (A key): Bomb, cancel selections\r\n\r\n* Game Modes\r\n    ARCADE: Fight all 5 stages with your chosen ship.\r\n    TEAMPLAY: Fight all 5 stages using 4 ships. Detailed rules below.\r\n    BOSSRUSH: Fight 15 bosses consecutively.\r\n\r\n* Difficulty\r\n    CASUAL: Automatically uses bombs when hit. Easygoing difficulty.\r\n    GAMER: Difficulty for STG-loving gamers.\r\n    EXPERT: A difficulty for enthusiasts where enemies fire back after being destroyed.\r\n    INSANE: A difficulty for those craving more excitement, where enemies fire back even from their own explosions.\r\n\r\n* Player Ship Selection\r\n\r\n  Kurei Kei (K901)\r\n    Standard movement speed. Standard shot power. Maximum bomb stock: 4.\r\n    A standard craft equipped with a shotgun covering a wide area.\r\n\r\n  Finesse Hillvillage (FV77)\r\n    Fastest movement speed. Slightly weaker shot power. Maximum bomb stock: 4.\r\n    A mobile unit that fights dynamically by coordinating with homing missiles.\r\n\r\n  Tomasu Chiyuri (CZ68)\r\n    Slow movement speed. Strong shot power. Maximum bomb stock: 5.\r\n    A romantic unit fully dedicated to attack power, equipped with missiles.\r\n\r\n  Toreko-chan (TS-X)\r\n    Moderately slow movement speed. Moderately strong shot power. Maximum bomb stock: 3 bombs.\r\n    Equipped with search shots combining homing capability and attack power.\r\n\r\n* Bombs\r\n\r\n  Smart Bomb\r\n    Deals evenly distributed damage to enemies on screen. Low power.\r\n    Becomes invincible immediately after firing, making it effective for emergency evasion.\r\n\r\n  Power Bomb\r\n    Explodes forward, dealing heavy damage to enemies within the blast radius.\r\n    Note: There is a delay before becoming invincible after firing.\r\n  ※In CASUAL difficulty, an Auto Bomb activates when hit, regardless of selection.\r\n    Auto Bombs eliminate enemy bullets but have almost no attack power.\r\n\r\n* TEAMPLAY Mode Rules\r\n  ・Aim to clear all 5 stages by using 4 different aircraft in sequence.\r\n  ・There are no extra lives.\r\n  ・Selecting the first aircraft and bomb at the start automatically determines the order of the remaining aircraft.\r\n  ・The maximum bomb stock is fixed at 5.\r\n  ・After a miss or clearing a stage, you switch to the next aircraft, and the bomb type changes.\r\n    (The last aircraft remains unchanged.)\r\n  ・When switching after clearing a stage, power-ups and bomb count carry over to the next aircraft.\r\n    The previous aircraft moves to the end of the queue and waits for its next turn.\r\n  ・If you make a mistake, that aircraft is considered eliminated and will not return.\r\n  ・When continuing, restart with the last remaining aircraft and bombs, using all 4 aircraft in order.\r\n  ・From Stage 2 onwards, power-ups and bomb items are provided at the start of each area.\r\n\r\n* Items\r\n  P: Power-ups the main and sub-shot power by up to 2 levels.\r\n     After that, collecting more increases your score (max 10,000 points).\r\n  B: Increases bomb stock by one. At maximum stock, grants 10,000 points.\r\n  Heart: Point Item\r\n    Destroying enemies releases yellow hearts.\r\n    The closer you are to an enemy when destroying it, the more hearts appear.\r\n    Points increase based on the number collected. Count resets after clearing each stage.\r\n    (Red hearts released by clearing enemy bullets are worth a flat 10 points but count toward the total.)\r\n     (Important)If you don't press the shot button, the auto-collect range for heart items will expand to a certain extent.\r\n  Cow: A bonus character that appears after collecting a certain number of Heart.\r\n\r\n"
+    "text": "A retro-style shoot 'em up.\r\nChoose your favorite craft from 4 player characters and 2 bomb types,\r\nand conquer all 5 stages, including branching paths totaling 15 areas!\r\nFeatures TEAMPLAY mode(using all 4 crafts) and BOSSRUSH mode.\r\n\r\n* Controls (Joypad also supported)\r\n    Cursor keys: Move your ship, select items\r\n    Z key (S key): Shoot, confirm selections\r\n    X key (A key): Bomb, cancel selections\r\n\r\n* Game Modes\r\n    ARCADE: Fight all 5 stages with your chosen ship.\r\n    TEAMPLAY: Fight all 5 stages using 4 ships. Detailed rules below.\r\n    BOSSRUSH: Fight 15 bosses consecutively.\r\n\r\n* Difficulty\r\n    CASUAL: Automatically uses bombs when hit. Easygoing difficulty.\r\n    GAMER: Difficulty for STG-loving gamers.\r\n    EXPERT: A difficulty for enthusiasts where enemies fire back after being destroyed.\r\n    INSANE: A difficulty for those craving more excitement, where enemies fire back even from their own explosions.\r\n\r\n* Player Ship Selection\r\n\r\n  Kurei Kei (K901)\r\n    Standard movement speed. Standard shot power. Maximum bomb stock: 4.\r\n    A standard craft equipped with a shotgun covering a wide area.\r\n\r\n  Finesse Hillvillage (FV77)\r\n    Fastest movement speed. Slightly weaker shot power. Maximum bomb stock: 4.\r\n    A mobile unit that fights dynamically by coordinating with homing missiles.\r\n\r\n  Tomasu Chiyuri (CZ68)\r\n    Slow movement speed. Strong shot power. Maximum bomb stock: 5.\r\n    A romantic unit fully dedicated to attack power, equipped with missiles.\r\n\r\n  Toreko-chan (TS-X)\r\n    Moderately slow movement speed. Moderately strong shot power. Maximum bomb stock: 3 bombs.\r\n    Equipped with search shots combining homing capability and attack power.\r\n\r\n* Bombs\r\n\r\n  Smart Bomb\r\n    Deals evenly distributed damage to enemies on screen. Low power.\r\n    Becomes invincible immediately after firing, making it effective for emergency evasion.\r\n\r\n  Power Bomb\r\n    Explodes forward, dealing heavy damage to enemies within the blast radius.\r\n    Note: There is a delay before becoming invincible after firing.\r\n  ※In CASUAL difficulty, an Auto Bomb activates when hit, regardless of selection.\r\n    Auto Bombs eliminate enemy bullets but have almost no attack power.\r\n\r\n* TEAMPLAY Mode Rules\r\n  ・Aim to clear all 5 stages by using 4 different aircraft in sequence.\r\n  ・There is no bonus life extension based on your score.\r\n  ・Selecting the first aircraft and bomb at the start automatically determines the order of the remaining aircraft.\r\n  ・The maximum bomb stock is fixed at 5.\r\n  ・After a miss or clearing a stage, you switch to the next aircraft, and the bomb type changes.\r\n    (The last aircraft remains unchanged.)\r\n  ・When switching after clearing a stage, power-ups and bomb count carry over to the next aircraft.\r\n    The previous aircraft moves to the end of the queue and waits for its next turn.\r\n  ・If you make a mistake, that aircraft is considered eliminated and will not return.\r\n  ・When continuing, restart with the last remaining aircraft and bombs, using all 4 aircraft in order.\r\n  ・From Stage 2 onwards, power-ups and bomb items are provided at the start of each area.\r\n\r\n* Items\r\n  P: Power-ups the main and sub-shot power by up to 2 levels.\r\n     After that, collecting more increases your score (max 10,000 points).\r\n  B: Increases bomb stock by one. At maximum stock, grants 10,000 points.\r\n  Heart: Point Item\r\n    Destroying enemies releases yellow hearts.\r\n    The closer you are to an enemy when destroying it, the more hearts appear.\r\n    Points increase based on the number collected. Count resets after clearing each stage.\r\n    (Red hearts released by clearing enemy bullets are worth a flat 10 points but count toward the total.)\r\n     (Important)If you don't press the shot button, the auto-collect range for heart items will expand to a certain extent.\r\n  Cow: A bonus character that appears after collecting a certain number of Heart.\r\n\r\n"
   },
   {
     "id": 4366,
@@ -14957,7 +14945,7 @@
   },
   {
     "id": 4444,
-    "text": "2D molecule builder inspired by molymod models.\r\n\r\nBest used on keyboard as not all functions could fit on a gamepad. 1 function is unavailable.\r\n\r\n** Controls **\r\nARROWS - Move the display to view larger molecules, and to move the cursor\r\nZ (A) - Spawn new atom at cursor\r\nA/S (X/Y) - Cycle through atoms/bonds depending on the context. Pressing both allows reversal out of editing\r\nX (B) - Edit atoms. Pressing it again will delete the selected atom\r\n\r\nQ - Switch between coloured atoms and symbolic atoms. Can be done anytime"
+    "text": "2D molecule builder inspired by molymod models.\r\n\r\nBest used on keyboard as not all functions could fit on a gamepad. 2 functions is unavailable.\r\n\r\n** Controls **\r\nARROWS - Move the display to view larger molecules, and to move the cursor\r\nZ (A) - Spawn new atom at cursor\r\nA/S (X/Y) - Cycle through atoms/bonds depending on the context. Pressing both allows reversal out of editing\r\nX (B) - Edit atoms. Pressing it again will delete the selected atom\r\n\r\nQ - Switch between coloured atoms and symbolic atoms. Can be done anytime\r\nW - Switch from default to Element Cattos colours (see https://elementcattos.miraheze.org/wiki/Main_Page for more information on EC)\r\n\r\n---------------------------\r\n\r\nv1.1 - 2 new elements (Boron and Silicon) along with a second colour option\r\n"
   },
   {
     "id": 4445,
@@ -15733,7 +15721,7 @@
   },
   {
     "id": 4708,
-    "text": "Spring Lisp Game Jam 2026 entry.\r\n\r\nA precision platformer with the focus on obtaining and maintaining speed.\r\n\r\nCollect powerups, escape the caverns, and reach for the stars!\r\n\r\nA write-up about the development process: https://andreyor.st/posts/2026-05-24-spring-lisp-game-jam-2026\r\n\r\nTips for playing:\r\n\r\n- When doing extended jumps, release the direction buttons to avoid losing speed\r\n- Press the slide button preemptively instead of timing your slides\r\n- Release the slide button when under a low ceiling, the slide will continue, and you'll be able to jump immediately after (jump doesn't work when the slide button is held)\r\n- If you don't know how to make a certain jump, try doing it without jumping (????)\r\n- Game menu features a dynamic camera and an option to toggle off music\r\n  (NOTE: the game was designed against a fixed camera. The dynamic camera is just for fun)\r\n\r\nShare your completion time and retries!\r\n\r\nAttributions:\r\n\r\n- Original music by https://whoisthatdf.bandcamp.com/, TIC-80 port by andreyorst\r\nPalette: https://lospec.com/palette-list/urbex-16"
+    "text": "Spring Lisp Game Jam 2026 entry.\r\n\r\nA precision platformer with the focus on obtaining and maintaining speed.\r\n\r\nCollect powerups, escape the caverns, and reach for the stars!\r\n\r\nA write-up about the development process: https://andreyor.st/posts/2026-05-24-spring-lisp-game-jam-2026\r\n\r\nTips for playing:\r\n\r\n- When doing extended jumps, release the direction buttons to avoid losing speed\r\n- Press the slide button preemptively instead of timing your slides\r\n- Release the slide button when under a low ceiling, the slide will continue, and you'll be able to jump immediately after (jump doesn't work when the slide button is held)\r\n- If you don't know how to make a certain jump, try doing it without jumping (????)\r\n- Game menu features a dynamic camera and an option to toggle off music\r\n  (NOTE: the game was designed against a fixed camera. The dynamic camera is just for fun)\r\n\r\nShare your completion time and retries!\r\n\r\nAttributions:\r\n\r\n- Original music by https://whoisthatdf.bandcamp.com/, TIC-80 port by andreyorst\r\nPalette: https://lospec.com/palette-list/urbex-16\r\n\r\nUpdate 16-07-2026:\r\n\r\n- added new camera: a blend between follow-the-player, and snap transition\r\n- removed 2544 colliders that couldn't be reached by the player (optimization)\r\n- merged remaining single-tile colliders into longer horizontal/vertical strips (optimization)\r\n\r\nUpdate 20-07-2026:\r\n\r\n- merged more colliders"
   },
   {
     "id": 4709,
@@ -15918,5 +15906,45 @@
   {
     "id": 4757,
     "text": "Fractal sentence"
+  },
+  {
+    "id": 4758,
+    "text": "FNAF inspired game where you try to find the haunted animatronic based on their movement.\r\nThe only animatronic that can move on its own is the haunted one, but it can power other animatronics in the room it leaves or arrives at. The power lasts 2 turns on the animatronics so they could move without being close to the haunted one.\r\nFeedback is appreciated!"
+  },
+  {
+    "id": 4760,
+    "text": "A re/demake of Nekomimi Clock, the original desktop ghost which spawned the set of catgirls that some people might know for... other reasons.\r\n\r\nArt was converted from the original sprites, which I extracted from the .nar file."
+  },
+  {
+    "id": 4761,
+    "text": "Debug menu:        [Tab]\r\nMovement:          [W][A][S][D][Space][CTRL]\r\nAcceleration:      [Shift]\r\nCamera:            [Mouse]\r\nHold an object:    [Left Mouse Button]\r\nAdd an object:     [1]-[9]\r\nFlying mode:       [V]\r\nUndo object spawn: [Z]\r\nThrow an object:   [G]  (You need to hold the object with the left mouse button)\r\n\r\nThis is still a beta version, so there may be a large number of bugs or performance issues\r\nHave fun!"
+  },
+  {
+    "id": 4762,
+    "text": "Press 'Z' for new pyramid"
+  },
+  {
+    "id": 4763,
+    "text": "An art fight 2026 attack for penguincoves"
+  },
+  {
+    "id": 4764,
+    "text": "Exit 8-like spot-the-difference game.\r\n\r\nYou have just been hired as a waiter and you're on your way to take your first order in this restaurant.\r\nBut before that, you first have to find your way to the dining room.\r\nAccording to the head waiter, that will be fairly simple: just follow the hallway until you reach the dining area.\r\nAnd, oh yes, while you're on your way, do keep in mind the following:\r\n\r\n@ Don't overlook any anomalies.\r\n@ If you find anomalies, turn around immediately.\r\n@ If you don't find anomalies, do not turn back.\r\n@ Go out through Exit 8."
+  },
+  {
+    "id": 4765,
+    "text": "Sunset of Seven Suns in TIC-80!"
+  },
+  {
+    "id": 4766,
+    "text": "trying to make a demake of Yume Nikki. ofcourse the project will be too ambitious to the point where it will definitely NOT fit and im already kinda bad at programming but hey a tries a try\r\n\r\nwhat i have made so far \r\n- madotsuki's movement\r\n- porting madotsuki's sprites over to TIC-80\r\n\r\nwhat have i not done\r\n- basically everything.\r\n\r\nwhat i have to fix\r\n- madotsuki not being able to move anymore when she pinches her cheek while moving"
+  },
+  {
+    "id": 4767,
+    "text": "A game made for my girlfriend for her birthday :3\r\n\r\nArrow keys to move, Z to interact\r\n\r\n-----Honorable Mentions-----\r\nText box: This game uses the text box from Skeptim's cartridge\r\nLink: https://tic80.com/play?cart=3600\r\n\r\nGuide art: I used most of Cup Nooble's asset pack (free version) as a guide/inspiration/copy-paste source XD\r\nLink: https://cupnooble.itch.io/sprout-lands-asset-pack\r\n\r\nv0.2\r\nThe entire audio component was added to the game, from sound effects to a song :3\r\nThanks to fizzii01 for creating all the audio—a million thanks, really."
+  },
+  {
+    "id": 4768,
+    "text": "A MUSIC FACTORY is powered by turrets that play music while firing deadly bullets. Restore the MUSIC FACTORY, and try not to get killed in the process."
   }
 ]
