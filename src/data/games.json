@@ -42666,7 +42666,7 @@
     "desc": "DOOM Fire, based on the implementation by Fabien Sanglard. Uses all 31 per-frame colors.",
     "id": 3672,
     "name": "doom_fire_demo",
-    "rating": 4,
+    "rating": 5,
     "title": "DOOM Fire Demo",
     "updated": 1703236172595,
     "user": 3482
@@ -43578,7 +43578,7 @@
     "desc": "demo cart in .wat",
     "id": 3748,
     "name": "wat_demo_cart",
-    "rating": 0,
+    "rating": 1,
     "title": "wat demo cart",
     "updated": 1707435993297,
     "user": 3482
@@ -44526,7 +44526,7 @@
     "desc": "version 2.0",
     "id": 3827,
     "name": "ara_ara_3d_engine",
-    "rating": 11,
+    "rating": 12,
     "title": "Ara-ara 3D engine",
     "updated": 1784313760360,
     "user": 2749
@@ -55710,9 +55710,9 @@
     "desc": "nekomimi clock re/demake",
     "id": 4760,
     "name": "nekomimi_clock",
-    "rating": 1,
+    "rating": 2,
     "title": "nekomimi clock",
-    "updated": 1784354024876,
+    "updated": 1785000202803,
     "user": 3482
   },
   {
@@ -55722,7 +55722,7 @@
     "desc": "Ara-ara physic engine (Version 1.0 beta)",
     "id": 4761,
     "name": "hanamileh_s_mod",
-    "rating": 4,
+    "rating": 5,
     "title": "HanamileH's mod",
     "updated": 1784374711217,
     "user": 2749
@@ -55810,5 +55810,17 @@
     "title": "MUSIC FACTORY",
     "updated": 1784830051232,
     "user": 7917
+  },
+  {
+    "added": 1785020821367,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Shadows of Solar System",
+    "id": 4769,
+    "name": "shadows_of_solar_system",
+    "rating": 0,
+    "title": "shadows of solar system",
+    "updated": 1785020821367,
+    "user": 3114
   }
 ]
