@@ -54774,7 +54774,7 @@
     "desc": "An attempt at an isometric engine that pulls from map data into an Isometric grid",
     "id": 4682,
     "name": "isometric_game_engine",
-    "rating": 4,
+    "rating": 5,
     "title": "Isometric Game Engine",
     "updated": 1777936243087,
     "user": 13569
@@ -55760,7 +55760,7 @@
     "name": "extic80",
     "rating": 0,
     "title": "ExTIC80",
-    "updated": 1784470208892,
+    "updated": 1785063272801,
     "user": 12404
   },
   {
