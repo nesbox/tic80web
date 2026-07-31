@@ -10225,7 +10225,7 @@
   },
   {
     "id": 3000,
-    "text": "new levels\r\n---------------------------------------\r\nsome assets (modified) taken from 8bpReborn, by RomanKalinin (aka RS):\r\nhttps://tic80.com/play?cart=1143\r\n---------------------------------------\r\nTo play the original game, made by Bruno Oliveira (btco), go here:\r\nhttps://tic80.com/play?cart=188\r\n---------------------------------------\r\njuly 2026 update:\r\n-the levels themselves remain unchanged as far as platforms, enemies, etc (the gameplay is exactly the same).\r\n-i changed the order of some of the levels (in isles 2 and 4) to smooth out the difficulty curve.\r\n-i added some items in some of the later stages to make it easier to get extra lives, as i realized that the game is actually pretty hard."
+    "text": "new levels\r\n---------------------------------------\r\nsome assets (modified) taken from 8bpReborn, by RomanKalinin (aka RS):\r\nhttps://tic80.com/play?cart=1143\r\n---------------------------------------\r\nTo play the original game, made by Bruno Oliveira (btco), go here:\r\nhttps://tic80.com/play?cart=188\r\n---------------------------------------\r\njuly 2026 update:\r\n- the levels remain unchanged (they are exactly the same as far platforms and enemies).\r\n- i added some items in some of the later levels to make it easier to get extra lives (because i realized that the game is actually pretty hard).\r\n- i changed the order of some of the levels (in isles 2 and 4) to smooth out the difficulty curve."
   },
   {
     "id": 3002,
@@ -15954,5 +15954,9 @@
   {
     "id": 4770,
     "text": "F1 Racing - in 2.5d ! (Outrun style). WIP . Now some upgrades : sprites sky \u0026 decor + lap progresion bar + time \u0026 record + sound brake accelerate + start engine.   V7 07/28/2026. Remember all is free ! you want to use sprites YES, modify for rally game etc etc YES YES and YES !!!!!!!!!!! Simply Credit ! Fork Based on DcyD2 (Thx). If rally make bump+smoke !!!!!!!!!!!!!!!!!!!!!!!! modify for buggy (OOhhh buggy boy YES)  "
+  },
+  {
+    "id": 4771,
+    "text": "Updated version of the Tomb of the TIC\r\n\r\nI probably won't finish this project; it's been years and I've lost all desire to work on it. Im sorry."
   }
 ]

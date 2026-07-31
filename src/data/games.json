@@ -23384,7 +23384,7 @@
     "name": "8_bit_panda_great_adventure",
     "rating": 1,
     "title": "8 Bit Panda Great Adventure",
-    "updated": 1711408955330,
+    "updated": 1785461938910,
     "user": 6054
   },
   {
@@ -35060,7 +35060,7 @@
     "name": "8_bit_panda_water_mountain",
     "rating": 4,
     "title": "8 Bit Panda Water Mountain",
-    "updated": 1785377222501,
+    "updated": 1785460930067,
     "user": 6054
   },
   {
@@ -50190,7 +50190,7 @@
     "desc": "Puzzle Action adventure game",
     "id": 4299,
     "name": "attack_of_the_petscii_robots_for_tic_80",
-    "rating": 4,
+    "rating": 5,
     "title": "Attack Of The PETSCII Robots For TIC-80",
     "updated": 1751815548586,
     "user": 9480
@@ -54606,7 +54606,7 @@
     "desc": "A small platformer made in an hour for the ZX Jam",
     "id": 4668,
     "name": "binary",
-    "rating": 1,
+    "rating": 2,
     "title": "Binary",
     "updated": 1777081621104,
     "user": 13008
@@ -55834,5 +55834,17 @@
     "title": "F1 Racing",
     "updated": 1785232299910,
     "user": 8878
+  },
+  {
+    "added": 1785426817258,
+    "author": "betty.wolfy",
+    "category": 0,
+    "desc": "You have entered the ancient sacred tomb in search of the golden Mask of Tic. The tomb is full of levels, the lower you go, the harder it gets.",
+    "id": 4771,
+    "name": "tomb_of_the_tic",
+    "rating": 0,
+    "title": "Tomb Of The Tic",
+    "updated": 1785426817258,
+    "user": 8832
   }
 ]
