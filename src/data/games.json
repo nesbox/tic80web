@@ -43758,7 +43758,7 @@
     "desc": "demake of the 2014 indie point-and-click horror game for TIC-80 tiny computer",
     "id": 3763,
     "name": "five_nights_at_freddy_s",
-    "rating": 25,
+    "rating": 26,
     "title": "Five Nights at Freddy's",
     "updated": 1707785578251,
     "user": 2178
@@ -50982,7 +50982,7 @@
     "desc": "Shoot'em up.",
     "id": 4365,
     "name": "retro_gunner_version_1_03",
-    "rating": 7,
+    "rating": 8,
     "title": "RETRO GUNNER (version 1.03)",
     "updated": 1784510704072,
     "user": 4912
@@ -51978,7 +51978,7 @@
     "desc": "A small hack of Weeppiko's Sonic Mini",
     "id": 4449,
     "name": "rengar_madness_test_sonic_mini_hack",
-    "rating": 0,
+    "rating": 1,
     "title": "Rengar Madness test (Sonic Mini hack)",
     "updated": 1762730452486,
     "user": 11609
@@ -55846,5 +55846,77 @@
     "title": "Tomb Of The Tic",
     "updated": 1785426817258,
     "user": 8832
+  },
+  {
+    "added": 1785509111272,
+    "author": "Jenna Martinez \u0026 Paris Kampel",
+    "category": 0,
+    "desc": "dating sim",
+    "id": 4772,
+    "name": "campus_cupid",
+    "rating": 0,
+    "title": "Campus Cupid",
+    "updated": 1785509111272,
+    "user": 13187
+  },
+  {
+    "added": 1785516341142,
+    "author": "plumifrons",
+    "category": 4,
+    "desc": "just testing",
+    "id": 4773,
+    "name": "tinygame",
+    "rating": 0,
+    "title": "TinyGame",
+    "updated": 1785516341142,
+    "user": 14046
+  },
+  {
+    "added": 1785530233481,
+    "author": "sebastian1000login",
+    "category": 4,
+    "desc": "A manic shooter shmup prototype",
+    "id": 4774,
+    "name": "manic_shooter_prorotype",
+    "rating": 0,
+    "title": "Manic shooter prorotype",
+    "updated": 1785530422150,
+    "user": 12294
+  },
+  {
+    "added": 1785531277044,
+    "author": "FlamingPandas",
+    "category": 5,
+    "desc": "Shows 3D models",
+    "id": 4775,
+    "name": "modelrenderer",
+    "rating": 0,
+    "title": "ModelRenderer",
+    "updated": 1785532345557,
+    "user": 7048
+  },
+  {
+    "added": 1785535766340,
+    "author": "game developer, email, etc.",
+    "category": 4,
+    "desc": "short description",
+    "id": 4776,
+    "name": "game_title",
+    "rating": 0,
+    "title": "game title",
+    "updated": 1785535766340,
+    "user": 8878
+  },
+  {
+    "added": 1785535904792,
+    "author": "Uras SARI (the I is spelled with a schwa)",
+    "category": 0,
+    "desc": "Don't drop the balls.",
+    "id": 4777,
+    "name": "balgame",
+    "rating": 0,
+    "title": "BALGAME",
+    "updated": 1785536054526,
+    "user": 13780
   }
 ]
