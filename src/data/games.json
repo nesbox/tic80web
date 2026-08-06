@@ -55830,7 +55830,7 @@
     "desc": "RACING Pseudo-3d",
     "id": 4770,
     "name": "f1_racing",
-    "rating": 0,
+    "rating": 1,
     "title": "F1 Racing",
     "updated": 1785232299910,
     "user": 8878
@@ -55914,7 +55914,7 @@
     "desc": "Don't drop the balls.",
     "id": 4777,
     "name": "balgame",
-    "rating": 0,
+    "rating": 1,
     "title": "BALGAME",
     "updated": 1785536054526,
     "user": 13780
@@ -55966,5 +55966,65 @@
     "title": "fnf scuffed-slice",
     "updated": 1785887646294,
     "user": 13014
+  },
+  {
+    "added": 1785926105158,
+    "author": "tenfour",
+    "category": 2,
+    "desc": null,
+    "id": 4782,
+    "name": "ram_probe_lua",
+    "rating": 0,
+    "title": "RAM Probe (lua)",
+    "updated": 1785926105158,
+    "user": 14061
+  },
+  {
+    "added": 1785932249345,
+    "author": "tenfour",
+    "category": 2,
+    "desc": "Compare stock web TIC-80 with the ticbuild desktop fork",
+    "id": 4783,
+    "name": "tic_80_cross_runtime_benchmark",
+    "rating": 0,
+    "title": "TIC-80 Cross-Runtime Benchmark",
+    "updated": 1785932249345,
+    "user": 14061
+  },
+  {
+    "added": 1785954386036,
+    "author": "DcyD3 + IA (I learn XD)",
+    "category": 4,
+    "desc": "Shoot'EM UP with Copter",
+    "id": 4784,
+    "name": "strike_war_8bits",
+    "rating": 1,
+    "title": "STRIKE WAR 8BITS",
+    "updated": 1785954386036,
+    "user": 8878
+  },
+  {
+    "added": 1785955203262,
+    "author": "DcyD2",
+    "category": 4,
+    "desc": "RACING Pseudo-3d",
+    "id": 4785,
+    "name": "rallywip",
+    "rating": 0,
+    "title": "RALLYWIP",
+    "updated": 1785955203262,
+    "user": 8878
+  },
+  {
+    "added": 1785981948538,
+    "author": "Andrey Listopadov",
+    "category": 1,
+    "desc": "A simple compressor unit operating on TIC's sound register",
+    "id": 4786,
+    "name": "audio_compression",
+    "rating": 0,
+    "title": "Audio Compression",
+    "updated": 1785982035628,
+    "user": 7747
   }
 ]
