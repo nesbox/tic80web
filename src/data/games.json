@@ -44166,7 +44166,7 @@
     "desc": "Mini game inspired by terminal hacking in Cyberpunk 2077. Enjoy!",
     "id": 3797,
     "name": "net_haxe",
-    "rating": 6,
+    "rating": 7,
     "title": "net.haxe",
     "updated": 1710274996346,
     "user": 10018
@@ -45716,7 +45716,7 @@
     "name": "blueyvania",
     "rating": 9,
     "title": "BlueyVANIA",
-    "updated": 1784783824033,
+    "updated": 1786129499994,
     "user": 8506
   },
   {
@@ -55590,7 +55590,7 @@
     "desc": "es un juego de mecanicas y mucho plataformero",
     "id": 4750,
     "name": "bouncy_ball",
-    "rating": 2,
+    "rating": 3,
     "title": "bouncy_ball",
     "updated": 1783100764033,
     "user": 13782
@@ -55962,7 +55962,7 @@
     "desc": "a scuffed fnf engine lol",
     "id": 4781,
     "name": "fnf_scuffed_slice",
-    "rating": 0,
+    "rating": 1,
     "title": "fnf scuffed-slice",
     "updated": 1785887646294,
     "user": 13014
@@ -56024,7 +56024,7 @@
     "name": "audio_compression",
     "rating": 0,
     "title": "Audio Compression",
-    "updated": 1786038016447,
+    "updated": 1786092464385,
     "user": 7747
   },
   {
@@ -56037,6 +56037,18 @@
     "rating": 1,
     "title": "Solar Eclipse",
     "updated": 1786010982478,
+    "user": 14048
+  },
+  {
+    "added": 1786136533867,
+    "author": "Nsuprem",
+    "category": 0,
+    "desc": "classic snake game",
+    "id": 4788,
+    "name": "snake_game",
+    "rating": 1,
+    "title": "SNAKE GAME",
+    "updated": 1786136533867,
     "user": 14048
   }
 ]
