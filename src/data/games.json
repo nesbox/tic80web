@@ -23336,7 +23336,7 @@
     "name": "8bp_level_maker_tutorial",
     "rating": 2,
     "title": "8bp Level Maker Tutorial",
-    "updated": 1786422144533,
+    "updated": 1786579751418,
     "user": 6054
   },
   {
@@ -54402,7 +54402,7 @@
     "desc": "Create new DNA strands and replicate it.",
     "id": 4651,
     "name": "dna_replication_game",
-    "rating": 1,
+    "rating": 2,
     "title": "DNA Replication Game",
     "updated": 1786280223406,
     "user": 13565
@@ -56046,7 +56046,7 @@
     "desc": "classic snake game",
     "id": 4788,
     "name": "snake_game",
-    "rating": 2,
+    "rating": 3,
     "title": "SNAKE GAME",
     "updated": 1786290235685,
     "user": 14048
@@ -56118,7 +56118,7 @@
     "desc": "Classic Pong with cars - player vs AI, with lane traffic obstacles",
     "id": 4794,
     "name": "pong",
-    "rating": 2,
+    "rating": 3,
     "title": "Pong",
     "updated": 1786304122138,
     "user": 796
@@ -56158,5 +56158,17 @@
     "title": "PACMAN 80",
     "updated": 1786414214092,
     "user": 8369
+  },
+  {
+    "added": 1786550225662,
+    "author": "frantisek",
+    "category": 0,
+    "desc": "Worms / Scorched Earth style 2-player artillery game in space.",
+    "id": 4798,
+    "name": "orbital_artillery",
+    "rating": 0,
+    "title": "Orbital Artillery",
+    "updated": 1786550225662,
+    "user": 796
   }
 ]
