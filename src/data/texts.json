@@ -15885,7 +15885,7 @@
   },
   {
     "id": 4752,
-    "text": "A 3D single- and multiplayer racing game. ABSOLUTELY NO WARRANTY!\r\n\r\nPlay other games of mine too!\r\n--\u003e https://tic80.com/dev?id=7445"
+    "text": "A 3D single- and multiplayer racing game. ABSOLUTELY NO WARRANTY!\r\nUpdate (Aug. 15, 2026): Polish game and add a new BGM.\r\n\r\nPlay other games of mine too!\r\n--\u003e https://tic80.com/dev?id=7445"
   },
   {
     "id": 4753,
@@ -16066,5 +16066,17 @@
   {
     "id": 4799,
     "text": "Free to copy :)"
+  },
+  {
+    "id": 4800,
+    "text": "Mouse and arrow keys\r\n"
+  },
+  {
+    "id": 4801,
+    "text": "This is a Pokemon Fan game in witch you open card packs and collect pokemon cards.\r\n\r\nNote: I am not part of the Pokemon company and this is just a fan game.\r\n\r\nI designed all the pokemon ilustrations using the TIC80 original 16 colors pallete, even though I miss the pink color, I think I got some cool ilustrations for this project.\r\n\r\nYou have a pokédex in witch you can see the cards you already have and a pokedex description of the pokémon. Except from the shiny pokémon, the descriptions are copyed from the ones on the original games (some of them edited to fit into the available space).\r\n\r\nThank you so much to Weberij, that programed the persistent memory; thanks to them you can close the game and come back later without loosing the pokemon you already get :).\r\n\r\nWeberij and I plan to do a card game, with card battles, but my original game idea is what you see here; just collect and see them.\r\n\r\nHope you like it!\r\n\r\n----\r\nUpdate 15/08:  Fixed one variable that was not saved right in the persistent memory, changed some ilustrations (not big changes, just a few pixels that were mothering me), added a count of how many cards do you have in the pokdex menu, and added a cheat code to erase your progress (press S+R+T at the same time in the main menu)\r\nI also updated the thumblnail with random cards but I got the screenshot without seeing teh cards so idk whats in it lol.\r\nThat's all, thanks! Let me know if you found any bug"
+  },
+  {
+    "id": 4802,
+    "text": "DNA Scanning"
   }
 ]
