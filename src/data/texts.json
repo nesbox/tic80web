@@ -10985,7 +10985,7 @@
   },
   {
     "id": 3238,
-    "text": "Help Jelly the Not-Fish dodge bombs and get plankton\r\n\r\n(UPDATE: Version 1.3 is now out. Some changes to gameplay have been made.)"
+    "text": "Help Jelly the Not-Fish dodge bombs and get plankton\r\n\r\n(UPDATE: Version 1.4.1 is now out. Some changes to gameplay have been made.)"
   },
   {
     "id": 3239,
@@ -15989,7 +15989,7 @@
   },
   {
     "id": 4779,
-    "text": "un juego de plataformero solo plataformero con un total de 8 niveles "
+    "text": "un juego de plataformero solo plataformero con un total de 8 niveles \r\nvercion 1.0 principio\r\n\r\nvercion 1.1 arreglo de los railes al moverse a la izquierda ademas un pequeño arreglo de niveles en partes inposibles de pasar y un arreglo de bug del boton al aser un rraro movimiento con el jugador apareciento una copia a 8 pixeles a la izquierda del sprite de precionado del boton y por ultimo un arreglo al los dos trampolines que al solo esta en un pixel revotabas pero el resto no"
   },
   {
     "id": 4780,
@@ -16082,5 +16082,13 @@
   {
     "id": 4805,
     "text": "idk was bored so made this in 30ish minutes. "
+  },
+  {
+    "id": 4806,
+    "text": "pick all beer!"
+  },
+  {
+    "id": 4807,
+    "text": "A super mario bros 1 demonstration of the physics recreated in Tic-80"
   }
 ]

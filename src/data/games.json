@@ -37892,7 +37892,7 @@
     "name": "jelly_the_not_fish",
     "rating": 1,
     "title": "Jelly the Not-Fish",
-    "updated": 1726601109824,
+    "updated": 1787076232484,
     "user": 8264
   },
   {
@@ -52542,7 +52542,7 @@
     "desc": "This is a Demake of the game Balatro by Local Thunk",
     "id": 4496,
     "name": "balatro_demake",
-    "rating": 6,
+    "rating": 7,
     "title": "Balatro Demake",
     "updated": 1767925943145,
     "user": 12264
@@ -53478,7 +53478,7 @@
     "desc": "Adaptation of the original game Pacmania on Tic-80",
     "id": 4574,
     "name": "ticmania",
-    "rating": 6,
+    "rating": 7,
     "title": "TicMania",
     "updated": 1777787225724,
     "user": 13288
@@ -55794,7 +55794,7 @@
     "desc": "A game made for my girlfriend for her birthday :3",
     "id": 4767,
     "name": "lulu",
-    "rating": 3,
+    "rating": 4,
     "title": "Lulu",
     "updated": 1786298309553,
     "user": 13008
@@ -55940,7 +55940,7 @@
     "name": "superblock_adventure",
     "rating": 5,
     "title": "superblock_adventure",
-    "updated": 1785620008904,
+    "updated": 1787067810015,
     "user": 13782
   },
   {
@@ -55998,7 +55998,7 @@
     "desc": "Shoot'EM UP with Copter",
     "id": 4784,
     "name": "strike_war_8bits",
-    "rating": 1,
+    "rating": 2,
     "title": "STRIKE WAR 8BITS",
     "updated": 1786037937413,
     "user": 8878
@@ -56254,5 +56254,29 @@
     "title": "3d test",
     "updated": 1787014982871,
     "user": 14095
+  },
+  {
+    "added": 1787041414819,
+    "author": "Ervin",
+    "category": 0,
+    "desc": null,
+    "id": 4806,
+    "name": "mubeer",
+    "rating": 0,
+    "title": "MUBEER",
+    "updated": 1787041414819,
+    "user": 14097
+  },
+  {
+    "added": 1787064377741,
+    "author": "AdiBread",
+    "category": 5,
+    "desc": "a simple showcase of my smb1 mario physics, I'm trying to recreate them 1:1",
+    "id": 4807,
+    "name": "super_mario_bros_test",
+    "rating": 0,
+    "title": "Super Mario Bros Test",
+    "updated": 1787065016985,
+    "user": 14099
   }
 ]
