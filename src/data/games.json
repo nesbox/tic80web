@@ -32682,7 +32682,7 @@
     "desc": "Rally game",
     "id": 2793,
     "name": "tic_cars",
-    "rating": 13,
+    "rating": 14,
     "title": "TIC CARS",
     "updated": 1652960838921,
     "user": 4024
@@ -55842,7 +55842,7 @@
     "desc": "You have entered the ancient sacred tomb in search of the golden Mask of Tic. The tomb is full of levels, the lower you go, the harder it gets.",
     "id": 4771,
     "name": "tomb_of_the_tic",
-    "rating": 1,
+    "rating": 2,
     "title": "Tomb Of The Tic",
     "updated": 1785426817258,
     "user": 8832
@@ -55940,7 +55940,7 @@
     "name": "superblock_adventure",
     "rating": 5,
     "title": "superblock_adventure",
-    "updated": 1787067810015,
+    "updated": 1787180659589,
     "user": 13782
   },
   {

@@ -15989,7 +15989,7 @@
   },
   {
     "id": 4779,
-    "text": "un juego de plataformero solo plataformero con un total de 8 niveles \r\nvercion 1.0 principio\r\n\r\nvercion 1.1 arreglo de los railes al moverse a la izquierda ademas un pequeño arreglo de niveles en partes inposibles de pasar y un arreglo de bug del boton al aser un rraro movimiento con el jugador apareciento una copia a 8 pixeles a la izquierda del sprite de precionado del boton y por ultimo un arreglo al los dos trampolines que al solo esta en un pixel revotabas pero el resto no"
+    "text": "un juego de plataformero solo plataformero con un total de 8 niveles \r\nvercion 1.0: principio\r\n\r\nvercion 1.1: arreglo de los railes al moverse a la izquierda ademas un pequeño arreglo de niveles en partes inposibles de pasar y un arreglo de bug del boton al aser un rraro movimiento con el jugador apareciento una copia a 8 pixeles a la izquierda del sprite de precionado del boton y por ultimo un arreglo al los dos trampolines que al solo esta en un pixel revotabas pero el resto no\r\n\r\nvercion 1.2:una nueva moneda especial que al collecionar 7 monedas especiales puedes conseguir una moneda de a 10 que como lo dise te suma 10 monedas ademas solo lo obtendras esas 10 al ya estar al final"
   },
   {
     "id": 4780,
