@@ -37890,7 +37890,7 @@
     "desc": "Help Jelly the Not-Fish dodge bombs and get plankton",
     "id": 3238,
     "name": "jelly_the_not_fish",
-    "rating": 1,
+    "rating": 2,
     "title": "Jelly the Not-Fish",
     "updated": 1787076232484,
     "user": 8264
@@ -56238,7 +56238,7 @@
     "desc": "collect gems, dodge fireballs",
     "id": 4804,
     "name": "gem_goblin",
-    "rating": 1,
+    "rating": 2,
     "title": "gem goblin",
     "updated": 1786997101807,
     "user": 14095
@@ -56262,7 +56262,7 @@
     "desc": null,
     "id": 4806,
     "name": "mubeer",
-    "rating": 0,
+    "rating": 1,
     "title": "MUBEER",
     "updated": 1787041414819,
     "user": 14097
