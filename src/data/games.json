@@ -49314,7 +49314,7 @@
     "desc": "get out of the mysterious planet with the help of fairy",
     "id": 4226,
     "name": "gorgoion",
-    "rating": 8,
+    "rating": 9,
     "title": "GORGOION",
     "updated": 1743425858822,
     "user": 5793
@@ -55590,7 +55590,7 @@
     "desc": "es un juego de mecanicas y mucho plataformero",
     "id": 4750,
     "name": "bouncy_ball",
-    "rating": 4,
+    "rating": 5,
     "title": "bouncy_ball",
     "updated": 1783100764033,
     "user": 13782
@@ -55628,7 +55628,7 @@
     "name": "tiny_5x5_fonts_and_editor",
     "rating": 0,
     "title": "tiny 5x5 fonts and editor",
-    "updated": 1783873240398,
+    "updated": 1787783702287,
     "user": 7747
   },
   {
@@ -56350,5 +56350,29 @@
     "title": "ORC QUEST: THE LONG WAR",
     "updated": 1787689864692,
     "user": 14130
+  },
+  {
+    "added": 1787739255293,
+    "author": "draovar",
+    "category": 0,
+    "desc": "Yu-gi-oh Speed duel for tic80",
+    "id": 4814,
+    "name": "ygo80",
+    "rating": 1,
+    "title": "YGO80",
+    "updated": 1787739255293,
+    "user": 14135
+  },
+  {
+    "added": 1787817685827,
+    "author": "Lumoria",
+    "category": 0,
+    "desc": "A cozy little Puzzle Game.",
+    "id": 4815,
+    "name": "minipoundquest",
+    "rating": 1,
+    "title": "MiniPoundQuest",
+    "updated": 1787817685827,
+    "user": 14143
   }
 ]

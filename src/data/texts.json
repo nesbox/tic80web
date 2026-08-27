@@ -15889,7 +15889,7 @@
   },
   {
     "id": 4753,
-    "text": "Based on the original cart by lb_ii: https://tic80.com/play?cart=263\r\n\r\nDifferences from the original cart:\r\n\r\n- Fonts are now stored in 1BPP format, reducing used cart space (5x4 original fonts became 2x4)\r\n- Fixed the color used by diacritic marks\r\n- Changed the lbprint function API, allowing passing color and font as parameters to closer match regular TIC's print\r\n- Slight code refactoring\r\n\r\nSee the original cart description for usage instructions: https://tic80.com/play?cart=263\r\n\r\nPersonal thanks to lb_ii for implementing this useful tool!"
+    "text": "Based on the original cart by lb_ii: https://tic80.com/play?cart=263\r\n\r\nDifferences from the original cart:\r\n\r\n- Fonts are now stored in 1BPP format, reducing used cart space (5x4 original fonts became 2x4)\r\n- Fixed the color used by diacritic marks\r\n- Changed the lbprint function API, allowing passing color and font as parameters to more closely match regular TIC's print\r\n- Slight code refactoring\r\n- Saving the cart saves the edited font in the cart (download the cart to use this)\r\n\r\nSee the original cart description for usage instructions: https://tic80.com/play?cart=263\r\n\r\nPersonal thanks to lb_ii for implementing this useful tool!"
   },
   {
     "id": 4754,
@@ -16114,5 +16114,13 @@
   {
     "id": 4813,
     "text": "A game inspired by punch quest"
+  },
+  {
+    "id": 4814,
+    "text": "Bring the classic card game experience to the TIC-80 fantasy console! YGO80 adapts authentic Yu-Gi-Oh mechanics into a fast, handheld-style format inspired by Speed Duels, tailored specifically to embrace the platform limitations while maximizing variety and depth.\r\n\r\nKey Features\r\n\r\n104 Classic Cards: A masive card pool featuring iconic monsters, spells, and traps.\r\n4 Iconic Opponents: Challenge unique AI duelists to test your deck-building skills.\r\nGame Balance: Card effects and rules fine-tuned for high-stakes 4000 LP duels.\r\nStarting Life Points: 4000 LP\r\nField Layout: 3 Monster Zones \u0026 3 Spell/Trap Zones\r\nTurn Structure: Draw ➔ Standby ➔ Main ➔ Battle ➔ End\r\nRestrictions: Custom Limited List\r\nMain Deck: Exactly 20 cards\r\nExtra Deck: Up to 4 cards\r\nCopy Limit: Max 2 copies per deck (boosting deck variety and tactical choices)\r\n\r\nDisclaimer\r\nYGO80 is a non-commercial, unofficial fan project created strictly for fun and educational purposes. No revenue, donations, or commercial profit of any kind are generated from this game."
+  },
+  {
+    "id": 4815,
+    "text": "little puzzle game, its a demo"
   }
 ]
