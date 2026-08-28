@@ -50996,7 +50996,7 @@
     "name": "super_clicker",
     "rating": 0,
     "title": "Super Clicker",
-    "updated": 1781436862620,
+    "updated": 1787825465924,
     "user": 12411
   },
   {
@@ -56166,7 +56166,7 @@
     "desc": "Worms / Scorched Earth style 2-player artillery game in space.",
     "id": 4798,
     "name": "orbital_artillery",
-    "rating": 1,
+    "rating": 2,
     "title": "Orbital Artillery",
     "updated": 1786550225662,
     "user": 796
@@ -56319,12 +56319,12 @@
     "added": 1787504962339,
     "author": "Technical Lead",
     "category": 4,
-    "desc": "Phase 7.5: Map-Based Spawning \u0026 Anti-Tunneling Physics",
+    "desc": "Phase 8.1: Boss Gates \u0026 Encounter Triggers",
     "id": 4811,
     "name": "project_primate_mvp",
     "rating": 0,
     "title": "Project Primate MVP",
-    "updated": 1787504962339,
+    "updated": 1787854309670,
     "user": 12660
   },
   {
@@ -56346,7 +56346,7 @@
     "desc": "A brutal fantasy auto-run brawler. Smash, juggle, rage and survive the Long War.",
     "id": 4813,
     "name": "orc_quest_the_long_war",
-    "rating": 1,
+    "rating": 2,
     "title": "ORC QUEST: THE LONG WAR",
     "updated": 1787689864692,
     "user": 14130
@@ -56370,7 +56370,7 @@
     "desc": "A cozy little Puzzle Game.",
     "id": 4815,
     "name": "minipoundquest",
-    "rating": 1,
+    "rating": 2,
     "title": "MiniPoundQuest",
     "updated": 1787817685827,
     "user": 14143
