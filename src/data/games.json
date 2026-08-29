@@ -36066,7 +36066,7 @@
     "desc": "A voxel metaball effect live-coded in one hour for the Byte Battle Casuals stream, 2022-12-05",
     "id": 3086,
     "name": "voxelblobs",
-    "rating": 9,
+    "rating": 10,
     "title": "voxelblobs",
     "updated": 1670285142904,
     "user": 4801
@@ -56374,5 +56374,29 @@
     "title": "MiniPoundQuest",
     "updated": 1787817685827,
     "user": 14143
+  },
+  {
+    "added": 1787959242619,
+    "author": "TofuTheLoafu",
+    "category": 0,
+    "desc": "Complete horizontal or vertical lines to launch spell attacks against your enemies",
+    "id": 4816,
+    "name": "railroad_wizard",
+    "rating": 1,
+    "title": "Railroad Wizard",
+    "updated": 1787959242619,
+    "user": 14149
+  },
+  {
+    "added": 1787969982028,
+    "author": "Julian Impelluso",
+    "category": 3,
+    "desc": "TIC-80 adaptation of the Deltarune song",
+    "id": 4817,
+    "name": "attack_of_the_killer_queen",
+    "rating": 0,
+    "title": "Attack of the Killer Queen",
+    "updated": 1787970474859,
+    "user": 7402
   }
 ]
