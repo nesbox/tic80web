@@ -2214,7 +2214,7 @@
     "desc": "A panda platformer",
     "id": 188,
     "name": "8_bit_panda",
-    "rating": 170,
+    "rating": 171,
     "title": "8 Bit Panda",
     "updated": 1503932477450,
     "user": 339
@@ -53478,7 +53478,7 @@
     "desc": "Adaptation of the original game Pacmania on Tic-80",
     "id": 4574,
     "name": "ticmania",
-    "rating": 7,
+    "rating": 8,
     "title": "TicMania",
     "updated": 1777787225724,
     "user": 13288
@@ -55088,7 +55088,7 @@
     "name": "speed",
     "rating": 6,
     "title": "SPEED",
-    "updated": 1784506773763,
+    "updated": 1788465746149,
     "user": 7747
   },
   {
@@ -56482,5 +56482,17 @@
     "title": "Container",
     "updated": 1788309967144,
     "user": 5296
+  },
+  {
+    "added": 1788417062375,
+    "author": "beeerid",
+    "category": 0,
+    "desc": null,
+    "id": 4825,
+    "name": "brakeout",
+    "rating": 0,
+    "title": "Brakeout",
+    "updated": 1788417062375,
+    "user": 14158
   }
 ]
