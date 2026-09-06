@@ -2344,10 +2344,6 @@
     "text": "Hi, I'm new to TIC-80, and it's my first game, classic worm, use z to hide/show mesh. "
   },
   {
-    "id": 744,
-    "text": "Please ignore - deleted cart.\r\nThank you!"
-  },
-  {
     "id": 745,
     "text": "Testing voxel usage on Tic-80. Voxels here are represented as 3D array and drawn by using isometric tiles from spritesheet.\r\n\r\nKeyboard controls:\r\nA=toggle wireframe\r\nS=rotate\r\nZ/X=change scale between 1-3"
   },
@@ -11856,10 +11852,6 @@
     "text": "A smol tribute to Bo Burnham's \"Inside\"\r\n\r\nPress A to cry."
   },
   {
-    "id": 3556,
-    "text": "[WIP] A tribute to The Caretaker, aka Leyland Kirby. A project from 2019 that I never finished lol... maybe some day"
-  },
-  {
     "id": 3557,
     "text": "Another game in my gamedev marathon. Devlog available here: https://andreyor.st/tags/game3/"
   },
@@ -16158,5 +16150,17 @@
   {
     "id": 4824,
     "text": "Space Logistics - Container"
+  },
+  {
+    "id": 4826,
+    "text": "(WIP)\r\nCyberpunk-ish themed(?) \r\ntext game loll... I think...?"
+  },
+  {
+    "id": 4827,
+    "text": "Clock 1"
+  },
+  {
+    "id": 4828,
+    "text": "This is my first lua program: an attempt at conway's life. But I may need help spotting my error..."
   }
 ]
