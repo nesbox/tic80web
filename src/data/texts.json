@@ -16162,5 +16162,9 @@
   {
     "id": 4828,
     "text": "This is my first lua program: an attempt at conway's life. But I may need help spotting my error..."
+  },
+  {
+    "id": 4830,
+    "text": "This is my first TIC-80 game coming from Pico-8 background. Controls are convoluted and messy but should be working, that's the main reason for WIP. If there is established way how dual controls (mouse and controller) should be done, I'm more than happy to take any references."
   }
 ]

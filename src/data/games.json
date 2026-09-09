@@ -49410,7 +49410,7 @@
     "desc": "A short game about a bunny dude",
     "id": 4246,
     "name": "super_bunny_dude_adventure",
-    "rating": 1,
+    "rating": 2,
     "title": "Super Bunny Dude Adventure",
     "updated": 1745358010506,
     "user": 11747
@@ -55050,7 +55050,7 @@
     "desc": "Voxel Space rendering technique",
     "id": 4718,
     "name": "voxel_space",
-    "rating": 3,
+    "rating": 4,
     "title": "Voxel Space",
     "updated": 1788608368195,
     "user": 7747
@@ -56226,7 +56226,7 @@
     "desc": "Complete horizontal or vertical lines to launch spell attacks against your enemies",
     "id": 4816,
     "name": "railroad_wizard",
-    "rating": 1,
+    "rating": 2,
     "title": "Railroad Wizard",
     "updated": 1787959242619,
     "user": 14149
@@ -56386,5 +56386,17 @@
     "title": "OtherWorld",
     "updated": 1788776409396,
     "user": 13778
+  },
+  {
+    "added": 1788846456157,
+    "author": "Potatopasty",
+    "category": 4,
+    "desc": "TriPeaks solitaire",
+    "id": 4830,
+    "name": "tripeaks_solitaire",
+    "rating": 1,
+    "title": "TriPeaks solitaire",
+    "updated": 1788846456157,
+    "user": 14151
   }
 ]
