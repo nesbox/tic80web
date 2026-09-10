@@ -26468,7 +26468,7 @@
     "name": "8bp_additional_colors_template",
     "rating": 1,
     "title": "8BP Additional Colors Template",
-    "updated": 1786422572931,
+    "updated": 1789011062469,
     "user": 6054
   },
   {
@@ -56398,5 +56398,41 @@
     "title": "TriPeaks solitaire",
     "updated": 1788846456157,
     "user": 14151
+  },
+  {
+    "added": 1788950753022,
+    "author": "Kevadroz",
+    "category": 1,
+    "desc": "An implementation of Delta Time in TIC-80",
+    "id": 4831,
+    "name": "delta_time",
+    "rating": 0,
+    "title": "Delta Time",
+    "updated": 1788950753022,
+    "user": 14187
+  },
+  {
+    "added": 1788963670942,
+    "author": "Pururun",
+    "category": 0,
+    "desc": "Pixel Clicker - a pixel clicker game",
+    "id": 4832,
+    "name": "pixsel_clicker",
+    "rating": 0,
+    "title": "PIXSEL CLICKER",
+    "updated": 1788963670942,
+    "user": 13743
+  },
+  {
+    "added": 1788985952110,
+    "author": "betty.wolfy",
+    "category": 1,
+    "desc": "using an 8x8 bayer matrix on an 8-color palette to simulate greater color depth",
+    "id": 4833,
+    "name": "ordered_dithering",
+    "rating": 0,
+    "title": "ordered dithering",
+    "updated": 1788986014498,
+    "user": 8832
   }
 ]

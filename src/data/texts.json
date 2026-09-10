@@ -16166,5 +16166,17 @@
   {
     "id": 4830,
     "text": "This is my first TIC-80 game coming from Pico-8 background. Controls are convoluted and messy but should be working, that's the main reason for WIP. If there is established way how dual controls (mouse and controller) should be done, I'm more than happy to take any references."
+  },
+  {
+    "id": 4831,
+    "text": "An implementation of Delta Time using the time() function.\r\n\r\nMove the character with Up / Down / Left / Right.\r\nChange target FPS with Z / X."
+  },
+  {
+    "id": 4832,
+    "text": "Pixel Clicker is a classic clicker game in retro style for TIC-80.\r\nClick on the white pixel to earn white pixels. Spend them on colored pixels — each one automatically generates white pixels per second."
+  },
+  {
+    "id": 4833,
+    "text": "ordererd dithering with bayer matrix"
   }
 ]
