@@ -11260,10 +11260,6 @@
     "text": "arrows to move, Z,X,C to swap color.\r\nyou can safely pass thru bullets with the same color."
   },
   {
-    "id": 3333,
-    "text": "[pt-br]\r\nUma tradução do cart \"Donsol for Tic-80\" para português, tornando mais fácil para os não-falantes de inglês.\r\n\r\n[english]\r\nA translation of the \"Donsol for Tic-80\" cart into Portuguese, making it easier for non-English speakers."
-  },
-  {
     "id": 3335,
     "text": "The forces of evil have arisen, kidnapping dozens of innocents from a nearby village. As a noble Crusader, your mission is to bring salvation to the helpless captives -- and the Lord's wrath upon their captors.\r\n\r\nBattle your way through 15 levels, slaying the creatures of darkness and rescuing the captives. Push crates, climb ladders, and avoid deadly traps to ensure that divine justice is delivered.\r\n\r\nControls:\r\n\r\nLeft/Right: Move\r\nUp: Climb ladders / Use levers\r\nDown: Descend ladders\r\nZ: Jump / Select\r\nX: Swing sword / Cancel\r\nS: Reset level\r\n\r\nMade in 72 hours for Ludum Dare 53."
   },
@@ -16178,5 +16174,13 @@
   {
     "id": 4833,
     "text": "ordererd dithering with bayer matrix"
+  },
+  {
+    "id": 4834,
+    "text": "SLUGLINE is a gritty 3v3 tactical roguelite with intuitive rules and endless combat synergies. Master the terrain, forge lethal ability fusions, and wipe the wasteland clean!\r\n\r\nCommand an elite fireteam of three distinct units — Armor Men, Motorcycle Striker, and Sniper — across 6 rounds of brutal skirmishes. As the battle drags on, rising toxic sludge floods the battlefield rim, cutting off retreat and punishing static play. Customize loadouts with 25 distinct cards, and outmaneuver AI before the waste swallows you whole.\r\n\r\nCompact 8×8 tactical grid with terrain cover and elevation advantages.\r\n\r\nDynamic environmental hazard: rising floodwaters compress the combat zone.\r\n\r\n25 synergistic ability cards: turrets, phase-walking, chain-kills, and overwatch - unlimited combination exporation."
+  },
+  {
+    "id": 4835,
+    "text": "One click sets cell as 1, also increases surrounding cells with one. A cell with 4 clicks surrounding it 'flips' which means it does not show as 5, but 1 instead :-)"
   }
 ]
