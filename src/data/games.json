@@ -9378,7 +9378,7 @@
     "desc": "MS Windows 3.1 Minesweeper clone",
     "id": 802,
     "name": "minesweeper",
-    "rating": 24,
+    "rating": 25,
     "title": "Minesweeper",
     "updated": 1554645014870,
     "user": 2407
@@ -43602,7 +43602,7 @@
     "desc": "demake of the 2014 indie point-and-click horror game for TIC-80 tiny computer",
     "id": 3763,
     "name": "five_nights_at_freddy_s",
-    "rating": 26,
+    "rating": 27,
     "title": "Five Nights at Freddy's",
     "updated": 1707785578251,
     "user": 2178
@@ -56310,7 +56310,7 @@
     "desc": "demo released at Xenium 2026",
     "id": 4824,
     "name": "container",
-    "rating": 0,
+    "rating": 1,
     "title": "Container",
     "updated": 1788309967144,
     "user": 5296
@@ -56446,5 +56446,29 @@
     "title": "TYLBH",
     "updated": 1789158482818,
     "user": 14197
+  },
+  {
+    "added": 1789208595108,
+    "author": "NeoKen",
+    "category": 4,
+    "desc": "A Top-Down Puzzle Platformer",
+    "id": 4836,
+    "name": "dachsland",
+    "rating": 1,
+    "title": "Dachsland",
+    "updated": 1789208672049,
+    "user": 14201
+  },
+  {
+    "added": 1789258340449,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "clock 2",
+    "id": 4837,
+    "name": "clock_2",
+    "rating": 0,
+    "title": "clock 2",
+    "updated": 1789258340449,
+    "user": 3114
   }
 ]
