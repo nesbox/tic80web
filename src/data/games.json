@@ -2790,7 +2790,7 @@
     "desc": "Cave diving sim",
     "id": 239,
     "name": "aquanaut",
-    "rating": 5,
+    "rating": 6,
     "title": "Aquanaut",
     "updated": 1507926081010,
     "user": 514
@@ -16686,7 +16686,7 @@
     "desc": "WIP of space shooter game",
     "id": 1424,
     "name": "space_shooter",
-    "rating": 3,
+    "rating": 4,
     "title": "Space shooter",
     "updated": 1601362541558,
     "user": 4389
@@ -39258,7 +39258,7 @@
     "desc": "A Pacman clone with multiple mazes and gameplay systems",
     "id": 3365,
     "name": "pacman_80",
-    "rating": 43,
+    "rating": 44,
     "title": "PACMAN 80",
     "updated": 1749165095458,
     "user": 8908
@@ -50826,7 +50826,7 @@
     "desc": "Shoot'em up.",
     "id": 4365,
     "name": "retro_gunner_version_1_03",
-    "rating": 9,
+    "rating": 10,
     "title": "RETRO GUNNER (version 1.03)",
     "updated": 1784510704072,
     "user": 4912
@@ -50982,7 +50982,7 @@
     "desc": "historical platformer",
     "id": 4378,
     "name": "vuk_karadzic",
-    "rating": 3,
+    "rating": 4,
     "title": "Vuk Karadzic",
     "updated": 1756414356243,
     "user": 11514
@@ -54918,7 +54918,7 @@
     "desc": "Reach for the stars",
     "id": 4708,
     "name": "speed",
-    "rating": 6,
+    "rating": 7,
     "title": "SPEED",
     "updated": 1788465746149,
     "user": 7747
@@ -55422,7 +55422,7 @@
     "desc": "es un juego de mecanicas y mucho plataformero",
     "id": 4750,
     "name": "bouncy_ball",
-    "rating": 5,
+    "rating": 6,
     "title": "bouncy_ball",
     "updated": 1783100764033,
     "user": 13782
@@ -56310,7 +56310,7 @@
     "desc": "demo released at Xenium 2026",
     "id": 4824,
     "name": "container",
-    "rating": 1,
+    "rating": 2,
     "title": "Container",
     "updated": 1788309967144,
     "user": 5296
@@ -56437,14 +56437,14 @@
   },
   {
     "added": 1789156428619,
-    "author": "Magnus Hauge",
+    "author": "M.E.S.H",
     "category": 0,
     "desc": "TYLBH puzzle - all sizes 2..12",
     "id": 4835,
-    "name": "tylbh",
+    "name": "tylbh_v1_0",
     "rating": 0,
-    "title": "TYLBH",
-    "updated": 1789158482818,
+    "title": "TYLBH v1.0",
+    "updated": 1789313775328,
     "user": 14197
   },
   {
@@ -56470,5 +56470,29 @@
     "title": "clock 2",
     "updated": 1789258340449,
     "user": 3114
+  },
+  {
+    "added": 1789317907850,
+    "author": "DcyD3",
+    "category": 4,
+    "desc": "Celtic Platformer ?",
+    "id": 4838,
+    "name": "druid",
+    "rating": 1,
+    "title": "DRUID",
+    "updated": 1789333235509,
+    "user": 8878
+  },
+  {
+    "added": 1789323283311,
+    "author": "M3RL0CKSH0LM3S / ...",
+    "category": 5,
+    "desc": "",
+    "id": 4839,
+    "name": "color_lines_thing",
+    "rating": 0,
+    "title": "color lines thing",
+    "updated": 1789323283311,
+    "user": 13913
   }
 ]
