@@ -4398,7 +4398,7 @@
     "desc": "A cover of Pixel's \"Moonsong\"",
     "id": 374,
     "name": "cave_story_moonsong",
-    "rating": 36,
+    "rating": 37,
     "title": "Cave Story - Moonsong",
     "updated": 1534351094922,
     "user": 219
@@ -6738,7 +6738,7 @@
     "desc": "An arcade racing game!",
     "id": 573,
     "name": "warm_wheels",
-    "rating": 30,
+    "rating": 31,
     "title": "Warm Wheels",
     "updated": 1529601574120,
     "user": 1409
@@ -8034,7 +8034,7 @@
     "desc": "Worst Cheap Quality Shoot 'em up exapmle No.6",
     "id": 683,
     "name": "wcq_no_6",
-    "rating": 52,
+    "rating": 53,
     "title": "WCQ No.6",
     "updated": 1543619004519,
     "user": 2025
@@ -9750,7 +9750,7 @@
     "desc": "A turn based fantasy strategy game",
     "id": 833,
     "name": "turns_of_war",
-    "rating": 69,
+    "rating": 70,
     "title": "Turns of War",
     "updated": 1663231046030,
     "user": 1409
@@ -46422,7 +46422,7 @@
     "desc": "slow",
     "id": 3998,
     "name": "tiny_raytracer",
-    "rating": 1,
+    "rating": 3,
     "title": "Tiny Raytracer",
     "updated": 1789181851337,
     "user": 8832
@@ -53322,7 +53322,7 @@
     "desc": "Adaptation of the original game Pacmania on Tic-80",
     "id": 4574,
     "name": "ticmania",
-    "rating": 8,
+    "rating": 9,
     "title": "TicMania",
     "updated": 1777787225724,
     "user": 13288
@@ -55974,7 +55974,7 @@
     "desc": "A Mini Sonic Game",
     "id": 4796,
     "name": "sonic_mini",
-    "rating": 1,
+    "rating": 2,
     "title": "Sonic Mini",
     "updated": 1786413669568,
     "user": 8369
@@ -56190,7 +56190,7 @@
     "desc": "Yu-gi-oh Speed duel for tic80",
     "id": 4814,
     "name": "ygo80",
-    "rating": 1,
+    "rating": 2,
     "title": "YGO80",
     "updated": 1787739255293,
     "user": 14135
@@ -56214,7 +56214,7 @@
     "desc": "Complete horizontal or vertical lines to launch spell attacks against your enemies",
     "id": 4816,
     "name": "railroad_wizard",
-    "rating": 2,
+    "rating": 3,
     "title": "Railroad Wizard",
     "updated": 1787959242619,
     "user": 14149
@@ -56494,5 +56494,17 @@
     "title": "color lines thing",
     "updated": 1789323283311,
     "user": 13913
+  },
+  {
+    "added": 1789393637502,
+    "author": "Grant Williams",
+    "category": 0,
+    "desc": "A word-spelling puzzle game. Inspired by Bookworm.",
+    "id": 4840,
+    "name": "magispells",
+    "rating": 3,
+    "title": "Magispells",
+    "updated": 1789393637502,
+    "user": 14211
   }
 ]
