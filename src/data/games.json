@@ -11161,14 +11161,14 @@
   },
   {
     "added": 1569407517796,
-    "author": "The Beesh-Spweesh!",
-    "category": 2,
-    "desc": "A CHIP-8 Interpreter/VM/Emulator",
+    "author": "(Author not found)",
+    "category": 4,
+    "desc": "",
     "id": 953,
-    "name": "chip_80",
+    "name": "404_error5",
     "rating": 5,
-    "title": "CHIP-80",
-    "updated": 1786001816061,
+    "title": "404 Error",
+    "updated": 1789682880452,
     "user": 232
   },
   {
@@ -56408,7 +56408,7 @@
     "name": "pixsel_clicker",
     "rating": 0,
     "title": "PIXSEL CLICKER",
-    "updated": 1788963670942,
+    "updated": 1789633728983,
     "user": 13743
   },
   {
@@ -56454,7 +56454,7 @@
     "desc": "A Top-Down Puzzle Platformer",
     "id": 4836,
     "name": "dachsland",
-    "rating": 1,
+    "rating": 2,
     "title": "Dachsland",
     "updated": 1789587082372,
     "user": 14201
@@ -56514,7 +56514,7 @@
     "desc": "Bad apple clip with PCM audio",
     "id": 4841,
     "name": "bad_apple_pcm_audio",
-    "rating": 3,
+    "rating": 4,
     "title": "Bad Apple (PCM audio)",
     "updated": 1789572885814,
     "user": 2749
@@ -56530,5 +56530,29 @@
     "title": "structure_gen",
     "updated": 1789577787083,
     "user": 12793
+  },
+  {
+    "added": 1789683000555,
+    "author": "The Beesh-Spweesh!",
+    "category": 2,
+    "desc": "A CHIP-8 Interpreter/VM/Emulator",
+    "id": 4843,
+    "name": "chip_80",
+    "rating": 0,
+    "title": "CHIP-80",
+    "updated": 1789683000555,
+    "user": 14243
+  },
+  {
+    "added": 1789685499572,
+    "author": "The Beesh-Spweesh!",
+    "category": 2,
+    "desc": "RCA 1802 emulation experiment",
+    "id": 4844,
+    "name": "cosmac_vip_pin_8_player",
+    "rating": 0,
+    "title": "COSMAC VIP PIN-8 Player",
+    "updated": 1789685499572,
+    "user": 14243
   }
 ]
