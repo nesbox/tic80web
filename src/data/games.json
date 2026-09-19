@@ -31254,7 +31254,7 @@
     "desc": "Projeto de mobilidade com prof. Felipe Loo",
     "id": 2678,
     "name": "proj_urban_mobolity",
-    "rating": 8,
+    "rating": 9,
     "title": "PROJ Urban Mobolity",
     "updated": 1654715624304,
     "user": 5806
@@ -51810,7 +51810,7 @@
     "desc": "A city building game",
     "id": 4448,
     "name": "urbanity",
-    "rating": 7,
+    "rating": 8,
     "title": "Urbanity",
     "updated": 1762710090345,
     "user": 11498
@@ -54738,7 +54738,7 @@
     "desc": "Explore an island of monsters and mysteries.",
     "id": 4692,
     "name": "balgun",
-    "rating": 0,
+    "rating": 1,
     "title": "Balgun",
     "updated": 1778447303910,
     "user": 13643
@@ -56514,7 +56514,7 @@
     "desc": "Bad apple clip with PCM audio",
     "id": 4841,
     "name": "bad_apple_pcm_audio",
-    "rating": 4,
+    "rating": 5,
     "title": "Bad Apple (PCM audio)",
     "updated": 1789572885814,
     "user": 2749
@@ -56550,9 +56550,33 @@
     "desc": "RCA 1802 emulation experiment",
     "id": 4844,
     "name": "cosmac_vip_pin_8_player",
-    "rating": 0,
+    "rating": 1,
     "title": "COSMAC VIP PIN-8 Player",
     "updated": 1789685499572,
     "user": 14243
+  },
+  {
+    "added": 1789759614730,
+    "author": "vihmu",
+    "category": 2,
+    "desc": "simple 8bit (or more) binary visualizer",
+    "id": 4845,
+    "name": "binary_visualizer",
+    "rating": 0,
+    "title": "binary visualizer",
+    "updated": 1789759614730,
+    "user": 14249
+  },
+  {
+    "added": 1789765912043,
+    "author": "flowey_sensie (azzy sensie)",
+    "category": 0,
+    "desc": "a standard, traditional platformer game",
+    "id": 4846,
+    "name": "bunny_jump",
+    "rating": 0,
+    "title": "bunny jump",
+    "updated": 1789765912043,
+    "user": 14247
   }
 ]

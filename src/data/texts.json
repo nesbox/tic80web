@@ -16210,5 +16210,9 @@
   {
     "id": 4844,
     "text": "PIN-8 is a music processing program for the COSMAC VIP kit computer equipped with the Supersound (VP-550) card and PAIA EK-2 drum card. It was written by Joe Weisbecker, the lead architect of the COSMAC processor itself.\r\n\r\nDetails on how the software works, including how to program custom tunes, can be found here:\r\nhttps://archive.org/details/bitsavers_rcacosmacVul78_1676274\r\n\r\nNOTE: This emulator is not meant to be a supplemental COSMAC VIP emulator. After all, a VIP BIOS is not necessary.\r\n\r\nI don't know if this is more appropriate for the Tools section or the Music section."
+  },
+  {
+    "id": 4845,
+    "text": "Binary visualizer. Use left/right to cycle bits, A to turn on/off."
   }
 ]
