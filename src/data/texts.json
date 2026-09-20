@@ -13384,16 +13384,8 @@
     "text": "This is an annular sector drawing method using triangle strips."
   },
   {
-    "id": 4005,
-    "text": "  A serene mountain range blanketed in snow, perfect for setting a cold,Antarctic or Alaskan atmosphere in your game.\r\n  "
-  },
-  {
     "id": 4006,
-    "text": " an engine capable of replacing sprites, \r\n (still in progress). \r\n update(0.2),\r\n \r\n now capable of replacing numerous 2 by 2 grids,\r\n thus making the replacement process 15X faster\r\n than the previous version,\r\n the spriteCore function can also be used individually \r\n to replace just 1 grid (2 by 2),\r\n I will soon make available my exec lua code,\r\n also necessary to compress and import sprites for this \r\n function and I will make a video teaching how to use it.\r\n"
-  },
-  {
-    "id": 4007,
-    "text": "touhou tic recreation"
+    "text": ".\r\n (still in progress). \r\n update(0.2),\r\n \r\n now capable of replacing numerous 2 by 2 grids,\r\n thus making the replacement process 15X faster\r\n than the previous version,\r\n the spriteCore function can also be used individually \r\n to replace just 1 grid (2 by 2),\r\n I will soon make available my exec lua code,\r\n also necessary to compress and import sprites for this \r\n function and I will make a video teaching how to use it.\r\n"
   },
   {
     "id": 4008,
@@ -13622,10 +13614,6 @@
   {
     "id": 4075,
     "text": "This is a port of my windows adaptation of the classic \"paper and pen\" game Paddocks or Boxes as some know it by.\r\n\r\nHow to play:\r\nPaddix is a 2-player game, each player takes turns building fences between the posts in the main paddock, once all four sides of a smaller paddock have been built, the paddock is claimed by the player that placed the fourth fence and a point is awarded.\r\n\r\nOnce all the paddocks have been claimed, the game is over with the player that has the most points as the winner.\r\n\r\nControls:\r\nPaddix has 2 modes of control: Gamepad mode and Mouse mode\r\n\r\nGamepad Controls:\r\nArrow buttons: Move pointer\r\no/Z / x/X : Build fence\r\n\r\nMouse Controls:\r\nMouse-movement: Move pointer\r\nLeft-Click : Build fence\r\n\r\nGamepad mode is set by default, toggle between modes via the system menu.\r\n\r\nSingle-player mode:\r\nBy default, Paddix is played with 2 human players however, it can be played against an inbuilt computer-player with the \"Player 2\" menu option.\r\nThe face is the normal human mode, the other options are shown as a microchip with a colored label. The label shows it's skill level. The skill level sets it's likelihood of making a mistake.\r\nGreen: Easy, most likely to make a bad move.\r\nYellow: Normal, it may make a couple of bad moves on a bigger board.\r\nRed: Hard, least likely to make a bad move.\r\n\r\nBackground effect:\r\nPaddix has a simple bubble-like effect behind the main play field. This effect can be toggled on and off via the system menu.\r\n\r\nPlacing fences:\r\nTo place a new fence, move the pointer between 2 free posts and press the gamepad button or left-mouse button, the fence will be built. The activation zone is shown below, if the pointer is in the highlighted areas the fence will be placed otherwise it will not.\r\n\r\nCredits:\r\nDesign: Brendos\r\nProgramming: Brendos\r\nGraphics: Brendos\r\nLabel Art: Brendos\r\nSounds: Brendos"
-  },
-  {
-    "id": 4076,
-    "text": "                      \u003cGame Description\u003e\r\nThis is a game that I'm still developing, it involves tetris, bombs, and floods.  \r\nYour objective is to protect the witch from the flood by creating structures so she can climb, but be careful not to create a prison of blocks over her, as she won't leave until you use bombs to free her.\r\n\r\n                           \u003chistory\u003e\r\nYou are a witch who was being hunted, by a miracle you caused a flood capable of misleading the inquisitors, but you are a stupid witch, you summoned a flood so strong that you are unable to stop it with your own powers, now you must summon structures from the heavens!, so that you can climb on top and wait for the flood to pass..."
   },
   {
     "id": 4077,
@@ -16214,5 +16202,45 @@
   {
     "id": 4845,
     "text": "Binary visualizer. Use left/right to cycle bits, A to turn on/off."
+  },
+  {
+    "id": 4847,
+    "text": "It is a demo of my latest sound engine: TicSynth Next.\r\nIt uses PCM feature that added in 1.2.\r\nIt overrides TIC-80's built in wavetable synthesizer."
+  },
+  {
+    "id": 4848,
+    "text": "This is the remake of the famous Columns "
+  },
+  {
+    "id": 4849,
+    "text": "Test"
+  },
+  {
+    "id": 4850,
+    "text": "Press 'Z' to start animation"
+  },
+  {
+    "id": 4851,
+    "text": "Press 'Z' to start animation"
+  },
+  {
+    "id": 4852,
+    "text": "Planets orbit radii"
+  },
+  {
+    "id": 4853,
+    "text": "Planets orbital periods comparison"
+  },
+  {
+    "id": 4854,
+    "text": "Planets Size Comparison"
+  },
+  {
+    "id": 4855,
+    "text": "Press Left/Right/Up/Down to move"
+  },
+  {
+    "id": 4856,
+    "text": "w.i.p. my first game"
   }
 ]
