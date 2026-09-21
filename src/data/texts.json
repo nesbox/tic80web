@@ -16241,6 +16241,18 @@
   },
   {
     "id": 4856,
-    "text": "w.i.p. my first game"
+    "text": "w.i.p. blueguy 0.4: my first game. "
+  },
+  {
+    "id": 4857,
+    "text": "My first game!\r\nI followed an incredible tutorial by https://www.youtube.com/@ZachAttakkCodes. I organized my code a bit differently but the features are the same."
+  },
+  {
+    "id": 4858,
+    "text": "My first game!\r\nI followed an incredible tutorial by https://www.youtube.com/@ZachAttakkCodes. I organized my code a bit differently but the features are the same."
+  },
+  {
+    "id": 4859,
+    "text": "An implementation of Conway's Game of Life if the Forth programming language.  Forth is not yet in the stable release of TIC-80, so for now this will only work in nightly."
   }
 ]
