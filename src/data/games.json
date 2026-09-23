@@ -19429,7 +19429,7 @@
     "id": 1530,
     "lang": "lua",
     "name": "episode_cclvi",
-    "rating": 14,
+    "rating": 15,
     "title": "Episode CCLVI",
     "updated": 1607722160454,
     "user": 4801
@@ -61276,7 +61276,7 @@
     "id": 4848,
     "lang": "lua",
     "name": "columns",
-    "rating": 0,
+    "rating": 1,
     "title": "Columns",
     "updated": 1789844646281,
     "user": 7430
@@ -61382,7 +61382,7 @@
     "name": "blue_guy",
     "rating": 0,
     "title": "blue guy",
-    "updated": 1790042430429,
+    "updated": 1790125794847,
     "user": 14257
   },
   {
