@@ -53567,7 +53567,7 @@
     "id": 4253,
     "lang": "lua",
     "name": "machine_divinity_soundtrack",
-    "rating": 2,
+    "rating": 3,
     "title": "Machine Divinity (Soundtrack)",
     "updated": 1745865943545,
     "user": 6757
@@ -61382,7 +61382,7 @@
     "name": "blue_guy",
     "rating": 0,
     "title": "blue guy",
-    "updated": 1790125794847,
+    "updated": 1790307519204,
     "user": 14257
   },
   {
@@ -61432,7 +61432,7 @@
     "id": 4860,
     "lang": "python",
     "name": "flappi_wird_flappy_brid_clone",
-    "rating": 0,
+    "rating": 2,
     "title": "Flappi Wird!(flappy brid clone)",
     "updated": 1790193717867,
     "user": 7833
@@ -61445,9 +61445,35 @@
     "id": 4861,
     "lang": "lua",
     "name": "ball_test",
-    "rating": 0,
+    "rating": 1,
     "title": "Ball Test",
     "updated": 1790204825277,
+    "user": 14281
+  },
+  {
+    "added": 1790244544912,
+    "author": "ChatGPT",
+    "category": 0,
+    "desc": "3D falling-block puzzle in a starfield",
+    "id": 4862,
+    "lang": "lua",
+    "name": "voxel_tetris_3d",
+    "rating": 2,
+    "title": "Voxel Tetris 3D",
+    "updated": 1790244544912,
+    "user": 14282
+  },
+  {
+    "added": 1790278396685,
+    "author": "Joao Rebeles",
+    "category": 1,
+    "desc": "A little tech demo of sandbox",
+    "id": 4863,
+    "lang": "lua",
+    "name": "square_arrange",
+    "rating": 0,
+    "title": "Square Arrange",
+    "updated": 1790278396685,
     "user": 14281
   }
 ]
