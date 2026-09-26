@@ -1,14 +1,14 @@
 {
   "TIC-80.AppImage": {
-    "hash": "55a2b7e477d4a0c6d79633f6ecfef6cc198a7488f1f1865957c13ffcd552ff2e",
+    "hash": "e132949033ccdee73fcd8b7d9493568c03a89161d3aca216a8be745b13193999",
     "size": 8340672
   },
   "tic80.dmg": {
-    "hash": "72cff1dea200f9426ea65bf6669871ba8a3cd7c02bbc0bbed8090b246999b3a7",
-    "size": 3601531
+    "hash": "51c15f7f8d0a06e696e6a0cb31e2c306825f056186f030a23904bf1061e36d92",
+    "size": 3601517
   },
   "tic80.zip": {
-    "hash": "037a5fb1c495658b20400abe67aca1aaab3ca096631fada27f2e60d156e595f2",
-    "size": 3978184
+    "hash": "0b088db78d0811504d203c9c6afb6b8303e3d25c97b4179cc350b23976baf913",
+    "size": 3978182
   }
 }
