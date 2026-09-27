@@ -16197,7 +16197,7 @@
   },
   {
     "id": 4844,
-    "text": "PIN-8 is a music processing program for the COSMAC VIP kit computer equipped with the Supersound (VP-550) card and PAIA EK-2 drum card. It was written by Joe Weisbecker, the lead architect of the COSMAC processor itself.\r\n\r\nDetails on how the software works, including how to program custom tunes, can be found here:\r\nhttps://archive.org/details/bitsavers_rcacosmacVul78_1676274\r\n\r\nNOTE: This emulator is not meant to be a supplemental COSMAC VIP emulator. After all, a VIP BIOS is not necessary.\r\n\r\nI don't know if this is more appropriate for the Tools section or the Music section."
+    "text": "PIN-8 is a music processing program for the COSMAC VIP kit computer equipped with the Supersound (VP-550) card and PAIA EK-2 drum card. It was written by Joe Weisbecker, the lead architect of the COSMAC processor itself.\r\n\r\nDetails on how the software works, including how to program custom tunes, can be found here:\r\nhttps://archive.org/details/bitsavers_rcacosmacVul78_1676274\r\n\r\nNOTE: This emulator is not meant to be a supplemental COSMAC VIP emulator. After all, a VIP BIOS is not necessary.\r\n\r\nI don't know if this is more appropriate for the Tools section or the Music section.\r\n\r\n\r\nUpdate 1 (September 26th, 2026):\r\n- Now officially supporting 16 KB RAM and binaries.\r\n- Fixed the disassembly for the long skip opcodes.\r\n- Rearranged the T register's position in the register view."
   },
   {
     "id": 4845,
@@ -16266,5 +16266,13 @@
   {
     "id": 4862,
     "text": "Voxel Tetris 3D"
+  },
+  {
+    "id": 4864,
+    "text": "Swordtember 2026"
+  },
+  {
+    "id": 4865,
+    "text": "Totally Original endless runer game."
   }
 ]

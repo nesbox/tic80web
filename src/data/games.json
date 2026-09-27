@@ -61226,7 +61226,7 @@
     "name": "cosmac_vip_pin_8_player",
     "rating": 1,
     "title": "COSMAC VIP PIN-8 Player",
-    "updated": 1789685499572,
+    "updated": 1790433942949,
     "user": 14243
   },
   {
@@ -61475,5 +61475,31 @@
     "title": "Square Arrange",
     "updated": 1790278396685,
     "user": 14281
+  },
+  {
+    "added": 1790462940636,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Swordtember 2026",
+    "id": 4864,
+    "lang": "lua",
+    "name": "tic_tac_toe_sword",
+    "rating": 0,
+    "title": "tic tac toe sword",
+    "updated": 1790462940636,
+    "user": 3114
+  },
+  {
+    "added": 1790465061172,
+    "author": "Benchwarmer",
+    "category": 0,
+    "desc": "short description",
+    "id": 4865,
+    "lang": "python",
+    "name": "run_dino_run",
+    "rating": 0,
+    "title": "Run Dino Run!",
+    "updated": 1790465061172,
+    "user": 7833
   }
 ]
