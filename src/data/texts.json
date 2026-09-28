@@ -16274,5 +16274,17 @@
   {
     "id": 4865,
     "text": "Totally Original endless runer game."
+  },
+  {
+    "id": 4866,
+    "text": "A pac-man clone"
+  },
+  {
+    "id": 4867,
+    "text": "A faithful recreation of Wavy Navy, a shoot-em-up originally written by Rodney McAuley and published by Sirius Software for the Apple II in 1983. This version preserves the gameplay, feel, and character of the original while making it easier to experience today.\r\n\r\nControls:\r\n- ← / → moves your boat left/right\r\n- btn Ⓐ / key 🆉 fires\r\n\r\n- From the title screen, press btn Ⓐ / key 🆉 to start the game, and ← or → to set the difficulty.\r\n\r\n- Hold ↓ and btn Ⓐ / key 🆉 for 4 seconds to reset the high score.\r\n\r\n- Hold ↑ and btn Ⓐ / key 🆉 for 4 seconds to change the visual display mode (color, green phosphor, or white phosphor monitors like back in the day).\r\n\r\nSource: https://github.com/dtempx/tic80"
+  },
+  {
+    "id": 4868,
+    "text": "A DINO \u0026 a JUMP ! "
   }
 ]

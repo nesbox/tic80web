@@ -2100,7 +2100,7 @@
     "id": 164,
     "lang": "lua",
     "name": "space_thing",
-    "rating": 27,
+    "rating": 28,
     "title": "Space Thing",
     "updated": 1503414211398,
     "user": 106
@@ -36602,7 +36602,7 @@
     "id": 2902,
     "lang": "lua",
     "name": "ticman",
-    "rating": 4,
+    "rating": 5,
     "title": "Ticman",
     "updated": 1659670132153,
     "user": 7833
@@ -36953,7 +36953,7 @@
     "id": 2929,
     "lang": "lua",
     "name": "space_boi",
-    "rating": 4,
+    "rating": 5,
     "title": "Space Boi",
     "updated": 1660442281899,
     "user": 7833
@@ -38916,7 +38916,7 @@
     "id": 3083,
     "lang": "lua",
     "name": "the_myths_and_legends_of_bone_knight",
-    "rating": 29,
+    "rating": 30,
     "title": "The Myths and Legends of Bone Knight",
     "updated": 1670670355335,
     "user": 5793
@@ -43024,7 +43024,7 @@
     "id": 3412,
     "lang": "lua",
     "name": "marico",
-    "rating": 5,
+    "rating": 6,
     "title": "Marico",
     "updated": 1689999346101,
     "user": 7833
@@ -44948,7 +44948,7 @@
     "id": 3587,
     "lang": "lua",
     "name": "luigi",
-    "rating": 3,
+    "rating": 4,
     "title": "Luigi",
     "updated": 1700101087858,
     "user": 7833
@@ -48510,7 +48510,7 @@
     "id": 3861,
     "lang": "python",
     "name": "wip_morio_like_game",
-    "rating": 4,
+    "rating": 5,
     "title": "WIP MORIO like game...",
     "updated": 1717650685611,
     "user": 7833
@@ -61497,9 +61497,48 @@
     "id": 4865,
     "lang": "python",
     "name": "run_dino_run",
-    "rating": 0,
+    "rating": 1,
     "title": "Run Dino Run!",
     "updated": 1790465061172,
     "user": 7833
+  },
+  {
+    "added": 1790494848015,
+    "author": "DcyD3",
+    "category": 4,
+    "desc": "A Pac-Man in CPC Style !",
+    "id": 4866,
+    "lang": "lua",
+    "name": "pac_tile",
+    "rating": 0,
+    "title": "Pac-Tile",
+    "updated": 1790494848015,
+    "user": 8878
+  },
+  {
+    "added": 1790516273463,
+    "author": "Dave Templin",
+    "category": 0,
+    "desc": "A faithful recreation of Wavy Navy, a shoot-em-up originally written by Rodney McAuley and published by Sirius Software for the Apple II in 1983.",
+    "id": 4867,
+    "lang": "lua",
+    "name": "wavy_navy",
+    "rating": 0,
+    "title": "Wavy Navy",
+    "updated": 1790516273463,
+    "user": 14251
+  },
+  {
+    "added": 1790522834125,
+    "author": "DcyD2",
+    "category": 4,
+    "desc": "A DINO \u0026 A JUMP",
+    "id": 4868,
+    "lang": "lua",
+    "name": "dino_demo",
+    "rating": 0,
+    "title": "DINO DEMO",
+    "updated": 1790522834125,
+    "user": 8878
   }
 ]
