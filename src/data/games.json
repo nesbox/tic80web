@@ -2399,7 +2399,7 @@
     "id": 188,
     "lang": "lua",
     "name": "8_bit_panda",
-    "rating": 170,
+    "rating": 171,
     "title": "8 Bit Panda",
     "updated": 1503932477450,
     "user": 339
@@ -2828,7 +2828,7 @@
     "id": 223,
     "lang": "lua",
     "name": "mario_bros",
-    "rating": 119,
+    "rating": 120,
     "title": "Mario Bros?",
     "updated": 1506192574136,
     "user": 5
@@ -5337,7 +5337,7 @@
     "id": 419,
     "lang": "lua",
     "name": "bad_apple",
-    "rating": 86,
+    "rating": 87,
     "title": "Bad Apple",
     "updated": 1516537438452,
     "user": 1
@@ -8236,7 +8236,7 @@
     "id": 645,
     "lang": "lua",
     "name": "supernova",
-    "rating": 112,
+    "rating": 113,
     "title": "Supernova",
     "updated": 1538931588058,
     "user": 1845
@@ -60951,7 +60951,7 @@
     "id": 4823,
     "lang": "lua",
     "name": "checking_in",
-    "rating": 2,
+    "rating": 3,
     "title": "Checking In",
     "updated": 1788309861861,
     "user": 5296
@@ -61185,7 +61185,7 @@
     "id": 4841,
     "lang": "lua",
     "name": "bad_apple_pcm_audio",
-    "rating": 6,
+    "rating": 7,
     "title": "Bad Apple (PCM audio)",
     "updated": 1789572885814,
     "user": 2749
@@ -61224,7 +61224,7 @@
     "id": 4844,
     "lang": "lua",
     "name": "cosmac_vip_pin_8_player",
-    "rating": 1,
+    "rating": 2,
     "title": "COSMAC VIP PIN-8 Player",
     "updated": 1790433942949,
     "user": 14243
@@ -61263,7 +61263,7 @@
     "id": 4847,
     "lang": "lua",
     "name": "music_demo_for_ticsynth_next",
-    "rating": 2,
+    "rating": 3,
     "title": "Music Demo (For TicSynth Next)",
     "updated": 1789828786174,
     "user": 8805
@@ -61432,7 +61432,7 @@
     "id": 4860,
     "lang": "python",
     "name": "flappi_wird_flappy_brid_clone",
-    "rating": 2,
+    "rating": 3,
     "title": "Flappi Wird!(flappy brid clone)",
     "updated": 1790193717867,
     "user": 7833
@@ -61510,7 +61510,7 @@
     "id": 4866,
     "lang": "lua",
     "name": "pac_tile",
-    "rating": 0,
+    "rating": 1,
     "title": "Pac-Tile",
     "updated": 1790494848015,
     "user": 8878
@@ -61523,7 +61523,7 @@
     "id": 4867,
     "lang": "lua",
     "name": "wavy_navy",
-    "rating": 0,
+    "rating": 1,
     "title": "Wavy Navy",
     "updated": 1790516273463,
     "user": 14251
@@ -61536,9 +61536,22 @@
     "id": 4868,
     "lang": "lua",
     "name": "dino_demo",
-    "rating": 0,
+    "rating": 1,
     "title": "DINO DEMO",
     "updated": 1790522834125,
     "user": 8878
+  },
+  {
+    "added": 1790604733629,
+    "author": "Claw86",
+    "category": 0,
+    "desc": "Control green marble to collect gems. Dodge eyes and ricocheting baddies.",
+    "id": 4869,
+    "lang": "lua",
+    "name": "ricochet_rallly",
+    "rating": 2,
+    "title": "Ricochet Rallly",
+    "updated": 1790604733629,
+    "user": 14146
   }
 ]
