@@ -51890,7 +51890,7 @@
     "id": 4124,
     "lang": "lua",
     "name": "high_colour_slideshow",
-    "rating": 9,
+    "rating": 10,
     "title": "High Colour Slideshow",
     "updated": 1735823397537,
     "user": 11248
@@ -61523,7 +61523,7 @@
     "id": 4867,
     "lang": "lua",
     "name": "wavy_navy",
-    "rating": 1,
+    "rating": 2,
     "title": "Wavy Navy",
     "updated": 1790516273463,
     "user": 14251
@@ -61549,9 +61549,22 @@
     "id": 4869,
     "lang": "lua",
     "name": "ricochet_rallly",
-    "rating": 2,
+    "rating": 3,
     "title": "Ricochet Rallly",
     "updated": 1790604733629,
     "user": 14146
+  },
+  {
+    "added": 1790710778750,
+    "author": "betty.wolfy",
+    "category": 4,
+    "desc": "now please delete my account and remove my personal informations from the website :)",
+    "id": 4870,
+    "lang": "lua",
+    "name": "this_is_my_account",
+    "rating": 0,
+    "title": "this is my account",
+    "updated": 1790710778750,
+    "user": 8832
   }
 ]
