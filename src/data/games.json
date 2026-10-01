@@ -8119,7 +8119,7 @@
     "id": 636,
     "lang": "lua",
     "name": "balmung",
-    "rating": 136,
+    "rating": 137,
     "title": "Balmung",
     "updated": 1645258303013,
     "user": 1720
@@ -35536,7 +35536,7 @@
     "id": 2818,
     "lang": "fennel",
     "name": "fennel_game_jam_1_poster",
-    "rating": 1,
+    "rating": 2,
     "title": "Fennel Game Jam #1 Poster",
     "updated": 1654152438359,
     "user": 6589
@@ -61566,5 +61566,31 @@
     "title": "this is my account",
     "updated": 1790710778750,
     "user": 8832
+  },
+  {
+    "added": 1790771378103,
+    "author": "John Colagioia (jcolag@colagioia.net)",
+    "category": 0,
+    "desc": "A Free Culture game about an astronaut collecting mines",
+    "id": 4871,
+    "lang": "lua",
+    "name": "kabang",
+    "rating": 1,
+    "title": "Kabang!",
+    "updated": 1790771378103,
+    "user": 9047
+  },
+  {
+    "added": 1790801326140,
+    "author": "nuus",
+    "category": 0,
+    "desc": "remake of dr mario (nes). clear viruses using falling pills.",
+    "id": 4872,
+    "lang": "lua",
+    "name": "dr80",
+    "rating": 1,
+    "title": "dr80",
+    "updated": 1790801326140,
+    "user": 12581
   }
 ]
