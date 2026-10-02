@@ -13292,16 +13292,8 @@
     "text": "Messy work in progress on something with many autonomous walkers in a single large map. Not sure what other game mechanics this needs."
   },
   {
-    "id": 3977,
-    "text": "press and hold the mouse button to place/delete/move pivots"
-  },
-  {
     "id": 3978,
     "text": "Sushi making simulator.\r\nDrag and drop ingredients and try to roll them together using the makisu (bamboo mat) without everything exploding.\r\nAdjust perspective with arrow keys.\r\nI would have made the physics more robust, but it runs too slowly to feel worthwhile.\r\nThere is secret music in track 05, and lots of unused sprites for sushi ingredients (and whole sushi).\r\nRepo: https://github.com/1j01/makisu (includes this TIC-80 version as well as a fully 3D version)"
-  },
-  {
-    "id": 3979,
-    "text": "i decided to post this here...\r\nit's not a final product, it's just done for fun\r\nif you find any problem please let me know.\r\n\r\nCONTROLS =\r\n\tPC =\r\n\t\t[ SPACE ]   = Run/Pause\r\n\t\t[ R ]       = Reset\r\n\t\t[ Q ]       = Rotate cells to left\r\n\t\t[ E ]       = Rotate cells to right\r\n\t\t[ N ]       = Prev menu\r\n\t\t[ M ]       = Next menu\r\n\t\tD-Pad       = Move camera\r\n\t\tMouse Wheel = Zoom in/out\r\n\t\tMLB         = Place cells\r\n\t\tMRB         = Remove cells\r\n\t\r\n\tMobile =\r\n\t\t( Y ) = Zoom in\r\n\t\t( A ) = Zoom out\r\n\t\t( X ) = Rotate cells to left\r\n\t\t( B ) = Rotate cells to right\r\n\t\tD-Pad = Move camera\r\n\t\tTouch = Place cells\r\n\r\nCREDITS =\r\n\tCODE BASE  = Jell Machine (https://play.jell-machine.com/)\r\n\tTEXTURES   = CMMM+ (https://traloc-dheckoa.itch.io/cmmm)\r\n\tCELL IDEAS =\r\n\t\tCMMM+\r\n\t\tJell Machine\r\n\t\tCelLua Machine (https://discord.com/invite/cellua-machine-server-866250603508662313)\r\n\t\tCreate Mod (https://discord.gg/Ufz5XAyGrV)\r\n\tHELPERS =\r\n\t\trascunho\r\n\t\tpixel puppet\r\n\t\tcleylton"
   },
   {
     "id": 3980,
@@ -13358,10 +13350,6 @@
   {
     "id": 3996,
     "text": "A demake of A Dance Of Fire And Ice by 7th Beat Games for TIC-80. Currently has basic track pieces, and some modifiers (speed and rotation). Press Z (A) or SPACE to move. Press A (X) to autoplay the map. Press S (Y) to reset at checkpoint. Travel between checkpoints by Left and Right. Change maps by Up and Down\r\n\r\nMake a map by editing the source code or using the editor (press X (B))! Some info is left as comments to help you get started in the code itself. The editor is used as follows: X (B) to toggle it, Z (A) to change the tile type (colours shown below), A (X) to toggle track build and level settings which uses arrows to place, and S (Y) to remove the tile you are on.\r\n\r\nWARNING: CREATED MAPS ARE IMPOSSIBLE TO SAVE, THEY ARE LOST ON REBOOT AND MAP SWITCHING!\r\n \r\nColour Code:\r\n1 - Red = 2x speed increase *\r\n2 - Blue = 2x speed decrease *\r\n3 - Green = Reverse rotation\r\n4 - Yellow = Checkpoint\r\n\r\n* Unless specified by map maker (it can be edited)\r\n\r\nUpdate 6 (WIP-1): Experimental update!\r\n- Some new decorative stars\r\n- A working trial of warning labels found in 2-Finale and 3-9\r\n- Slight modification to top right corner graphics, now slightly slimmer than before.\r\n- The first two levels of Set 4\r\n- A slimmer track visual by pressing Q (PC only for now, sorry gamepad gamers)\r\n- Some extra intro levels for Set 1 to try and ease in newer players a bit better\r\n\r\nJust a reminder that this is not the definitive Update 6. Take everything added/changed with a pinch of salt as it may not be part of the total update!"
-  },
-  {
-    "id": 3998,
-    "text": "I did this more to pass the time rather than teach someone, so don't expect readable code 😅"
   },
   {
     "id": 3999,
@@ -13438,10 +13426,6 @@
   {
     "id": 4023,
     "text": "nazarsade"
-  },
-  {
-    "id": 4024,
-    "text": "If you are the creator of the original port, and do not authorize this translation, please let me know."
   },
   {
     "id": 4025,
@@ -13714,10 +13698,6 @@
   {
     "id": 4102,
     "text": "Bubble Universe by Movie Vertigo\r\nhttps://youtube.com/movievertigo\r\nhttps://twitter.com/movievertigo\r\n\r\nYou can use the gamepad controls to move around, zoom in and out, and control the speed of the animation."
-  },
-  {
-    "id": 4104,
-    "text": "Notes:\r\n1. Circle brush will draw lines when radius is 0.\r\n2. You need to press the delete button for ~60 ms.\r\n3. The image on the cover is illustrative, and was not drawn in the current version of this game."
   },
   {
     "id": 4105,
@@ -15836,10 +15816,6 @@
     "text": "A PCM player for TIC-80.\r\nThis requires the very latest 1.2.0 version of TIC-80.\r\nThis is also ridiculously inefficient and uses all of tile, sprite and map memory for only 6 3/8 seconds playback.\r\nThe default sound loaded is the Aperture Science theme from Portal 2.\r\n\r\nHow to import:\r\nExport your audio as headerless, 7.68 KHz, unsigned 8-bit, mono. The rest of this guide assumes it's exported with filename \"in.raw\".\r\nRun the following Linux commands:\r\ntruncate -s 49024 in.raw\r\ndd if=in.raw of=tiles.raw bs=1K count=8\r\ndd if=in.raw of=sprites.raw bs=1K skip=8 count=8\r\ndd if=in.raw of=maps.raw bs=1K skip=16\r\n\r\nCopy tiles.raw, sprites.raw and maps.raw to the TIC-80 root.\r\nThen run the cart, open the Game Menu and select \"Import tiles\".\r\nRun the TIC-80 command \"import map tiles.raw\" and then run the cart. The message \"Tiles successfully imported\" should appear.\r\nRun it again, open the menu, and select \"Import sprites\".\r\nRun the command \"import map sprites.raw\" and then run the cart. The message \"Sprites successfully imported\" should appear.\r\nFinally, run the command \"import map maps.raw\". Then, run the cart to hear the sound coming out of TIC-80!"
   },
   {
-    "id": 4746,
-    "text": "Replace your cart with this to effectively delete it.\r\n(Enter the editor first though, and replace your username)"
-  },
-  {
     "id": 4747,
     "text": "Free to copy :)"
   },
@@ -15930,10 +15906,6 @@
   {
     "id": 4770,
     "text": "F1 Racing - in 2.5d ! (Outrun style). WIP . Now some upgrades : sprites sky \u0026 decor + lap progresion bar + time \u0026 record + sound brake accelerate + start engine.   V7 07/28/2026. Remember all is free ! you want to use sprites YES, modify for rally game etc etc YES YES and YES !!!!!!!!!!! Simply Credit ! Fork Based on DcyD2 (Thx). If rally make bump+smoke !!!!!!!!!!!!!!!!!!!!!!!! modify for buggy (OOhhh buggy boy YES)  "
-  },
-  {
-    "id": 4771,
-    "text": "Updated version of the Tomb of the TIC\r\n\r\nI probably won't finish this project; it's been years and I've lost all desire to work on it. Im sorry."
   },
   {
     "id": 4772,
@@ -16160,10 +16132,6 @@
     "text": "Pixel Clicker is a classic clicker game in retro style for TIC-80.\r\nClick on the white pixel to earn white pixels. Spend them on colored pixels — each one automatically generates white pixels per second."
   },
   {
-    "id": 4833,
-    "text": "ordererd dithering with bayer matrix"
-  },
-  {
     "id": 4834,
     "text": "SLUGLINE is a gritty 3v3 tactical roguelite with intuitive rules and endless combat synergies. Master the terrain, forge lethal ability fusions, and wipe the wasteland clean!\r\n\r\nCommand an elite fireteam of three distinct units — Armor Men, Motorcycle Striker, and Sniper — across 6 rounds of brutal skirmishes. As the battle drags on, rising toxic sludge floods the battlefield rim, cutting off retreat and punishing static play. Customize loadouts with 25 distinct cards, and outmaneuver AI before the waste swallows you whole.\r\n\r\nCompact 8×8 tactical grid with terrain cover and elevation advantages.\r\n\r\nDynamic environmental hazard: rising floodwaters compress the combat zone.\r\n\r\n25 synergistic ability cards: turrets, phase-walking, chain-kills, and overwatch - unlimited combination exporation."
   },
@@ -16298,5 +16266,17 @@
   {
     "id": 4872,
     "text": "Dr Mario Remake. Move with arrows. Up arrow is a special ability available after selecting Power Drop or Vanish game mode. A/B rotates the PILL."
+  },
+  {
+    "id": 4873,
+    "text": "Teaching resource: creation of bouncing ball with python"
+  },
+  {
+    "id": 4874,
+    "text": "Teaching resource: Demo of simple object class creation with python"
+  },
+  {
+    "id": 4875,
+    "text": "A port of SomethingUnreal's Windows 98/XP theme to TIC-80.\r\nPlease note that this only ports the 2007 version, not the extended version."
   }
 ]

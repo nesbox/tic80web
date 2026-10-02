@@ -43310,7 +43310,7 @@
     "id": 3460,
     "lang": "lua",
     "name": "sonic_mini",
-    "rating": 55,
+    "rating": 56,
     "title": "Sonic Mini",
     "updated": 1712802005931,
     "user": 6198
@@ -50011,19 +50011,6 @@
     "user": 10869
   },
   {
-    "added": 1724740192018,
-    "author": "elias",
-    "category": 0,
-    "desc": "test",
-    "id": 3977,
-    "lang": "js",
-    "name": "bezier_curve",
-    "rating": 4,
-    "title": "Bezier Curve",
-    "updated": 1724792563040,
-    "user": 8832
-  },
-  {
     "added": 1724814936714,
     "author": "1j01",
     "category": 4,
@@ -50035,19 +50022,6 @@
     "title": "Makisu",
     "updated": 1724814936714,
     "user": 10866
-  },
-  {
-    "added": 1724817382412,
-    "author": "elias.wolfy",
-    "category": 4,
-    "desc": "Tell Machine is a cellular automaton, experiment with more than 30 cells with different behaviors.",
-    "id": 3979,
-    "lang": "js",
-    "name": "tell_machine_demo",
-    "rating": 7,
-    "title": "Tell Machine (Demo)",
-    "updated": 1729034317098,
-    "user": 8832
   },
   {
     "added": 1724819040678,
@@ -50282,19 +50256,6 @@
     "title": "Pong",
     "updated": 1725399482033,
     "user": 10897
-  },
-  {
-    "added": 1725427632562,
-    "author": "elias.wolfy",
-    "category": 0,
-    "desc": "slow",
-    "id": 3998,
-    "lang": "js",
-    "name": "tiny_raytracer",
-    "rating": 4,
-    "title": "Tiny Raytracer",
-    "updated": 1789181851337,
-    "user": 8832
   },
   {
     "added": 1725487312866,
@@ -50596,19 +50557,6 @@
     "user": 10966
   },
   {
-    "added": 1727572493633,
-    "author": "nequ16",
-    "category": 0,
-    "desc": "demake of the 2014 indie point-and-click horror game for TIC-80 tiny computer",
-    "id": 4024,
-    "lang": "lua",
-    "name": "five_nights_at_freddy_s_pt_br",
-    "rating": 2,
-    "title": "Five Nights at Freddy's (PT-BR)",
-    "updated": 1727572549050,
-    "user": 8832
-  },
-  {
     "added": 1727579877002,
     "author": "potato imaginator",
     "category": 1,
@@ -50633,19 +50581,6 @@
     "title": "blizzard",
     "updated": 1727903920280,
     "user": 10974
-  },
-  {
-    "added": 1728166639807,
-    "author": "elias",
-    "category": 2,
-    "desc": ".",
-    "id": 4027,
-    "lang": "js",
-    "name": "javascript_benchmark",
-    "rating": 0,
-    "title": "Javascript Benchmark",
-    "updated": 1728166639807,
-    "user": 8832
   },
   {
     "added": 1728191713415,
@@ -51621,19 +51556,6 @@
     "title": "Moving points",
     "updated": 1734444687728,
     "user": 5237
-  },
-  {
-    "added": 1734567357960,
-    "author": "elias.wolfy",
-    "category": 0,
-    "desc": "",
-    "id": 4104,
-    "lang": "lua",
-    "name": "tiny_paint",
-    "rating": 0,
-    "title": "Tiny Paint",
-    "updated": 1734724700936,
-    "user": 8832
   },
   {
     "added": 1734697405820,
@@ -59943,19 +59865,6 @@
     "user": 2446
   },
   {
-    "added": 1782326689488,
-    "author": "{USER NAME HERE}",
-    "category": 2,
-    "desc": "This cart has been deleted by the uploader",
-    "id": 4746,
-    "lang": "lua",
-    "name": "cart_unavailable",
-    "rating": 0,
-    "title": "Cart unavailable",
-    "updated": 1782326689488,
-    "user": 9748
-  },
-  {
     "added": 1782855796129,
     "author": "Sava",
     "category": 1,
@@ -60223,7 +60132,7 @@
     "id": 4767,
     "lang": "lua",
     "name": "lulu",
-    "rating": 4,
+    "rating": 5,
     "title": "Lulu",
     "updated": 1786298309553,
     "user": 13008
@@ -60266,19 +60175,6 @@
     "title": "F1 Racing",
     "updated": 1785232299910,
     "user": 8878
-  },
-  {
-    "added": 1785426817258,
-    "author": "betty.wolfy",
-    "category": 0,
-    "desc": "You have entered the ancient sacred tomb in search of the golden Mask of Tic. The tomb is full of levels, the lower you go, the harder it gets.",
-    "id": 4771,
-    "lang": "lua",
-    "name": "tomb_of_the_tic",
-    "rating": 2,
-    "title": "Tomb Of The Tic",
-    "updated": 1785426817258,
-    "user": 8832
   },
   {
     "added": 1785509111272,
@@ -61074,19 +60970,6 @@
     "user": 13743
   },
   {
-    "added": 1788985952110,
-    "author": "betty.wolfy",
-    "category": 1,
-    "desc": "using an 8x8 bayer matrix on an 8-color palette to simulate greater color depth",
-    "id": 4833,
-    "lang": "js",
-    "name": "ordered_dithering",
-    "rating": 1,
-    "title": "ordered dithering",
-    "updated": 1789181789597,
-    "user": 8832
-  },
-  {
     "added": 1789127422125,
     "author": "OGO-GAME STUDIO",
     "category": 0,
@@ -61555,19 +61438,6 @@
     "user": 14146
   },
   {
-    "added": 1790710778750,
-    "author": "betty.wolfy",
-    "category": 4,
-    "desc": "now please delete my account and remove my personal informations from the website :)",
-    "id": 4870,
-    "lang": "lua",
-    "name": "this_is_my_account",
-    "rating": 0,
-    "title": "this is my account",
-    "updated": 1790710778750,
-    "user": 8832
-  },
-  {
     "added": 1790771378103,
     "author": "John Colagioia (jcolag@colagioia.net)",
     "category": 0,
@@ -61588,9 +61458,48 @@
     "id": 4872,
     "lang": "lua",
     "name": "dr80",
-    "rating": 1,
+    "rating": 2,
     "title": "dr80",
     "updated": 1790801326140,
     "user": 12581
+  },
+  {
+    "added": 1790879501225,
+    "author": "Carlos Peralta",
+    "category": 4,
+    "desc": "Demo sin POO",
+    "id": 4873,
+    "lang": "python",
+    "name": "ejemplo_bolita_sin_poo",
+    "rating": 0,
+    "title": "Ejemplo bolita sin POO",
+    "updated": 1790879501225,
+    "user": 14182
+  },
+  {
+    "added": 1790879689436,
+    "author": "Carlos Peralta",
+    "category": 4,
+    "desc": "Demo POO con multiples objetos",
+    "id": 4874,
+    "lang": "python",
+    "name": "ejemplo_bolitas_con_poo",
+    "rating": 0,
+    "title": "Ejemplo bolitas con POO",
+    "updated": 1790879689436,
+    "user": 14182
+  },
+  {
+    "added": 1790901790704,
+    "author": "SomethingUnreal / Luke",
+    "category": 3,
+    "desc": "The famous Windows 98/XP theme in TIC-80!",
+    "id": 4875,
+    "lang": "lua",
+    "name": "xp_sounds_attempt",
+    "rating": 0,
+    "title": "XP Sounds Attempt",
+    "updated": 1790901790704,
+    "user": 9748
   }
 ]
