@@ -19455,7 +19455,7 @@
     "id": 1532,
     "lang": "lua",
     "name": "tic_topos",
-    "rating": 27,
+    "rating": 28,
     "title": "TIC Topos",
     "updated": 1607894840807,
     "user": 1720
@@ -44844,7 +44844,7 @@
     "id": 3579,
     "lang": "lua",
     "name": "logic_gates_simulator",
-    "rating": 4,
+    "rating": 5,
     "title": "Logic Gates Simulator",
     "updated": 1697390640138,
     "user": 9436
@@ -49355,7 +49355,7 @@
     "id": 3926,
     "lang": "lua",
     "name": "blueyvania",
-    "rating": 9,
+    "rating": 10,
     "title": "BlueyVANIA",
     "updated": 1786990933946,
     "user": 8506
@@ -61499,7 +61499,20 @@
     "name": "xp_sounds_attempt",
     "rating": 0,
     "title": "XP Sounds Attempt",
-    "updated": 1790901790704,
+    "updated": 1790947429234,
     "user": 9748
+  },
+  {
+    "added": 1790945787448,
+    "author": "plumifrons",
+    "category": 0,
+    "desc": "An interactive pirate adventure story with more jokes than gameplay",
+    "id": 4876,
+    "lang": "lua",
+    "name": "valda_and_the_pirates_of_wolfsmaw",
+    "rating": 1,
+    "title": "Valda and the Pirates of Wolfsmaw",
+    "updated": 1790947915009,
+    "user": 14046
   }
 ]
