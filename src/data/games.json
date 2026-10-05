@@ -3426,7 +3426,7 @@
     "id": 271,
     "lang": "lua",
     "name": "the_dark_tower",
-    "rating": 4,
+    "rating": 5,
     "title": "The Dark Tower",
     "updated": 1508977472737,
     "user": 69
@@ -5337,7 +5337,7 @@
     "id": 419,
     "lang": "lua",
     "name": "bad_apple",
-    "rating": 87,
+    "rating": 88,
     "title": "Bad Apple",
     "updated": 1516537438452,
     "user": 1
@@ -6949,7 +6949,7 @@
     "id": 546,
     "lang": "lua",
     "name": "grab_the_blue_spheres",
-    "rating": 13,
+    "rating": 14,
     "title": "Grab the Blue Spheres!",
     "updated": 1528211894420,
     "user": 219
@@ -7339,7 +7339,7 @@
     "id": 576,
     "lang": "lua",
     "name": "nyanyanyanyanyanyanya",
-    "rating": 25,
+    "rating": 26,
     "title": "Nyanyanyanyanyanyanya!",
     "updated": 1529983335874,
     "user": 219
@@ -54945,7 +54945,7 @@
     "id": 4365,
     "lang": "lua",
     "name": "retro_gunner_version_1_03",
-    "rating": 10,
+    "rating": 11,
     "title": "RETRO GUNNER (version 1.03)",
     "updated": 1784510704072,
     "user": 4912
@@ -59456,7 +59456,7 @@
     "id": 4714,
     "lang": "lua",
     "name": "indrillmental",
-    "rating": 2,
+    "rating": 3,
     "title": "InDrillmental",
     "updated": 1781458471295,
     "user": 12299
@@ -60041,7 +60041,7 @@
     "id": 4760,
     "lang": "lua",
     "name": "nekomimi_clock",
-    "rating": 3,
+    "rating": 4,
     "title": "nekomimi clock",
     "updated": 1786282008120,
     "user": 3482
@@ -60054,7 +60054,7 @@
     "id": 4761,
     "lang": "lua",
     "name": "hanamileh_s_mod",
-    "rating": 6,
+    "rating": 7,
     "title": "HanamileH's mod",
     "updated": 1784374711217,
     "user": 2749
@@ -61237,7 +61237,7 @@
     "id": 4854,
     "lang": "lua",
     "name": "planets_size_comparison",
-    "rating": 0,
+    "rating": 1,
     "title": "planets size comparison",
     "updated": 1789873817804,
     "user": 3114
