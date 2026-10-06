@@ -2704,19 +2704,6 @@
     "user": 457
   },
   {
-    "added": 1505627735787,
-    "author": "Bruno Oliveira, cheat by StinkerB06",
-    "category": 0,
-    "desc": "A panda platformer",
-    "id": 212,
-    "lang": "lua",
-    "name": "8_bit_panda_cheat_version",
-    "rating": 4,
-    "title": "8 Bit Panda (Cheat Version)",
-    "updated": 1505627735787,
-    "user": 232
-  },
-  {
     "added": 1505631021792,
     "author": "mishaor",
     "category": 1,
@@ -3052,19 +3039,6 @@
     "rating": 10,
     "title": "A couple of songs I made today",
     "updated": 1507853986245,
-    "user": 232
-  },
-  {
-    "added": 1507972980005,
-    "author": "StinkerB06",
-    "category": 1,
-    "desc": "",
-    "id": 242,
-    "lang": "lua",
-    "name": "exit_api_command_demo_lua",
-    "rating": 0,
-    "title": "exit API Command Demo (Lua)",
-    "updated": 1507972980005,
     "user": 232
   },
   {
@@ -5655,19 +5629,6 @@
     "user": 976
   },
   {
-    "added": 1519037693877,
-    "author": "StinkerB06",
-    "category": 1,
-    "desc": "Uses Trace() to print a message",
-    "id": 444,
-    "lang": "lua",
-    "name": "trace_demo",
-    "rating": 0,
-    "title": "Trace Demo",
-    "updated": 1519037693877,
-    "user": 232
-  },
-  {
     "added": 1519059615319,
     "author": "codeartistic.ninja",
     "category": 4,
@@ -5808,19 +5769,6 @@
     "rating": 0,
     "title": "TIC-80 glitch effect",
     "updated": 1519371654706,
-    "user": 232
-  },
-  {
-    "added": 1519538696172,
-    "author": "StinkerB06",
-    "category": 2,
-    "desc": "Shows Gamepad/Mouse/Keyboard register data",
-    "id": 456,
-    "lang": "lua",
-    "name": "input_reader",
-    "rating": 1,
-    "title": "Input reader",
-    "updated": 1519538696172,
     "user": 232
   },
   {
@@ -34262,7 +34210,7 @@
     "id": 2710,
     "lang": "lua",
     "name": "unitic_3d_engine",
-    "rating": 13,
+    "rating": 14,
     "title": "UniTIC (3D Engine)",
     "updated": 1659821793336,
     "user": 2749
@@ -44549,19 +44497,6 @@
     "title": "INSIDE",
     "updated": 1695979166327,
     "user": 4806
-  },
-  {
-    "added": 1696169907675,
-    "author": "Andrey Listopadov",
-    "category": 4,
-    "desc": "A Cosmic Magic Shooter",
-    "id": 3557,
-    "lang": "fennel",
-    "name": "game3_shoot_em_up",
-    "rating": 2,
-    "title": "Game3 - Shoot 'Em Up",
-    "updated": 1696169907675,
-    "user": 7747
   },
   {
     "added": 1696182768582,
@@ -54945,7 +54880,7 @@
     "id": 4365,
     "lang": "lua",
     "name": "retro_gunner_version_1_03",
-    "rating": 11,
+    "rating": 12,
     "title": "RETRO GUNNER (version 1.03)",
     "updated": 1784510704072,
     "user": 4912
@@ -56639,19 +56574,6 @@
     "title": "Balatro Demake",
     "updated": 1767925943145,
     "user": 12264
-  },
-  {
-    "added": 1767921215513,
-    "author": "Andrey Listopadov",
-    "category": 1,
-    "desc": "Making slopes wiht AABB collisions",
-    "id": 4497,
-    "lang": "lua",
-    "name": "aabb_slopes",
-    "rating": 2,
-    "title": "AABB Slopes",
-    "updated": 1767922584725,
-    "user": 7747
   },
   {
     "added": 1767965528728,
@@ -60043,7 +59965,7 @@
     "name": "nekomimi_clock",
     "rating": 4,
     "title": "nekomimi clock",
-    "updated": 1786282008120,
+    "updated": 1791251168760,
     "user": 3482
   },
   {
@@ -60730,7 +60652,7 @@
     "id": 4814,
     "lang": "lua",
     "name": "ygo80",
-    "rating": 2,
+    "rating": 3,
     "title": "YGO80",
     "updated": 1791020324611,
     "user": 14135

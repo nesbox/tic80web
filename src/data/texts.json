@@ -484,10 +484,6 @@
     "text": "Based on my PICO-8 game, Bullet Sheep, this is an endless horizontal-scrolling bullet hell shoot'em'up game.\r\n\r\nIt has a quite different scoring system from the original work, more suited to endless play. The woolbombs still function as the scoring mechanics, but instead of giving you extends they increase your score multipler significantly based on the number of bullets cancelled. Also, because it is an endless game, there is a rank system to force player to lose. Shooting, using woolbombs, and even surviving are increasing the rank value, which in turn increases difficulty significantly. The only way to lower the rank is to get hit and lose a life."
   },
   {
-    "id": 212,
-    "text": "Now there's 1,000 lives with no enemies, partially hahaha\r\n\r\nNote: This cartridge can be used as a cheat tool for the original game to skip isles.\r\n\r\nNow back in games section!"
-  },
-  {
     "id": 213,
     "text": "My first TIC-80 demo."
   },
@@ -582,10 +578,6 @@
   {
     "id": 241,
     "text": "I bet nobody ever did 3/4 on the TIC-80 before, but I just feel comfortable with that time signature to warm up my music composition skills."
-  },
-  {
-    "id": 242,
-    "text": "Simplest demo using exit() command.\r\n\r\nIt is a mod of the hello world template."
   },
   {
     "id": 243,
@@ -1284,10 +1276,6 @@
     "text": "Berry and the Stolen Star\r\nBy Berry\r\n\r\nUse the Left/Right arrows to move\r\nA(Z) to jump\r\nUp/Down to scroll the camera\r\nB(X) to skip to cutscene\r\nUp to go in doors\r\nDown to open chests"
   },
   {
-    "id": 444,
-    "text": "Many people will like it... !"
-  },
-  {
     "id": 445,
     "text": "just a little platformer engine I made.. still has a few bugs as you can probably tell..\r\nfeel free to edit the map or even use the engine for your own games.. :)"
   },
@@ -1326,10 +1314,6 @@
   {
     "id": 455,
     "text": "ENJOY THE GLITCH..."
-  },
-  {
-    "id": 456,
-    "text": "Lets you read the state of the gamepad/mouse/keyboard input registers.\r\n\r\nWhile testing, I found out that TIC-80 handles the keyboard polyphony values from least to greatest, and stores them all in a stack."
   },
   {
     "id": 457,
@@ -11848,10 +11832,6 @@
     "text": "A smol tribute to Bo Burnham's \"Inside\"\r\n\r\nPress A to cry."
   },
   {
-    "id": 3557,
-    "text": "Another game in my gamedev marathon. Devlog available here: https://andreyor.st/tags/game3/"
-  },
-  {
     "id": 3558,
     "text": "A game for Ludum Dare #54: https://ldjam.com/events/ludum-dare/54/if-i-fits-i-sits\r\n\r\nA simple but challenging game about sitting in boxes\r\n\r\nYou’re a very special cat because you can be long or stubby at will! You’ll need your special talent to fit into - and ultimately sit in - a series of cardboard boxes. You’ll walk across the screen and at any time have the option to halt each half of your body. To fit in the box, your chest and butt must be within the edges of the box. If any pixel of your chest or butt is outside the edges of the box when your front and hind ends stop moving… you lose! But if you fit in the box, you get points for the sit and move on to the next!\r\n\r\nPrecision is rewarded. Earn triple points if you fill the box perfectly and double points for great fits.\r\n\r\nThe excitement builds as successful sits increase your movement speed. How long can you keep it up? Can you get the high score?\r\n\r\nControls\r\n\r\nF11 or alt + enter to activate fullscreen. ESC for a menu with some helpful options.\r\n\r\nxinput controller (Xbox controller)\r\n\r\n    X button: halt left side of cat\r\n    Y button: halt right side of cat\r\n    A button: halt both sides of cat simultaneously\r\n    B button: quick reset after game over (skip the title screen)\r\n\r\nkeyboard\r\n\r\n    left arrow or a key: halt left side of cat\r\n    right arrow or s key: halt right side of cat\r\n    z key: halt both sides of cat simultaneously\r\n    x key: quick reset after game over (skip the title screen)"
   },
@@ -15072,10 +15052,6 @@
     "text": "A tiny Balatro demake inspired by the popular game by Local Thunk."
   },
   {
-    "id": 4497,
-    "text": "This is an experiment in implementing slopes in an AABB collision system that usually allows only for axis-aligned rectangles. A full write-up about this is available at https://andreyor.st//posts/2026-01-09-slopes-in-aabb-collision-systems/\r\n\r\n(Objects can be dragged with a mouse)"
-  },
-  {
     "id": 4498,
     "text": "Free to copy :)"
   },
@@ -15865,7 +15841,7 @@
   },
   {
     "id": 4760,
-    "text": "A re/demake of Nekomimi Clock, the original desktop ghost which spawned the set of catgirls that some people might know for... other reasons.\r\n\r\nArt was converted from the original sprites, which I extracted from the .nar file.\r\n\r\nUPDATE 2026-08-09: Now properly renders 6-week months!"
+    "text": "A re/demake of Nekomimi Clock, the original desktop ghost which spawned the set of catgirls that some people might know for... other reasons.\r\n\r\nArt was converted from the original sprites, which I extracted from the .nar file.\r\n\r\nUPDATE 2026-08-09: Now properly renders 6-week months!\r\nUPDATE 2026-10-05: Now doesn't crash on a 5-week month that doesn't have 4 full 7-day weeks! (oops)"
   },
   {
     "id": 4761,
