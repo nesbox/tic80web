@@ -2417,7 +2417,7 @@
   },
   {
     "id": 773,
-    "text": "Sorry Cover image is fake.\r\n\r\nState number\r\n\r\nState=0 - Text moving control\r\nState=1 - Sprite moving control\r\nState=2 - No state (with cover image)\r\n\r\nMaster nama Upload cartridge every sunday.\r\n2019 (C) master nama"
+    "text": "State number\r\n\r\nState=0 - Text moving control\r\nState=1 - Sprite moving control\r\nState=2 - No state (with cover image)\r\n\r\n\r\n© 2019 Master Nama"
   },
   {
     "id": 774,
@@ -2429,7 +2429,7 @@
   },
   {
     "id": 777,
-    "text": "Press key to move."
+    "text": "Press key to move.\r\n© 2019 Master Nama\r\n"
   },
   {
     "id": 779,
@@ -2472,18 +2472,6 @@
     "text": "Let's take a walk in an automatically generated dungeon.\r\n[Z] Use Potion\r\n[X] Slash/Unlocking Door/Break Box\r\n[A] Change Big/Small Size ... Thanks to Uokagi-san!\r\n\r\nUpdate:\r\nFeb-19 '21: Added slash animation."
   },
   {
-    "id": 790,
-    "text": "Press A/Z to David is a RUNNING!\r\n\r\nPress b/x to Restart (back)\r\n\r\n(C) 2019 Master nama"
-  },
-  {
-    "id": 791,
-    "text": "Press A/Z to David is a RUNNING!\r\n\r\nPress b/x to Restart (back)\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
-    "id": 792,
-    "text": "This game is same.\r\n\r\nInspired by TehShadowz\r\n\r\nPress Up to Jump\r\nPress Down to duck\r\n\r\n(C) Run run run TehShadowz\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 798,
     "text": "i mak gaem\r\npls plai and enjoy gam\r\n\r\ndis gam i VER GUD, has 8 levl an keys an d flag n lokked bloks dat u need kee 2 opn\r\n\r\ncontrol:\r\nup - movve up\r\ndwon - move dow\r\nlefft - mov in a direkshun i forgot wich\r\nrigth - sumun satan\r\n\r\ncurnet vers 1.1\r\nchangelog 1.1 lockde blox work proprly nao"
   },
@@ -2496,10 +2484,6 @@
     "text": "My very first published TIC-80 game. A pong game made to troll people. You can't beat the AI (wink wink). "
   },
   {
-    "id": 801,
-    "text": "Pridx Betcher Music maked by Master Nama\r\n\r\nNew version 8.1\r\n\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 802,
     "text": "MS Windows 3.1 Minesweeper clone"
   },
@@ -2510,10 +2494,6 @@
   {
     "id": 804,
     "text": "Classic adventure game.\r\n\r\nGame operation:\r\n[Up / Down] Command selection\r\n[Z] Command decision\r\n[A] Clear save data (Start from first scene when game restart)\r\n[S] Save (Start from save point when game restart)\r\n\r\nUpdate 15-Feb '21:\r\n- Added Drury Lane to the last scene :D"
-  },
-  {
-    "id": 805,
-    "text": "BG - Kyle Champman\r\nFG - StarGum65\r\n\r\nNote:\r\nOpen the code editor see brown text. Please remove your brown text code.\r\n\r\n(C) 2019 Master nama"
   },
   {
     "id": 806,
@@ -2536,10 +2516,6 @@
     "text": "Record your mouse.\r\nClick the red button to record."
   },
   {
-    "id": 811,
-    "text": "Press A/z to restart\r\nPress up/down go to state\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 812,
     "text": "ghtjkhjkhjhjgf"
   },
@@ -2550,10 +2526,6 @@
   {
     "id": 814,
     "text": "Use the arrow keys to change the frequency divider register value!"
-  },
-  {
-    "id": 816,
-    "text": "Watch out!!! Boss is coming!.\r\n\r\nHow to make a rock music\r\nNote:\r\nuse (double lines right) (lines up). (Squrte) wareforms. Open the music editor using music tracker. Oct 5 - line Oct 2 - squrte. Make your music 01 Press ctrl+a \u0026 click copy icon. go to 02 press ctrl+v \u0026 paste icon. Change idx sfx. Change oct. click play icon wow! Music like rock. Easy to use.\r\n\r\nGreat Idea!\r\n(C) 2019 Master nama"
   },
   {
     "id": 817,
@@ -2588,10 +2560,6 @@
     "text": "The year is 20XX. Ageing is a thing of the past, and all humans have predetermined lifespans, shown by digital clocks embedded in their arm. Time can be bought, sold, or traded - just like a currency.\r\n\r\nYou are Vance Anderson. Your lifespan has just been stolen. You have 15 minutes to live... unless you can find whoever is responsible.\r\n\r\nCreated in 48 hours for Ludum Dare 44.\r\n\r\nControls:\r\n- Arrows: Move\r\n- Z: Talk\r\n- X: View inventory"
   },
   {
-    "id": 825,
-    "text": "Note: Masternama is without permission to cartridge. \r\n(Hello world by Nesbox)\r\n(C) 2017 Nesbox\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 826,
     "text": "You're dying, and medicine ain't cheap.\r\n\r\nCollect coins and buy medicine to extend your lifespan. Be careful of the current market values of your coins to optimize how much you can buy with what you have.\r\n\r\nThis game has been developed for the Ludum Dare #44: \"your life is currency\"."
   },
@@ -2612,16 +2580,8 @@
     "text": "this game clicker is a copy of the original browser game cookie clicker, the task in this game is to collect as many cookies and improve the pumping level to the highest level for this you can either just invite a lot of cookies, or pump to furnace at the maximum level in this game, there are 3 improvements: the cursor, which increases the number of cookies produced per click, lucky cursor which increases the chance of falling out of the Golden cookies (which gives several times more cookies than normal) and another furnace which gives a small amount of cookies per second, this game is a 2 version of my first clicker game https://tic.computer/play?cart=691 (translated in Yandex translator)"
   },
   {
-    "id": 831,
-    "text": "Update soon ;)\r\nScroll down v. Please comment below!.\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 833,
     "text": "A turn based fantasy strategy game! Over 26 levels and 28 unit types! Magic, effects, strategy, and more! Simple one button interface for seamless play experience on Android! \r\nTutorial included!\r\n\r\nNow with Music and sfx!! :)\r\n\r\nUpdate 2022/09/15: Now with even more levels and monsters! Also there's some bugfixes and ui tweaks!\r\n\r\nCode and design by MSX (msx80@twitter)\r\nGraphics by Stavros (eliacoan@twitter)\r\nMusic and sound by Fubuki"
-  },
-  {
-    "id": 834,
-    "text": "(TIC-80 Message GUI by Nesbox)\r\n(C) 2017 Nesbox\r\n(C) 2019 Master nama"
   },
   {
     "id": 836,
@@ -2652,10 +2612,6 @@
     "text": "\u003c This is a Post-mortem WIP of Ludum dare #44\u003e\r\n\r\n- Gallop Racer 80 - \r\n\r\nA Gallop Racer demake. GR is one of the favorite games in my whole family, I wanted to express that feeling in the #LD due to issues of obligations I could not finish it completely. The System of \"bets\" and winning horse are at 100%. Only I need to add:\r\n\r\n- Some decorative sprites\r\n- A couple of animations\r\n- Music and sound effects (The truth is I'm a piece of sh**... in this branch of gamedev, if there is someone who wants to collaborate in this section, I will have my gratitude and respect forever!).\r\n\r\n- CONTROLS -\r\nLeft/Right Arrow: Select your Favorite Horse\r\nZ key: Skip Menu and Confirm your Horse."
   },
   {
-    "id": 843,
-    "text": "(TIC-80 Startup screen by Nesbox)\r\n(TIC-80 version - 0.70.7)\r\n(C) 2017 Nesbox\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 844,
     "text": "This is a little bit slow and inefficient (browser only), and I did not come up with this idea. The concept was covered in greater depth in one of The Coding Train's videos: https://youtu.be/X0kjv0MozuY\r\nAlso, I am aware of the bug (now fixed) that every once in a while, a weird black line appears in the fire. That happens because the smoothing algorithm applied on the cooling map doesn't work on the edges, and I was too lazy to implement it because of \"indexing out of bounds\" and \"attempting arithmetic on a nil value\" errors :p\r\n\r\nUPDATE: Actually, it is only slow when running in the browser: in the client it is really smooth. It also isn't as inefficient as I thought it was. And finally, I fixed the bug with the weird gaps on the edges using MATHS! Thank you, modulus operator! :D"
   },
@@ -2668,10 +2624,6 @@
     "text": "Play with MML data.\r\nLook at the code editor!"
   },
   {
-    "id": 847,
-    "text": "Link here --\u003e https://github.com/nesbox/TIC-80/issues/129\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 848,
     "text": "Here is a little game made for the GameJam Pot-au-jeu #2, in which you play Ash, desperately looking for his Ditto lost in nature! And this one has the nasty habit of transforming himself into all the pokemons he encounters on his way... \r\n\r\nWill you be able to catch it on time with only 5 pokeballs in your pocket?  Good luck !\r\n\r\nRessources :\r\n\r\nAssets  :\r\nhttp://pixeljoint.com/pixelart/120712.htm - Sprites pokemon by JerryPie\r\nMusics :\r\nhttps://tic.computer/play?cart=93 - FOUBARS Remix (Tromino) by Sh0rtCut457\r\nhttps://tic.computer/play?cart=348 - \"SITTING IN THE SNOW\" Jummit"
   },
@@ -2680,12 +2632,8 @@
     "text": "like - pewdiepie\r\nigonre - T series"
   },
   {
-    "id": 851,
-    "text": "Please comments \u0026 love below!\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 852,
-    "text": "(C) 2019 Master nama"
+    "text": "© 2019 Master Nama"
   },
   {
     "id": 853,
@@ -2696,28 +2644,12 @@
     "text": "Just a silly little running game. Your character runs, crabs appear, jump with the (z) button."
   },
   {
-    "id": 855,
-    "text": "(C) 2019 Master Nama"
-  },
-  {
     "id": 856,
     "text": "A small maze generator based in the work of \"coding train\" (https://www.youtube.com/watch?v=HyK_Q5rrcr4\u0026t=7s)."
   },
   {
-    "id": 857,
-    "text": "This StinkerB06 created meme \"Master Nama 8000 in hello world!\".\r\nLink: https://tic.computer/play?cart=853\r\nI can't believe it!. Thank you StinkerB06 :).\r\n\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 858,
     "text": "Browser performance test for a plasma effect, also a prototype for Compofiller Compound's plasma effect"
-  },
-  {
-    "id": 859,
-    "text": "(C) 2019 Master nama"
-  },
-  {
-    "id": 860,
-    "text": "June?\r\n(C) 2019 Master Nama"
   },
   {
     "id": 861,
@@ -2732,20 +2664,12 @@
     "text": "impossible fps80"
   },
   {
-    "id": 864,
-    "text": "original link:\r\nhttps://onlinesequencer.net/194436\r\n\r\n(C) 2019 Master nama"
-  },
-  {
     "id": 865,
     "text": "Benchmarking tool to see how many bunnies can fly around the screen, using Fennel.\r\n\r\nControls:\r\n- Use up/down to add/remove bunnies\r\n\r\nSource:\r\n- https://github.com/RobLoach/Bunnymark-TIC80\r\n\r\nLicense:\r\n- MIT"
   },
   {
     "id": 866,
     "text": "Demonstration of Nyanko war\r\nImages of this cartridge can be used freely.\r\n"
-  },
-  {
-    "id": 867,
-    "text": "Available more 80K ram this link\r\nhttps://github.com/nesbox/TIC-80/wiki/RAM\r\n\r\n(C) 2017 Nesbox\r\n(C) 2019 Master nama"
   },
   {
     "id": 868,
@@ -2758,10 +2682,6 @@
   {
     "id": 871,
     "text": "the spectre in TIC 80"
-  },
-  {
-    "id": 872,
-    "text": "Version 0.6.0\r\n\r\nFeatures\r\nAdded Palette viewer GUI design\r\nAdded Ram data viewer\r\n(Ram data viewer can through play music, moving, Changing data palette \u0026 etc. Like memcpy)\r\nAdded New background\r\nAdded Test Music\r\nAdded Test Sound\r\nAdded Big logo text\r\nAdded Version\r\n\r\nBug fixes\r\nFixed can't change palette data ram viewer \r\nFixed can't work palette viewer\r\nFixed Can't work big text\r\nFixed can't press button select menu\r\nFixed Loaded menu after crashes a cartridge\r\nFixed Invaild palette viewer\r\nFixed can't play sound\r\nFixed Pressed after can't play sound\r\n\r\nVersion 0.6.1\r\nFeatures\r\nAdded New background\r\nAdded Border color\r\n(Like a high resolution)\r\nAdded Ram data viewer Full data\r\nAdded New music test\r\nAdded New sound test\r\n\r\nBug fixes\r\nFixed Not work border color\r\nFixed Ram data viewer huge size after crashing cartridge\r\nFixed Music sound problem\r\n\r\nVersion date\r\n17 June 2019 - Version 0.6.0 \r\n(Published in 20 June 2019)\r\n8 July 2019 - Version 0.6.1\r\n(Updated in 8 July 2019)\r\nUpdate Soon new version ;)\r\n\r\n(C) 2019 Master nama"
   },
   {
     "id": 873,
@@ -2780,10 +2700,6 @@
     "text": "lol"
   },
   {
-    "id": 878,
-    "text": "(C) 2019 Master Nama"
-  },
-  {
     "id": 879,
     "text": "Buoyancy's Cleanup Detail\r\n\r\nversion 1.0.1\r\n\r\nLast update: 3:00 PM 21 June 2021\r\n\r\nImportant note: due to russian attack on my country the localisation update to russian has been canceled. I might localise the game to most languages once, except russian for sure.\r\n\r\nControls(Android):\r\n--Arrows: move player;\r\n--A Button(Primarry): wash floor/pick up item/enable\\disable sniffing on blood/open tablet;\r\n--B Button(Alternate):drop item/enable\\disable sniffing on trash/scan items with tablet;\r\n--X Button(Use): wash mop/open inventory of items;\r\n--Y Button: change instruments;\r\n--Touch: different buttons/take out item from dispenser when inventory opened;\r\n\r\nControls(PC):\r\nSwitch controls on PC in settings, when PC text is apear means of turning on PC controls.\r\n--WASD: move player;\r\n--Left Click Mouse (Primarry): wash floor/pick up item/enable\\disable sniffing on blood/open tablet;\r\n--Right Click Mouse(Alternate):drop item/enable\\disable sniffing on trash/scan items with tablet;\r\n--E Key(Use): wash mop/open inventory of items;\r\n--Q Key: change instruments;\r\n--Mouse: different buttons/take out item from dispenser when inventory opened;\r\n\r\nChangelog:\r\nhttps://github.com/BuoYancYdabl/Buoyancy-s-Cleanup-Detail/releases/tag/v.1.0.1-bugfix\r\n\r\nIf you found a bug or want to make feature request you can make it in project's repository on github: https://github.com/BuoYancYdabl/Buoyancy-s-Cleanup-Detail"
   },
@@ -2798,14 +2714,6 @@
   {
     "id": 882,
     "text": "Inspiration from p3d by Filippo.\r\nQuaternion lecture by 3blue1brown.\r\nCoordinates of the Utah teapot by dasch."
-  },
-  {
-    "id": 883,
-    "text": "BUG:\r\nTIC-80 website. this is virtual tic-80 computer. TIC-80 command type \"save\" and enter. click restart icon to reload page. click to start. Now see what magic happens File is saved changed not saved.\r\n--------------------------------------------------------------------------------------------------------------\r\nUpdated cartridge after changed see it's works.\r\n\r\nLink:https://tic.computer/play?cart=884\r\n\r\n(C) 2019 Master nama"
-  },
-  {
-    "id": 884,
-    "text": "BUG:\r\nTIC-80 website. this is virtual tic-80 computer. TIC-80 command type \"save\" and enter. click restart icon to reload page. click to start. Now see what magic happens File is saved changed not saved.\r\n--------------------------------------------------------------------------------------------------------------\r\nUpdated cartridge after changed see it's works.\r\n\r\nLink:https://tic.computer/play?cart=883\r\n\r\n(C) 2019 Master Nama"
   },
   {
     "id": 885,
@@ -2824,14 +2732,6 @@
     "text": "A \"PC Speaker\" is a tiny device found on the motherboard of many old computers. These only produced a single square-wave tone at one of two volume settings: full volume or mute. However, as time went on, programmers and composers made really clever workarounds with the PC speakers' limitations. For example, cycling between multiple notes (like an arpeggio) to produce polyphony, and timer abuse to push crude PWM audio out of the speaker (something not possible on TIC-80 due to sound engine design and SCN() not being a stable 8160Hz timer interrupt).\r\n\r\nSprite from Pokey The Hedgehog 2 Alpha 2 by Jackj106: https://tic.computer/play?cart=184"
   },
   {
-    "id": 889,
-    "text": "NOTE:\r\nThis is have permission to making cartridge. \r\n\r\n(C) 2017 trelemar [Platformer Demo]\r\n(C) 2017 trelemar\r\n(C) 2019 Master nama"
-  },
-  {
-    "id": 890,
-    "text": "The New palettes.\r\nCheck it out!.\r\nPlease click link.\r\nPlease itch.io here type comment.\r\n\r\nLink: https://itch.io/t/503734/new-palette-for-tic-80\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 891,
     "text": "casually rewrote this from scratch haha\r\nWorks with any palette!\r\nFeel free to use in your own projects\r\n\r\n--- Usage ---\r\n_fldraw(x, y) - main function\r\n| x, y - circle center coordinates\r\n\r\n_fl = {r, grad, pal, mask} - parameters\r\n| _fl.r - spot radius (0-127)\r\n| _fl.grad - shading color layers number / light-dark transition smoothness (1-16)\r\n| _fl.pal - auto-generated color shades palette, set to an empty array (_fl.pal={}) to update\r\n| _fl.mask - square shading mask, updates at _fl.r value change"
   },
@@ -2842,14 +2742,6 @@
   {
     "id": 893,
     "text": "Proof of concept to test out Multiplayer over Netplay with RetroArch.\r\n\r\nUsage:\r\n\r\n1. Download the cart: https://tic.computer/cart/6126f49d64a9848cd345e7b6f2b8e384/cart.tic\r\n2. Run RetroArch\r\n3. Install the TIC-80 libretro core through the Online Updater\r\n4. Load the cart using the TIC-80 libretro core\r\n5. Start a netplay session\r\n6. Run another RetroArch client\r\n7. Refresh the Netplay list\r\n8. Connect to yourself\r\n9. Load the cart using the TIC-80 libretro core\r\n10. See that you're now playing through Netplay!\r\n\r\nFor more information about RetroArch Netplay, see:\r\nhttps://www.retroarch.com/?page=netplay\r\n\r\nHow To:\r\n\r\nTo allow netplay in your TIC-80 cart, save and load all important game state information to pmem() at each TIC(). That way the states will be shared, and netplay-support will be achieved."
-  },
-  {
-    "id": 894,
-    "text": "I don't know what is name \u0026 cartridge?. I said \"Hey! why is a give permission?\". By the way That stinker.\r\n\r\nLeave a comments."
-  },
-  {
-    "id": 895,
-    "text": "Note: I'm using TIC-80 [Pro Version].\r\n\r\n(C) 2019 Master nama"
   },
   {
     "id": 896,
@@ -2864,16 +2756,8 @@
     "text": "href: https://magiccat.itch.io/cook-it"
   },
   {
-    "id": 899,
-    "text": "Music Visualizer by Master nama\r\n\r\nVersion 0.9.0\r\n\r\nFeatures\r\n\r\nAdded New Perfect GUI style\r\nAdded New Visualizer (circle,bar,color text \u0026 move text). I have 4 Visualizers\r\nAdded Wider Rectangle outline GUI\r\n\r\n[Circle]\r\nAdded New Circle dark outline\r\nAdded Number Music channel text\r\n\r\n[Bar]\r\nAdded wide Rectangle bar\r\n\r\n[Color text]\r\nAdded Random text\r\nAdded bigger text\r\n(playing your music after change color)\r\n\r\n[Move text]\r\nAdded Bigger text\r\nAdded Color text\r\n(playing your music after change move)\r\n\r\nBug fixes\r\n\r\nFixed not working playing Visualizer with (peek4)\r\nFixed out of state after freeze state\r\nFixed not working volume with\r\n(peek4)\r\n\r\nVersion date\r\n\r\nVersion 0.9.0 - 24 July 2019\r\n\r\nComing soon New version\r\n\r\nOriginal Music Link: https://tic.computer/play?cart=746\r\n\r\nNOTE:\r\nThis is have permission to making cartridge. \r\n\r\n(C) 2019 StinkerB06\r\n(C) 2019 StinkerB06 (An arpeggio song)\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 900,
     "text": "Simple powder game for the TIC-80 with heat simulation.\r\n(If you want to run at decent performance, turn off heat simulation (H button)\r\nIt currently features 11 elements: WATR, SAND, DUST, BRCK, STNE, LAVA, WTRV, ICE, SMKE, FIRE and DIRT.\r\nWATR is liquid, SAND have high friction, DUST is the basic powder and BRCK is solid and WTRV is water vapor, etc. DIRT/GRAS is special, this element is originally DIRT, but if it is on top (without any element below) it will become GRAS, this can be useful to make great landscapes.\r\nThe \"G\" button is for toggling gravity, the \"H\" button is for toggling heat\r\nUpdate:\r\n- Again optimizations\r\n- Added DIRT, GRAS, SMKE, FIRE"
-  },
-  {
-    "id": 901,
-    "text": "NOTE:\r\nThis is have permission to making cartridge. \r\n\r\n(C) 2019 Nesbox (Vadim Grigoruk)\r\n(C) 2017 Nesbox (Palette Demo)\r\n(C) 2019 Master Nama"
   },
   {
     "id": 902,
@@ -2882,10 +2766,6 @@
   {
     "id": 903,
     "text": "WIP 3d sandbox!\r\nArrows to move.\r\nA opens the hotbar, S swaps your tool, X uses the tool.\r\nIf a block is shaded, that means it has a block above it.\r\n\r\nHOTBAR UPDATE!!!\r\nNow it's super easy to swap between blocks you have!\r\n\r\nChangelog coming soon!\r\nUnderground is quite deep, dig and see what you can find!  (structures soon, not yet)\r\nShadows fixed, menu added, inventory soon!"
-  },
-  {
-    "id": 904,
-    "text": "(C) 2019 Master nama"
   },
   {
     "id": 905,
@@ -2906,10 +2786,6 @@
   {
     "id": 909,
     "text": "A simple sliding puzzle game I made as an exercise."
-  },
-  {
-    "id": 910,
-    "text": "Link: https://itch.io/t/519146/what-is-scanline\r\n\r\n(C) 2019 Master nama"
   },
   {
     "id": 911,
@@ -2969,15 +2845,11 @@
   },
   {
     "id": 926,
-    "text": "Orignal link here:\r\nhttps://tic.computer/play?cart=852\r\n\r\nSound visualizer by Master Nama Link:\r\nhttps://tic.computer/play?cart=899\r\n\r\nExtended Music coming soon!\r\n\r\n(C) 2019 Master Nama"
+    "text": "© 2019 Master Nama"
   },
   {
     "id": 927,
     "text": "Get the pawns up to the last rank!\r\n\r\nMusic from FUNKY STARS by Quazar of Sanxion ported to TIC-80 by Fubuki"
-  },
-  {
-    "id": 928,
-    "text": "traceback is show code.\r\ndebug is table address.\r\n\r\n\r\ndebug table address shows a number/alphabet like random address.\r\n\r\nLike this:\r\nhttps://ibb.co/SrRHbhw\r\n\r\n\r\ndebug.traceback function address shows a number/alphabet.\r\n\r\nLike this:\r\nhttps://ibb.co/z4G7fPv\r\n\r\ntraceback doesn't show address it says \"nil\".\r\n\r\n\r\ndebug.traceback() traceback code shows a code.\r\n\r\nLike this:\r\nhttps://ibb.co/wW8zCJ3\r\n\r\nDo you know:\r\nHow to make fake traceback with trace()\r\n\r\ntrace is shows a message through inside TIC-80 command line.\r\n\r\n1. sample API\r\ntrace(\"text here\",color)\r\n\r\n2. add red color \r\ntrace(\"text here\",6)\r\n\r\n6 - red (DB16 palette)\r\n\r\n3. add debug.traceback()\r\n\r\ntrace(debug.traceback(),6)\r\n\r\n4. add exit()\r\n\r\ntrace(debug.traceback(),6)\r\nexit()\r\n\r\n5. run a cartridge\r\n\r\ntype \"run\" (TIC-80 command line)\r\n\r\nBoom!, see wrong code looks like real.\r\n\r\n(Code editor required function TIC() \u0026 end)\r\nEasy to prank\r\n\r\n\r\nSample:\r\nprint(debug.traceback()) - show code\r\nprint(debug) - show table address\r\nprint(debug.traceback) - show function address\r\n\r\nYouTube channel:\r\nhttps://www.youtube.com/channel/UCbuRr6UtILGwVvPjEMwsKXQ\r\n\r\n(C) 2019 Master nama"
   },
   {
     "id": 929,
@@ -2988,10 +2860,6 @@
     "text": "a game inspired by Battle City(NES).\r\nprevious one: https://tic.computer/play?cart=870\r\n\r\narrows to move, z or hold on z to shoot.\r\n\r\nI spend about two weeks to make this, and I have really benifit a lot from it.\r\n\r\nThe game may be a little hard to play, I didn't test the levels, forgive me.\r\n\r\n\r\n"
   },
   {
-    "id": 931,
-    "text": "FPS by Al Rado\r\n\r\nBenchmark Results\r\n\r\nThis device is tested.\r\n\r\n     Name          Framerate     Description\r\nTIC-80 (Android)  [update soon] \r\n(0.70.7)\r\nTIC-80 app running Linetri cartridge 2 then little lag FPS (Frames per second). Track - 1 music test in linetri 2. See music is smaller slow speed.\r\n\r\nDevice Name: Samsung galaxy tab 2.\r\n\r\nTIC-80 (Android)\r\n(0.80.0-dev)         60.0\r\n\r\nThis phone is perfect FPS \u0026 Music then running Linetri 2 cartridge without lag. \r\n\r\nDevice Name: Asus ZenFone 5 \r\n\r\nTIC-80 (Android)\r\n(0.80.0-dev)      60.0\r\n\r\nThis phone is perfect FPS \u0026 Music then running Linetri 2 cartridge without lag. \r\n\r\nDevice Name: Moto G Turbo Edition\r\n\r\nTIC-80 (Website)\r\n(0.70.7)           60.0\r\n\r\nThis website is perfect FPS \u0026 Music then running Linetri 2 cartridge without lag. \r\n\r\nDevice Name: none\r\n\r\nTIC-80 (RetroArch - Windows)\r\n(0.80.0-dev)           60.0\r\n\r\nThis emulator is perfect FPS \u0026 Music then running Linetri 2 cartridge without lag. \r\n\r\nDevice Name: HP Pavilion g4\r\n\r\nTIC-80 (Windows)\r\n(0.70.6)           57.3\r\n\r\nTIC-80 program running Linetri cartridge 2 then little lag FPS (Frames per second). Track - 1 music test in linetri 2. See music is smaller slow speed.\r\n\r\nDevice Name: HP Pavilion g4\r\n\r\n\r\nOriginal Link here:\r\nhttps://tic.computer/play?cart=851\r\n\r\nYouTube channel:\r\nhttps://www.youtube.com/channel/UCbuRr6UtILGwVvPjEMwsKXQ\r\n\r\nNew Latest version 0.80.0 here:\r\n\r\nhttp://builds.tic.computer/\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 933,
     "text": "My first time making a DTMF tone generator!\r\n\r\nThe S key on your keyboard is mapped to STAR \"*\", and the P key is mapped to POUND \"#\".\r\nThe other phone buttons have self-explanatory key mappings.\r\nThere also exists a set of letters: A, B, C, and D; which are not available on consumer telephones.\r\n\r\nI plan on adding an on-screen interface that you can click with the mouse to make the tones, but this program will only allow keyboard input until then.\r\n\r\nAbout DTMF:\r\nDTMF was invented in November 1963, which eventually replaced the previous \"rotary dial\" system. Instead of sending a number of pulses which corresponds with the number you dialed, the DTMF system uses specific sine-wave frequencies mapped to each row and column on the phone keypad. For example, pressing \"1\" causes the phone to send out a combination of 697 and 1209 Hz frequencies. The phone company then analyses these frequencies, and knows that you dialed \"1\". Pressing the keys multiple times creates a phone number, and causes the called party's phone to ring."
   },
@@ -3000,24 +2868,12 @@
     "text": "i am working on something"
   },
   {
-    "id": 935,
-    "text": "Coming soon extended full in Duder Musical 2.\r\n\r\nYouTube channel:\r\nhttps://www.youtube.com/channel/UCbuRr6UtILGwVvPjEMwsKXQ\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
-    "id": 936,
-    "text": "Orignal Music: https://tic.computer/play?cart=926\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 937,
     "text": "An alpha version of simple pacman clone. It has a ghost (a bit glitchy), score and some music."
   },
   {
     "id": 939,
     "text": "In this game you are Soteria, the goddess of safety and salvation, deliverance, and preservation from harm."
-  },
-  {
-    "id": 940,
-    "text": "(C) 2019 Master nama"
   },
   {
     "id": 941,
@@ -3048,12 +2904,8 @@
     "text": "An adventure of a Physical student finding the truth. \r\nUse Arrow keys to Move, 'Z' for attack, press 'A'/'S'/'X' to use Physicists' Artifacts and hold 'A'/'S'/'X' to shift the mode of Artifacts.\r\nUse your truth sword and Artifacts to beat enemies, solve puzzles and win the final battle with your dear Physicists.\r\nREMEMBER to use your ARTIFACTS!!!"
   },
   {
-    "id": 949,
-    "text": "Warning:\r\nThis cartridge is scary. I put cover image can be creepy. Please check your screen. Click \"CLICK TO START\" see what happens \u0026 write comments. \r\n\r\nDon't fooled you......\r\n\r\nNote:\r\nThis is have permission to making cartridge. \r\n\r\nSorry, This browser version is extremely lag. Download your cartridge Click \"download cartridge\" blue text here. Run TIC-80 Program Desktop version without lag.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 950,
-    "text": "Controls:\r\nUp = Move your sprite (remove water effect)\r\nDown = Move your sprite (put water effect)\r\nLeft = Move your sprite\r\nRight = Move your sprite\r\n\r\nThis water screen wave can be while pressed up/down remove/put the screen effect.\r\n\r\nHello world by Nesbox\r\n\r\n(C) 2019 Master Nama"
+    "text": "Controls:\r\nUp = Move your sprite (remove water effect)\r\nDown = Move your sprite (put water effect)\r\nLeft = Move your sprite\r\nRight = Move your sprite\r\n\r\nThis water screen wave can be while pressed up/down remove/put the screen effect.\r\n\r\nHello world by Nesbox\r\n\r\n© 2019 Master Nama"
   },
   {
     "id": 951,
@@ -3068,20 +2920,12 @@
     "text": "New link to CHIP-80:\r\nhttps://tic80.com/dev/thebeeshspweesh/chip_80"
   },
   {
-    "id": 954,
-    "text": "Version 1.0\r\nFeatures\r\n\r\n- Added Zoom in to out show sprite\r\n- Added Playback reverse/fast forward with buttons\r\n\r\nVersion 1.1\r\nFeatures\r\n\r\n- Updated v.11 changed name \"Textri Test\"\r\n\r\nI found miskate name\r\n\"Textri Fail :(\"\r\n\r\nhttps://web.archive.org/web/20190927082527/https://tic.computer/play?cart=954\r\n\r\n\r\nVersion date:\r\nVersion 1.0 = 26 September 2019\r\nVersion 1.1 = 27 September 2019\r\n\r\nControls:\r\n\r\nLeft = Reverse Fast\r\nRight = Fast Forward\r\n\r\nFootage Note:\r\nI wanted found Liked \"Nesbox\" TIC-80 owner user. I see cartridge \"Textri fail :(\". I see view in the cartridge.\r\n\r\nI may found footage.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 955,
     "text": "(z) is fist fight, (x) is kick fight, (down) is defend, (z+down) is blow fight, (x+up) is high kick. When you get the third energy point ,you can press(A) to fly kick the enemy. Enjoy the game, good luck!"
   },
   {
     "id": 956,
     "text": "I built this originally in SmileBASIC for the 3ds, and thought: HEY! This would look great in a tic-80 program! I also tried doing this in GameMaker:Studio buuuuttttt.... you know.\r\n\r\nSo I ported it to TIC-80's lua by hand... and there it is!\r\n\r\nAnyways, I made this with my newfound knowledge of \"FOR loops\"!"
-  },
-  {
-    "id": 957,
-    "text": "This is unplayable game like game virus.\r\n\r\nIDEA:\r\n\r\nStep 1: Go to Sprite editor\r\nStep 2: draw a huge draw\r\nStep 3: Go to Map Editor\r\nStep 4: Select your sprite tilte\r\nStep 5: Edit your ROM\r\nStep 6: run your cartridge\r\n\r\nResults\r\n\r\nROM gets corrupted while running CHIP-80 virtual machine see got error \u0026 Corruption effects.\r\n\r\nLink:\r\nCHIP-80 (Original)\r\nhttps://tic.computer/play?cart=953\r\n\r\nNote:\r\nThis is have permission to making cartridge.\r\n\r\n(C) 2017 StinkerB06\r\n(C) 2019 Master Nama"
   },
   {
     "id": 958,
@@ -3096,16 +2940,8 @@
     "text": "Line segment collision detection and response demo. Possibly for use in a platformer featuring small mammals moving at high velocity?\r\n\r\nWASD to move, mouse to draw lines. \r\nSorry for the terrible performance in browser. I need to find a way to optimize the collision algorithm, which currently relies on crude raycasting"
   },
   {
-    "id": 961,
-    "text": "Coming soon new extended full demo update.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 962,
     "text": "Similar to \"COVER IMAGE \u003e 240X136 TEST\" (https://tic.computer/play?cart=959)\r\n\r\nBut this time, I experiment with a different aspect ratio instead of using 30:17."
-  },
-  {
-    "id": 963,
-    "text": "This is simple waveforms. \r\n\r\nTIC-80 WAVEFORMS DATA:\r\n\r\nHigh square\r\n00000000ffffffff00000000ffffffff\r\n\r\nLow square\r\n0000000000000000ffffffffffffffff\r\n\r\nOCTAVE:\r\n\r\nLow square\r\n\r\nOctave - 0 (1)\r\nOctave - 1 (2)\r\nOctave - 2 (3)\r\nOctave - 3 (4)\r\nOctave - 4 (5) \r\nOctave - 5 (6)\r\nOctave - 6 (7)\r\nOctave - 7 (8)\r\n\r\nHigh square\r\n\r\nOctave - 1 (1)\r\nOctave - 2 (2)\r\nOctave - 3 (3)\r\nOctave - 4 (4)\r\nOctave - 5 (5)\r\nOctave - 6 (6)\r\nOctave - 7 (7)\r\nOctave - 8 (8)\r\n\r\nCheck it out Pridx Betcher - Mayor Chase music!\r\nhttps://tic.computer/play?cart=816\r\n\r\n(C) 2019 Master Nama"
   },
   {
     "id": 964,
@@ -3124,18 +2960,6 @@
     "text": "Here's a simple thing I made!"
   },
   {
-    "id": 968,
-    "text": "Controls:\r\n\r\nA/z - twice (1 time) to send message\r\nB/x - Restart cart\r\n\r\nVersion 0.1.0 \r\n\r\nFeatures\r\n\r\n- Added Message color\r\n- Added Message size\r\n- Added Message design\r\n- Added Message text\r\n- Added A/z button\r\n\r\nBug fixes\r\n\r\n- Fixed Pressed while A/z button an invalid message state after crashing an cart\r\n- Fixed Next message state not work reload GUI\r\n- Fixed changing message variables background after color gets black\r\n- Fixed Invalid GUI\r\n\r\nVersion Date\r\n\r\nVersion 0.1.0 - 13 October 2019\r\n\r\n\r\nI made this tutorial page:\r\nhttps://github.com/nesbox/TIC-80/wiki/How-to-Make-Message\r\n\r\nLearn more\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
-    "id": 969,
-    "text": "Coming soon new tutorial page.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
-    "id": 970,
-    "text": "This is STA8300G new sound chip can be hear music, make chiptune music, testing sound chip driver,  Awesome music, etc.\r\n\r\nTIC-80 WAVEFORM DATA:\r\ny95838fnemcf3ejdkekddjj300320e3\r\n\r\nNote:\r\nCopied all waveforms data. Paste waveform is not work it's wrong address. Waveform data string in the code it works.\r\n\r\nSTA8300G Sound chip waveform data code:\r\n\r\nSTRING CODE:\r\n\r\nExample:\r\n\r\nPALETTE=\"y95838fnemcf3ejdkekddjj300320e3\"\r\n\r\nfor i=0,15 do\r\n r=tonumber(string.sub(PALETTE,i*6+1,i*6+2),16)\r\n g=tonumber(string.sub(PALETTE,i*6+3,i*6+4),16)\r\n b=tonumber(string.sub(PALETTE,i*6+5,i*6+6),16)\r\n poke(0xffe4+(i*3)+0,r)\r\n poke(0xffe4+(i*3)+1,g)\r\n poke(0xffe4+(i*3)+2,b)\r\nend\r\n\r\nUse 1, 2, 3 octave.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 971,
     "text": "This is a demo of a bigger project I was working on for the Spooky September 4-Color Jam. My original idea (a platformer with three levels and four bossfights) proved way to big in scope for the duration of the jam. So I just cut off part of a level, added a score counter and infinitely spawning enemies and released it as a kind of Horde Mode."
   },
@@ -3148,20 +2972,8 @@
     "text": "A roguelike made in two days for Mini Jam 39."
   },
   {
-    "id": 974,
-    "text": "New scanline demo!.\r\n\r\nEasy to trick\r\n\r\nCan make awesome scanline.\r\n\r\nExample:\r\n\r\npoke(0x3fc1,time()/row%color opcity/scanline line number*scanline row bar number+1 only scanline bar per color)\r\n\r\nLike this:\r\n\r\npoke(0x3fc1,time()/row%255/1*23+t)\r\n\r\n\r\nNote:\r\n\r\nI previous created TIC-80 Project tricks\r\nYou got found this\r\n\r\nhttps://discord.gg/xvjPse\r\n\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 975,
     "text": "I think it sounds cool."
-  },
-  {
-    "id": 976,
-    "text": "What happens go to left side position player sprite can cause write the 64k RAM with text?\r\n\r\nAnswer:\r\n\r\nUsed peek4 API for Read a half byte value from RAM. Add the print() (text). Go to left position (player). \r\nAfter changed through writed a RAM can cause memory copied through screen.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
-    "id": 977,
-    "text": "This is unplayable game like a virus.\r\n\r\nI generated random corrupted form memcpy() API\r\nLine: 894\r\n\r\nNote:\r\nThis is have permission to making cartridge.\r\n\r\n(C) 2018 DevEd\r\n(C) 2019 Master Nama"
   },
   {
     "id": 978,
@@ -3174,10 +2986,6 @@
   {
     "id": 981,
     "text": "Get to safety (the flag) before a comet strikes earth!"
-  },
-  {
-    "id": 982,
-    "text": "This game is not finished.\r\n\r\nComing soon more levels, buttons, objects, musics, etc.\r\n\r\n(C) 2019 Master Nama"
   },
   {
     "id": 983,
@@ -3216,10 +3024,6 @@
     "text": "Classic adventure game.\r\n\r\nGame operation:\r\n[Up / Down] Command selection\r\n[Z] Command decision\r\n[A] Clear save data (Start from first scene when game restart)\r\n[S] Save (Start from save point when game restart)\r\n\r\nYou can play in Japanese katakana.\r\n\r\nThe kana function can be used independently.\r\nYou can use it freely."
   },
   {
-    "id": 993,
-    "text": "This Corruption mod code form 8 Bit Panda Severely Dangerous Corruption.\r\n\r\nOriginal Mod:\r\nhttps://tic.computer/play?cart=630\r\n\r\nOriginal Music:\r\nhttps://tic.computer/play?cart=816\r\n\r\nNote:\r\nThis is have permission to making cartridge.\r\n\r\n(C) 2017 StinkerB06\r\n(C) 2019 Master Nama"
-  },
-  {
     "id": 994,
     "text": "This is an adventure game template.\r\nYou can use this freely.\r\n\r\nGame operation:\r\n[Up / Down] Command selection\r\n[Z] Command decision\r\n[A] Clear save data (Start from first scene when game restart)\r\n[S] Save (Start from save point when game restart)\r\n\r\nIf you're going to make one:\r\nPrepare a scene picture in the map area with a size of 15x8 cells.\r\nIts picture with is given a number from 0 to 271.\r\n\r\nDescribe a scenario in variable \"scn\".\r\nIf the text is written in uppercase alphabet, it will be displayed in English.\r\nIf the text is written in the lowercase letters combination (romaji), it will be displayed in Japanese Hiragana.\r\nYou can also enclose them in '{' and '}' to display Katakana.\r\n\r\nThere is a tool to convert text written in Hiragana and Katakana to romaji.\r\nhttp://tryit.kenkenpa.net/temp/kana2roma.zip\r\n\r\nThere are only 8 commands:\r\n\r\n@GRP [Grp no.] [Person no.] ...\r\n@BGM [Track no.|OFF]\r\n@SEL [Label] [String]\r\n@INP\r\n@JMP [Label]\r\n@FLG [Flag no.] [Val.]\r\n@IF [Flag no.] [Val.] [Label]\r\n*[Label]\r\n\r\nUpdate 14-Feb '21:\r\n- Added Drury Lane :D\r\n- The person graphic is flipped horizontally by specifying a minus number.\r\n\r\np.s.\r\nIf you are using the TIC-80 pro version, you can also use the sprites and map areas of banks 1-7 by specifying the graphic number 272 or later in the \"@GRP\" command.\r\n"
   },
@@ -3230,10 +3034,6 @@
   {
     "id": 996,
     "text": "The start of another game I'm working on, but I thought this was fun on it's own."
-  },
-  {
-    "id": 997,
-    "text": "Update soon 😃.\r\n\r\n(C) 2019 Master Nama"
   },
   {
     "id": 998,
@@ -3298,18 +3098,6 @@
   {
     "id": 1014,
     "text": "This is a free sprite images.\r\nPlease use it for your game work.\r\n"
-  },
-  {
-    "id": 1015,
-    "text": "Not an april fool lol :)\r\n\r\n(C) 2019 Master Nama "
-  },
-  {
-    "id": 1016,
-    "text": "BUG:\r\n\r\nI loaded blank this code.\r\nLine: 64\r\n\r\nPLEASE FIX THIS!!!!\r\n\r\nNOTE:\r\n\r\nPlease comment below and fix cart.\r\n\r\n(C) 2019 Master Nama"
-  },
-  {
-    "id": 1017,
-    "text": "(C) 2019 Master Nama "
   },
   {
     "id": 1018,
@@ -3428,14 +3216,6 @@
     "text": "Hello World Girls Edition"
   },
   {
-    "id": 1049,
-    "text": "(C) 2019-2020 Master Nama"
-  },
-  {
-    "id": 1050,
-    "text": "Note:\r\nSorry, This cover is fake 😟.\r\n\r\n(C) 2019-2020 Master Nama"
-  },
-  {
     "id": 1051,
     "text": "A vertical scrolling shooting battle game of the Galactic missionary XAVIER.\r\n"
   },
@@ -3509,7 +3289,7 @@
   },
   {
     "id": 1070,
-    "text": "Sorry, This Cover is fake :( in running 0.80.0-dev version. \"import cover\" opened TIC-80 File explorer while opening appears \"Access Denied!\" Without crashing an App.\r\n\r\nSorry, This music is not fixed.\r\n\r\n\r\nMusic Fix soon :)\r\n\r\n© 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1072,
@@ -3538,10 +3318,6 @@
   {
     "id": 1078,
     "text": "Motion ( Linear + Circular )\r\nEnjoy !!!"
-  },
-  {
-    "id": 1079,
-    "text": "Note:\r\nSorry, This cover is fake.\r\n\r\nI used Cannon In D cart.\r\n\r\nNote:\r\n\r\nThis older version is not work music \u0026 sound. Required 0.80.0-dev latest version working sound \u0026 music.\r\n\r\nInstall:\r\nbuilds.tic.computer\r\n\r\n© 2019-2020 Master Nama."
   },
   {
     "id": 1080,
@@ -3576,20 +3352,12 @@
     "text": "- Pose maiking support tool for KENKA GIRLS -\r\nMake a pose by selecting and combining the six parts.\r\nLet's import the part images with the import sprites command in advance.\r\nOperate by clicking the icons and symbols on the screen with the mouse.\r\n\r\n% : Invert parts\r\n@ : Rotate parts\r\nU : Move part up\r\nD : Move part down\r\nL : Move part left\r\nR : Move part right\r\n\r\nAfter the pose is completed, make a note of the sequence displayed at the bottom right. Set it to the variable \"pose\" of \"KENKA GIRLS\".\r\nAlso note the part order (1 to 6) for collision judgment, which is required later when setting the animation of the action.\r\nParts to be damaged (ex. Head, Body, Legs)\r\nParts that cause damage (ex. Punch, Kick) \r\n\r\nKENKA GIRLS\r\nhttps://tic.computer/play?cart=1076\r\n\r\nPower-ch!"
   },
   {
-    "id": 1090,
-    "text": "Note:\r\nSorry, This cover is fake.\r\n\r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1091,
     "text": "midi: https://www.youtube.com/watch?v=TAgJRLXGc8k\u0026list=LLNESlPSwZUSKcq8PHW6OqXA\u0026index=2\u0026t=0s\r\n"
   },
   {
     "id": 1093,
     "text": "You are a robot! You must find the kitten. But you don't know what the kitten looks like...\r\n\r\nhttp://robotfindskitten.org/ (original by Leonard Richardson)"
-  },
-  {
-    "id": 1094,
-    "text": "Note:\r\n\r\nSorry, This cover is fake.\r\n\r\n\r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1095,
@@ -3696,10 +3464,6 @@
     "text": "Press 'Z' to jump , you can't kill enemies . Enjoy !!!\r\nThis could be easily extended to add enemies .\r\n\r\nDerivation cart:\r\n1011 -\u003e present"
   },
   {
-    "id": 1125,
-    "text": "Note:\r\nSorry that cover :(\r\n\r\nDiscord Server: https://discord.gg/PCpXcR9\r\n\r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1126,
     "text": "Rule changeable 2D cellular automaton with autotile.\r\n\r\nmouse: move zoom-in frame\r\nclick digit: rule toggle (B born /S save ）\r\nright btn click: pause\r\n[Z] : change tiles"
   },
@@ -3736,10 +3500,6 @@
     "text": "Remake of the real game, with slightly different rules and AI.\r\n\r\nYou place a follower on your tile to score. Tiles must fit. Only one follower per feature. Unless two connect later. Highest number of followers on a feature scores. In case of a tie, both players score.\r\n\r\nChurches are scored based on the number of surrounding tiles plus one. (At least 4 points, at most 9.)\r\n\r\nCities are worth 2 points per tile. Shield icons add an extra 2 points each. Cities on the edge are considered complete.\r\n\r\nRoads are worth 1 point per tile. Unlike the original game, junctions do not split roads.\r\n\r\nFarms are worth 3 points for each connected city. Unlike the original game, farms are scored when adjacent cities are all complete.\r\n\r\nYou are guaranteed to fill the board each time, because I added tiles for all possible cases. Also, you only get tiles you can place.\r\n\r\nAI 1 is dumb. It plays random valid moves.\r\n\r\nAI 2 tries to find the highest scoring opportunity, or one that gets followers back.\r\n\r\nHave fun! I know I did."
   },
   {
-    "id": 1137,
-    "text": "Note:\r\n\r\nSorry that cover :(\r\n\r\n\r\nJoin my discord server!\r\n\r\nDiscord Server:\r\nhttps://discord.gg/PCpXcR9\r\n\r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1140,
     "text": "[DISCRIPTION]\r\n    Simple console which is easy to embed into games and highly customizable.\r\n    If you have any suggestions, please leave a comment.\r\n[CONTROL]\r\n    Use keyboard to type text (only support 0-9,A-Z,SPACE and DOT currently),RETURN to excute command.\r\n    Use arrow keys to navigate.\r\n    For available commands, please move to source code."
   },
@@ -3753,7 +3513,7 @@
   },
   {
     "id": 1144,
-    "text": "Discord Server: https://discord.gg/PCpXcR9\r\n\r\nNote:\r\n\r\nMy cartridges is fake cover. It says \"Access Denied\" Error. Using older phone importing cover it works.\r\n\r\n(C) 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1145,
@@ -3772,10 +3532,6 @@
     "text": "Motion Illusion\r\nObjects moving in opposite direction through each other"
   },
   {
-    "id": 1150,
-    "text": "Discord Server:\r\nhttps://discord.gg/PCpXcR9\r\n\r\n(C) 2019-2020 Master Nama"
-  },
-  {
     "id": 1151,
     "text": "Wave inside a Wave"
   },
@@ -3786,10 +3542,6 @@
   {
     "id": 1153,
     "text": "Pray for the plague eradication.\r\nJapanese talisman 'AMABIE'\r\n\r\nhttps://en.wikipedia.org/wiki/Amabie\r\n"
-  },
-  {
-    "id": 1154,
-    "text": "Discord Server:\r\nhttps://discord.gg/PCpXcR9\r\n\r\nI found this cartridge:\r\nhttps://tic.computer/play?cart=769\r\n\r\nJoined: 17 March 2019\r\n\r\n(C) 2019-2020 Master Nama"
   },
   {
     "id": 1155,
@@ -3816,20 +3568,12 @@
     "text": "You are a tadpole living in a pond.\r\nYou can score by eating food while swimming avoiding rocks.\r\nWhen the quota is achieved, it will move to the next stage (pond).\r\n\r\n- KEY OPERATION -\r\nUse left and right arrow keys to change direction.\r\nGo forward with [Z] key.\r\n\r\np.s\r\nsprex function is made by MYAOSOFT, Thanks :-)\r\n"
   },
   {
-    "id": 1161,
-    "text": "Normal\r\n\r\n0 - smile\r\n1 - neturl\r\n2 - sad\r\n3 - happy\r\n4 - sad\r\n5 - showing tounge\r\n6 - laughing crying\r\n7 - crying sad\r\n8 - cute smile\r\n9 - cute sad\r\n: - cute open mouth\r\n\r\nShadow\r\n\r\n! - Face design type 1\r\n\" - Face design type 2\r\n# - Face design type 3\r\n-------------------------------\r\n\r\nDiscord Server: https://discord.gg/PCpXcR9\r\n\r\n(C) 2019-2020 Master Nama"
-  },
-  {
     "id": 1162,
     "text": "Hi-Color mode for the TIC-80.\r\n\r\nBasically, by abusing SCN, you can use 16 colors on each scanline. (In this case, I used 15 colors to keep the border from wonking out.) In this case, I've used it to render Sonic (using Sonic X artwork so it wouldn't look terrible in the low dimensions of the TIC-80)."
   },
   {
     "id": 1163,
     "text": "demo of my upcoming game.\r\nz(A)=hookshot\r\nx(B)=jump/slowfall\r\nholding a(X) and s(Y) with directions... you'll figure it out.\r\n\r\nfastest completion time by the time the full game comes out will get a mention in credits (video proof required).\r\n\r\ninspired by Celeste\r\n\r\ngame names appreciated"
-  },
-  {
-    "id": 1164,
-    "text": "Work in progress...\r\nDiscord Server: https://discord.gg/PCpXcR9\r\n\r\n(C) 2019-2020 Master Nama"
   },
   {
     "id": 1165,
@@ -3856,16 +3600,8 @@
     "text": "Still plenty of things left to do, but I wanted to see how well this would perform in a browser."
   },
   {
-    "id": 1172,
-    "text": "Discord Server: https://discord.gg/PCpXcR9\r\n\r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1173,
-    "text": "Discord Server:\r\nhttps://discord.gg/PCpXcR9\r\n\r\n(C) 2019-2020 Master Nama"
-  },
-  {
-    "id": 1174,
-    "text": "Discord Server: https://discord.gg/PCpXcR9\r\n\r\n(C) 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1175,
@@ -3985,7 +3721,7 @@
   },
   {
     "id": 1205,
-    "text": "This version is not work music for 0.70.\r\nIt music works for 0.80 version.\r\n\r\nInstall latest version:\r\nwww.builds.tic.computer\r\n\r\nNew Discord Server:\r\nhttps://discord.gg/nbWcSuS\r\n\r\n© 2019-2020 Master Nama."
+    "text": "© 2020 Master Nama."
   },
   {
     "id": 1207,
@@ -4009,7 +3745,7 @@
   },
   {
     "id": 1213,
-    "text": "Original Cartridge:\r\nhttps://tic.computer/play?cart=401\r\n\r\nNew Discord Server:\r\nhttps://discord.gg/nbWcSuS\r\n\r\n\r\n© 2019-2020 Master Nama."
+    "text": "Original Cartridge:\r\nhttps://tic.computer/play?cart=401\r\n\r\n© 2020 Master Nama."
   },
   {
     "id": 1214,
@@ -4120,10 +3856,6 @@
     "text": "Fire Solar System"
   },
   {
-    "id": 1246,
-    "text": "(C) 2019-2020 Master Nama"
-  },
-  {
     "id": 1247,
     "text": "Test d'un moteur 3D (RayCasting). \r\nTest de textures dynamiques. \r\nTest des possibilites d'une palette de couleur avec une majorite de nuances de gris.\r\nTest et amelioration de l eclairage dynamique.\r\nAmelioration de l effet de particules pendant une traversee de portes.\r\n\r\n"
   },
@@ -4160,10 +3892,6 @@
     "text": "Fire Motion"
   },
   {
-    "id": 1257,
-    "text": "Follow My Social Media: \r\nYouTube: https://www.youtube.com/channel/UCbuR... \r\nDiscord Server: https://discord.gg/nbWcSuS Twitter: https://twitter.com/MasterNama \r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1258,
     "text": "Guess the Number between 1 and 999 in minimum no of turns\r\nUse Directional Keys to change number\r\nPress 'Z' to confirm the number\r\nTarget Number lies between 1 and 999 ( included )"
   },
@@ -4188,10 +3916,6 @@
     "text": "Triangle Art\r\nPress 'Z' to reset"
   },
   {
-    "id": 1264,
-    "text": "Follow My Social Media: \r\nYouTube: https://www.youtube.com/channel/UCbuR... \r\nDiscord Server: https://discord.gg/nbWcSuS Twitter: https://twitter.com/MasterNama \r\n(C) 2019-2020 Master Nama"
-  },
-  {
     "id": 1265,
     "text": "Press 'Z' to Restart and change map\r\n\r\nEach Sprite No in Sprite Map is Decimal Representation of Binary Numbers .\r\nRight stands for 1 ( 0001 )\r\nDown stands for 2 ( 0010 )\r\nLeft stands for 4 ( 0100 )\r\nUp stands for 8 ( 1000 )\r\n\r\nDerivation cart:\r\n1098 -\u003e present"
   },
@@ -4214,10 +3938,6 @@
   {
     "id": 1270,
     "text": "A Celeste-inspired game.\r\n\r\nDefault controls:\r\n  [z]: jump\r\n  [x]: climb\r\n  [x]+[z]: wall jump\r\n\r\nChanges:\r\n  -\u003e Complete rewrite: Better physics!\r\n  -\u003e Moving platforms!"
-  },
-  {
-    "id": 1271,
-    "text": "Follow My Social Media: \r\nYouTube: https://www.youtube.com/channel/UCbuR... \r\nDiscord Server: https://discord.gg/nbWcSuS Twitter: https://twitter.com/MasterNama \r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1272,
@@ -4333,7 +4053,7 @@
   },
   {
     "id": 1302,
-    "text": "This is simple demo type 1.\r\nI made this.\r\nFollow My Social Media: \r\nYouTube: https://www.youtube.com/channel/UCbuR... \r\nDiscord Server: https://discord.gg/nbWcSuS Twitter: https://twitter.com/MasterNama \r\n© 2019-2020 Master Nama"
+    "text": "This is simple demo type 1. I made this.\r\n© 2020 Master Nama"
   },
   {
     "id": 1303,
@@ -4424,36 +4144,8 @@
     "text": "Press Arrow Keys to move Up,Down ,Left , Right"
   },
   {
-    "id": 1328,
-    "text": "Work in progress...\r\nI'm not finish.."
-  },
-  {
     "id": 1329,
-    "text": "[ Version 1.0 (BETA) ]\r\n\r\n==== \u003e NEW FEATURES \u003c ====\r\n- Added Restart Icon\r\n- Added Exit Icon\r\n- Added Piano\r\n(now can press key to play chord)\r\n- Added Stroke Font\r\n\r\n==== \u003e BUG FIXES \u003c ====\r\n- No more bug fixes features.\r\nFix will be soon.\r\n\r\nFollow My Social Media: \r\nYouTube: https://www.youtube.com/channel/UCbuR... \r\nDiscord Server: https://discord.gg/nbWcSuS \r\nTwitter: https://twitter.com/MasterNama \r\n© 2017-2020 Master Nama"
-  },
-  {
-    "id": 1330,
-    "text": "Hello World is BROKEN!"
-  },
-  {
-    "id": 1332,
-    "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
-  },
-  {
-    "id": 1333,
-    "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
-  },
-  {
-    "id": 1334,
-    "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
-  },
-  {
-    "id": 1335,
-    "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
-  },
-  {
-    "id": 1336,
-    "text": "I used edited hex with .tic cartridge.\r\nThis hex is following using:\r\nTEXT:\r\nGIF89að�ˆ�w��!ÿ\u000bNETSCAPE2.0\r\n\r\nNOTE:\r\nThis other versions is showing SURF command appears cover like cause glitched up, corrupted colorful graphics, blank, etc.\r\nWell, 0.80.0 version because fixed this invalid cover on SURF mode:\r\nhttps://github.com/nesbox/TIC-80/issues/1001"
+    "text": "[ Version 1.0 (BETA) ]\r\n\r\n==== \u003e NEW FEATURES \u003c ====\r\n- Added Restart Icon\r\n- Added Exit Icon\r\n- Added Piano\r\n(now can press key to play chord)\r\n- Added Stroke Font\r\n\r\n==== \u003e BUG FIXES \u003c ====\r\n- No more bug fixes features.\r\nFix will be soon.\r\n\r\n© 2020 Master Nama"
   },
   {
     "id": 1337,
@@ -4525,15 +4217,7 @@
   },
   {
     "id": 1355,
-    "text": "I'm running version: 0.80.1267-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
-  },
-  {
-    "id": 1357,
-    "text": "NOTE:\r\n\"FFFF0110C01EE028E1\" - Text State 1 \r\n\"FDEC0111010101DC06\" - Text State 2\r\n\"50E8E10FFFFCB110DF\" - Text State 3\r\n\r\nNOTE 2:\r\nIf you want change data, press F1 to code editor find line 13.\r\n\r\nI'm running version: 0.80.1267-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama\r\n"
-  },
-  {
-    "id": 1358,
-    "text": "NOTE:\r\nThis game is without permission.\r\n\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1359,
@@ -4541,7 +4225,7 @@
   },
   {
     "id": 1360,
-    "text": "I'm running version: 0.80.1267-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1361,
@@ -4553,7 +4237,7 @@
   },
   {
     "id": 1363,
-    "text": "GEEX-100 is a virtual emulator like a GameBoy console.\r\nYou can play games, demos, tools, musics \u0026 etc, Include a cartridge.\r\nYou have a 4 music channels, map, sprites, SFXS, etc.\r\n\r\nThere is specs:\r\nDISPLAY: 1-bit screen of light green and dark green.\r\nSOUND: MSG100GX - 10-bit Sound Chip, you have a 4 sound channels.\r\nRAM: 100-GB bit of RAM, ZEGGX-6200 - RAM.\r\nROM: With BIOS, PSGNG-1050 - ROM Chip.\r\nProcessor: With clock speed, Zilog Z80 (Z80) -  Processor Chip.\r\nCode Language: Assembly\r\nGraphics: 1-bit of graphics (sprites) - NEGX-8 - Graphics Chip.\r\n\r\nNOTE:\r\nIf you got a bug or issue?, Please report at this comment here or content @masternama.\r\n\r\nNOTE 2:\r\nAre you Contributor?, Please ask me at this comment for content @masternama.\r\nYou can make an own cartridge yourself become contributor.\r\n\r\nNOTE 3:\r\nNew version release will be soon.\r\n\r\nNOTE 4:\r\nDo you want a change cartridge, Press F1 to code editor, find line: 81.\r\n\r\nThere's cartridges is here: \r\n\"Test.g100\" - Hello world\r\n\"music.g100\" - Music demo\r\n\"bpp.g100\" - BPP demo\r\n\"game.g100\" - Game Demo (WIP)\r\n\r\nCHANGELOG:\r\nVersion 1.0 - (11 August 2020)\r\n- Added Emulator Console design\r\n- Added BIOS startup screen\r\n- Added Error messages\r\n- Added Beep Sound effects\r\n \r\nNOTE 5:\r\nI'm running version: 0.80.1267-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "GEEX-100 is a virtual emulator like a GameBoy console.\r\nYou can play games, demos, tools, musics \u0026 etc, Include a cartridge.\r\nYou have a 4 music channels, map, sprites, SFXS, etc.\r\n\r\nThere is specs:\r\nDISPLAY: 1-bit screen of light green and dark green.\r\nSOUND: MSG100GX - 8-bit Sound Chip, at least have four sound channels.\r\nRAM: 8K size of RAM, ZEGGX-6200 - RAM.\r\nROM: With BIOS, PSGNG-1050 - ROM Chip.\r\nProcessor: With clock speed, Zilog Z80 (Z80) -  Processor Chip.\r\nGraphics: 1-bit of graphics - NEGX-8 - Graphics Chip.\r\n\r\nNOTE:\r\nDo you want a change cartridge, Press F1 to code editor, find line: 81.\r\n\r\nThere's cartridges is here: \r\n\"Test.g100\" - Hello world\r\n\"music.g100\" - Music demo\r\n\"bpp.g100\" - BPP demo\r\n\"game.g100\" - Game Demo (WIP)\r\n\r\nCHANGELOG:\r\nVersion 1.0 - (11 August 2020)\r\n- Added Emulator Console design\r\n- Added BIOS startup screen\r\n- Added Error messages\r\n- Added Beep Sound effects \r\n\r\n[UPDATE (08-10-26]: I don't really think it's my emulation thing because just I made it for mockup simulation.\r\n© 2020 Master Nama"
   },
   {
     "id": 1364,
@@ -4586,10 +4270,6 @@
   {
     "id": 1371,
     "text": "HOOKED is a game about solitude, peacefulness, and cleaning trash from the ocean with a magic hook. Join our hero on a day just like any other... or is it?\r\n\r\nJam page: https://itch.io/jam/miz-jam-1\r\nMy entry page: https://jf1x.itch.io/hooked\r\n\r\nIncludes, with permission, some modified code from VIZA's PSLIB tool. Thank you VIZA!\r\n\r\nChangelog\r\n2020-08-22: Performance update. Should no longer lag as you get closer to the end."
-  },
-  {
-    "id": 1372,
-    "text": "NOTE:\r\nOnly works for 0.80.\r\nAlso can use render with Overline palette, result will be same palettes.\r\n\r\nI'm running version: 0.80.1280-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1373,
@@ -4632,20 +4312,12 @@
     "text": "Press 'Z' to reset"
   },
   {
-    "id": 1383,
-    "text": "I'm running version: 0.80.1290-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama\r\n\r\n"
-  },
-  {
-    "id": 1384,
-    "text": "I'm running version: 0.80.1290-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1386,
     "text": "Music demo, but it's 8-bit version of it"
   },
   {
     "id": 1387,
-    "text": "CHANGELOG:\r\nVersion 1.0 (1 \u0026 3 September 2020)\r\n - New Added Bar State\r\n - New Added Bar 2 State\r\n - New Added TIC-80 GUI Style\r\n - New Added Left or Right button to change visualizer state.\r\n - New Added Album GUI\r\n - New Added Version\r\n\r\nBUG FIXES:\r\n - New Fixed Playing music through not working channel view.\r\n - New Fixed Out of bonus after pressing button state.\r\n - New Fixed Invalid OVR() (Overline) Palette - (0.80 Works Only)\r\n\r\nI'm running version: 0.80.1299-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "CHANGELOG:\r\nVersion 1.0 (1 \u0026 3 September 2020)\r\n - New Added Bar State\r\n - New Added Bar 2 State\r\n - New Added TIC-80 GUI Style\r\n - New Added Left or Right button to change visualizer state.\r\n - New Added Album GUI\r\n - New Added Version\r\n\r\nBUG FIXES:\r\n - New Fixed Playing music through not working channel view.\r\n - New Fixed Out of bonus after pressing button state.\r\n - New Fixed Invalid OVR() (Overline) Palette - (0.80 Works Only)\r\n\r\n© 2020 Master Nama"
   },
   {
     "id": 1388,
@@ -4712,10 +4384,6 @@
     "text": "ssss"
   },
   {
-    "id": 1408,
-    "text": "I'm running version: 0.80.1312-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nbuilds.tic.computer\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
-  },
-  {
     "id": 1409,
     "text": "Simple Sketch-like virtual toy. Draw with cursor, clear screen with A."
   },
@@ -4753,23 +4421,11 @@
   },
   {
     "id": 1418,
-    "text": "I'm running version: 0.80.1324-dev Pro on Windows 10 x64 (64-bit).\r\nI compiled source code build using CMake, Git and VS2019 (Visual Code 2019).\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
-  },
-  {
-    "id": 1419,
-    "text": "no"
-  },
-  {
-    "id": 1421,
-    "text": "I'm running version: 0.80.1324-dev Pro on Windows 10 x64 (64-bit).\r\nI compiled source code build using CMake, Git and VS2019 (Visual Code 2019).\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1422,
     "text": "Tool to create maps using 2 or 1 bit graphics.\r\n\r\nUse the arrows to navigate\r\nZ to change BPP\r\nX to change page\r\nA to change from BG to FG\r\nS to select tile\r\nclick to draw on map\r\n\r\nW to save\r\nR to load"
-  },
-  {
-    "id": 1423,
-    "text": "I'm running version: 0.80.1324-dev Pro on Windows 10 x64 (64-bit).\r\nI compiled source code build using CMake, Git and VS2019 (Visual Code 2019).\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1426,
@@ -4786,10 +4442,6 @@
   {
     "id": 1430,
     "text": "oldschool demoeffect"
-  },
-  {
-    "id": 1431,
-    "text": "I'm running version: 0.80.1324-dev Pro on Windows 10 x64 (64-bit).\r\nI compiled source code build using CMake, Git and VS2019 (Visual Code 2019).\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1433,
@@ -4849,11 +4501,7 @@
   },
   {
     "id": 1447,
-    "text": "I'm running version: 0.80.1366-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nhttps://github.com/nesbox/TIC-80/actions\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
-  },
-  {
-    "id": 1449,
-    "text": "mario 64 course 1 working for music..."
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1450,
@@ -4882,10 +4530,6 @@
   {
     "id": 1456,
     "text": "Use arrow keys to change color and function.\r\nWorks faster on PC."
-  },
-  {
-    "id": 1457,
-    "text": "NOTE:\r\nThis game will be soon fix bugs.\r\n\r\nI'm running version: 0.80.1366-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nhttps://github.com/nesbox/TIC-80/actions\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1458,
@@ -4922,10 +4566,6 @@
   {
     "id": 1466,
     "text": "Endless Motion Animation"
-  },
-  {
-    "id": 1467,
-    "text": "Link: https://tic80.com/play?cart=1465\r\nGithub: https://github.com/maniek207/mpt-to-tic\r\n\r\nI'm running version: 0.80.1366-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nhttps://github.com/nesbox/TIC-80/actions\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
   },
   {
     "id": 1468,
@@ -5048,10 +4688,6 @@
     "text": "Try reach the end (white square), may encounter monsters/obstacles in the fog.\r\nCommands:\r\nARROWS to MOVE\r\n[Z] to PAUSE/CONTINUE"
   },
   {
-    "id": 1500,
-    "text": "help"
-  },
-  {
     "id": 1501,
     "text": "This is a simple example of how you could manage multiple scenes.\r\nHow do you manage your game scenes? Do you have any suggestions, how to improve it? Let me know - I am looking forward to your input and maybe to start a discussion about it."
   },
@@ -5117,7 +4753,7 @@
   },
   {
     "id": 1519,
-    "text": "I'm running version: 0.80.1437-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nhttps://github.com/nesbox/TIC-80/actions\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "© 2020 Master Nama"
   },
   {
     "id": 1520,
@@ -5201,7 +4837,7 @@
   },
   {
     "id": 1546,
-    "text": "*sorry for forgetting patterns (fix will be coming soon)\r\nMPT TO TIC Github: https://github.com/maniek207/mpt-to-tic\r\n\r\nI'm running version: 0.80.1437-dev on Windows 10 x64 (64-bit).\r\nLink:\r\nhttps://github.com/nesbox/TIC-80/actions\r\n\r\nFollow My Social Media:\r\nYouTube: https://www.youtube.com/channel/UCbuR...\r\nDiscord Server: https://discord.gg/nbWcSuS\r\nTwitter: https://twitter.com/MasterNama\r\n© 2019-2020 Master Nama"
+    "text": "*sorry for forgetting patterns (fix will be coming soon)\r\nMPT TO TIC Github: https://github.com/maniek207/mpt-to-tic\r\n© 2020 Master Nama"
   },
   {
     "id": 1549,
@@ -5298,10 +4934,6 @@
   {
     "id": 1580,
     "text": "Tiny shoot'em up featuring \"ProNama-chan\".\r\nDefeat the evil \"ProNama-chan\" army!\r\n\r\nArrow keys : Move\r\nButton 1 (Z key) : Fire shot\r\nButton 2 (X key) : Movement speed down \u0026 shot power up (when button is held down)\r\nR key : Reset High Score\r\n\r\nIf you take yellow candy, you'll be invincible for a moment.\r\nCollecting a certain number of candies will restore your life.\r\n (If your life is full, you will get a bonus score instead of recovering your life).\r\n"
-  },
-  {
-    "id": 1582,
-    "text": "(C) 2019-2021 Master Nama"
   },
   {
     "id": 1583,
@@ -11186,10 +10818,6 @@
   {
     "id": 3321,
     "text": "A RAM Monitor for TIC-80 (UPDATED 23/4/26: Added Poke, Poke+, Jump)\r\nZ/X : RAM Address increment/decrement\r\nS : Display mode change\r\nV : Execute CLS(0)\r\nfunction: only bin(). very easy to port.\r\nMODES\r\n1. Hexdump mode: Show data as Hexdump.\r\n2. Sprites mode: Show sprites and palette colors.\r\n3. Waveform mode: show data as waveform.\r\n4. Bitmap mode: Show data as bitmap. (Can display a larger area than others)\r\n5-8. Fallback mode(Use the BIOS font. This can be used when you do not want to corrupt the sprite data. It does not affect the displayed content (except for some icons, etc.).)\r\nSpace: POKE Mode (Enter 5 characters of address and 2 characters of value in hexadecimal to confirm. If successful, \"POKE...OK\" is displayed. Press the space key again to close. After the message, continuing to enter a value will increment the address by one, allowing the continuation data to flow in.)\r\nJ: Jump mode(Enter 5 characters to confirm address. If successful, the dialog will close.)\r\nK: Poke+ mode(An advanced version of POKE that fills in the space between addresses 1 and 2 with the specified value, which is determined when the 12th character is entered.)"
-  },
-  {
-    "id": 3322,
-    "text": "Hello! It's been a back in Early January 2021 while ago no see :)\r\nThis is my VERY FIRST TIC-80 LOST Cartridge never seen before!\r\n\r\nWell, I guess... I'm honest I joined TIC-80 Community in March 2019.\r\nI remember for the first time back in September 2017 we looked for the google play store and there are found the \"TIC-80\" app I checked some cool 80s terminal styles from TIC-80's old 0.10 version screenshots so I don't want to install it.\r\n\r\nAnd, Again remember that... In October 2018 I looked for the \"TIC-80\" app on the google play store (again) and I installed it. Let's look to open this \"TIC-80\" app that feels like a fan-made computer.\r\n\r\nThat's it.\r\n\r\nSTORY:\r\nI logged in to my old Google account and I found the TIC-80 folder stuff\r\n(including older cartridges backup, todos, etc) from October 2018 to 2022 on google drive.\r\nI finally found the \"Move play.tic\" cart file on my TIC-80 drive stuff and I did run my very first 2018's cart it seems simply interesting (most likely sourced from the hello world default old demo) via TIC-80 Application.\r\n\r\nThe End.\r\n\r\n\r\nThis \"Move play.tic\" cartridge file was made/compiled on ‎31 ‎October ‎2018.\r\n\r\nI remember correctly some details (written in my memory):\r\nSource Found: My Old Google Drive Stuff\r\nCartridge Public Type: Lost (Found?, Archived), It's probably very old.\r\nMade on: Samsung Galaxy Tab (R.I.P 2017-Mid 2019) and TIC-80 Version: 0.70.7 (0.70.6)\r\n\r\n(C) 2019-2023 Master Nama"
   },
   {
     "id": 3323,
