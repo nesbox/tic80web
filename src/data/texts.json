@@ -2416,10 +2416,6 @@
     "text": "A remaster of the classic asteroids game from atari "
   },
   {
-    "id": 773,
-    "text": "State number\r\n\r\nState=0 - Text moving control\r\nState=1 - Sprite moving control\r\nState=2 - No state (with cover image)\r\n\r\n\r\n© 2019 Master Nama"
-  },
-  {
     "id": 774,
     "text": "little RTS game map engine with mouse movement"
   },
@@ -2902,10 +2898,6 @@
   {
     "id": 948,
     "text": "An adventure of a Physical student finding the truth. \r\nUse Arrow keys to Move, 'Z' for attack, press 'A'/'S'/'X' to use Physicists' Artifacts and hold 'A'/'S'/'X' to shift the mode of Artifacts.\r\nUse your truth sword and Artifacts to beat enemies, solve puzzles and win the final battle with your dear Physicists.\r\nREMEMBER to use your ARTIFACTS!!!"
-  },
-  {
-    "id": 950,
-    "text": "Controls:\r\nUp = Move your sprite (remove water effect)\r\nDown = Move your sprite (put water effect)\r\nLeft = Move your sprite\r\nRight = Move your sprite\r\n\r\nThis water screen wave can be while pressed up/down remove/put the screen effect.\r\n\r\nHello world by Nesbox\r\n\r\n© 2019 Master Nama"
   },
   {
     "id": 951,
@@ -3600,10 +3592,6 @@
     "text": "Still plenty of things left to do, but I wanted to see how well this would perform in a browser."
   },
   {
-    "id": 1173,
-    "text": "© 2020 Master Nama"
-  },
-  {
     "id": 1175,
     "text": "COVID-19 infection simulation\r\nYou can change the number of people to simulate with the up and down arrow keys. (1-500)\r\nYou can send infected people by clicking the mouse.\r\nReset the simulation with the \"Z\" key.\r\n\r\nWhite is a healthy person\r\nLight blue is level 1 infection\r\nOrange is Level 2 infection\r\nGreen is level 3 infection\r\nRed is level 4 seriously injured\r\nBlack is dead\r\nYellow had antibodies"
   },
@@ -3742,10 +3730,6 @@
   {
     "id": 1212,
     "text": "A classic word guessing game.\r\nGuess one letter at a time - try to guess the whole word before the man is hanged.\r\nComputer has an extensive vocabulary.\r\n\r\nRevision 1\r\n- Added a few thousand more words from \"twl06.txt\"\r\n\r\nRevision 2\r\n- Track wins and losses"
-  },
-  {
-    "id": 1213,
-    "text": "Original Cartridge:\r\nhttps://tic.computer/play?cart=401\r\n\r\n© 2020 Master Nama."
   },
   {
     "id": 1214,
@@ -4052,10 +4036,6 @@
     "text": "Thread Waves"
   },
   {
-    "id": 1302,
-    "text": "This is simple demo type 1. I made this.\r\n© 2020 Master Nama"
-  },
-  {
     "id": 1303,
     "text": "Press 'Z' to change Mode\r\nPress 'X' to reset in current Mode\r\nHas 2 Modes\r\n\r\nMode 1 : Changes Color with Every Bounce\r\n\r\nMode 2 :\r\nChanges Color to Red with Bounce in X Direction and Changes Color to Blue with Bounce in Y Direction"
   },
@@ -4144,10 +4124,6 @@
     "text": "Press Arrow Keys to move Up,Down ,Left , Right"
   },
   {
-    "id": 1329,
-    "text": "[ Version 1.0 (BETA) ]\r\n\r\n==== \u003e NEW FEATURES \u003c ====\r\n- Added Restart Icon\r\n- Added Exit Icon\r\n- Added Piano\r\n(now can press key to play chord)\r\n- Added Stroke Font\r\n\r\n==== \u003e BUG FIXES \u003c ====\r\n- No more bug fixes features.\r\nFix will be soon.\r\n\r\n© 2020 Master Nama"
-  },
-  {
     "id": 1337,
     "text": "A small function that blurs the screen by mixing nearby pixels\r\n  blur(mode)\r\n  mode (an integer from 1 to 6) - blur direction templates"
   },
@@ -4214,10 +4190,6 @@
   {
     "id": 1354,
     "text": "This game is a shooting game.\r\nyou gain experience and level up every time you kill an enemy. The player's attack power and weapon performance increase as the level increases. Players have shields and health, so they won't die if they hit several.\r\n\r\nPlayers use the A button to  change weapons. You can use each powerful skill by using B,X,Y buttons.\r\n​The play time is about 10 minutes. Game difficulty is usually easy.\r\n\r\n​I tried to put a lot of content due to the limit of the number of characters (65535), but it didn't go as well as I thought, so I made this game so far.\r\n\r\n2020/10/30 main menu music on/off button bug fixed, support 0.80.4\r\n2021/07/26 change metadata, change script type javascript -\u003e js, support 0.90.1723 "
-  },
-  {
-    "id": 1355,
-    "text": "© 2020 Master Nama"
   },
   {
     "id": 1359,
@@ -4420,10 +4392,6 @@
     "text": "Inspired by goalgoal"
   },
   {
-    "id": 1418,
-    "text": "© 2020 Master Nama"
-  },
-  {
     "id": 1422,
     "text": "Tool to create maps using 2 or 1 bit graphics.\r\n\r\nUse the arrows to navigate\r\nZ to change BPP\r\nX to change page\r\nA to change from BG to FG\r\nS to select tile\r\nclick to draw on map\r\n\r\nW to save\r\nR to load"
   },
@@ -4498,10 +4466,6 @@
   {
     "id": 1446,
     "text": "Remember it?\r\n\r\nstop asking how i done 256 colors :\r\nsome code js code editing on page"
-  },
-  {
-    "id": 1447,
-    "text": "© 2020 Master Nama"
   },
   {
     "id": 1450,
@@ -4834,10 +4798,6 @@
   {
     "id": 1544,
     "text": "Enjoy Text Animation"
-  },
-  {
-    "id": 1546,
-    "text": "*sorry for forgetting patterns (fix will be coming soon)\r\nMPT TO TIC Github: https://github.com/maniek207/mpt-to-tic\r\n© 2020 Master Nama"
   },
   {
     "id": 1549,
@@ -15890,5 +15850,9 @@
   {
     "id": 4882,
     "text": "some cracktro vibes from M3RL0CKSH0LM3S and Gasman :)\r\nsoundtrack: Rez 1911 Cracktro 6 by Dubmood (cover by M3RL0CKSH0LM3S)\r\n\r\ndemozoo: https://demozoo.org/productions/398547/\r\npouet: https://www.pouet.net/prod.php?which=107090"
+  },
+  {
+    "id": 4883,
+    "text": "A demake of the beginning of Hollow Knight.\r\n\r\nMade this on a whim in about 4-5 weeks to scratch my itch of making a Metroidvania of sorts. Naturally, the whole game wouldn't fit in TIC, and I pretty much maxed out the available space for tiles in all available banks, so I couldn't put more into this game even if I wanted to. Some changes to the map were made, given the size constraint, but other than that, I tried to keep the map as true to the Forgotten Crossroads from the original game by Team Cherry. \r\n\r\nExplore! Find hidden rooms, benches, collectables, and defeat enemies. See if you can reach Green Path!\r\n\r\nHuge thanks to Team Cherry for making Hollow Knight and turning me into a huge fan of the Metroidvania genre!\r\n\r\nKeyboard controls:\r\n\r\n- Z - jump\r\n- A - nail\r\n- X - focus\r\n\r\nTips (if you haven't played the original):\r\n\r\n- Holding X while having enough soul will heal you, but only after a short delay.\r\n- Pogoing is slightly different - you need to hold the jump key while pogoing to gain height.\r\n- Dying will create a Shade enemy that will hold on to your Geo and will limit your max Soul capacity to 2/3. Kill it to restore your Soul and Geo count."
   }
 ]
