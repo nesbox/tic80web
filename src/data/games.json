@@ -11668,7 +11668,7 @@
     "id": 978,
     "lang": "lua",
     "name": "shenzhen_i_o_solitaire",
-    "rating": 17,
+    "rating": 18,
     "title": "Shenzhen I/O Solitaire",
     "updated": 1688946183912,
     "user": 2954
@@ -45715,7 +45715,7 @@
     "id": 3763,
     "lang": "lua",
     "name": "five_nights_at_freddy_s",
-    "rating": 27,
+    "rating": 28,
     "title": "Five Nights at Freddy's",
     "updated": 1707785578251,
     "user": 2178
@@ -55114,7 +55114,7 @@
     "id": 4496,
     "lang": "lua",
     "name": "balatro_demake",
-    "rating": 7,
+    "rating": 8,
     "title": "Balatro Demake",
     "updated": 1767925943145,
     "user": 12264
@@ -59196,7 +59196,7 @@
     "id": 4814,
     "lang": "lua",
     "name": "ygo80",
-    "rating": 3,
+    "rating": 4,
     "title": "YGO80",
     "updated": 1791020324611,
     "user": 14135
@@ -60067,9 +60067,22 @@
     "id": 4883,
     "lang": "fennel",
     "name": "hollow_knight_demake",
-    "rating": 2,
+    "rating": 3,
     "title": "Hollow Knight Demake",
-    "updated": 1791590041516,
+    "updated": 1791677858428,
     "user": 7747
+  },
+  {
+    "added": 1791678544034,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Halloween 2026 animation",
+    "id": 4884,
+    "lang": "lua",
+    "name": "ghost_tower",
+    "rating": 0,
+    "title": "ghost tower",
+    "updated": 1791678544034,
+    "user": 3114
   }
 ]
