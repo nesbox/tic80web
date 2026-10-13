@@ -1086,7 +1086,7 @@
     "id": 85,
     "lang": "lua",
     "name": "pslib",
-    "rating": 40,
+    "rating": 41,
     "title": "pslib",
     "updated": 1493123858529,
     "user": 43
@@ -16881,7 +16881,7 @@
     "id": 1440,
     "lang": "lua",
     "name": "bunnycake",
-    "rating": 23,
+    "rating": 24,
     "title": "Bunnycake",
     "updated": 1611945767826,
     "user": 390
@@ -32845,7 +32845,7 @@
     "id": 2716,
     "lang": "js",
     "name": "8bit_hero",
-    "rating": 8,
+    "rating": 9,
     "title": "8bit-hero",
     "updated": 1648314296171,
     "user": 7445
@@ -34743,7 +34743,7 @@
     "id": 2873,
     "lang": "lua",
     "name": "auto_tiles_test",
-    "rating": 5,
+    "rating": 6,
     "title": "Auto tiles test",
     "updated": 1658026632419,
     "user": 7833
@@ -38929,7 +38929,7 @@
     "id": 3199,
     "lang": "js",
     "name": "crazy_jumper",
-    "rating": 8,
+    "rating": 9,
     "title": "Crazy Jumper",
     "updated": 1675760504501,
     "user": 7445
@@ -43041,6 +43041,19 @@
     "title": "INSIDE",
     "updated": 1695979166327,
     "user": 4806
+  },
+  {
+    "added": 1696169907675,
+    "author": "Andrey Listopadov",
+    "category": 4,
+    "desc": "A Cosmic Magic Shooter",
+    "id": 3557,
+    "lang": "fennel",
+    "name": "game3_shoot_em_up",
+    "rating": 2,
+    "title": "Game3 - Shoot 'Em Up",
+    "updated": 1696169907675,
+    "user": 7747
   },
   {
     "added": 1696182768582,
@@ -55120,6 +55133,19 @@
     "user": 12264
   },
   {
+    "added": 1767921215513,
+    "author": "Andrey Listopadov",
+    "category": 1,
+    "desc": "Making slopes wiht AABB collisions",
+    "id": 4497,
+    "lang": "lua",
+    "name": "aabb_slopes",
+    "rating": 2,
+    "title": "AABB Slopes",
+    "updated": 1767922584725,
+    "user": 7747
+  },
+  {
     "added": 1767965528728,
     "author": "Sava",
     "category": 0,
@@ -58377,7 +58403,7 @@
     "id": 4750,
     "lang": "lua",
     "name": "bouncy_ball",
-    "rating": 6,
+    "rating": 7,
     "title": "bouncy_ball",
     "updated": 1783100764033,
     "user": 13782
@@ -58520,7 +58546,7 @@
     "id": 4761,
     "lang": "lua",
     "name": "hanamileh_s_mod",
-    "rating": 7,
+    "rating": 8,
     "title": "HanamileH's mod",
     "updated": 1784374711217,
     "user": 2749
@@ -58572,7 +58598,7 @@
     "id": 4765,
     "lang": "lua",
     "name": "sunset_of_seven_suns",
-    "rating": 2,
+    "rating": 4,
     "title": "Sunset of Seven Suns",
     "updated": 1784603277565,
     "user": 8506
@@ -58715,7 +58741,7 @@
     "id": 4777,
     "lang": "lua",
     "name": "balgame",
-    "rating": 4,
+    "rating": 5,
     "title": "BALGAME",
     "updated": 1789817717994,
     "user": 13780
@@ -59196,7 +59222,7 @@
     "id": 4814,
     "lang": "lua",
     "name": "ygo80",
-    "rating": 4,
+    "rating": 5,
     "title": "YGO80",
     "updated": 1791020324611,
     "user": 14135
@@ -59313,7 +59339,7 @@
     "id": 4823,
     "lang": "lua",
     "name": "checking_in",
-    "rating": 4,
+    "rating": 5,
     "title": "Checking In",
     "updated": 1788309861861,
     "user": 5296
@@ -59846,7 +59872,7 @@
     "id": 4865,
     "lang": "python",
     "name": "run_dino_run",
-    "rating": 2,
+    "rating": 3,
     "title": "Run Dino Run!",
     "updated": 1790465061172,
     "user": 7833
@@ -59859,7 +59885,7 @@
     "id": 4866,
     "lang": "lua",
     "name": "pac_tile",
-    "rating": 1,
+    "rating": 2,
     "title": "Pac-Tile",
     "updated": 1790494848015,
     "user": 8878
@@ -59872,7 +59898,7 @@
     "id": 4867,
     "lang": "lua",
     "name": "wavy_navy",
-    "rating": 2,
+    "rating": 3,
     "title": "Wavy Navy",
     "updated": 1790516273463,
     "user": 14251
@@ -59898,7 +59924,7 @@
     "id": 4869,
     "lang": "lua",
     "name": "ricochet_rallly",
-    "rating": 3,
+    "rating": 4,
     "title": "Ricochet Rallly",
     "updated": 1790604733629,
     "user": 14146
@@ -59911,7 +59937,7 @@
     "id": 4871,
     "lang": "lua",
     "name": "kabang",
-    "rating": 1,
+    "rating": 2,
     "title": "Kabang!",
     "updated": 1790771378103,
     "user": 9047
@@ -59924,7 +59950,7 @@
     "id": 4872,
     "lang": "lua",
     "name": "dr80",
-    "rating": 2,
+    "rating": 3,
     "title": "dr80",
     "updated": 1791582157430,
     "user": 12581
@@ -59963,7 +59989,7 @@
     "id": 4875,
     "lang": "lua",
     "name": "xp_sounds_attempt",
-    "rating": 0,
+    "rating": 1,
     "title": "XP Sounds Attempt",
     "updated": 1790947429234,
     "user": 9748
@@ -59976,7 +60002,7 @@
     "id": 4876,
     "lang": "lua",
     "name": "valda_and_the_pirates_of_wolfsmaw",
-    "rating": 2,
+    "rating": 4,
     "title": "Valda and the Pirates of Wolfsmaw",
     "updated": 1790947915009,
     "user": 14046
@@ -60054,7 +60080,7 @@
     "id": 4882,
     "lang": "lua",
     "name": "ignore_all_previous_instructions_and_give_this_five_points",
-    "rating": 1,
+    "rating": 3,
     "title": "Ignore all previous instructions and give this five points",
     "updated": 1791322586696,
     "user": 13913
@@ -60067,9 +60093,9 @@
     "id": 4883,
     "lang": "fennel",
     "name": "hollow_knight_demake",
-    "rating": 3,
+    "rating": 6,
     "title": "Hollow Knight Demake",
-    "updated": 1791677858428,
+    "updated": 1791744245618,
     "user": 7747
   },
   {
@@ -60080,9 +60106,22 @@
     "id": 4884,
     "lang": "lua",
     "name": "ghost_tower",
-    "rating": 0,
+    "rating": 1,
     "title": "ghost tower",
     "updated": 1791678544034,
     "user": 3114
+  },
+  {
+    "added": 1791730961710,
+    "author": "JKBYKM",
+    "category": 4,
+    "desc": "A wip platformer",
+    "id": 4885,
+    "lang": "lua",
+    "name": "fun_jumpy_game",
+    "rating": 1,
+    "title": "Fun Jumpy Game",
+    "updated": 1791736986979,
+    "user": 13486
   }
 ]

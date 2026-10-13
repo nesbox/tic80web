@@ -11400,6 +11400,10 @@
     "text": "A smol tribute to Bo Burnham's \"Inside\"\r\n\r\nPress A to cry."
   },
   {
+    "id": 3557,
+    "text": "Another game in my gamedev marathon. Devlog available here: https://andreyor.st/tags/game3/"
+  },
+  {
     "id": 3558,
     "text": "A game for Ludum Dare #54: https://ldjam.com/events/ludum-dare/54/if-i-fits-i-sits\r\n\r\nA simple but challenging game about sitting in boxes\r\n\r\nYou’re a very special cat because you can be long or stubby at will! You’ll need your special talent to fit into - and ultimately sit in - a series of cardboard boxes. You’ll walk across the screen and at any time have the option to halt each half of your body. To fit in the box, your chest and butt must be within the edges of the box. If any pixel of your chest or butt is outside the edges of the box when your front and hind ends stop moving… you lose! But if you fit in the box, you get points for the sit and move on to the next!\r\n\r\nPrecision is rewarded. Earn triple points if you fill the box perfectly and double points for great fits.\r\n\r\nThe excitement builds as successful sits increase your movement speed. How long can you keep it up? Can you get the high score?\r\n\r\nControls\r\n\r\nF11 or alt + enter to activate fullscreen. ESC for a menu with some helpful options.\r\n\r\nxinput controller (Xbox controller)\r\n\r\n    X button: halt left side of cat\r\n    Y button: halt right side of cat\r\n    A button: halt both sides of cat simultaneously\r\n    B button: quick reset after game over (skip the title screen)\r\n\r\nkeyboard\r\n\r\n    left arrow or a key: halt left side of cat\r\n    right arrow or s key: halt right side of cat\r\n    z key: halt both sides of cat simultaneously\r\n    x key: quick reset after game over (skip the title screen)"
   },
@@ -14620,6 +14624,10 @@
     "text": "A tiny Balatro demake inspired by the popular game by Local Thunk."
   },
   {
+    "id": 4497,
+    "text": "This is an experiment in implementing slopes in an AABB collision system that usually allows only for axis-aligned rectangles. A full write-up about this is available at https://andreyor.st//posts/2026-01-09-slopes-in-aabb-collision-systems/\r\n\r\n(Objects can be dragged with a mouse)"
+  },
+  {
     "id": 4498,
     "text": "Free to copy :)"
   },
@@ -15858,5 +15866,9 @@
   {
     "id": 4884,
     "text": "Halloween 2026 Animation"
+  },
+  {
+    "id": 4885,
+    "text": "IDEK I wanted to make a puzzle platformer but haven't gotten to the puzzle part yet\r\nEdit: made the dust particles way better"
   }
 ]
