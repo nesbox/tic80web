@@ -42816,7 +42816,7 @@
     "id": 3538,
     "lang": "lua",
     "name": "portal_tic_80",
-    "rating": 72,
+    "rating": 73,
     "title": "Portal TIC-80",
     "updated": 1737981042817,
     "user": 2749
@@ -60093,7 +60093,7 @@
     "id": 4883,
     "lang": "fennel",
     "name": "hollow_knight_demake",
-    "rating": 6,
+    "rating": 8,
     "title": "Hollow Knight Demake",
     "updated": 1791744245618,
     "user": 7747
@@ -60106,7 +60106,7 @@
     "id": 4884,
     "lang": "lua",
     "name": "ghost_tower",
-    "rating": 1,
+    "rating": 2,
     "title": "ghost tower",
     "updated": 1791678544034,
     "user": 3114
@@ -60119,9 +60119,22 @@
     "id": 4885,
     "lang": "lua",
     "name": "fun_jumpy_game",
-    "rating": 1,
+    "rating": 2,
     "title": "Fun Jumpy Game",
     "updated": 1791736986979,
     "user": 13486
+  },
+  {
+    "added": 1792000279182,
+    "author": "HanamileH",
+    "category": 1,
+    "desc": "PCM music + animation",
+    "id": 4886,
+    "lang": "lua",
+    "name": "polish_cow",
+    "rating": 1,
+    "title": "Polish cow",
+    "updated": 1792000279182,
+    "user": 2749
   }
 ]
