@@ -2828,7 +2828,7 @@
     "id": 224,
     "lang": "lua",
     "name": "funky_stars",
-    "rating": 56,
+    "rating": 57,
     "title": "Funky Stars",
     "updated": 1511379977137,
     "user": 219
@@ -10420,7 +10420,7 @@
     "id": 842,
     "lang": "lua",
     "name": "gallop_racer_80",
-    "rating": 1,
+    "rating": 2,
     "title": "Gallop Racer 80",
     "updated": 1557894853129,
     "user": 855
@@ -13215,7 +13215,7 @@
     "id": 1113,
     "lang": "lua",
     "name": "monopoly",
-    "rating": 3,
+    "rating": 4,
     "title": "Monopoly",
     "updated": 1581301892965,
     "user": 855
@@ -42816,7 +42816,7 @@
     "id": 3538,
     "lang": "lua",
     "name": "portal_tic_80",
-    "rating": 73,
+    "rating": 74,
     "title": "Portal TIC-80",
     "updated": 1737981042817,
     "user": 2749
@@ -43219,7 +43219,7 @@
     "id": 3570,
     "lang": "lua",
     "name": "demofreaks",
-    "rating": 0,
+    "rating": 1,
     "title": "Demofreaks",
     "updated": 1697164091746,
     "user": 855
@@ -48042,7 +48042,7 @@
     "id": 3941,
     "lang": "lua",
     "name": "super_indie_fighters_all_stars_rumble",
-    "rating": 0,
+    "rating": 1,
     "title": "Super Indie Fighters: All-Stars Rumble",
     "updated": 1763404860545,
     "user": 855
@@ -58741,7 +58741,7 @@
     "id": 4777,
     "lang": "lua",
     "name": "balgame",
-    "rating": 5,
+    "rating": 6,
     "title": "BALGAME",
     "updated": 1789817717994,
     "user": 13780
@@ -60119,7 +60119,7 @@
     "id": 4885,
     "lang": "lua",
     "name": "fun_jumpy_game",
-    "rating": 2,
+    "rating": 3,
     "title": "Fun Jumpy Game",
     "updated": 1791736986979,
     "user": 13486
@@ -60132,9 +60132,35 @@
     "id": 4886,
     "lang": "lua",
     "name": "polish_cow",
-    "rating": 1,
+    "rating": 2,
     "title": "Polish cow",
     "updated": 1792000279182,
     "user": 2749
+  },
+  {
+    "added": 1792084719611,
+    "author": "Janhavi",
+    "category": 0,
+    "desc": "",
+    "id": 4887,
+    "lang": "lua",
+    "name": "dodger",
+    "rating": 0,
+    "title": "Dodger",
+    "updated": 1792084719611,
+    "user": 14360
+  },
+  {
+    "added": 1792097220947,
+    "author": "maazxp",
+    "category": 1,
+    "desc": "3D solar system simulator with textured planets, moons, rings and asteroid belt. IG: @YOUR_INSTA",
+    "id": 4888,
+    "lang": "lua",
+    "name": "solar_system_3d",
+    "rating": 0,
+    "title": "Solar System 3D",
+    "updated": 1792097958238,
+    "user": 14390
   }
 ]
