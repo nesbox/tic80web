@@ -58754,7 +58754,7 @@
     "id": 4778,
     "lang": "lua",
     "name": "tinymaze",
-    "rating": 3,
+    "rating": 4,
     "title": "TinyMaze",
     "updated": 1785585754983,
     "user": 14046
@@ -59053,7 +59053,7 @@
     "id": 4801,
     "lang": "lua",
     "name": "pokemon_mini_card_game",
-    "rating": 3,
+    "rating": 4,
     "title": "POKEMON Mini card game",
     "updated": 1786791818314,
     "user": 14048
@@ -60132,7 +60132,7 @@
     "id": 4886,
     "lang": "lua",
     "name": "polish_cow",
-    "rating": 2,
+    "rating": 3,
     "title": "Polish cow",
     "updated": 1792000279182,
     "user": 2749
@@ -60154,13 +60154,39 @@
     "added": 1792097220947,
     "author": "maazxp",
     "category": 1,
-    "desc": "3D solar system simulator with textured planets, moons, rings and asteroid belt. IG: @YOUR_INSTA",
+    "desc": "A calm journey through space. Real-time 3D planets, moons, Saturn rings, asteroid belt and ambient music.",
     "id": 4888,
     "lang": "lua",
     "name": "solar_system_3d",
-    "rating": 0,
+    "rating": 1,
     "title": "Solar System 3D",
-    "updated": 1792097958238,
+    "updated": 1792169289317,
     "user": 14390
+  },
+  {
+    "added": 1792163500527,
+    "author": "THE VIBE IS RIGHT Games",
+    "category": 0,
+    "desc": "Chain dice before they reach the top",
+    "id": 4889,
+    "lang": "lua",
+    "name": "piplosion",
+    "rating": 1,
+    "title": "Piplosion",
+    "updated": 1792163500527,
+    "user": 14392
+  },
+  {
+    "added": 1792183791206,
+    "author": "BHGamer Studios",
+    "category": 3,
+    "desc": "",
+    "id": 4890,
+    "lang": "lua",
+    "name": "mania80_cover_demo",
+    "rating": 0,
+    "title": "Mania80 Cover demo",
+    "updated": 1792183791206,
+    "user": 9728
   }
 ]
