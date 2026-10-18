@@ -44987,7 +44987,7 @@
     "id": 3706,
     "lang": "lua",
     "name": "frogger",
-    "rating": 4,
+    "rating": 5,
     "title": "Frogger",
     "updated": 1704924033666,
     "user": 9768
@@ -59894,13 +59894,13 @@
     "added": 1790516273463,
     "author": "Dave Templin",
     "category": 0,
-    "desc": "A faithful recreation of Wavy Navy, a shoot-em-up originally written by Rodney McAuley and published by Sirius Software for the Apple II in 1983.",
+    "desc": "Faithful recreation of Wavy Navy, a shoot-em-up originally written by Rodney McAuley and published by Sirius Software for the Apple II in 1983.",
     "id": 4867,
     "lang": "lua",
     "name": "wavy_navy",
     "rating": 3,
     "title": "Wavy Navy",
-    "updated": 1790516273463,
+    "updated": 1792270528130,
     "user": 14251
   },
   {
@@ -60145,7 +60145,7 @@
     "id": 4887,
     "lang": "lua",
     "name": "dodger",
-    "rating": 0,
+    "rating": 2,
     "title": "Dodger",
     "updated": 1792084719611,
     "user": 14360
@@ -60158,7 +60158,7 @@
     "id": 4888,
     "lang": "lua",
     "name": "solar_system_3d",
-    "rating": 1,
+    "rating": 2,
     "title": "Solar System 3D",
     "updated": 1792169289317,
     "user": 14390
@@ -60171,7 +60171,7 @@
     "id": 4889,
     "lang": "lua",
     "name": "piplosion",
-    "rating": 1,
+    "rating": 3,
     "title": "Piplosion",
     "updated": 1792163500527,
     "user": 14392
@@ -60188,5 +60188,31 @@
     "title": "Mania80 Cover demo",
     "updated": 1792183791206,
     "user": 9728
+  },
+  {
+    "added": 1792272705541,
+    "author": "Dave Templin",
+    "category": 0,
+    "desc": "Faithful recreation of Serpentine, a clever combination of a snake game and a maze game originally written by David Snider and published by Broderbund Software for the Apple II in 1982.",
+    "id": 4891,
+    "lang": "lua",
+    "name": "serpentine",
+    "rating": 0,
+    "title": "serpentine",
+    "updated": 1792272705541,
+    "user": 14251
+  },
+  {
+    "added": 1792283278272,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Press UP / DOWN to change weather",
+    "id": 4892,
+    "lang": "lua",
+    "name": "day_and_night_weather_cycle",
+    "rating": 0,
+    "title": "day and night + weather cycle",
+    "updated": 1792283278272,
+    "user": 3114
   }
 ]

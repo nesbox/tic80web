@@ -15801,7 +15801,7 @@
   },
   {
     "id": 4867,
-    "text": "A faithful recreation of Wavy Navy, a shoot-em-up originally written by Rodney McAuley and published by Sirius Software for the Apple II in 1983. This version preserves the gameplay, feel, and character of the original while making it easier to experience today.\r\n\r\nControls:\r\n- ← / → moves your boat left/right\r\n- btn Ⓐ / key 🆉 fires\r\n\r\n- From the title screen, press btn Ⓐ / key 🆉 to start the game, and ← or → to set the difficulty.\r\n\r\n- Hold ↓ and btn Ⓐ / key 🆉 for 4 seconds to reset the high score.\r\n\r\n- Hold ↑ and btn Ⓐ / key 🆉 for 4 seconds to change the visual display mode (color, green phosphor, or white phosphor monitors like back in the day).\r\n\r\nSource: https://github.com/dtempx/tic80"
+    "text": "A faithful recreation of Wavy Navy, a shoot-em-up originally written by Rodney McAuley and published by Sirius Software for the Apple II in 1983. The remake attempts to preserve the gameplay, feel, and character of the original while making it easier to experience today.\r\n\r\nControls:\r\n- From the title screen, press btn Ⓐ / key 🆉 to start the game.\r\n- Or btn Ⓑ / key 🆇 for the options screen.\r\n- In game ← / → moves your boat left/right and btn Ⓐ / key 🆉 fires\r\n\r\nSource: https://github.com/dtempx/tic80"
   },
   {
     "id": 4868,
@@ -15886,5 +15886,13 @@
   {
     "id": 4890,
     "text": "Mania80 - An updated Sonic Mania TIC-80 cover"
+  },
+  {
+    "id": 4891,
+    "text": "Faithful recreation of Serpentine, a maze game like Pac-Man but with snakes! Originally written by David Snider and published by Broderbund for the Apple II in 1982. This remake attempts to preserve the gameplay, feel, and character of the original while making it easier to experience today.\r\n\r\nControls:\r\n- Hit btn Ⓐ / key 🆉 to start the game or btn Ⓑ / key 🆇 for options.\r\n- In game use arrows move your snake, that's it.\r\n"
+  },
+  {
+    "id": 4892,
+    "text": "Press UP / DOWN to change Weather"
   }
 ]
