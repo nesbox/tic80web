@@ -3088,7 +3088,7 @@
     "id": 246,
     "lang": "lua",
     "name": "entropipes",
-    "rating": 5,
+    "rating": 6,
     "title": "EntroPipes",
     "updated": 1508346215333,
     "user": 630
@@ -9419,7 +9419,7 @@
     "id": 742,
     "lang": "lua",
     "name": "slider",
-    "rating": 1,
+    "rating": 2,
     "title": "slider",
     "updated": 1550238918651,
     "user": 2168
@@ -11187,7 +11187,7 @@
     "id": 922,
     "lang": "lua",
     "name": "rect4ngle",
-    "rating": 3,
+    "rating": 4,
     "title": "RECT4NGLE",
     "updated": 1565614444980,
     "user": 2715
@@ -11956,7 +11956,7 @@
     "name": "wire_world_cellular_automation",
     "rating": 3,
     "title": "wire world ( cellular automation )",
-    "updated": 1575935602647,
+    "updated": 1792371453990,
     "user": 3114
   },
   {
@@ -14502,7 +14502,7 @@
     "id": 1226,
     "lang": "lua",
     "name": "zoop",
-    "rating": 3,
+    "rating": 4,
     "title": "ZOOP",
     "updated": 1589712999664,
     "user": 2464
@@ -32546,7 +32546,7 @@
     "id": 2692,
     "lang": "lua",
     "name": "shifted",
-    "rating": 2,
+    "rating": 3,
     "title": "Shifted",
     "updated": 1647193346453,
     "user": 1759
@@ -37538,7 +37538,7 @@
     "id": 3092,
     "lang": "js",
     "name": "brisca",
-    "rating": 3,
+    "rating": 4,
     "title": "brisca",
     "updated": 1670716452006,
     "user": 8282
@@ -39917,7 +39917,7 @@
     "id": 3276,
     "lang": "lua",
     "name": "be_uanhxosian",
-    "rating": 4,
+    "rating": 5,
     "title": "Be'uanhxosian",
     "updated": 1692511945018,
     "user": 4896
@@ -41022,7 +41022,7 @@
     "id": 3365,
     "lang": "lua",
     "name": "pacman_80",
-    "rating": 44,
+    "rating": 45,
     "title": "PACMAN 80",
     "updated": 1749165095458,
     "user": 8908
@@ -43323,7 +43323,7 @@
     "id": 3578,
     "lang": "js",
     "name": "tic_golf",
-    "rating": 6,
+    "rating": 7,
     "title": "TIC Golf",
     "updated": 1701661378717,
     "user": 2759
@@ -45598,7 +45598,7 @@
     "id": 3753,
     "lang": "lua",
     "name": "nanofloo",
-    "rating": 0,
+    "rating": 1,
     "title": "nanofloo",
     "updated": 1707659307039,
     "user": 8834
@@ -47145,7 +47145,7 @@
     "id": 3872,
     "lang": "lua",
     "name": "pquirrel_s_picture_poker",
-    "rating": 2,
+    "rating": 3,
     "title": "pquirrel's picture poker",
     "updated": 1717779655945,
     "user": 4985
@@ -47236,7 +47236,7 @@
     "id": 3879,
     "lang": "lua",
     "name": "pictic",
-    "rating": 1,
+    "rating": 2,
     "title": "pictic",
     "updated": 1718452169649,
     "user": 10586
@@ -50798,7 +50798,7 @@
     "id": 4162,
     "lang": "lua",
     "name": "freecell",
-    "rating": 4,
+    "rating": 5,
     "title": "Freecell",
     "updated": 1753577962131,
     "user": 11407
@@ -51331,7 +51331,7 @@
     "id": 4203,
     "lang": "lua",
     "name": "sudoku8000",
-    "rating": 3,
+    "rating": 4,
     "title": "Sudoku8000",
     "updated": 1741783360976,
     "user": 11407
@@ -53658,7 +53658,7 @@
     "id": 4382,
     "lang": "lua",
     "name": "match3",
-    "rating": 0,
+    "rating": 1,
     "title": "match3",
     "updated": 1756864601382,
     "user": 12011
@@ -53866,7 +53866,7 @@
     "id": 4399,
     "lang": "lua",
     "name": "dino_maze",
-    "rating": 3,
+    "rating": 4,
     "title": "Dino Maze",
     "updated": 1758898041213,
     "user": 12636
@@ -55127,7 +55127,7 @@
     "id": 4496,
     "lang": "lua",
     "name": "balatro_demake",
-    "rating": 8,
+    "rating": 9,
     "title": "Balatro Demake",
     "updated": 1767925943145,
     "user": 12264
@@ -55881,7 +55881,7 @@
     "id": 4554,
     "lang": "lua",
     "name": "2048_pro_edition",
-    "rating": 0,
+    "rating": 1,
     "title": "2048 Pro Edition",
     "updated": 1772017150003,
     "user": 13340
@@ -60158,7 +60158,7 @@
     "id": 4888,
     "lang": "lua",
     "name": "solar_system_3d",
-    "rating": 2,
+    "rating": 4,
     "title": "Solar System 3D",
     "updated": 1792169289317,
     "user": 14390
@@ -60171,7 +60171,7 @@
     "id": 4889,
     "lang": "lua",
     "name": "piplosion",
-    "rating": 3,
+    "rating": 4,
     "title": "Piplosion",
     "updated": 1792163500527,
     "user": 14392
@@ -60197,7 +60197,7 @@
     "id": 4891,
     "lang": "lua",
     "name": "serpentine",
-    "rating": 0,
+    "rating": 1,
     "title": "serpentine",
     "updated": 1792272705541,
     "user": 14251
@@ -60213,6 +60213,19 @@
     "rating": 0,
     "title": "day and night + weather cycle",
     "updated": 1792283278272,
+    "user": 3114
+  },
+  {
+    "added": 1792373290020,
+    "author": "potato imaginator",
+    "category": 1,
+    "desc": "Enjoy!",
+    "id": 4893,
+    "lang": "lua",
+    "name": "shapes_animation",
+    "rating": 0,
+    "title": "shapes animation",
+    "updated": 1792373290020,
     "user": 3114
   }
 ]
