@@ -15898,5 +15898,13 @@
   {
     "id": 4893,
     "text": "Enjoy!"
+  },
+  {
+    "id": 4894,
+    "text": "​`Disk partition error. Please run defrag.exe.`\r\n\r\nAttempt to breathe life into an old computer by defragging its hard drive, grouping together clusters of data while dealing with corrupted sectors. The more efficient you are, the more space you can free up. Just don't find yourself in a situation where you can't defrag any further!\r\n\r\nSelect any two files to swap them. Create rows or columns of three or more matching files to clear them. If there's at least one empty space in the sector by the time you run out of moves, you've successfully defragged that sector and can move on to the next one. Try to defrag as many sectors as you can and aim for a hi-score!\r\n\r\nControls:\r\n- Arrows: Move cursor\r\n- Z: Select/Swap\r\n- X: Cancel/Back\r\n\r\nMade in 72 hours for Ludum Dare 60."
+  },
+  {
+    "id": 4895,
+    "text": "Goo Go Search is a port of a platform game originally made in Python / PyGames back in 2023 as a college project. This is the first version of the port."
   }
 ]

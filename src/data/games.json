@@ -5311,7 +5311,7 @@
     "id": 419,
     "lang": "lua",
     "name": "bad_apple",
-    "rating": 88,
+    "rating": 89,
     "title": "Bad Apple",
     "updated": 1516537438452,
     "user": 1
@@ -6104,7 +6104,7 @@
     "id": 483,
     "lang": "lua",
     "name": "stele",
-    "rating": 149,
+    "rating": 150,
     "title": "Stele",
     "updated": 1521227610100,
     "user": 1185
@@ -7248,7 +7248,7 @@
     "id": 573,
     "lang": "lua",
     "name": "warm_wheels",
-    "rating": 31,
+    "rating": 32,
     "title": "Warm Wheels",
     "updated": 1529601574120,
     "user": 1409
@@ -19065,7 +19065,7 @@
     "id": 1628,
     "lang": "lua",
     "name": "compofiller_compound",
-    "rating": 9,
+    "rating": 10,
     "title": "COMPOFILLER COMPOUND",
     "updated": 1611762232775,
     "user": 1759
@@ -34301,7 +34301,7 @@
     "id": 2838,
     "lang": "lua",
     "name": "bad_apple_vector_graphics",
-    "rating": 15,
+    "rating": 16,
     "title": "Bad Apple (vector graphics)",
     "updated": 1655318537378,
     "user": 7784
@@ -42114,7 +42114,7 @@
     "id": 3484,
     "lang": "lua",
     "name": "alan_walker_alone_apcm_player",
-    "rating": 4,
+    "rating": 5,
     "title": "Alan Walker - Alone (aPCM player)",
     "updated": 1704659892627,
     "user": 2749
@@ -45756,7 +45756,7 @@
     "name": "yetanotherponclone",
     "rating": 1,
     "title": "YetAnotherPonClone",
-    "updated": 1708480360105,
+    "updated": 1792443249815,
     "user": 9728
   },
   {
@@ -60132,7 +60132,7 @@
     "id": 4886,
     "lang": "lua",
     "name": "polish_cow",
-    "rating": 3,
+    "rating": 4,
     "title": "Polish cow",
     "updated": 1792000279182,
     "user": 2749
@@ -60173,7 +60173,7 @@
     "name": "piplosion",
     "rating": 4,
     "title": "Piplosion",
-    "updated": 1792163500527,
+    "updated": 1792442622759,
     "user": 14392
   },
   {
@@ -60197,7 +60197,7 @@
     "id": 4891,
     "lang": "lua",
     "name": "serpentine",
-    "rating": 1,
+    "rating": 2,
     "title": "serpentine",
     "updated": 1792272705541,
     "user": 14251
@@ -60210,7 +60210,7 @@
     "id": 4892,
     "lang": "lua",
     "name": "day_and_night_weather_cycle",
-    "rating": 0,
+    "rating": 1,
     "title": "day and night + weather cycle",
     "updated": 1792283278272,
     "user": 3114
@@ -60227,5 +60227,31 @@
     "title": "shapes animation",
     "updated": 1792373290020,
     "user": 3114
+  },
+  {
+    "added": 1792440902820,
+    "author": "Altrix Studios",
+    "category": 0,
+    "desc": "A match-3 game where you defrag an old hard drive.",
+    "id": 4894,
+    "lang": "lua",
+    "name": "defrag_exe",
+    "rating": 0,
+    "title": "defrag.exe",
+    "updated": 1792441006727,
+    "user": 1306
+  },
+  {
+    "added": 1792454828004,
+    "author": "Yan",
+    "category": 4,
+    "desc": "A simple platform game. Port from Python to TIC-80",
+    "id": 4895,
+    "lang": "lua",
+    "name": "goo_go_search",
+    "rating": 0,
+    "title": "Goo Go Search",
+    "updated": 1792454828004,
+    "user": 14403
   }
 ]
