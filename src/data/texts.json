@@ -15906,5 +15906,9 @@
   {
     "id": 4895,
     "text": "Goo Go Search is a port of a platform game originally made in Python / PyGames back in 2023 as a college project. This is the first version of the port."
+  },
+  {
+    "id": 4896,
+    "text": "Mouse Left Click to clear\r\nMouse Right click to place mines"
   }
 ]

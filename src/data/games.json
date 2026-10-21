@@ -60171,9 +60171,9 @@
     "id": 4889,
     "lang": "lua",
     "name": "piplosion",
-    "rating": 4,
+    "rating": 5,
     "title": "Piplosion",
-    "updated": 1792442622759,
+    "updated": 1792526732598,
     "user": 14392
   },
   {
@@ -60197,7 +60197,7 @@
     "id": 4891,
     "lang": "lua",
     "name": "serpentine",
-    "rating": 2,
+    "rating": 3,
     "title": "serpentine",
     "updated": 1792272705541,
     "user": 14251
@@ -60253,5 +60253,18 @@
     "title": "Goo Go Search",
     "updated": 1792454828004,
     "user": 14403
+  },
+  {
+    "added": 1792545954171,
+    "author": "potato imaginator",
+    "category": 0,
+    "desc": "Mouse Left click to clear, Right click to place mine",
+    "id": 4896,
+    "lang": "lua",
+    "name": "minesweeper_demo",
+    "rating": 0,
+    "title": "minesweeper demo",
+    "updated": 1792545954171,
+    "user": 3114
   }
 ]
