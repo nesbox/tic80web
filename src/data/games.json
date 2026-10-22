@@ -8067,7 +8067,7 @@
     "id": 636,
     "lang": "lua",
     "name": "balmung",
-    "rating": 137,
+    "rating": 138,
     "title": "Balmung",
     "updated": 1645258303013,
     "user": 1720
@@ -47847,7 +47847,7 @@
     "id": 3926,
     "lang": "lua",
     "name": "blueyvania",
-    "rating": 10,
+    "rating": 11,
     "title": "BlueyVANIA",
     "updated": 1791942991571,
     "user": 8506
@@ -60249,7 +60249,7 @@
     "id": 4895,
     "lang": "lua",
     "name": "goo_go_search",
-    "rating": 0,
+    "rating": 1,
     "title": "Goo Go Search",
     "updated": 1792454828004,
     "user": 14403
@@ -60266,5 +60266,18 @@
     "title": "minesweeper demo",
     "updated": 1792545954171,
     "user": 3114
+  },
+  {
+    "added": 1792613456170,
+    "author": "GalaMoon Retrogaming",
+    "category": 0,
+    "desc": "Native adaptation based on the supplied 1982 ROM",
+    "id": 4897,
+    "lang": "lua",
+    "name": "pitfall_atari_2600_reference_v2_5",
+    "rating": 1,
+    "title": "Pitfall! - Atari 2600 reference v2.5",
+    "updated": 1792613456170,
+    "user": 14397
   }
 ]
