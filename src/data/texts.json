@@ -9924,10 +9924,6 @@
     "text": "A 256 bytes procedural gfx / intro for CAFePARTY 2022. Party version was packed with tic-tool."
   },
   {
-    "id": 3047,
-    "text": "take it as a joke (although it really has all possible functions)"
-  },
-  {
     "id": 3049,
     "text": "Little crappy game im making lol, its actually the first game im ever making. Sat in my folders for a while but i found motivation to keep going with it, enjoy :D\r\n\r\nStory: you are a conformist bean (conformist = person that obeys the law) that lives in a farm.\r\n\r\nOne day, the green beans start a violent protest on the farm\r\nIts up to you to escape the farm while avoiding the angry protestants\r\n\r\ncontrols: \r\n\r\n-Arrow keys to move\r\n\r\n-Ctrl for attacking\r\n\r\n-R for reset\r\n\r\n(This is Version.Demo2, next version will be the full release!! :D enjoy!)"
   },
@@ -15901,7 +15897,7 @@
   },
   {
     "id": 4894,
-    "text": "​`Disk partition error. Please run defrag.exe.`\r\n\r\nAttempt to breathe life into an old computer by defragging its hard drive, grouping together clusters of data while dealing with corrupted sectors. The more efficient you are, the more space you can free up. Just don't find yourself in a situation where you can't defrag any further!\r\n\r\nSelect any two files to swap them. Create rows or columns of three or more matching files to clear them. If there's at least one empty space in the sector by the time you run out of moves, you've successfully defragged that sector and can move on to the next one. Try to defrag as many sectors as you can and aim for a hi-score!\r\n\r\nControls:\r\n- Arrows: Move cursor\r\n- Z: Select/Swap\r\n- X: Cancel/Back\r\n\r\nMade in 72 hours for Ludum Dare 60."
+    "text": "​`Disk partition error. Please run defrag.exe.`\r\n\r\nAttempt to breathe life into an old computer by defragging its hard drive, grouping together clusters of data while dealing with corrupted sectors. The more efficient you are, the more space you can free up. Just don't find yourself in a situation where you can't defrag any further!\r\n\r\nSelect any two files to swap them. Create rows or columns of three or more matching files to clear them. If there's at least one empty space in the sector by the time you run out of moves, you've successfully defragged that sector and can move on to the next one. Try to defrag as many sectors as you can and aim for a hi-score!\r\n\r\nControls:\r\n- Arrows: Move cursor\r\n- Z: Select/Swap\r\n- X: Cancel/Back\r\n\r\nChangelog:\r\n- V1.0.2 (22/10/2026)\r\n-- Fixed an error where the end-of-level state was not being detected correctly\r\n\r\nMade in 72 hours for Ludum Dare 60."
   },
   {
     "id": 4895,
@@ -15914,5 +15910,13 @@
   {
     "id": 4897,
     "text": "Join Harry in this fan-made adaptation of Pitfall!, inspired by the Atari 2600 classic created by David Crane for Activision in 1982."
+  },
+  {
+    "id": 4898,
+    "text": "This is a short interactive overview of potential characters for the Vagabond Pulp Fantasy RPG by Land of the Blind"
+  },
+  {
+    "id": 4900,
+    "text": "WinMines95 is a retro-styled adaptation of a popular gambling game. Your computer has been infected with ransomware, which demands a $20,000 ransom—and if you lose all your money, it will destroy the files on your computer.\r\n\r\nGame rules: You begin with $500. To start, launch \"Mines\" from the Start menu. There are 3 mines hidden on a 5x5 grid; your goal is to avoid them. Each safe square you uncover increases your multiplier. The number displayed on a square simply indicates the current multiplier, while the mines are placed randomly. If you lose all your money—or, conversely, if you win the required amount—you will encounter a BSoD, and the game will end."
   }
 ]

@@ -3920,7 +3920,7 @@
     "id": 311,
     "lang": "lua",
     "name": "super_hexagon",
-    "rating": 25,
+    "rating": 26,
     "title": "Super Hexagon",
     "updated": 1510674635488,
     "user": 764
@@ -36946,19 +36946,6 @@
     "user": 8152
   },
   {
-    "added": 1666986772159,
-    "author": "HanamileH",
-    "category": 1,
-    "desc": "a library containing an innumerable huge number of all possible functions on lua",
-    "id": 3047,
-    "lang": "lua",
-    "name": "stackoverflow_library",
-    "rating": 3,
-    "title": "stackoverflow library",
-    "updated": 1666986772159,
-    "user": 2749
-  },
-  {
     "added": 1666992427505,
     "author": "illus0r \u0026 tukatukaland",
     "category": 4,
@@ -57025,7 +57012,7 @@
     "id": 4642,
     "lang": "lua",
     "name": "levex",
-    "rating": 6,
+    "rating": 7,
     "title": "Levex",
     "updated": 1775847793574,
     "user": 7490
@@ -60238,7 +60225,7 @@
     "name": "defrag_exe",
     "rating": 0,
     "title": "defrag.exe",
-    "updated": 1792441006727,
+    "updated": 1792678849168,
     "user": 1306
   },
   {
@@ -60275,9 +60262,61 @@
     "id": 4897,
     "lang": "lua",
     "name": "pitfall_atari_2600_reference_v2_5",
-    "rating": 1,
+    "rating": 2,
     "title": "Pitfall! - Atari 2600 reference v2.5",
     "updated": 1792613456170,
     "user": 14397
+  },
+  {
+    "added": 1792645357489,
+    "author": "Georg Mir, @eisenfuchs on IG",
+    "category": 2,
+    "desc": "a quick visual character creator",
+    "id": 4898,
+    "lang": "lua",
+    "name": "vagabond_pulp_creator",
+    "rating": 0,
+    "title": "vagabond pulp creator",
+    "updated": 1792645357489,
+    "user": 14413
+  },
+  {
+    "added": 1792657007510,
+    "author": "georg mir @eisenfuchs on ig",
+    "category": 0,
+    "desc": "tiny roguelite about hamsterpunk heroes burning down datacenters",
+    "id": 4899,
+    "lang": "lua",
+    "name": "michtim_quest",
+    "rating": 0,
+    "title": "michtim quest",
+    "updated": 1792677018418,
+    "user": 14413
+  },
+  {
+    "added": 1792669782133,
+    "author": "ElStep Games",
+    "category": 0,
+    "desc": "Retro-style adaptation of popular gambling game",
+    "id": 4900,
+    "lang": "lua",
+    "name": "winmines95",
+    "rating": 0,
+    "title": "WinMines95",
+    "updated": 1792669782133,
+    "user": 13737
+  },
+  {
+    "added": 1792684968563,
+    "author": "HanamileH",
+    "category": 3,
+    "desc": "music playback using Vorbis audio parser",
+    "id": 4901,
+    "lang": "lua",
+    "name": "portal_still_alive_pcm_audio",
+    "rating": 2,
+    "title": "Portal - Still alive (PCM audio)",
+    "updated": 1792684968563,
+    "user": 2749
   }
 ]
